@@ -1,0 +1,27 @@
+name: Build Android APK
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Android APK mit Buildozer bauen
+        uses: ArtemSBulgakov/buildozer-action@v1
+        id: buildter
+        with:
+          command: android debug
+          buildozer_version: master
+
+      - name: APK-Artefakt hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-apk
+          path: bin/*.apk
