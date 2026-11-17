@@ -13,18 +13,25 @@ jobs:
       - name: Repository auschecken
         uses: actions/checkout@v4
 
-      - name: Java 17 einrichten
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '17'
+      - name: Abhängigkeiten für Buildozer installieren
+        run: |
+          sudo dpkg --add-architecture i386
+          sudo apt-get update
+          sudo apt-get install -y \
+            git zip unzip openjdk-17-jdk python3-pip python3-venv \
+            autoconf libtool pkg-config zlib1g-dev libncurses5-dev \
+            libncursesw5-dev libtinfo5 libffi-dev libssl-dev \
+            build-essential ccache libltdl-dev
 
-      - name: Android APK mit Buildozer bauen
-        uses: ArtemSBulgakov/buildozer-action@v1
-        id: buildter
-        with:
-          command: android debug
-          buildozer_version: master
+      - name: Buildozer und Cython installieren
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install --user cython==0.29.36 buildozer
+
+      - name: Android APK bauen
+        run: |
+          # Führt buildozer direkt aus (ohne fehlerhaften Docker-Container)
+          ~/.local/bin/buildozer -v android debug
 
       - name: APK-Artefakt hochladen
         uses: actions/upload-artifact@v4
