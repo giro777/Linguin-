@@ -15,18 +15,25 @@ jobs:
 
       - name: Abhängigkeiten für Buildozer installieren
         run: |
-          sudo dpkg --add-architecture i386
           sudo apt-get update
           sudo apt-get install -y \
             git zip unzip openjdk-17-jdk python3-pip python3-venv \
-            autoconf libtool pkg-config zlib1g-dev libncurses5-dev \
-            libncursesw5-dev libffi-dev libssl-dev \
-            build-essential ccache libltdl-dev libtinfo5
+            autoconf automake libtool pkg-config zlib1g-dev \
+            libncurses-dev libffi-dev libssl-dev \
+            build-essential ccache libltdl-dev cmake
+
+      - name: Buildozer-Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.buildozer
+            .buildozer
+          key: buildozer-${{ hashFiles('buildozer.spec') }}
 
       - name: Buildozer und Cython installieren
         run: |
-          python3 -m pip install --upgrade pip
-          pip install --user cython==0.29.36 buildozer
+          python3 -m pip install --upgrade pip --break-system-packages
+          pip install --user --break-system-packages cython==0.29.36 buildozer
 
       - name: Android APK bauen
         run: |
