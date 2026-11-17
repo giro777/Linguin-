@@ -13,6 +13,12 @@ jobs:
       - name: Repository auschecken
         uses: actions/checkout@v4
 
+      - name: Java 17 einrichten
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: Android APK mit Buildozer bauen
         uses: ArtemSBulgakov/buildozer-action@v1
         id: buildter
