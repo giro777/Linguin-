@@ -21,12 +21,7 @@ jobs:
             git zip unzip openjdk-17-jdk python3-pip python3-venv \
             autoconf libtool pkg-config zlib1g-dev libncurses5-dev \
             libncursesw5-dev libffi-dev libssl-dev \
-            build-essential ccache libltdl-dev
-          
-          # libtinfo5 manuell herunterladen und installieren (da in neueren Ubuntu-Versionen entfernt)
-          wget https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.3-2ubuntu0.1_amd64.deb
-          sudo dpkg -i libtinfo5_6.3-2ubuntu0.1_amd64.deb
-          rm libtinfo5_6.3-2ubuntu0.1_amd64.deb
+            build-essential ccache libltdl-dev libtinfo5
 
       - name: Buildozer und Cython installieren
         run: |
