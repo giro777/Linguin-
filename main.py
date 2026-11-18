@@ -1,283 +1,254 @@
-"""Deutsch – Türkisch Lern-App (Kivy-Version, läuft auf Linux und Android).
-
-Die Vokabeln kommen aus data/vokabeln.json und die deutschen Sprachaufnahmen
-aus data/audio/<id>.mp3. Beides erzeugt prepare_data.py vorab am PC.
-"""
-import json
 import math
 import os
 import random
-import struct
-import wave
+import docx
+from gtts import gTTS
 
 from kivy.app import App
-from kivy.core.audio import SoundLoader
 from kivy.core.window import Window
-from kivy.graphics import Color, RoundedRectangle
-from kivy.metrics import dp, sp
-from kivy.uix.behaviors import ButtonBehavior
 from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.gridlayout import GridLayout
+from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.scrollview import ScrollView
-from kivy.utils import get_color_from_hex as hexc
-from kivy.utils import platform
+from kivy.uix.image import Image
 
-BASE = os.path.dirname(os.path.abspath(__file__))
-DATA = os.path.join(BASE, "data")
-EMOJI_FONT = os.path.join(BASE, "fonts", "NotoEmoji-Regular.ttf")
-HAS_EMOJI_FONT = os.path.exists(EMOJI_FONT)
+# Fenstergröße für den PC-Test im Handy-Format einstellen
+Window.size = (420, 720)
+Window.clearcolor = (0.07, 0.07, 0.07, 1)  # Edles Tiefschwarz für den Hintergrund
 
-Window.clearcolor = hexc("#17202A")
-if platform not in ("android", "ios"):
-    Window.size = (420, 780)  # Handy-ähnliches Fenster am PC
-
-# ---------------------------------------------------------------- Emojis
+# Kleines Hilfs-Wörterbuch für passende Emojis neben deutschen Wörtern
 EMOJI_MAP = {
     "Tier": "🐾", "Fisch": "🐟", "Pferd": "🐎", "Vogel": "🐦", "Hund": "🐕", "Katze": "🐈", "Kuh": "🐄", "Insekt": "🐛", "Fledermaus": "🦇",
-    "Wasser": "💧", "Lebensmittel": "🛒", "Essen": "🍽", "Ei": "🥚", "Öl": "🛢", "Milch": "🥛", "Koch": "🍳", "Obst": "🍎", "Mais": "🌽", "Fleisch": "🥩", "Salz": "🧂", "Zucker": "🍬", "Apfel": "🍏", "Getränk": "🥤",
-    "Luft": "💨", "Sonne": "☀", "Baum": "🌳", "Meer": "🌊", "Stein": "🪨", "Feuer": "🔥", "Mond": "🌙", "Insel": "🏝", "Schnee": "❄", "Stern": "⭐", "Ozean": "🌊", "Regen": "🌧", "Kälte": "🥶", "Eis": "🧊", "Wald": "🌲", "Himmel": "☁", "Gras": "🌱", "Wetter": "🌤", "Blume": "🌸", "See": "🏞", "Wolke": "☁", "Sand": "🏖", "Tal": "⛰",
-    "Mutter": "👩", "Vater": "👨", "Mann": "👨", "Junge": "👦", "Mädchen": "👧", "Freund": "🤝", "Kinder": "👶", "König": "👑", "Bruder": "👦", "Soldat": "💂", "Mensch": "🧍", "Frau": "👩", "Kapitän": "⚓", "Nachbar": "🏠", "Chef": "👔", "Elternteil": "👪", "Papa": "🧔", "Schwester": "👧",
-    "Hand": "✋", "Kopf": "🗣", "Auge": "👁", "Gesicht": "😊", "Füße": "🦶", "Körper": "👤", "Fuß": "👣", "Herz": "❤", "Arm": "💪", "Schlaf": "😴", "Bein": "🦵", "Mund": "👄", "Blut": "🩸", "Ohr": "👂", "Haut": "✋", "Haar": "💇", "Finger": "👆", "Arzt": "🩺", "Knochen": "🦴", "Zähne": "🦷", "Nase": "👃",
-    "Zeit": "⏳", "Jahr": "📅", "Tag": "☀", "Nacht": "🌙", "Woche": "📆", "Minute": "⏱", "Stunde": "⏰", "Morgen": "🌅", "Sommer": "☀", "Winter": "❄", "Monat": "🗓", "Frühling": "🌷", "Abend": "🌆",
-    "Zuhause": "🏠", "Haus": "🏡", "Buch": "📖", "Zimmer": "🚪", "Papier": "📄", "Tür": "🚪", "Bett": "🛏", "Fenster": "🪟", "Wand": "🧱", "Glas": "🥛", "Garten": "🌻", "Schlüssel": "🔑", "Stuhl": "🪑", "Uhr": "🕒", "Karte": "🗺",
-    "Hafen": "⚓", "Land": "🌍", "Stadt": "🏙", "Auto": "🚗", "Schiff": "🚢", "Straße": "🛣", "Boot": "⛵", "Flugzeug": "✈", "Reise": "🧳", "Zug": "🚆", "Bank": "🏦",
+    "Wasser": "💧", "Lebensmittel": "🛒", "Essen": "🍽️", "Ei": "🥚", "Öl": "🛢️", "Milch": "🥛", "Koch": "👨‍🍳", "Obst": "🍎", "Mais": "🌽", "Fleisch": "🥩", "Salz": "🧂", "Zucker": "🍬", "Apfel": "🍏", "Getränk": "🥤",
+    "Luft": "💨", "Sonne": "☀️", "Baum": "🌳", "Meer": "🌊", "Stein": "🪨", "Feuer": "🔥", "Mond": "🌙", "Insel": "🏝️", "Schnee": "❄️", "Stern": "⭐", "Ozean": "🌊", "Regen": "🌧️", "Kälte": "🥶", "Eis": "🧊", "Wald": "🌲", "Himmel": "☁️", "Gras": "🌱", "Wetter": "🌤️", "Blume": "🌸", "See": "🏞️", "Wolke": "☁️", "Sand": "🏖️", "Tal": "⛰️",
+    "Mutter": "👩", "Vater": "👨", "Mann": "👨", "Junge": "👦", "Mädchen": "👧", "Freund": "🤝", "Kinder": "👶", "König": "👑", "Bruder": "👦", "Soldat": "🖴", "Mensch": "🧍", "Frau": "👩", "Kapitän": "⚓", "Nachbar": "🏠", "Chef": "👔", "Elternteil": "👪", "Papa": "🧔", "Schwester": "👧",
+    "Hand": "✋", "Kopf": "🗣️", "Auge": "👁️", "Gesicht": "😊", "Füße": "🦶", "Körper": "👤", "Fuß": "👣", "Herz": "❤️", "Arm": "💪", "Schlaf": "😴", "Bein": "🦵", "Mund": "👄", "Blut": "🩸", "Ohr": "👂", "Haut": "✋", "Haar": "💇", "Finger": "👆", "Arzt": "🩺", "Knochen": "🦴", "Zähne": "🦷", "Nase": "👃",
+    "Zeit": "⏳", "Jahr": "📅", "Tag": "☀️", "Nacht": "🌙", "Woche": "📆", "Minute": "⏱️", "Stunde": "⏰", "Morgen": "🌅", "Sommer": "☀️", "Winter": "❄️", "Monat": "🗓️", "Frühling": "🌷", "Abend": "🌆",
+    "Zuhause": "🏠", "Haus": "🏡", "Buch": "📖", "Zimmer": "🚪", "Papier": "📄", "Tür": "🚪", "Bett": "🛏️", "Fenster": "🪟", "Wand": "🧱", "Glas": "🥛", "Garten": "🌻", "Schlüssel": "🔑", "Stuhl": "🪑", "Uhr": "🕒", "Karte": "🗺️",
+    "Hafen": "⚓", "Land": "🌍", "Stadt": "🏙️", "Auto": "🚗", "Schiff": "🚢", "Straße": "🛣️", "Boot": "⛵", "Flugzeug": "✈️", "Reise": "🧳", "Zug": "🚆", "Bank": "🏦"
 }
 
+# Feste, saubere Zuordnung aller 18 Lektionen direkt auf Türkisch nach Nummer
+TURKISCHE_LEKTIONEN = {
+    1: "Sayılar ve Miktarlar",
+    2: "Renkler ve Optik",
+    3: "Hayvanlar ve Bitkiler",
+    4: "Aile ve İnsanlar",
+    5: "Vücut und Sağlık",
+    6: "Yemek und İçecek",
+    7: "Ev ve Yaşam",
+    8: "Doğa und Çevre",
+    9: "Hava ve Zaman",
+    10: "Şehir ve Ulaşım",
+    11: "Seyahat und Coğrafya",
+    12: "Eşyalar ve Malzemeler",
+    13: "İş und Meslek",
+    14: "Duygular ve Durum",
+    15: "Bilim und Teknoloji",
+    16: "Kültür ve Sanat",
+    17: "Spor ve Boş Zaman",
+    18: "Genel Fiiller und Sıfatlar"
+}
 
 def get_emoji_fuer_wort(de_wort):
-    teile = de_wort.split()
-    if not teile:
-        return "💡"
-    sauber = teile[0].strip(",.-")
-    return EMOJI_MAP.get(sauber) or EMOJI_MAP.get(de_wort) or "💡"
+    sauber_wort = de_wort.split()[0].strip(",.-")
+    if sauber_wort in EMOJI_MAP:
+        return EMOJI_MAP[sauber_wort]
+    if de_wort in EMOJI_MAP:
+        return EMOJI_MAP[de_wort]
+    return "💡"
+
+def lade_lektionen_aus_docx(dateipfad):
+    doc = docx.Document(dateipfad)
+    lektionen = {}
+    uebersicht_tabelle = doc.tables[0]
+    
+    for index, zeile in enumerate(uebersicht_tabelle.rows[1:], start=1):
+        thema_tr = TURKISCHE_LEKTIONEN.get(index, f"Ders {index}")
+        titel = f"Ders {index}: {thema_tr}"
+
+        if index < len(doc.tables):
+            vokabel_tabelle = doc.tables[index]
+            vokabeln = []
+            for v_zeile in vokabel_tabelle.rows[1:]:
+                nr = v_zeile.cells[0].text.strip()
+                deutsch = v_zeile.cells[1].text.strip()
+                tuerkisch = v_zeile.cells[2].text.strip()
+                vokabeln.append({"nr": nr, "de": deutsch, "tr": tuerkisch})
+            lektionen[titel] = vokabeln
+
+    return lektionen
 
 
-# ---------------------------------------------------------------- Widgets
-def make_label(text="", size=14, color="#ECF0F1", bold=False, height=None, **kw):
-    """Label mit Zeilenumbruch und zentriertem Text."""
-    kw.setdefault("halign", "center")
-    lbl = Label(text=text, font_size=sp(size), color=hexc(color), bold=bold,
-                valign="middle", **kw)
-    if height is not None:
-        lbl.size_hint_y = None
-        lbl.height = dp(height)
-    lbl.bind(size=lambda w, s: setattr(w, "text_size", s))
-    return lbl
+class VokabelRootLayout(BoxLayout):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.orientation = 'vertical'
+        self.padding = 20
+        self.spacing = 15
 
-
-class RoundButton(ButtonBehavior, Label):
-    """Abgerundeter Button mit Farbe und Druck-Farbe."""
-
-    def __init__(self, bg="#2980B9", bg_down="#1F618D", radius=12, **kw):
-        kw.setdefault("bold", True)
-        kw.setdefault("valign", "middle")
-        kw.setdefault("halign", "center")
-        kw["font_size"] = kw.get("font_size", sp(15))
-        super().__init__(**kw)
-        self._bg, self._bg_down = hexc(bg), hexc(bg_down)
-        with self.canvas.before:
-            self._col = Color(*self._bg)
-            self._rect = RoundedRectangle(pos=self.pos, size=self.size, radius=[dp(radius)])
-        self.bind(pos=self._update, size=self._update, state=self._on_state)
-
-    def _update(self, *_):
-        self._rect.pos = self.pos
-        self._rect.size = self.size
-        self.text_size = (max(self.width - dp(24), 0), self.height)
-
-    def _on_state(self, *_):
-        self._col.rgba = self._bg_down if self.state == "down" else self._bg
-
-
-class Card(ButtonBehavior, BoxLayout):
-    """Antippbare Karteikarte mit abgerundeten Ecken."""
-
-    def __init__(self, bg="#212F3D", radius=20, **kw):
-        super().__init__(**kw)
-        with self.canvas.before:
-            Color(*hexc(bg))
-            self._rect = RoundedRectangle(pos=self.pos, size=self.size, radius=[dp(radius)])
-        self.bind(pos=self._update, size=self._update)
-
-    def _update(self, *_):
-        self._rect.pos = self.pos
-        self._rect.size = self.size
-
-
-# ---------------------------------------------------------------- Audio
-def erzeuge_glocke(pfad):
-    """Schreibt einen kurzen C-Dur-Glockenklang als WAV-Datei."""
-    sample_rate = 22050
-    duration = 0.45
-    frequenzen = [523.25, 659.25, 783.99, 1046.50]
-    daten = bytearray()
-    for i in range(int(sample_rate * duration)):
-        t = i / sample_rate
-        huellkurve = math.exp(-3.5 * t)
-        s = sum(math.sin(2 * math.pi * f * t) * huellkurve for f in frequenzen)
-        s = int((s / len(frequenzen)) * 32767 * 0.6)
-        daten.extend(struct.pack("<h", max(-32768, min(32767, s))))
-    with wave.open(pfad, "w") as wf:
-        wf.setnchannels(1)
-        wf.setsampwidth(2)
-        wf.setframerate(sample_rate)
-        wf.writeframes(bytes(daten))
-
-
-# ---------------------------------------------------------------- App
-class VokabelApp(App):
-    title = "Deutsch – Türkisch"
-
-    def build(self):
-        self.lektionen = {}
-        self.fehler = ""
         try:
-            with open(os.path.join(DATA, "vokabeln.json"), encoding="utf-8") as f:
-                self.lektionen = json.load(f)
+            self.lektionen = lade_lektionen_aus_docx("Frequenzliste_Deutsch_Tuerkisch_Kategorisiert.docx")
         except Exception as e:
-            self.fehler = f"data/vokabeln.json nicht gefunden oder defekt:\n{e}"
+            self.lektionen = {}
 
         self.aktuelle_vokabeln = []
         self.karten_index = 0
         self.ist_umgedreht = False
         self.aktiver_titel = ""
-        self.screen = "menu"
-        self.wort_sound = None
 
-        glocke_pfad = os.path.join(self.user_data_dir, "glocke.wav")
-        try:
-            os.makedirs(self.user_data_dir, exist_ok=True)
-            if not os.path.exists(glocke_pfad):
-                erzeuge_glocke(glocke_pfad)
-            self.glocke = SoundLoader.load(glocke_pfad)
-        except Exception as e:
-            print("Glocke:", e)
-            self.glocke = None
-
-        self.container = BoxLayout(orientation="vertical", padding=dp(16), spacing=dp(8))
-        Window.bind(on_keyboard=self.on_key)
         self.zeige_hauptmenue()
-        return self.container
 
-    # -- Hilfen
-    def on_key(self, window, key, *args):
-        """Android-Zurück-Taste (und Esc am PC): erst zum Menü, dann beenden."""
-        if key == 27 and self.screen != "menu":
-            self.zeige_hauptmenue()
-            return True
-        return False
+    def bildschirm_leeren(self):
+        self.clear_widgets()
 
-    def leeren(self):
-        self.container.clear_widgets()
-
-    def sprache_abspielen(self, vokabel):
-        pfad = os.path.join(DATA, "audio", f"{vokabel.get('id', '')}.mp3")
-        if not os.path.exists(pfad):
-            return
+    def sprache_abspielen(self, text):
         try:
-            if self.wort_sound:
-                self.wort_sound.stop()
-            self.wort_sound = SoundLoader.load(pfad)
-            if self.wort_sound:
-                self.wort_sound.play()
+            tts = gTTS(text=text, lang='de', slow=False)
+            temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
+            temp_filename = temp_file.name
+            temp_file.close()
+            tts.save(temp_filename)
+            os.system(f"mpg123 -q {temp_filename} &>/dev/null || ffplay -nodisp -autoexit {temp_filename} &>/dev/null || xdg-open {temp_filename} &")
         except Exception as e:
-            print("Sprachausgabe-Fehler:", e)
+            print(f"Sprachausgabe-Fehler: {e}")
 
-    def erfolgsglocke(self):
-        if self.glocke:
-            self.glocke.stop()
-            self.glocke.play()
+    def spiele_erfolgsglocke(self):
+        try:
+            print("\a")
+        except Exception as e:
+            print(f"Glocken-Sound-Fehler: {e}")
 
-    # -- Hauptmenü
-    def zeige_hauptmenue(self, *_):
-        self.screen = "menu"
-        self.leeren()
-        c = self.container
-        c.add_widget(make_label("Merhaba! Was möchtest du lernen?", 22, "#5DADE2", True, height=56))
-        c.add_widget(make_label("Wähle eine Lektion aus und starte deine Karteikarten:",
-                                14, "#A6ACAF", height=44))
+    def zeige_hauptmenue(self, *args):
+        self.bildschirm_leeren()
 
-        if self.fehler:
-            c.add_widget(make_label(self.fehler, 14, "#E74C3C"))
-            return
+        scroll = ScrollView(size_hint=(1, 1))
+        layout = BoxLayout(orientation='vertical', size_hint_y=None, spacing=12)
+        layout.bind(minimum_height=layout.setter('height'))
 
-        sv = ScrollView(do_scroll_x=False)
-        grid = GridLayout(cols=1, spacing=dp(8), padding=dp(4), size_hint_y=None)
-        grid.bind(minimum_height=grid.setter("height"))
-        for titel, vokabeln in self.lektionen.items():
-            btn = RoundButton(text=f"{titel}   ({len(vokabeln)} Wörter)", halign="left",
-                              size_hint_y=None, height=dp(56))
-            btn.bind(on_release=lambda _b, t=titel: self.starte_lektion(t))
-            grid.add_widget(btn)
-        sv.add_widget(grid)
-        c.add_widget(sv)
+        # Bevorzugt PNG nutzen (unter Linux absolut fehlerfrei für Transparenz)
+        bild_geladen = False
+        for img_datei in ["logo.png", "logo.gif"]:
+            if os.path.exists(img_datei):
+                try:
+                    logo = Image(source=img_datei, size_hint_y=None, height=260)
+                    layout.add_widget(logo)
+                    bild_geladen = True
+                    break
+                except Exception:
+                    pass
 
-    # -- Lektion starten
-    def starte_lektion(self, titel):
-        self.aktuelle_vokabeln = list(self.lektionen[titel])
+        if not bild_geladen:
+            platzhalter_lbl = Label(text="✨ 🇩🇪 ❤️ 🇹🇷 ✨", font_size=32, size_hint_y=None, height=100, halign='center')
+            layout.add_widget(platzhalter_lbl)
+
+        titel = Label(text="Merhaba! Ne öğrenmek istiyorsun?", font_size=18, bold=True, color=(0.90, 0.22, 0.27, 1), size_hint_y=None, height=40)
+        untertitel = Label(text="Lütfen bir ders seç:", font_size=13, color=(0.70, 0.70, 0.70, 1), size_hint_y=None, height=30)
+        layout.add_widget(titel)
+        layout.add_widget(untertitel)
+
+        for lektions_titel, vokabel_liste in self.lektionen.items():
+            anzahl = len(vokabel_liste)
+            btn = Button(
+                text=f"{lektions_titel}  ({anzahl} kelime)",
+                font_size=14,
+                bold=True,
+                size_hint_y=None,
+                height=50,
+                background_normal='',
+                background_color=(0.75, 0.15, 0.15, 1)
+            )
+            btn.bind(on_release=lambda b, lt=lektions_titel: self.starte_lektion(lt))
+            layout.add_widget(btn)
+
+        scroll.add_widget(layout)
+        self.add_widget(scroll)
+
+    def starte_lektion(self, lektions_titel):
+        self.aktuelle_vokabeln = list(self.lektionen[lektions_titel])
         random.shuffle(self.aktuelle_vokabeln)
         self.karten_index = 0
         self.ist_umgedreht = False
-        self.aktiver_titel = titel
-        self.zeige_lern_ansicht(spiele=True)
+        self.aktiver_titel = lektions_titel
+        self.zeige_lern_ansicht()
 
-    # -- Lernansicht
-    def zeige_lern_ansicht(self, feedback_text="", spiele=False):
-        self.screen = "lern"
-        self.leeren()
-        c = self.container
-        vokabel = self.aktuelle_vokabeln[self.karten_index]
+    def zeige_lern_ansicht(self, feedback_text=""):
+        self.bildschirm_leeren()
 
-        # obere Leiste
-        top = BoxLayout(size_hint_y=None, height=dp(44), spacing=dp(8))
-        zurueck = RoundButton(text="< Menü", bg="#566573", bg_down="#34495E",
-                              size_hint_x=None, width=dp(90), font_size=sp(14))
-        zurueck.bind(on_release=self.zeige_hauptmenue)
-        top.add_widget(zurueck)
-        top.add_widget(make_label(self.aktiver_titel, 13, "#5DADE2", True, halign="right"))
-        c.add_widget(top)
+        top_layout = BoxLayout(size_hint_y=None, height=40, spacing=10)
+        zurueck_btn = Button(text="← Menü", size_hint_x=None, width=90, background_normal='', background_color=(0.25, 0.25, 0.25, 1))
+        zurueck_btn.bind(on_release=self.zeige_hauptmenue)
+        titel_lbl = Label(text=self.aktiver_titel, font_size=12, bold=True, color=(0.90, 0.22, 0.27, 1))
+        top_layout.add_widget(zurueck_btn)
+        top_layout.add_widget(titel_lbl)
+        self.add_widget(top_layout)
 
-        c.add_widget(make_label(feedback_text, 17, "#F1C40F", True, height=34))
-        c.add_widget(make_label(
-            f"Karte {self.karten_index + 1} von {len(self.aktuelle_vokabeln)}",
-            13, "#A6ACAF", height=24))
+        if feedback_text:
+            fb_lbl = Label(text=feedback_text, font_size=16, bold=True, color=(0.94, 0.76, 0.06, 1), size_hint_y=None, height=35)
+            self.add_widget(fb_lbl)
 
-        # Karte
-        karte = Card(orientation="vertical", padding=dp(14), spacing=dp(4))
-        karte.bind(on_release=lambda *_: self.karte_umdrehen())
-        karte.add_widget(make_label("Deutsch" if not self.ist_umgedreht else "Türkisch",
-                                    13, "#85929E", True, height=24))
+        gesamt = len(self.aktuelle_vokabeln)
+        fortschritt = Label(text=f"Kart {self.karten_index + 1} / {gesamt}", font_size=12, color=(0.70, 0.70, 0.70, 1), size_hint_y=None, height=30)
+        self.add_widget(fortschritt)
+
+        aktuelle_vokabel = self.aktuelle_vokabeln[self.karten_index]
+        emoji = get_emoji_fuer_wort(aktuelle_vokabel["de"])
+
         if not self.ist_umgedreht:
-            emoji = get_emoji_fuer_wort(vokabel["de"]).replace("\ufe0f", "")
-            if HAS_EMOJI_FONT:
-                karte.add_widget(make_label(emoji, 44, height=64, font_name=EMOJI_FONT))
-        karte.add_widget(make_label(
-            vokabel["de"] if not self.ist_umgedreht else vokabel["tr"],
-            28, "#ECF0F1", True))
-        karte.add_widget(make_label("(Tippe auf die Karte zum Umdrehen)", 11, "#7F8C8D", height=22))
-        c.add_widget(karte)
+            self.sprache_abspielen(aktuelle_vokabel["de"])
 
-        # Buttons
-        aktionen = BoxLayout(size_hint_y=None, height=dp(56), spacing=dp(10))
+        karten_layout = BoxLayout(orientation='vertical', padding=20, spacing=10)
+        
+        sprache_text = f"🇩🇪 Almanca {emoji}" if not self.ist_umgedreht else "🇹🇷 Türkçe 🌟"
+        wort_text = aktuelle_vokabel["de"] if not self.ist_umgedreht else aktuelle_vokabel["tr"]
+
+        sprache_lbl = Label(text=sprache_text, font_size=13, bold=True, color=(0.80, 0.30, 0.30, 1), size_hint_y=None, height=30)
+        wort_lbl = Label(text=wort_text, font_size=24, bold=True, color=(1, 1, 1, 1), halign='center', valign='middle')
+        wort_lbl.bind(size=wort_lbl.setter('text_size'))
+        
+        hinweis_lbl = Label(text="(Çevirmek için alttaki butona tıkla)", font_size=10, color=(0.50, 0.50, 0.50, 1), size_hint_y=None, height=25)
+
+        karten_layout.add_widget(sprache_lbl)
+        karten_layout.add_widget(wort_lbl)
+        karten_layout.add_widget(hinweis_lbl)
+        
+        self.add_widget(karten_layout)
+
+        action_layout = BoxLayout(size_hint_y=None, height=55, spacing=15, padding=[0, 10, 0, 10])
+
         if not self.ist_umgedreht:
-            hoeren = RoundButton(text="Anhören", bg="#8E44AD", bg_down="#6C3483")
-            hoeren.bind(on_release=lambda *_: self.sprache_abspielen(vokabel))
-            umdrehen = RoundButton(text="Umdrehen")
-            umdrehen.bind(on_release=lambda *_: self.karte_umdrehen())
-            aktionen.add_widget(hoeren)
-            aktionen.add_widget(umdrehen)
+            umdreh_btn = Button(
+                text="🔄 Kartı Çevir",
+                font_size=15,
+                bold=True,
+                background_normal='',
+                background_color=(0.75, 0.15, 0.15, 1)
+            )
+            umdreh_btn.bind(on_release=lambda x: self.karte_umdrehen())
+            action_layout.add_widget(umdreh_btn)
         else:
-            nochmal = RoundButton(text="Nochmal üben", bg="#C0392B", bg_down="#962D22")
-            nochmal.bind(on_release=lambda *_: self.naechste_karte(wiederholen=True))
-            gewusst = RoundButton(text="Gewusst!", bg="#27AE60", bg_down="#1E8449")
-            gewusst.bind(on_release=lambda *_: self.naechste_karte(wiederholen=False))
-            aktionen.add_widget(nochmal)
-            aktionen.add_widget(gewusst)
-        c.add_widget(aktionen)
+            nochmal_btn = Button(
+                text="🔄 Tekrar Çalış",
+                font_size=14,
+                bold=True,
+                background_normal='',
+                background_color=(0.35, 0.35, 0.35, 1)
+            )
+            nochmal_btn.bind(on_release=lambda x: self.naechste_karte(wiederholen=True))
 
-        if spiele:
-            self.sprache_abspielen(vokabel)
+            gewusst_btn = Button(
+                text="✨ Biliyorum!",
+                font_size=14,
+                bold=True,
+                background_normal='',
+                background_color=(0.75, 0.15, 0.15, 1)
+            )
+            gewusst_btn.bind(on_release=lambda x: self.naechste_karte(wiederholen=False))
+
+            action_layout.add_widget(nochmal_btn)
+            action_layout.add_widget(gewusst_btn)
+
+        self.add_widget(action_layout)
 
     def karte_umdrehen(self):
         self.ist_umgedreht = not self.ist_umgedreht
@@ -285,33 +256,49 @@ class VokabelApp(App):
 
     def naechste_karte(self, wiederholen=False):
         if wiederholen:
-            feedback = "Ach, das üben wir noch mal!"
+            feedback = "📉 Bunu tekrar çalışacağız! 🥺💪"
             wort = self.aktuelle_vokabeln.pop(self.karten_index)
             self.aktuelle_vokabeln.append(wort)
         else:
-            feedback = "Genial! Super gemacht!"
-            self.erfolgsglocke()
+            feedback = "🔥 Harika! Süpersin! 🎉🚀"
+            self.spiele_erfolgsglocke()
             self.karten_index += 1
 
         self.ist_umgedreht = False
+
         if self.karten_index >= len(self.aktuelle_vokabeln):
             self.zeige_fertig_bildschirm()
         else:
-            self.zeige_lern_ansicht(feedback_text=feedback, spiele=True)
+            self.zeige_lern_ansicht(feedback_text=feedback)
 
     def zeige_fertig_bildschirm(self):
-        self.screen = "fertig"
-        self.leeren()
-        c = self.container
-        c.add_widget(BoxLayout())  # Abstandhalter oben
-        c.add_widget(make_label("Harika! Lektion beendet!", 24, "#2ECC71", True, height=60))
-        c.add_widget(make_label("Du hast alle Vokabeln dieser Lektion erfolgreich gemeistert!",
-                                14, "#A6ACAF", height=48))
-        btn = RoundButton(text="Zurück zur Lektionsauswahl", size_hint_y=None, height=dp(56))
-        btn.bind(on_release=self.zeige_hauptmenue)
-        c.add_widget(btn)
-        c.add_widget(BoxLayout())  # Abstandhalter unten
+        self.bildschirm_leeren()
+        
+        feuer_lbl = Label(text="🎉 Harika! Ders bitti! ❤️", font_size=20, bold=True, color=(0.85, 0.20, 0.20, 1), size_hint_y=None, height=50)
+        info_lbl = Label(text="Bu dersteki bütün kelimeleri başarıyla tamamladın!", font_size=13, color=(0.70, 0.70, 0.70, 1), size_hint_y=None, height=40)
+        
+        neu_btn = Button(
+            text="Ders Seçimine Dön",
+            font_size=15,
+            bold=True,
+            size_hint=(None, None),
+            size=(280, 50),
+            background_normal='',
+            background_color=(0.75, 0.15, 0.15, 1)
+        )
+        neu_btn.bind(on_release=self.zeige_hauptmenue)
+
+        self.add_widget(feuer_lbl)
+        self.add_widget(info_lbl)
+        self.add_widget(neu_btn)
 
 
-if __name__ == "__main__":
+class VokabelApp(App):
+    def build(self):
+        self.title = "Deutsch – Türkisch Lern-App ❤️"
+        return VokabelRootLayout()
+
+
+if __name__ == '__main__':
     VokabelApp().run()
+        
