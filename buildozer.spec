@@ -23,7 +23,7 @@ android.archs = arm64-v8a
 android.allow_backup = True
 
 p4a.branch = v2024.01.21
-p4a.extra_args = --graphics=sdl2
+#p4a.extra_args = --graphics=sdl2
 
 [buildozer]
 
