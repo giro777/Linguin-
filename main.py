@@ -25,6 +25,7 @@ Window.clearcolor = (0.07, 0.07, 0.07, 1)
 BASIS = os.path.dirname(os.path.abspath(__file__))
 ROT = (0.75, 0.15, 0.15, 1)
 GRAU = (0.35, 0.35, 0.35, 1)
+BLAU = (0.20, 0.45, 0.75, 1)
 
 
 def lade_lektionen():
@@ -154,7 +155,7 @@ class VokabelRootLayout(BoxLayout):
         self.aktiver_titel = lektions_titel
         self.zeige_lern_ansicht()
 
-    def zeige_lern_ansicht(self, feedback_text=""):
+    def zeige_lern_ansicht(self, feedback_text="", vorlesen=True):
         self.bildschirm_leeren()
 
         top = BoxLayout(size_hint_y=None, height=dp(52), spacing=dp(10))
@@ -176,7 +177,8 @@ class VokabelRootLayout(BoxLayout):
 
         vokabel = self.aktuelle_vokabeln[self.karten_index]
 
-        if not self.ist_umgedreht:
+        # Deutsches Wort nur bei neuer Karte automatisch vorlesen
+        if not self.ist_umgedreht and vorlesen:
             self.sprache_abspielen(vokabel["de"])
 
         karte = BoxLayout(orientation='vertical', padding=dp(10), spacing=dp(10))
@@ -188,26 +190,40 @@ class VokabelRootLayout(BoxLayout):
                                color=(0.55, 0.55, 0.55, 1)))
         self.add_widget(karte)
 
-        aktion = BoxLayout(size_hint_y=None, height=dp(72), spacing=dp(12),
+        aktion = BoxLayout(orientation='vertical', size_hint_y=None,
+                           height=dp(140), spacing=dp(10),
                            padding=[0, dp(8), 0, dp(8)])
 
         if not self.ist_umgedreht:
-            b = knopf("Kartı Çevir", groesse=18, hoehe=56)
-            b.bind(on_release=lambda x: self.karte_umdrehen())
-            aktion.add_widget(b)
+            # Deutsche Seite: Wort nochmal anhören + Karte umdrehen
+            hoeren = knopf("🔊 Tekrar Dinle" if False else "Tekrar Dinle (Almanca)",
+                           groesse=16, hoehe=56, farbe=BLAU)
+            hoeren.bind(on_release=lambda x: self.sprache_abspielen(vokabel["de"]))
+            drehen = knopf("Kartı Çevir", groesse=18, hoehe=56)
+            drehen.bind(on_release=lambda x: self.karte_umdrehen())
+            aktion.add_widget(hoeren)
+            aktion.add_widget(drehen)
         else:
+            # Türkische Seite: zurückdrehen + bewerten
+            zurueck_dreh = knopf("Almanca'ya Dön", groesse=16, hoehe=56, farbe=BLAU)
+            zurueck_dreh.bind(on_release=lambda x: self.karte_umdrehen())
+            aktion.add_widget(zurueck_dreh)
+
+            reihe = BoxLayout(spacing=dp(12))
             nochmal = knopf("Tekrar Çalış", groesse=16, hoehe=56, farbe=GRAU)
             nochmal.bind(on_release=lambda x: self.naechste_karte(wiederholen=True))
             gewusst = knopf("Biliyorum!", groesse=16, hoehe=56)
             gewusst.bind(on_release=lambda x: self.naechste_karte(wiederholen=False))
-            aktion.add_widget(nochmal)
-            aktion.add_widget(gewusst)
+            reihe.add_widget(nochmal)
+            reihe.add_widget(gewusst)
+            aktion.add_widget(reihe)
 
         self.add_widget(aktion)
 
     def karte_umdrehen(self):
         self.ist_umgedreht = not self.ist_umgedreht
-        self.zeige_lern_ansicht()
+        # Beim Umdrehen nicht automatisch vorlesen (dafür gibt es den Knopf)
+        self.zeige_lern_ansicht(vorlesen=False)
 
     def naechste_karte(self, wiederholen=False):
         if wiederholen:
