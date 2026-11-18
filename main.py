@@ -16,6 +16,7 @@ from kivy.uix.button import Button
 from kivy.uix.image import Image
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.label import Label
+from kivy.graphics import Color, RoundedRectangle
 from kivy.utils import platform
 
 if platform != "android":
@@ -31,16 +32,16 @@ GRAU = (0.35, 0.35, 0.35, 1)
 
 # --- VOKABEL-LEKTIONEN (18 Lektionen) ---
 LEKTIONS_UEBERSETZUNG = {
-    "Lektion 1: Zahlen & Mengen": "Ders 1: Sayılar ve Miktarlar",
-    "Lektion 2: Farben & Optik": "Ders 2: Renkler ve Optik",
-    "Lektion 3: Tiere": "Ders 3: Hayvanlar",
-    "Lektion 4: Familie & Menschen": "Ders 4: Aile ve İnsanlar",
-    "Lektion 5: Körper & Gesundheit": "Ders 5: Vücut ve Sağlık",
-    "Lektion 6: Essen & Trinken": "Ders 6: Yiyecek ve İçecek",
-    "Lektion 7: Natur, Wetter & Geografie": "Ders 7: Doğa, Hava ve Coğrafya",
-    "Lektion 8: Zeit, Kalender & Jahreszeiten": "Ders 8: Zaman, Takvim ve Mevsimler",
-    "Lektion 9: Zuhause, Möbel & Alltagsobjekte": "Ders 9: Ev, Mobilya ve Günlük Eşyalar",
-    "Lektion 10: Kleidung & Materialien": "Ders 10: Kıyafetler ve Malzemeler",
+    "Lektion 1: Zahlen & Mengen": "Sayılar ve Miktarlar",
+    "Lektion 2: Farben & Optik": "Renkler ve Optik",
+    "Lektion 3: Tiere": "Hayvanlar",
+    "Lektion 4: Familie & Menschen": "Aile ve İnsanlar",
+    "Lektion 5: Körper & Gesundheit": "Vücut ve Sağlık",
+    "Lektion 6: Essen & Trinken": "Yiyecek ve İçecek",
+    "Lektion 7: Natur, Wetter & Geografie": "Doğa, Hava ve Coğrafya",
+    "Lektion 8: Zeit, Kalender & Jahreszeiten": "Zaman, Takvim ve Mevsimler",
+    "Lektion 9: Zuhause, Möbel & Alltagsobjekte": "Ev, Mobilya ve Günlük Eşyalar",
+    "Lektion 10: Kleidung & Materialien": "Kıyafetler ve Malzemeler",
     "Lektion 11: Stadt, Orte & Reisen": "Seyahat ve Coğrafya",
     "Lektion 12: Arbeit, Bildung & Wissenschaft": "Eşyalar ve Malzemeler",
     "Lektion 13: Sprache, Musik & Kunst": "İş ve Meslek",
@@ -83,10 +84,32 @@ def label(text, groesse, hoehe=None, **kw):
     return lbl
 
 
+# --- ÄSTHETISCHER, ABGERUNDETER KNOPF (PILL BUTTON) ---
+class AbgerundeterButton(Button):
+    def __init__(self, farbe=BLAU, **kwargs):
+        super().__init__(**kwargs)
+        self.background_normal = ''
+        self.background_color = (0, 0, 0, 0) # Standard-Hintergrund von Kivy unsichtbar machen
+        self.custom_farbe = farbe
+
+        with self.canvas.before:
+            Color(*self.custom_farbe)
+            # Der Radius setzt sich dynamisch aus der halben Höhe zusammen (perfekte Halbkreise an den Seiten)
+            self.rect = RoundedRectangle(pos=self.pos, size=self.size, radius=[self.height / 2.0])
+
+        self.bind(pos=self.update_canvas, size=self.update_canvas)
+
+    def update_canvas(self, *args):
+        self.rect.pos = self.pos
+        self.rect.size = self.size
+        # Radius dynamisch anpassen, falls sich die Button-Größe ändert
+        self.rect.radius = [self.height / 2.0]
+
+
 def knopf(text, groesse=16, hoehe=56, farbe=BLAU, **kw):
-    btn = Button(text=text, font_size=sp(groesse), bold=True,
-                 halign='center', valign='middle',
-                 background_normal='', background_color=farbe, **kw)
+    btn = AbgerundeterButton(text=text, font_size=sp(groesse), bold=True,
+                             halign='center', valign='middle',
+                             farbe=farbe, **kw)
     btn.size_hint_y = None
     btn.height = dp(hoehe)
     btn.bind(size=lambda w, s: setattr(w, 'text_size', (s[0] - dp(16), s[1])))
@@ -103,8 +126,6 @@ class VokabelRootLayout(BoxLayout):
         self.sound = None
         self.lektionen = lade_json_datei("vokabeln.json")
         self.phrasen_daten = lade_json_datei("phrasen.json")
-        
-        # Fortschritt laden: { "kategorie_oder_lektion": [ {"de": "...", "tr": "..."}, ... ] }
         self.fortschritt = lade_json_datei("fortschritt.json")
 
         self.aktuelle_vokabeln = []
@@ -241,7 +262,6 @@ class VokabelRootLayout(BoxLayout):
         for lektions_titel, vokabel_liste in self.lektionen.items():
             tuerkisch_titel = LEKTIONS_UEBERSETZUNG.get(lektions_titel, lektions_titel)
             
-            # Fortschritt berechnen (wie viele bereits gelernt)
             gelernte_liste = self.fortschritt.get(lektions_titel, [])
             anzahl_gelernt = len(gelernte_liste)
             gesamt = len(vokabel_liste)
@@ -293,17 +313,13 @@ class VokabelRootLayout(BoxLayout):
             self.aktiver_titel = LEKTIONS_UEBERSETZUNG.get(titel, titel)
             self.ruecksprung_funktion = self.zeige_lektionen_menue
 
-        # Nur jene Karten anzeigen, die NOCH NICHT als gelernt markiert wurden
         gelernte = self.fortschritt.get(titel, [])
         gelernte_tupel = {(k["de"], k["tr"]) for k in gelernte}
 
-        # Restkarten filtern
         offene_karten = [k for k in alle_karten if (k["de"], k["tr"]) not in gelernte_tupel]
 
         if not offene_karten:
-            # Falls bereits alle gelernt wurden, fragen ob man sie zurücksetzen oder wiederholen möchte
             offene_karten = list(alle_karten)
-            # Fortschritt für diesen Bereich kurzzeitig leeren für den Durchlauf
             self.fortschritt[titel] = []
             speichere_json_datei("fortschritt.json", self.fortschritt)
 
@@ -315,7 +331,6 @@ class VokabelRootLayout(BoxLayout):
 
     # ---------- Wiederholungs-Stapel starten ----------
     def starte_wiederholung_stapel(self, *args):
-        # Alle gelernten Karten aus allen Kategorien sammeln
         alle_gelernten = []
         for kat, karten in self.fortschritt.items():
             if isinstance(karten, list):
@@ -325,7 +340,7 @@ class VokabelRootLayout(BoxLayout):
             self.zeige_platzhalter_info("Henüz öğrenilmiş kart yok!\nÖnce biraz kelime veya ifade öğrenin.")
             return
 
-        self.aktive_lektion_key = "" # Kein einzelner Schlüssel
+        self.aktive_lektion_key = ""
         self.aktuelle_vokabeln = list(alle_gelernten)
         random.shuffle(self.aktuelle_vokabeln)
         self.aktiver_titel = "Tekrar (Wiederholung)"
@@ -399,12 +414,10 @@ class VokabelRootLayout(BoxLayout):
             self.aktuelle_vokabeln.append(wort)
         else:
             feedback = "Harika! Süpersin!"
-            # Wenn es eine normale Lektion ist (kein reiner Wiederholungs-Modus), als gelernt speichern
             if self.aktive_lektion_key:
                 if self.aktive_lektion_key not in self.fortschritt:
                     self.fortschritt[self.aktive_lektion_key] = []
                 
-                # Prüfen ob Karte bereits im Fortschritt ist, falls nicht hinzufügen
                 if aktuelle_karte not in self.fortschritt[self.aktive_lektion_key]:
                     self.fortschritt[self.aktive_lektion_key].append(aktuelle_karte)
                     speichere_json_datei("fortschritt.json", self.fortschritt)
