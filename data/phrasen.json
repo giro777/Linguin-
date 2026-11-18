@@ -1,0 +1,4102 @@
+{
+  "Selamlaşmalar ve Vedalaşmalar": [
+    {
+      "de": "Hallo!",
+      "tr": "Merhaba! (Genel selamlama)"
+    },
+    {
+      "de": "Guten Morgen!",
+      "tr": "Günaydın! (Sabah selamlaması)"
+    },
+    {
+      "de": "Guten Tag!",
+      "tr": "İyi günler! (Standart gündüz selamlaması)"
+    },
+    {
+      "de": "Guten Abend!",
+      "tr": "İyi akşamlar! (Saat 18:00'den sonra)"
+    },
+    {
+      "de": "Gute Nacht!",
+      "tr": "İyi geceler! (Yatmadan önce)"
+    },
+    {
+      "de": "Tschüss!",
+      "tr": "Hoşça kal! / Görüşürüz! (Samimi veda)"
+    },
+    {
+      "de": "Auf Wiedersehen!",
+      "tr": "Hoşça kalın! (Resmi veda)"
+    },
+    {
+      "de": "Bis später!",
+      "tr": "Sonra görüşürüz! (Samimi)"
+    },
+    {
+      "de": "Bis bald!",
+      "tr": "Yakında görüşürüz! (Samimi)"
+    },
+    {
+      "de": "Schönen Tag noch!",
+      "tr": "İyi günler dilerim! (Nazik veda)"
+    },
+    {
+      "de": "Wie geht's?",
+      "tr": "Nasıl gidiyor? / Ne haber? (Samimi selamlama)"
+    },
+    {
+      "de": "Wie geht es Ihnen?",
+      "tr": "Nasılsınız? (Resmi)"
+    },
+    {
+      "de": "Alles klar?",
+      "tr": "Her şey yolunda mı? (Çok günlük/samimi)"
+    },
+    {
+      "de": "Mir gehts gut, danke.",
+      "tr": "İyiyim, teşekkürler. (Cevap)"
+    },
+    {
+      "de": "Und dir?",
+      "tr": "Ya sen? / Sende nasıl? (Devam sorusu)"
+    },
+    {
+      "de": "Willkommen!",
+      "tr": "Hoş geldiniz! (Birini bir yere karşılarken)"
+    },
+    {
+      "de": "Schön, dich zu sehen!",
+      "tr": "Seni gördüğüme sevindim! (Dostça selamlama)"
+    },
+    {
+      "de": "Machs gut!",
+      "tr": "Kendine iyi bak! (Samimi veda)"
+    },
+    {
+      "de": "Bis zum nächsten Mal!",
+      "tr": "Bir sonraki sefere görüşmek üzere! (Dostça kapanış)"
+    },
+    {
+      "de": "Ich wünsche dir einen schönen Tag!",
+      "tr": "Sana güzel bir gün dilerim! (Nazik)"
+    }
+  ],
+  "Kafe veya Restoranda": [
+    {
+      "de": "Ich hätte gern einen Kaffee.",
+      "tr": "Bir kahve alabilirdim / Kahve istiyordum. (Nazikçe sipariş verme)"
+    },
+    {
+      "de": "Was möchten Sie bestellen?",
+      "tr": "Ne sipariş etmek istersiniz? (Garson müşteriye sorar)"
+    },
+    {
+      "de": "Die Speisekarte, bitte.",
+      "tr": "Menüyü alabilir miyim, lütfen. (Menü isteme)"
+    },
+    {
+      "de": "Noch einen Moment, bitte.",
+      "tr": "Bir an bekleyin lütfen. (Zaman isteme)"
+    },
+    {
+      "de": "Ich nehme das Schnitzel.",
+      "tr": "Schnitzel alacağım. (Yemek siparişi verme)"
+    },
+    {
+      "de": "Was empfehlen Sie?",
+      "tr": "Ne tavsiye edersiniz? (Öneri isteme)"
+    },
+    {
+      "de": "Zahlen bitte.",
+      "tr": "Hesap lütfen. (Ödeme isteme)"
+    },
+    {
+      "de": "Zusammen oder getrennt?",
+      "tr": "Birlikte mi, ayrı mı? (Garsonun hesabı nasıl böleceğini sorması)"
+    },
+    {
+      "de": "Es hat sehr gut geschmeckt.",
+      "tr": "Çok lezzetliydi. (Yemeği övme)"
+    },
+    {
+      "de": "Kann ich noch etwas haben?",
+      "tr": "Biraz daha alabilir miyim? (Ekstra isteme)"
+    },
+    {
+      "de": "Ich bin allergisch gegen Nüsse.",
+      "tr": "Fındığa/Cevize alerjim var. (Önemli diyet bilgisi)"
+    },
+    {
+      "de": "Ich hätte gerne stilles Wasser.",
+      "tr": "Gazsız su istiyorum. (İçecek siparişi)"
+    },
+    {
+      "de": "Mit Karte, bitte.",
+      "tr": "Kartla, lütfen. (Kartla ödeme)"
+    },
+    {
+      "de": "Stimmt so.",
+      "tr": "Üstü kalsın. (Bahşiş verme)"
+    },
+    {
+      "de": "Konnte ich ein Glas Wasser bekommen?",
+      "tr": "Bir bardak su alabilir miyim? (Nazik istek)"
+    },
+    {
+      "de": "Haben Sie vegetarische Gerichte?",
+      "tr": "Vejetaryen yemekleriniz var mı? (Diyet tercihi)"
+    },
+    {
+      "de": "Wo ist die Toilette?",
+      "tr": "Tuvalet nerede? (Sık sorulan soru)"
+    },
+    {
+      "de": "Ich möchte reservieren.",
+      "tr": "Rezervasyon yaptırmak istiyorum. (Rezervasyon yapma)"
+    },
+    {
+      "de": "Für wie viele Personen?",
+      "tr": "Kaç kişilik? (Personelin sorusu)"
+    },
+    {
+      "de": "Um wie viel Uhr?",
+      "tr": "Saat kaçta? (Rezervasyon detayı)"
+    }
+  ],
+  "Alışveriş": [
+    {
+      "de": "Wie viel kostet das?",
+      "tr": "Fiyatı ne kadar? (Fiyat sorma)"
+    },
+    {
+      "de": "Kann ich mit Karte zahlen?",
+      "tr": "Kartla ödeyebilir miyim? (Kasada)"
+    },
+    {
+      "de": "Ich schaue nur, danke.",
+      "tr": "Sadece bakıyorum, teşekkürler. (Göz gezdirme)"
+    },
+    {
+      "de": "Haben Sie das in einer anderen Größe?",
+      "tr": "Bunu başka bir bedende var mı? (Giyim mağazası)"
+    },
+    {
+      "de": "Wo sind die Umkleidekabinen?",
+      "tr": "Soyunma kabinleri nerede? (Kıyafet deneme)"
+    },
+    {
+      "de": "Gibt es einen Rabatt?",
+      "tr": "İndirim var mı? (Fiyat indirimi isteme)"
+    },
+    {
+      "de": "Ich nehme es.",
+      "tr": "Bunu alıyorum. (Satın almayı onaylama)"
+    },
+    {
+      "de": "Ich möchte das zurückgeben.",
+      "tr": "Bunu iade etmek istiyorum. (Ürün iade etme)"
+    },
+    {
+      "de": "Haben Sie eine Tüte?",
+      "tr": "Poşetiniz var mı? (Alışveriş poşeti isteme)"
+    },
+    {
+      "de": "Kann ich eine Quittung bekommen?",
+      "tr": "Fiş alabilir miyim? (Fiş isteme)"
+    },
+    {
+      "de": "Das ist zu teuer.",
+      "tr": "Bu çok pahalı. (Fiyat hakkında yorum)"
+    },
+    {
+      "de": "Ich suche ein Geschenk.",
+      "tr": "Bir hediye arıyorum. (Biri için alışveriş yapma)"
+    },
+    {
+      "de": "Haben Sie das auch in Blau?",
+      "tr": "Bunun mavisi de var mı? (Renk tercihi)"
+    },
+    {
+      "de": "Die Qualität ist sehr gut.",
+      "tr": "Kalitesi çok iyi. (Olumlu yorum)"
+    },
+    {
+      "de": "Ich möchte bar zahlen.",
+      "tr": "Nakit ödemek istiyorum. (Nakit ödeme)"
+    },
+    {
+      "de": "Das passt mir nicht.",
+      "tr": "Bu bana uymuyor / olmuyor. (Kıyafet deneme)"
+    },
+    {
+      "de": "Ich brauche eine andere Größe.",
+      "tr": "Farklı bir bedene ihtiyacım var. (Beden sorunu)"
+    },
+    {
+      "de": "Kann ich das anprobieren?",
+      "tr": "Bunu deneyebilir miyim? (Kıyafet ürünü)"
+    },
+    {
+      "de": "Wann schließen Sie?",
+      "tr": "Ne zaman kapatıyorsunuz? (Mağaza saatleri)"
+    },
+    {
+      "de": "Sind Sie geöffnet?",
+      "tr": "Açık mısınız? (Mağazanın açık olup olmadığını kontrol etme)"
+    }
+  ],
+  "Yardım veya Yol Sorma": [
+    {
+      "de": "Können Sie mir helfen?",
+      "tr": "Bana yardım edebilir misiniz? (Yardım isteme)"
+    },
+    {
+      "de": "Ich habe mich verlaufen.",
+      "tr": "Kayboldum. (Yol arama)"
+    },
+    {
+      "de": "Wo ist der Bahnhof?",
+      "tr": "Tren istasyonu nerede? (Ulaşım bulma)"
+    },
+    {
+      "de": "Wie komme ich zum Flughafen?",
+      "tr": "Havalimanına nasıl gidebilirim? (Yol tarifi isteme)"
+    },
+    {
+      "de": "Gibt es eine U-Bahn in der Nähe?",
+      "tr": "Yakınlarda metro var mı? (Yerel ulaşım)"
+    },
+    {
+      "de": "Ich suche diese Adresse.",
+      "tr": "Bu adresi arıyorum. (Konum bulma)"
+    },
+    {
+      "de": "Ist es weit von hier?",
+      "tr": "Buradan uzak mı? (Mesafe sorgulama)"
+    },
+    {
+      "de": "Gehen Sie geradeaus.",
+      "tr": "Düz gidin. (Yol tarifi verme)"
+    },
+    {
+      "de": "Biegen Sie links ab.",
+      "tr": "Sola dönün. (Yol tarifi verme)"
+    },
+    {
+      "de": "Biegen Sie rechts ab.",
+      "tr": "Sağa dönün. (Yol tarifi verme)"
+    },
+    {
+      "de": "Es ist in der Nähe.",
+      "tr": "Yakınlarda. (Mesafe yorumu)"
+    },
+    {
+      "de": "Es ist gegenüber der Bank.",
+      "tr": "Bankanın karşısında. (İşaret referansı)"
+    },
+    {
+      "de": "Können Sie das bitte wiederholen?",
+      "tr": "Bunu lütfen tekrarlayabilir misiniz? (Açıklama isteme)"
+    },
+    {
+      "de": "Sprechen Sie Englisch?",
+      "tr": "İngilizce konuşuyor musunuz? (Dil yardımı)"
+    },
+    {
+      "de": "Nur ein bisschen Deutsch.",
+      "tr": "Sadece biraz Almanca. (Dil seviyesi)"
+    },
+    {
+      "de": "Ich verstehe nicht.",
+      "tr": "Anlamıyorum. (Açıklama)"
+    },
+    {
+      "de": "Wie heißt diese Straße?",
+      "tr": "Bu caddenin adı ne? (İsim sorma)"
+    },
+    {
+      "de": "Welcher Bus fährt zum Zentrum?",
+      "tr": "Merkeze hangi otobüs gidiyor? (Toplu taşıma)"
+    },
+    {
+      "de": "Wo kann ich ein Taxi finden?",
+      "tr": "Nerede taksi bulabilirim? (Ulaşım)"
+    },
+    {
+      "de": "Vielen Dank für Ihre Hilfe!",
+      "tr": "Yardımlarınız için çok teşekkür ederim! (Minnettarlık)"
+    }
+  ],
+  "Doktorda": [
+    {
+      "de": "Ich habe einen Termin.",
+      "tr": "Randevum var. (Kayıt yaptırma)"
+    },
+    {
+      "de": "Ich fühle mich nicht gut.",
+      "tr": "Kendimi iyi hissetmiyorum. (Belirtileri açıklama)"
+    },
+    {
+      "de": "Ich habe Kopfschmerzen.",
+      "tr": "Başım ağrıyor. (Belirti tanımlama)"
+    },
+    {
+      "de": "Ich habe Fieber.",
+      "tr": "Ateşim var. (Belirti tanımlama)"
+    },
+    {
+      "de": "Mir ist schwindlig.",
+      "tr": "Başım dönüyor. (Belirti tanımlama)"
+    },
+    {
+      "de": "Ich habe Husten und Schnupfen.",
+      "tr": "Öksürük ve nezlem var. (Soğuk algınlığı belirtileri)"
+    },
+    {
+      "de": "Ich brauche ein Rezept.",
+      "tr": "Reçeteye ihtiyacım var. (İlaç talebi)"
+    },
+    {
+      "de": "Ich bin allergisch gegen Penicillin.",
+      "tr": "Penisiline alerjim var. (Önemli sağlık bilgisi)"
+    },
+    {
+      "de": "Haben Sie Ihre Versichertenkarte?",
+      "tr": "Sigorta kartınız var mı? (Resepsiyonist sorusu)"
+    },
+    {
+      "de": "Bitte nehmen Sie im Wartezimmer Platz.",
+      "tr": "Lütfen bekleme odasında yerinizi alınız. (Klinik talimatı)"
+    },
+    {
+      "de": "Wie lange haben Sie die Beschwerden?",
+      "tr": "Şikayetleriniz ne kadardır var? (Doktorun sorusu)"
+    },
+    {
+      "de": "Ich habe Rückenschmerzen.",
+      "tr": "Sırtım ağrıyor. (Belirti tanımlama)"
+    },
+    {
+      "de": "Ich kann nicht gut schlafen.",
+      "tr": "İyi uyuyamıyorum. (Uyku sorunu)"
+    },
+    {
+      "de": "Ich brauche eine Krankschreibung.",
+      "tr": "İstirahat raporuna ihtiyacım var. (İş izni mazereti)"
+    },
+    {
+      "de": "Ich nehme keine Medikamente.",
+      "tr": "Herhangi bir ilaç kullanmıyorum. (Sağlık geçmişi)"
+    },
+    {
+      "de": "Ich würde schon einmal operiert.",
+      "tr": "Daha önce ameliyat geçirdim. (Tıbbi geçmiş)"
+    },
+    {
+      "de": "Ich brauche eine Überweisung.",
+      "tr": "Sevk kağıdına ihtiyacım var. (Uzman doktor sevk talebi)"
+    },
+    {
+      "de": "Gibt es Nebenwirkungen?",
+      "tr": "Yan etkileri var mı? (İlaç endişesi)"
+    },
+    {
+      "de": "Wann soll ich wiederkommen?",
+      "tr": "Ne zaman tekrar gelmeliyim? (Takip kontrolü)"
+    },
+    {
+      "de": "Vielen Dank, auf Wiedersehen.",
+      "tr": "Çok teşekkürler, hoşça kalın. (Nazik çıkış)"
+    }
+  ],
+  "Randevu Almak": [
+    {
+      "de": "Ich möchte einen Termin vereinbaren.",
+      "tr": "Randevu almak istiyorum. (Genel istek)"
+    },
+    {
+      "de": "Wann haben Sie Zeit?",
+      "tr": "Ne zaman müsait siniz? (Planlama)"
+    },
+    {
+      "de": "Geht es auch morgen?",
+      "tr": "Yarın da uygun mu? (Alternatif zaman)"
+    },
+    {
+      "de": "Ich kann leider nicht kommen.",
+      "tr": "Maalesef gelemiyorum. (İptal etme)"
+    },
+    {
+      "de": "Ich muss den Termin verschieben.",
+      "tr": "Randevuyu ertelemem gerekiyor. (Plan değişikliği)"
+    },
+    {
+      "de": "Wie lange dauert der Termin?",
+      "tr": "Randevu ne kadar sürecek? (Zaman sorgulama)"
+    },
+    {
+      "de": "Um wie viel Uhr ist mein Termin?",
+      "tr": "Randevum saat kaçta? (Onaylama)"
+    },
+    {
+      "de": "Kann ich später kommen?",
+      "tr": "Daha sonra gelebilir miyim? (Yeniden planlama)"
+    },
+    {
+      "de": "Ist es möglich, früher zu kommen?",
+      "tr": "Daha erken gelmek mümkün mü? (Yeniden planlama)"
+    },
+    {
+      "de": "Ich habe heute um zehn Uhr einen Termin.",
+      "tr": "Bugün saat onda randevum var. (Zaman belirtme)"
+    },
+    {
+      "de": "Der Termin ist am Dienstag.",
+      "tr": "Randevu Salı günü. (Gün referansı)"
+    },
+    {
+      "de": "Wir sehen uns um 14 Uhr.",
+      "tr": "Saat 14:00'te görüşürüz. (Onaylama)"
+    },
+    {
+      "de": "Ist das Büro heute geöffnet?",
+      "tr": "Ofis bugün açık mı? (Müsaitlik kontrolü)"
+    },
+    {
+      "de": "Kann ich auch online buchen?",
+      "tr": "Çevrim içi de rezervasyon yapabilir miyim? (Modern seçenek)"
+    },
+    {
+      "de": "Ich komme ein paar Minuten später.",
+      "tr": "Birkaç dakika gecikeceğim. (Geç kalma durumu)"
+    },
+    {
+      "de": "Ich bin unterwegs.",
+      "tr": "Yoldayım. (Randevu bağlamı)"
+    },
+    {
+      "de": "Vielen Dank für den Termin.",
+      "tr": "Randevu için çok teşekkürler. (Nazik kapanış)"
+    },
+    {
+      "de": "Ich habe eine Bestätigung bekommen.",
+      "tr": "Onay aldım. (Rezervasyon takibi)"
+    },
+    {
+      "de": "Bitte bestätigen Sie den Termin.",
+      "tr": "Lütfen randevuyu onaylayın. (Nazik rica)"
+    },
+    {
+      "de": "Ich freue mich auf unseren Termin.",
+      "tr": "Randevumuzu dört gözle bekliyorum. (Dostça ton)"
+    }
+  ],
+  "Duygulardan Bahsetmek": [
+    {
+      "de": "Ich bin glücklich.",
+      "tr": "Mutluyum. (Olumlu duygu ifade etme)"
+    },
+    {
+      "de": "Ich bin traurig.",
+      "tr": "Üzgünüm. (Üzüntü ifade etme)"
+    },
+    {
+      "de": "Ich bin wütend.",
+      "tr": "Kızgınım / Öfkeliyim. (Öfke ifade etme)"
+    },
+    {
+      "de": "Ich bin nervös.",
+      "tr": "Gerginim / Heyecanlıyım. (Kaygı ifade etme)"
+    },
+    {
+      "de": "Ich habe Angst.",
+      "tr": "Korkuyorum. (Korku veya endişe)"
+    },
+    {
+      "de": "Ich bin enttäuscht.",
+      "tr": "Hayal kırıklığına uğradım. (Olumsuz duygu)"
+    },
+    {
+      "de": "Ich freue mich darauf.",
+      "tr": "Dört gözle bekliyorum. (Heyecan veya beklenti)"
+    },
+    {
+      "de": "Ich bin gestresst.",
+      "tr": "Stresliyim. (Yaygın şikayet)"
+    },
+    {
+      "de": "Ich fühle mich allein.",
+      "tr": "Yalnız hissediyorum. (Yalnızlık ifade etme)"
+    },
+    {
+      "de": "Ich bin erleichtert.",
+      "tr": "Rahatladım. (Stres veya korku sonrası)"
+    },
+    {
+      "de": "Ich bin stolz auf dich.",
+      "tr": "Seninle gurur duyuyorum. (Teşvik etme)"
+    },
+    {
+      "de": "Ich liebe dich.",
+      "tr": "Seni seviyorum. (Romantik veya derin sevgi)"
+    },
+    {
+      "de": "Ich mag dich.",
+      "tr": "Senden hoşlanıyorum. (Dostluk veya ilgi)"
+    },
+    {
+      "de": "Ich vermisse dich.",
+      "tr": "Seni özledim. (Duygusal bağ)"
+    },
+    {
+      "de": "Ich bin dankbar.",
+      "tr": "Minnettarım. (Olumlu yansıma)"
+    },
+    {
+      "de": "Ich bin müde vom Tag.",
+      "tr": "Günün yorgunluğundan bitkin düştüm. (Günün sonu duygusu)"
+    },
+    {
+      "de": "Ich bin zufrieden.",
+      "tr": "Memnunum. (Olumlu tarafsızlık)"
+    },
+    {
+      "de": "Ich kann meine Gefühle nicht beschreiben.",
+      "tr": "Duygularımı tarif edemiyorum. (Duygusal karmaşa)"
+    },
+    {
+      "de": "Ich brauche eine Pause.",
+      "tr": "Bir molaya ihtiyacım var. (Bunalma veya stres)"
+    },
+    {
+      "de": "Es geht mir nicht so gut.",
+      "tr": "Çok iyi sayılmam. (Genel duygusal durum)"
+    }
+  ],
+  "İş Yeri Almancası": [
+    {
+      "de": "Ich arbeite als Ingenieur.",
+      "tr": "Mühendis olarak çalışıyorum. (Meslek belirtme)"
+    },
+    {
+      "de": "Ich bin im Homeoffice.",
+      "tr": "Evden çalışıyorum. (Uzaktan çalışma)"
+    },
+    {
+      "de": "Ich habe heute viele Meetings.",
+      "tr": "Bugün çok toplantım var. (Yoğun program)"
+    },
+    {
+      "de": "Kannst du mir dabei helfen?",
+      "tr": "Bana bunda yardım edebilir misin? (Ekip iş birliği)"
+    },
+    {
+      "de": "Ich schicke dir eine E-Mail.",
+      "tr": "Sana bir e-posta göndereceğim. (Ofis iletişimi)"
+    },
+    {
+      "de": "Ich brauche mehr Zeit.",
+      "tr": "Daha fazla zamana ihtiyacım var. (Teslim tarihi gecikmesi)"
+    },
+    {
+      "de": "Das ist nicht meine Aufgabe.",
+      "tr": "Bu benim görevim değil. (Görevleri netleştirme)"
+    },
+    {
+      "de": "Wir müssen das besprechen.",
+      "tr": "Bunu konuşmamız gerekiyor. (İş koordinasyonu)"
+    },
+    {
+      "de": "Hast du den Bericht fertig?",
+      "tr": "Raporu bitirdin mi? (İlerlemeyi kontrol etme)"
+    },
+    {
+      "de": "Ich arbeite an einem Projekt.",
+      "tr": "Bir proje üzerinde çalışıyorum. (Proje çalışması)"
+    },
+    {
+      "de": "Ich bin gleich zurück.",
+      "tr": "Hemen döneceğim. (Masadan geçici olarak ayrılma)"
+    },
+    {
+      "de": "Ich bin in einer Besprechung.",
+      "tr": "Toplantıdayım. (Ulaşılamayan an)"
+    },
+    {
+      "de": "Ich nehme heute Urlaub.",
+      "tr": "Bugün izin alıyorum. (İzin zamanı)"
+    },
+    {
+      "de": "Ich habe eine Präsentation vorbereitet.",
+      "tr": "Bir sunum hazırladım. (Toplantı hazırlığı)"
+    },
+    {
+      "de": "Wir haben ein Problem mit dem System.",
+      "tr": "Sistemle ilgili bir sorunumuz var. (BT ile ilgili)"
+    },
+    {
+      "de": "Ich bin verantwortlich für das Marketing.",
+      "tr": "Pazarlamadan ben sorumluyum. (Departman rolü)"
+    },
+    {
+      "de": "Wir müssen eine Entscheidung treffen.",
+      "tr": "Bir karar vermemiz gerekiyor. (Ekip eylemi)"
+    },
+    {
+      "de": "Die Deadline ist morgen.",
+      "tr": "Son teslim tarihi yarın. (Zamana duyarlı görev)"
+    },
+    {
+      "de": "Können wir das verschieben?",
+      "tr": "Bunu erteleyebilir miyiz? (İşi yeniden planlama)"
+    },
+    {
+      "de": "Danke für deine Unterstützung.",
+      "tr": "Desteğin için teşekkürler. (İş yerinde minnettarlık)"
+    }
+  ],
+  "Günlük Rutinler": [
+    {
+      "de": "Ich stehe um sieben Uhr auf.",
+      "tr": "Saat yedi'de kalkıyorum. (Sabah rutini)"
+    },
+    {
+      "de": "Ich frühstücke jeden Morgen.",
+      "tr": "Her sabah kahvaltı yaparım. (Sabah alışkanlığı)"
+    },
+    {
+      "de": "Ich gehe zur Arbeit.",
+      "tr": "İşe gidiyorum. (Günlük işe gidiş)"
+    },
+    {
+      "de": "Ich fahre mit dem Bus.",
+      "tr": "Otobüsle gidiyorum. (Ulaşım)"
+    },
+    {
+      "de": "Ich arbeite von neun bis fünf.",
+      "tr": "Dokuzdan beşe kadar çalışıyorum. (Tipik iş günü)"
+    },
+    {
+      "de": "Ich mache eine Pause um Mittag.",
+      "tr": "Öğle vakti mola veriyorum. (İş günü yapısı)"
+    },
+    {
+      "de": "Ich esse zu Mittag in der Kantine.",
+      "tr": "Öğle yemeğini yemekhanede yiyorum. (İş yeri rutini)"
+    },
+    {
+      "de": "Ich komme um sechs Uhr nach Hause.",
+      "tr": "Saat altıda eve geliyorum. (Akşam dönüşü)"
+    },
+    {
+      "de": "Ich koche das Abendessen.",
+      "tr": "Akşam yemeğini pişiriyorum. (Akşam faaliyeti)"
+    },
+    {
+      "de": "Ich sehe fern.",
+      "tr": "Televizyon izliyorum. (Dinlenme faaliyeti)"
+    },
+    {
+      "de": "Ich gehe spazieren.",
+      "tr": "Yürüyüşe çıkıyorum. (Boş zaman faaliyeti)"
+    },
+    {
+      "de": "Ich lese ein Buch vor dem Schlafen.",
+      "tr": "Uyumadan önce kitap okuyorum. (Akşam alışkanlığı)"
+    },
+    {
+      "de": "Ich gehe gegen elf Uhr ins Bett.",
+      "tr": "Saat on bire doğru yatağa giriyorum. (Yatma rutini)"
+    },
+    {
+      "de": "Ich dusche morgens.",
+      "tr": "Sabahları duş alırım. (Hijyen rutini)"
+    },
+    {
+      "de": "Ich putze mir die Zähne.",
+      "tr": "Dişlerimi fırçalıyorum. (Hijyen rutini)"
+    },
+    {
+      "de": "Ich mache Sport am Abend.",
+      "tr": "Akşam spor yapıyorum. (Fitness rutini)"
+    },
+    {
+      "de": "Ich telefoniere mit meinen Eltern.",
+      "tr": "Ailemle telefonla konuşuyorum. (Aile rutini)"
+    },
+    {
+      "de": "Ich mache Hausarbeit.",
+      "tr": "Ev işi yapıyorum. (Ev işleri)"
+    },
+    {
+      "de": "Ich bringe die Kinder zur Schule.",
+      "tr": "Çocukları okula götürüyorum. (Aile görevi)"
+    },
+    {
+      "de": "Ich entspanne mich am Wochenende.",
+      "tr": "Hafta sonu dinleniyorum. (Hafta sonu rutini)"
+    }
+  ],
+  "İnsanları veya Nesneleri Tanımlamak": [
+    {
+      "de": "Er ist sehr freundlich.",
+      "tr": "O çok samimi/dost canlısı. (Kişiliği tanımlama)"
+    },
+    {
+      "de": "Sie ist intelligent und fleißig.",
+      "tr": "O zeki ve çalışkan. (Karakter özellikleri)"
+    },
+    {
+      "de": "Das Haus ist groß und modern.",
+      "tr": "Ev büyük ve modern. (Mülk tanımlama)"
+    },
+    {
+      "de": "Die Tasche ist rot und teuer.",
+      "tr": "Çanta kırmızı ve pahalı. (Öğeyi tanımlama)"
+    },
+    {
+      "de": "Der Film war spannend.",
+      "tr": "Film heyecan vericiydi. (Görüş)"
+    },
+    {
+      "de": "Sie hat lange, dunkle Haare.",
+      "tr": "Uzun, koyu renk saçları var. (Görünüşü tanımlama)"
+    },
+    {
+      "de": "Er trägt eine Brille.",
+      "tr": "Gözlük takıyor. (Görünüş detayı)"
+    },
+    {
+      "de": "Das Wetter ist heute schön.",
+      "tr": "Bugün hava güzel. (Günlük sohbet)"
+    },
+    {
+      "de": "Ich finde das interessant.",
+      "tr": "Bunu ilginç buluyorum. (Görüş paylaşma)"
+    },
+    {
+      "de": "Er ist ziemlich ruhig.",
+      "tr": "O oldukça sessiz/sakin. (Davranışı tanımlama)"
+    },
+    {
+      "de": "Sie hat ein schönes Lächeln.",
+      "tr": "Güzel bir gülümsemesi var. (İltifat)"
+    },
+    {
+      "de": "Das Auto ist schnell und neu.",
+      "tr": "Araba hızlı ve yeni. (Nesneyi tanımlama)"
+    },
+    {
+      "de": "Dieses Buch ist langweilig.",
+      "tr": "Bu kitap sıkıcı. (Olumsuz görüş)"
+    },
+    {
+      "de": "Die Wohnung ist gemütlich.",
+      "tr": "Daire sıcak ve rahat. (Evi tanımlama)"
+    },
+    {
+      "de": "Das Essen schmeckt lecker.",
+      "tr": "Yemek lezzetli geliyor. (Tat izlenimi)"
+    },
+    {
+      "de": "Er ist sehr hilfsbereit.",
+      "tr": "O çok yardımsever. (Birini övme)"
+    },
+    {
+      "de": "Das Kleid steht dir gut.",
+      "tr": "Elbise sana çok yakışmış. (İltifat)"
+    },
+    {
+      "de": "Sie ist eine gute Kollegin.",
+      "tr": "O iyi bir meslektaş. (İş yerinde birini tanımlama)"
+    },
+    {
+      "de": "Die Farbe gefällt mir.",
+      "tr": "Rengi beğendim. (Nesne hakkında görüş)"
+    },
+    {
+      "de": "Er ist größer als ich.",
+      "tr": "O benden daha uzun. (Karşılaştırma)"
+    }
+  ],
+  "Telefon ve Çevrim İçi İletişim": [
+    {
+      "de": "Hallo, hier ist Anna.",
+      "tr": "Alo, ben Anna. (Telefonda kendini tanıtma)"
+    },
+    {
+      "de": "Können Sie mich hören?",
+      "tr": "Beni duyabiliyor musunuz? (Telefon bağlantı kontrolü)"
+    },
+    {
+      "de": "Ich rufe später zurück.",
+      "tr": "Daha sonra geri arayacağım. (Aramayı erteleme)"
+    },
+    {
+      "de": "Die Verbindung ist schlecht.",
+      "tr": "Bağlantı kötü. (Bağlantı sorunu)"
+    },
+    {
+      "de": "Können Sie das bitte wiederholen?",
+      "tr": "Lütfen bunu tekrarlayabilir misiniz? (Açıklama)"
+    },
+    {
+      "de": "Ich habe Ihre Nachricht erhalten.",
+      "tr": "Mesajınızı aldım. (Mesajı onaylama)"
+    },
+    {
+      "de": "Ich schreibe dir eine Nachricht.",
+      "tr": "Sana bir mesaj yazacağım. (Metin iletişimi)"
+    },
+    {
+      "de": "Ich bin gerade beschäftigt.",
+      "tr": "Şu anda meşgulüm. (Ulaşılamayan an)"
+    },
+    {
+      "de": "Können wir chatten?",
+      "tr": "Sohbet edebilir miyiz? (Çevrim içi konuşma)"
+    },
+    {
+      "de": "Ich habe die E-Mail weitergeleitet.",
+      "tr": "E-postayı ilettim. (E-posta iletişimi)"
+    },
+    {
+      "de": "Bitte senden Sie mir die Details.",
+      "tr": "Lütfen detayları bana gönderin. (Bilgi talep etme)"
+    },
+    {
+      "de": "Ich schicke dir den Link.",
+      "tr": "Sana bağlantıyı göndereceğim. (Çevrim içi bilgi paylaşımı)"
+    },
+    {
+      "de": "Kannst du mir den Anhang schicken?",
+      "tr": "Bana eki gönderebilir misin? (İş e-postası isteği)"
+    },
+    {
+      "de": "Ich warte auf Ihre Antwort.",
+      "tr": "Cevabınızı bekliyorum. (Takip)"
+    },
+    {
+      "de": "Lass uns einen Videoanruf machen.",
+      "tr": "Görüntülü arama yapalım. (Modern iletişim)"
+    },
+    {
+      "de": "Ich bin nicht erreichbar.",
+      "tr": "Ulaşılamaz durumdayım. (Durum güncellemesi)"
+    },
+    {
+      "de": "Ich beantworte später.",
+      "tr": "Daha sonra cevaplayacağım. (Cevabı erteleme)"
+    },
+    {
+      "de": "Die Nummer ist besetzt.",
+      "tr": "Numara meşgul. (Telefon arama sorunu)"
+    },
+    {
+      "de": "Ich habe aus Versehen aufgelegt.",
+      "tr": "Yanlışlıkla kapattım. (Hata için özür dileme)"
+    },
+    {
+      "de": "Danke für deinen Anruf.",
+      "tr": "Araman için teşekkürler. (Nazikçe aramayı sonlandırma)"
+    }
+  ],
+  "Havalimanında": [
+    {
+      "de": "Wo ist der Check-in-Schalter?",
+      "tr": "Check-in bankosu nerede? (Havayolunuzu bulma)"
+    },
+    {
+      "de": "Ich möchte einchecken.",
+      "tr": "Check-in yapmak istiyorum. (Check-in kontuarında)"
+    },
+    {
+      "de": "Haben Sie Ihr Ticket und Ihren Ausweis?",
+      "tr": "Biletiniz ve kimliğiniz yanınızda mı? (Havalimanı personeli sorusu)"
+    },
+    {
+      "de": "Wie viele Gepäckstücke haben Sie?",
+      "tr": "Kaç parça bagajınız var? (Bagaj kontrolü)"
+    },
+    {
+      "de": "Mein Flug hat Verspätung.",
+      "tr": "Uçağım rötarlı. (Yaygın anons)"
+    },
+    {
+      "de": "Wann beginnt das Boarding?",
+      "tr": "Uçağa biniş ne zaman başlıyor? (Uçuş bilgisi)"
+    },
+    {
+      "de": "Wo ist das Gate A12?",
+      "tr": "A12 kapısı nerede? (Kalkış kapısını bulma)"
+    },
+    {
+      "de": "Ich habe meinen Flug verpasst.",
+      "tr": "Uçağımı kaçırdım. (Durumu açıklama)"
+    },
+    {
+      "de": "Ich habe mein Gepäck verloren.",
+      "tr": "Bagajımı kaybettim. (Sorun bildirimi)"
+    },
+    {
+      "de": "Ich reise nur mit Handgepäck.",
+      "tr": "Sadece el bagajıyla seyahat ediyorum. (Bagaj bilgisi)"
+    },
+    {
+      "de": "Gibt es WLAN im Flughafen?",
+      "tr": "Havalimanında kablosuz ağ var mı? (Bağlantı)"
+    },
+    {
+      "de": "Wie lange dauert der Flug?",
+      "tr": "Uçuş ne kadar sürüyor? (Genel soru)"
+    },
+    {
+      "de": "Kann ich meinen Sitzplatz ändern?",
+      "tr": "Koltuğumu değiştirebilir miyim? (Koltuk tercihi)"
+    },
+    {
+      "de": "Wo ist die Sicherheitskontrolle?",
+      "tr": "Güvenlik kontrolü nerede? (Havalimanında yön bulma)"
+    },
+    {
+      "de": "Ich habe nichts zu verzollen.",
+      "tr": "Gümrüke tabi hiçbir şeyim yok. (Gümrük beyanı)"
+    },
+    {
+      "de": "Der Flug wurde gestrichen.",
+      "tr": "Uçuş iptal edildi. (Uçuş durumu)"
+    },
+    {
+      "de": "Ich fliege nach Berlin.",
+      "tr": "Berlin'e uçuyorum. (Varış yerini belirtme)"
+    },
+    {
+      "de": "Wann landet das Flugzeug?",
+      "tr": "Uçak ne zaman iniyor? (Varış sorgulaması)"
+    },
+    {
+      "de": "Bitte zeigen Sie Ihren Reisepass.",
+      "tr": "Lütfen pasaportunuzu gösterin. (Güvenlik veya biniş)"
+    },
+    {
+      "de": "Guten Flug!",
+      "tr": "İyi uçuşlar! (Birine iyi dilekte bulunma)"
+    }
+  ],
+  "Hava Durumu ve Küçük Sohbet": [
+    {
+      "de": "Wie ist das Wetter heute?",
+      "tr": "Bugün hava nasıl? (Küçük sohbeti açma)"
+    },
+    {
+      "de": "Es ist sonnig.",
+      "tr": "Hava güneşli. (Hava durumunu tanımlama)"
+    },
+    {
+      "de": "Es regnet.",
+      "tr": "Yağmur yağıyor. (Hava koşulu)"
+    },
+    {
+      "de": "Es ist bewölkt.",
+      "tr": "Hava bulutlu. (Hava koşulu)"
+    },
+    {
+      "de": "Es ist kalt draußen.",
+      "tr": "Dışarısı soğuk. (Hava durumuyla ilgili yorum)"
+    },
+    {
+      "de": "Es ist sehr warm heute.",
+      "tr": "Bugün hava çok sıcak. (Hava durumuyla ilgili yorum)"
+    },
+    {
+      "de": "Der Himmel ist klar.",
+      "tr": "Gökyüzü açık. (Hava gözlemi)"
+    },
+    {
+      "de": "Es gibt ein Gewitter.",
+      "tr": "Fırtına var. (Hava durumu uyarısı)"
+    },
+    {
+      "de": "Es schneit.",
+      "tr": "Kar yağıyor. (Kış havası)"
+    },
+    {
+      "de": "Wie war dein Wochenende?",
+      "tr": "Hafta sonun nasıl geçti? (Küçük sohbet)"
+    },
+    {
+      "de": "Hast du Pläne für heute Abend?",
+      "tr": "Bu akşam için planların var mı? (Gündelik sorgulama)"
+    },
+    {
+      "de": "Ich hoffe, das Wetter bleibt so.",
+      "tr": "Umarım hava böyle kalır. (Gündelik umut)"
+    },
+    {
+      "de": "Es ist windig.",
+      "tr": "Hava rüzgarlı. (Hava durumu açıklaması)"
+    },
+    {
+      "de": "Ich mag dieses Wetter.",
+      "tr": "Bu havayı seviyorum. (Tercih paylaşma)"
+    },
+    {
+      "de": "Was machst du am Wochenende?",
+      "tr": "Hafta sonu ne yapıyorsun? (Küçük sohbet)"
+    },
+    {
+      "de": "Das Wetter ist perfekt für einen Spaziergang.",
+      "tr": "Hava yürüyüş yapmak için mükemmel. (Öneri)"
+    },
+    {
+      "de": "Ist es bei dir auch so kalt?",
+      "tr": "Senin olduğun yerde de bu kadar soğuk mu? (Hava durumu karşılaştırması)"
+    },
+    {
+      "de": "Hoffentlich wird es morgen besser.",
+      "tr": "Umarım yarın daha iyi olur. (Hava durumu yorumu)"
+    },
+    {
+      "de": "Es ist schwül.",
+      "tr": "Hava boğucu / rutubetli ve sıcak. (Hava durumu tanımlama)"
+    },
+    {
+      "de": "Es sieht nach Regen aus.",
+      "tr": "Yağmur yağacağa benziyor. (Hava tahmini)"
+    }
+  ],
+  "Toplu Taşıma": [
+    {
+      "de": "Wann fährt der nächste Bus?",
+      "tr": "Bir sonraki otobüs ne zaman kalkıyor? (Zaman sorusu)"
+    },
+    {
+      "de": "Wo ist die nächste Haltestelle?",
+      "tr": "En yakın durak nerede? (Konumu bulma)"
+    },
+    {
+      "de": "Fährt dieser Zug nach München?",
+      "tr": "Bu tren Münih'e gidiyor mu? (Güzergah onayı)"
+    },
+    {
+      "de": "Wie viel kostet ein Ticket?",
+      "tr": "Bilet ne kadar? (Ücret sorgulama)"
+    },
+    {
+      "de": "Ich möchte eine Fahrkarte kaufen.",
+      "tr": "Bir bilet satın almak istiyorum. (Bilet otomatında veya gişede)"
+    },
+    {
+      "de": "Wo kann ich ein Ticket kaufen?",
+      "tr": "Nereden bilet alabilirim? (Bilet sorgulama)"
+    },
+    {
+      "de": "Gibt es Ermäßigungen?",
+      "tr": "İndirimler var mı? (İndirim sorgulama)"
+    },
+    {
+      "de": "Ich habe meine Fahrkarte verloren.",
+      "tr": "Biletimi kaybettim. (Sorun bildirimi)"
+    },
+    {
+      "de": "Dieser Platz ist besetzt.",
+      "tr": "Bu koltuk dolu. (Oturacak yer bulma)"
+    },
+    {
+      "de": "Ich steige an der nächsten Station aus.",
+      "tr": "Bir sonraki durakta iniyorum. (Varış yeri bilgisi)"
+    },
+    {
+      "de": "Der Zug hat Verspätung.",
+      "tr": "Tren rötarlı. (Tarife sorunu)"
+    },
+    {
+      "de": "Wo muss ich umsteigen?",
+      "tr": "Nerede aktarma yapmam gerekiyor? (Güzergah planlaması)"
+    },
+    {
+      "de": "Die Straßenbahn ist pünktlich.",
+      "tr": "Tramvay zamanında. (Olumlu güncelleme)"
+    },
+    {
+      "de": "Die nächste Station ist Hauptbahnhof.",
+      "tr": "Sonraki durak Ana Tren İstasyonu. (Araç içi anons)"
+    },
+    {
+      "de": "Gibt es einen Fahrplan?",
+      "tr": "Tarife var mı? (Planlama sorgulaması)"
+    },
+    {
+      "de": "Kann ich mein Fahrrad mitnehmen?",
+      "tr": "Bisikletimi yanımda götürebilir miyim? (Ulaşım kuralları)"
+    },
+    {
+      "de": "Ist das eine Monatskarte?",
+      "tr": "Bu aylık bilet mi? (Bilet türü sorusu)"
+    },
+    {
+      "de": "Fährt dieser Bus auch sonntags?",
+      "tr": "Bu otobüs pazar günleri de çalışıyor mu? (Tarife sorgulaması)"
+    },
+    {
+      "de": "Ich muss zur Endstation.",
+      "tr": "Son durağa gitmem gerekiyor. (Varış yeri beyanı)"
+    },
+    {
+      "de": "Entschuldigung, ist dieser Sitz frei?",
+      "tr": "Affedersiniz, bu koltuk boş mu? (Nazik sorgulama)"
+    }
+  ],
+  "Bankada": [
+    {
+      "de": "Ich möchte ein Konto eröffnen.",
+      "tr": "Hesap açtırmak istiyorum. (Banka hizmet talebi)"
+    },
+    {
+      "de": "Ich habe mein Passwort vergessen.",
+      "tr": "Şifremi unuttum. (Çevrim içi bankacılık sorunu)"
+    },
+    {
+      "de": "Wo ist der nächste Geldautomat?",
+      "tr": "En yakın ATM nerede? (ATM konum sorgulama)"
+    },
+    {
+      "de": "Ich möchte Geld abheben.",
+      "tr": "Para çekmek istiyorum. (ATM'de veya gişede)"
+    },
+    {
+      "de": "Ich möchte Geld einzahlen.",
+      "tr": "Para yatırmak istiyorum. (Banka işlemi)"
+    },
+    {
+      "de": "Wie hoch ist der Mindestbetrag?",
+      "tr": "Asgari tutar ne kadar? (Banka kuralı sorusu)"
+    },
+    {
+      "de": "Kann ich mit Karte bezahlen?",
+      "tr": "Kartla ödeme yapabilir miyim? (Ödeme seçeneği)"
+    },
+    {
+      "de": "Ich habe meine Karte verloren.",
+      "tr": "Kartımı kaybettim. (Kayıp kart bildirimi)"
+    },
+    {
+      "de": "Ich brauche eine neue Bankkarte.",
+      "tr": "Yeni bir banka kartına ihtiyacım var. (Kart değiştirme)"
+    },
+    {
+      "de": "Wie lange dauert die Überweisung?",
+      "tr": "Havale ne kadar sürüyor? (İşlem zamanı)"
+    },
+    {
+      "de": "Ich möchte einen Dauerauftrag einrichten.",
+      "tr": "Otomatik ödeme talimatı vermek istiyorum. (Düzenli ödeme)"
+    },
+    {
+      "de": "Was sind die Gebühren?",
+      "tr": "Ücretler ne kadar? (Maliyet sorgulama)"
+    },
+    {
+      "de": "Ich brauche eine Kontobestätigung.",
+      "tr": "Hesap onay belgesine ihtiyacım var. (Hesap kanıtı)"
+    },
+    {
+      "de": "Kann ich mein Limit ändern?",
+      "tr": "Limitimi değiştirebilir miyim? (Harcama veya çekim limiti)"
+    },
+    {
+      "de": "Ich habe eine verdächtige Buchung gesehen.",
+      "tr": "Şüpheli bir işlem gördüm. (Dolandırıcılık endişesi)"
+    },
+    {
+      "de": "Wie kann ich Online-Banking aktivieren?",
+      "tr": "Çevrim içi bankacılığı nasıl etkinleştirebilirim? (Dijital erişim)"
+    },
+    {
+      "de": "Ich möchte mein Konto schließen.",
+      "tr": "Hesabımı kapatmak istiyorum. (Kapatma talebi)"
+    },
+    {
+      "de": "Haben Sie einen Berater frei?",
+      "tr": "Boşta bir danışmanınız var mı? (Danışmanlık talep etme)"
+    },
+    {
+      "de": "Was ist der aktuelle Wechselkurs?",
+      "tr": "Güncel döviz kuru nedir? (Para birimi sorusu)"
+    },
+    {
+      "de": "Ich brauche eine Bestätigung für das Finanzamt.",
+      "tr": "Maliye için bir onay belgesine ihtiyacım var. (Vergi ile ilgili)"
+    }
+  ],
+  "Eczanede": [
+    {
+      "de": "Ich brauche dieses Rezept eingelöst.",
+      "tr": "Bu reçeteyi temin etmek istiyorum. (Reçete talebi)"
+    },
+    {
+      "de": "Haben Sie etwas gegen Kopfschmerzen?",
+      "tr": "Baş ağrısına karşı bir şeyiniz var mı? (Semptom giderme)"
+    },
+    {
+      "de": "Gibt es das auch in Tablettenform?",
+      "tr": "Bunun hap formu da var mı? (İlaç biçimi)"
+    },
+    {
+      "de": "Wie oft soll ich das nehmen?",
+      "tr": "Bunu ne sıklıkla kullanmalıyım? (Dozaj sorusu)"
+    },
+    {
+      "de": "Gibt es Nebenwirkungen?",
+      "tr": "Yan etkileri var mı? (İlaç endişeleri)"
+    },
+    {
+      "de": "Ist das rezeptfrei?",
+      "tr": "Bu reçetesiz mi satılıyor? (Reçete zorunluluğu)"
+    },
+    {
+      "de": "Ich habe eine Allergie gegen Penicillin.",
+      "tr": "Penisiline alerjim var. (Alerji uyarısı)"
+    },
+    {
+      "de": "Kann ich das mit anderen Medikamenten einnehmen?",
+      "tr": "Bunu diğer ilaçlarla birlikte alabilir miyim? (Güvenlik kontrolü)"
+    },
+    {
+      "de": "Brauchen Sie das Originalrezept?",
+      "tr": "Orijinal reçeteye ihtiyacınız var mı? (Eczane politikası)"
+    },
+    {
+      "de": "Wann schließt die Apotheke?",
+      "tr": "Eczane ne zaman kapanıyor? (Çalışma saatleri)"
+    },
+    {
+      "de": "Ich suche eine Salbe gegen Hautausschlag.",
+      "tr": "Döküntüye karşı bir merhem arıyorum. (Cilt durumu)"
+    },
+    {
+      "de": "Was kostet das?",
+      "tr": "Fiyatı ne kadar? (Fiyat sorgulama)"
+    },
+    {
+      "de": "Ich möchte etwas gegen Erkältung.",
+      "tr": "Soğuk algınlığına karşı bir şeyler istiyorum. (Yaygın talep)"
+    },
+    {
+      "de": "Wie lange ist das haltbar?",
+      "tr": "Bunun son kullanma tarihi nedir? (Son kullanma tarihi sorgulama)"
+    },
+    {
+      "de": "Haben Sie etwas Natürliches?",
+      "tr": "Doğal bir şeyiniz var mı? (Tercih sorgulama)"
+    },
+    {
+      "de": "Ich brauche Nasenspray.",
+      "tr": "Burun spreyine ihtiyacım var. (Spesifik ürün)"
+    },
+    {
+      "de": "Ist das für Kinder geeignet?",
+      "tr": "Bu çocuklar için uygun mu? (Çocuk güvenliği)"
+    },
+    {
+      "de": "Kann ich mit Karte zahlen?",
+      "tr": "Kartla ödeme yapabilir miyim? (Ödeme yöntemi)"
+    },
+    {
+      "de": "Ich hätte gern eine kleine Packung.",
+      "tr": "Küçük bir paket alabilirdim. (Boyut tercihi)"
+    },
+    {
+      "de": "Danke, das war sehr hilfreich.",
+      "tr": "Teşekkürler, bu çok faydalıydı. (Etkileşimi sonlandırma)"
+    }
+  ],
+  "Otelde": [
+    {
+      "de": "Ich habe eine Reservierung.",
+      "tr": "Rezervasyonum var. (Giriş yapma)"
+    },
+    {
+      "de": "Auf welchen Namen?",
+      "tr": "Hangi isim adına? (Resepsiyonist sorusu)"
+    },
+    {
+      "de": "Ich möchte ein Einzelzimmer.",
+      "tr": "Tek kişilik bir oda istiyorum. (Oda talebi)"
+    },
+    {
+      "de": "Wie viele Nächte bleiben Sie?",
+      "tr": "Kaç gece kalacaksınız? (Rezervasyon detayı)"
+    },
+    {
+      "de": "Haben Sie einen Ausweis?",
+      "tr": "Kimliğiniz var mı? (Kimlik kontrolü)"
+    },
+    {
+      "de": "Ist Frühstück inbegriffen?",
+      "tr": "Kahvaltı fiyata dâhil mi? (Hizmet sorgulama)"
+    },
+    {
+      "de": "Gibt es WLAN im Zimmer?",
+      "tr": "Odada kablosuz ağ var mı? (İnternet erişimi)"
+    },
+    {
+      "de": "Wo ist der Aufzug?",
+      "tr": "Asansör nerede? (Otel olanaklarını bulma)"
+    },
+    {
+      "de": "Wie spät ist der Check-out?",
+      "tr": "Çıkış saati kaçta? (Ayrılış bilgisi)"
+    },
+    {
+      "de": "Ich möchte ein späteres Check-out.",
+      "tr": "Geç çıkış yapmak istiyorum. (Talep)"
+    },
+    {
+      "de": "Können Sie mir ein Taxi rufen?",
+      "tr": "Bana bir taksi çağırabilir misiniz? (Hizmet talep etme)"
+    },
+    {
+      "de": "Das Zimmer ist nicht sauber.",
+      "tr": "Oda temiz değil. (Şikayet)"
+    },
+    {
+      "de": "Die Klimaanlage funktioniert nicht.",
+      "tr": "Klima çalışmıyor. (Sorun bildirimi)"
+    },
+    {
+      "de": "Ich brauche frische Handtücher.",
+      "tr": "Temiz havlulara ihtiyacım var. (Oda temizliği talebi)"
+    },
+    {
+      "de": "Wie komme ich in die Stadt?",
+      "tr": "Şehir merkezine nasıl gidebilirim? (Seyahat bilgisi)"
+    },
+    {
+      "de": "Gibt es einen Stadtplan?",
+      "tr": "Şehir haritası var mı? (Turist yardımı)"
+    },
+    {
+      "de": "Ich möchte stornieren.",
+      "tr": "İptal etmek istiyorum. (İptal talebi)"
+    },
+    {
+      "de": "Können Sie das für mich buchen?",
+      "tr": "Bunu benim için rezerve edebilir misiniz? (Konsiyerj hizmeti)"
+    },
+    {
+      "de": "Ich reise morgen ab.",
+      "tr": "Yarın ayrılıyorum. (Çıkış bildirimi)"
+    },
+    {
+      "de": "Vielen Dank für den Aufenthalt.",
+      "tr": "Konaklama için çok teşekkür ederim. (Nazik veda)"
+    }
+  ],
+  "Acil Durumlar": [
+    {
+      "de": "Hilfe!",
+      "tr": "İmdat! / Yardım edin! (Acil durum çağrısı)"
+    },
+    {
+      "de": "Rufen Sie einen Krankenwagen!",
+      "tr": "Ambulans çağırın! (Tıbbi acil durum)"
+    },
+    {
+      "de": "Ich brauche einen Arzt.",
+      "tr": "Bir doktora ihtiyacım var. (Sağlık acil durumu)"
+    },
+    {
+      "de": "Ich habe mich verletzt.",
+      "tr": "Yaralandım. (Durumu açıklama)"
+    },
+    {
+      "de": "Wo ist das nächste Krankenhaus?",
+      "tr": "En yakın hastane nerede? (Yardım bulma)"
+    },
+    {
+      "de": "Ich habe meine Tasche verloren.",
+      "tr": "Çantamı kaybettim. (Kayıp eşya bildirimi)"
+    },
+    {
+      "de": "Ich wurde bestohlen.",
+      "tr": "Soyuldum. (Suç bildirimi)"
+    },
+    {
+      "de": "Ich habe meine Papiere verloren.",
+      "tr": "Evraklarımı kaybettim. (Kayıp kimlik veya pasaport)"
+    },
+    {
+      "de": "Gibt es eine Notrufnummer?",
+      "tr": "Acil durum numarası var mı? (Yardım arama)"
+    },
+    {
+      "de": "Ich habe einen Unfall gesehen.",
+      "tr": "Bir kaza gördüm. (Olayı bildirme)"
+    },
+    {
+      "de": "Mein Auto ist kaputt.",
+      "tr": "Arabam bozuldu. (Araç sorunu)"
+    },
+    {
+      "de": "Ich bin in Gefahr.",
+      "tr": "Tehlikedeyim. (Ciddi acil durum)"
+    },
+    {
+      "de": "Können Sie mir bitte helfen?",
+      "tr": "Lütfen bana yardım edebilir misiniz? (Genel yardım çağrısı)"
+    },
+    {
+      "de": "Rufen Sie die Polizei!",
+      "tr": "Polisi çağırın! (Tehdit durumunda)"
+    },
+    {
+      "de": "Wo ist die nächste Polizeistation?",
+      "tr": "En yakın polis merkezi nerede? (Yardım bulma)"
+    },
+    {
+      "de": "Ich brauche Hilfe bei einem Notfall.",
+      "tr": "Bir acil durum için yardıma ihtiyacım var. (Durumu açıklama)"
+    },
+    {
+      "de": "Ich habe eine allergische Reaktion.",
+      "tr": "Alerjik reaksiyon geçiriyorum. (Tıbbi acil durum)"
+    },
+    {
+      "de": "Ich bin ohnmachtig geworden.",
+      "tr": "Bayıldım. (Durumu açıklama)"
+    },
+    {
+      "de": "Mein Handy wurde gestohlen.",
+      "tr": "Cep telefonum çalındı. (Çalınan eşyayı bildirme)"
+    },
+    {
+      "de": "Ich habe eine Panne.",
+      "tr": "Yolda kaldım. (Araba sorunu)"
+    }
+  ],
+  "Aile ve İlişkiler": [
+    {
+      "de": "Hast du Geschwister?",
+      "tr": "Kardeşin var mı? (Birisini tanımaya çalışırken)"
+    },
+    {
+      "de": "Ich habe einen Bruder und eine Schwester.",
+      "tr": "Bir erkek ve bir kız kardeşim var. (Ailenden bahsetme)"
+    },
+    {
+      "de": "Ich bin verheiratet.",
+      "tr": "Evliyim. (İlişki durumunu paylaşma)"
+    },
+    {
+      "de": "Ich bin ledig.",
+      "tr": "Bekarım. (İlişki durumu)"
+    },
+    {
+      "de": "Ich habe zwei Kinder.",
+      "tr": "İki çocuğum var. (Ailenden bahsetme)"
+    },
+    {
+      "de": "Wie heißt dein Vater?",
+      "tr": "Babanın adı ne? (Akrabalar hakkında soru sorma)"
+    },
+    {
+      "de": "Meine Mutter ist Lehrerin.",
+      "tr": "Annem öğretmen. (Aile üyesini tanımlama)"
+    },
+    {
+      "de": "Ich bin der Älteste.",
+      "tr": "En büyüğüm. (Kardeş sıralaması)"
+    },
+    {
+      "de": "Wir wohnen zusammen.",
+      "tr": "Birlikte yaşıyoruz. (Yaşam durumu)"
+    },
+    {
+      "de": "Ich bin geschieden.",
+      "tr": "Boşanmışım. (İlişki durumu)"
+    },
+    {
+      "de": "Ich habe einen Partner.",
+      "tr": "Bir partnerim var. (İlişki bilgisi)"
+    },
+    {
+      "de": "Meine Großeltern wohnen weit weg.",
+      "tr": "Büyükannem ve büyükbabam uzakta yaşıyor. (Aile konusu)"
+    },
+    {
+      "de": "Wir besuchen unsere Verwandten.",
+      "tr": "Akrabalarımızı ziyaret ediyoruz. (Aile faaliyeti)"
+    },
+    {
+      "de": "Ich bin Onkel/Tante.",
+      "tr": "Amca/Dayı veya Teyze/Hala oldum. (Ailedeki rol)"
+    },
+    {
+      "de": "Ich liebe meine Familie.",
+      "tr": "Ailemi seviyorum. (Sevgi)"
+    },
+    {
+      "de": "Wie lange seid ihr schon zusammen?",
+      "tr": "Ne kadardır birlikteisiniz? (İlişki hakkında soru sorma)"
+    },
+    {
+      "de": "Wir haben einen Hund als Haustier.",
+      "tr": "Evcil hayvan olarak bir köpeğimiz var. (Aile detayı)"
+    },
+    {
+      "de": "Wir feiern oft zusammen.",
+      "tr": "Sık sık birlikte kutlama yapıyoruz. (Aile bağı)"
+    },
+    {
+      "de": "Meine Schwester ist jünger als ich.",
+      "tr": "Kız kardeşim benden daha küçük. (Kardeş karşılaştırması)"
+    },
+    {
+      "de": "Er ist wie ein Bruder für mich.",
+      "tr": "O benim için bir kardeş gibi. (Yakın ilişki)"
+    }
+  ],
+  "Hobiler ve Boş Zaman": [
+    {
+      "de": "Was machst du gern in deiner Freizeit?",
+      "tr": "Boş zamanlarında ne yapmaktan hoşlanırsın? (Açılış sorusu)"
+    },
+    {
+      "de": "Ich spiele gern Gitarre.",
+      "tr": "Gitar çalmayı severim. (Hobileri paylaşma)"
+    },
+    {
+      "de": "Ich lese sehr gern.",
+      "tr": "Kitap okumayı çok severim. (En sevilen vakit geçirme biçimi)"
+    },
+    {
+      "de": "Sport ist mein Hobby.",
+      "tr": "Spor benim hobim. (İlgi alanlarından bahsetme)"
+    },
+    {
+      "de": "Ich gehe oft ins Kino.",
+      "tr": "Sık sık sinemaya giderim. (Boş zaman faaliyeti)"
+    },
+    {
+      "de": "Ich höre gerne Musik.",
+      "tr": "Müzik dinlemeyi severim. (Yaygın hobi)"
+    },
+    {
+      "de": "Ich gehe gern spazieren.",
+      "tr": "Yürüyüşe çıkmayı severim. (Dinlendirici faaliyet)"
+    },
+    {
+      "de": "Ich interessiere mich für Fotografie.",
+      "tr": "Fotoğrafçılıkla ilgileniyorum. (Kişisel ilgi)"
+    },
+    {
+      "de": "Ich koche gern neue Rezepte.",
+      "tr": "Yeni tarifler pişirmeyi severim. (Yaratıcı hobi)"
+    },
+    {
+      "de": "Ich treffe mich mit Freunden.",
+      "tr": "Arkadaşlarımla buluşuyorum. (Sosyal faaliyet)"
+    },
+    {
+      "de": "Ich spiele Videospiele.",
+      "tr": "Video oyunları oynuyorum. (Modern hobi)"
+    },
+    {
+      "de": "Ich bin gern draußen in der Natur.",
+      "tr": "Doğada olmayı severim. (Doğa ile ilgili hobi)"
+    },
+    {
+      "de": "Ich zeichne gern.",
+      "tr": "Resim yapmayı severim. (Sanatla ilgili faaliyet)"
+    },
+    {
+      "de": "Ich mache gern Yoga.",
+      "tr": "Yoga yapmaktan keyif alırım. (Fiziksel ve zihinsel faaliyet)"
+    },
+    {
+      "de": "Ich gehe ins Fitnessstudio.",
+      "tr": "Spor salonuna gidiyorum. (Fitness rutini)"
+    },
+    {
+      "de": "Ich schaue Serien auf Netflix.",
+      "tr": "Netflix'te dizi izliyorum. (Modern vakit geçirme)"
+    },
+    {
+      "de": "Ich sammle Briefmarken.",
+      "tr": "Pul koleksiyonu yapıyorum. (Niş hobi)"
+    },
+    {
+      "de": "Ich gärtnere in meinem Garten.",
+      "tr": "Bahçemde bahçıvanlık yapıyorum. (Açık hava hobisi)"
+    },
+    {
+      "de": "Ich fotografiere gern Landschaften.",
+      "tr": "Manzara fotoğrafları çekmeyi severim. (Yaratıcı faaliyet)"
+    },
+    {
+      "de": "Ich schreibe in meiner Freizeit.",
+      "tr": "Boş zamanlarımda yazıyorum. (Yaratıcı ifade)"
+    }
+  ],
+  "Yemek Pişirme ve Gıda": [
+    {
+      "de": "Ich koche heute Abend.",
+      "tr": "Bu akşam yemek pişiriyorum. (Günlük rutin)"
+    },
+    {
+      "de": "Was ist dein Lieblingsessen?",
+      "tr": "En sevdiğin yemek nedir? (Gündelik soru)"
+    },
+    {
+      "de": "Ich esse kein Fleisch.",
+      "tr": "Et yemiyorum. (Diyet kısıtlaması)"
+    },
+    {
+      "de": "Kannst du gut kochen?",
+      "tr": "İyi yemek pişirebiliyor musun? (Yetenek hakkında soru sorma)"
+    },
+    {
+      "de": "Das schmeckt lecker!",
+      "tr": "Çok lezzetli! (Yemeği övme)"
+    },
+    {
+      "de": "Ich bin Vegetarier.",
+      "tr": "Vejetaryenim. (Diyet kimliği)"
+    },
+    {
+      "de": "Wie lange muss das kochen?",
+      "tr": "Bunun ne kadar süre pişmesi gerekiyor? (Tarif talimatı)"
+    },
+    {
+      "de": "Ich schneide das Gemüse.",
+      "tr": "Sebzeleri doğruyorum. (Yemek pişirme adımı)"
+    },
+    {
+      "de": "Kannst du mir das Salz geben?",
+      "tr": "Tuzu bana verebilir misin? (Mutfakta rica)"
+    },
+    {
+      "de": "Wir brauchen mehr Öl.",
+      "tr": "Daha fazla sıvı yağa ihtiyacımız var. (Mutfak malzemesi)"
+    },
+    {
+      "de": "Ich backe einen Kuchen.",
+      "tr": "Pasta pişiriyorum. (Faaliyet)"
+    },
+    {
+      "de": "Wo ist der Topf?",
+      "tr": "Tencere nerede? (Mutfak aletlerini arama)"
+    },
+    {
+      "de": "Ich liebe italienisches Essen.",
+      "tr": "İtalyan yemeklerini seviyorum. (Tat tercihi)"
+    },
+    {
+      "de": "Ich mache eine Suppe.",
+      "tr": "Çorba yapıyorum. (Yemek hazırlığı)"
+    },
+    {
+      "de": "Das ist zu scharf.",
+      "tr": "Bu çok acı. (Tat şikayeti)"
+    },
+    {
+      "de": "Ich probiere ein neues Rezept.",
+      "tr": "Yeni bir tarif deniyorum. (Yemek deneyi)"
+    },
+    {
+      "de": "Die Pasta ist fertig.",
+      "tr": "Makarna hazır. (Yemeği duyurma)"
+    },
+    {
+      "de": "Wir essen um sieben Uhr.",
+      "tr": "Saat yedi'de yemek yiyoruz. (Yemek saati)"
+    },
+    {
+      "de": "Ich räume nach dem Essen auf.",
+      "tr": "Yemekten sonra ortalığı topluyorum. (Yemek sonrası görev)"
+    },
+    {
+      "de": "Kannst du den Tisch decken?",
+      "tr": "Masayı kurabilir misin? (Yemek öncesi görev)"
+    }
+  ],
+  "Postanede": [
+    {
+      "de": "Ich möchte einen Brief schicken.",
+      "tr": "Bir mektup göndermek istiyorum. (Posta görevi)"
+    },
+    {
+      "de": "Wie viel kostet das Porto?",
+      "tr": "Posta ücreti ne kadar? (Maliyet sorgulama)"
+    },
+    {
+      "de": "Ich brauche eine Briefmarke.",
+      "tr": "Pul ihtiyacım var. (Temel alışveriş)"
+    },
+    {
+      "de": "Ist das ein Einschreiben?",
+      "tr": "Bu taahhütlü bir mektup mu? (Onay)"
+    },
+    {
+      "de": "Wie lange dauert der Versand?",
+      "tr": "Gönderim ne kadar sürüyor? (Kargo süresi)"
+    },
+    {
+      "de": "Kann ich das Paket verfolgen?",
+      "tr": "Paketi takip edebilir miyim? (Takip sorusu)"
+    },
+    {
+      "de": "Ich habe ein Paket erhalten.",
+      "tr": "Bir paket teslim aldım. (Teslimat alma)"
+    },
+    {
+      "de": "Das Paket ist beschädigt angekommen.",
+      "tr": "Paket hasarlı geldi. (Şikayet)"
+    },
+    {
+      "de": "Wo ist mein Paket?",
+      "tr": "Paketim nerede? (Kayıp teslimat)"
+    },
+    {
+      "de": "Ich möchte ein Paket abholen.",
+      "tr": "Bir paket teslim almak istiyorum. (Gişede)"
+    },
+    {
+      "de": "Ich habe eine Abholbenachrichtigung.",
+      "tr": "Teslim alma bildirimim var. (Bildirim kağıdını gösterme)"
+    },
+    {
+      "de": "Muss ich den Ausweis zeigen?",
+      "tr": "Kimlik göstermem gerekiyor mu? (Doğrulama)"
+    },
+    {
+      "de": "Kann ich das versichern?",
+      "tr": "Bunu sigortalatabilir miyim? (Paket güvenliği)"
+    },
+    {
+      "de": "Ist das internationaler Versand?",
+      "tr": "Bu uluslararası bir gönderi mi? (Gönderi kapsamı)"
+    },
+    {
+      "de": "Gibt es eine schnellere Option?",
+      "tr": "Daha hızlı bir seçenek var mı? (Hizmet seviyesi)"
+    },
+    {
+      "de": "Ich möchte ein Formular ausfüllen.",
+      "tr": "Bir form doldurmak istiyorum. (Posta süreci)"
+    },
+    {
+      "de": "Sind Sie heute geöffnet?",
+      "tr": "Bugün açık mısınız? (Çalışma saatleri)"
+    },
+    {
+      "de": "Ich brauche einen Umschlag.",
+      "tr": "Bir zarfa ihtiyacım var. (Ürün talebi)"
+    },
+    {
+      "de": "Kann ich hier ein Paket aufgeben?",
+      "tr": "Buraya bir paket verebilir miyim? (Paket bırakma sorgulaması)"
+    },
+    {
+      "de": "Vielen Dank für Ihre Hilfe.",
+      "tr": "Yardımlarınız için çok teşekkür ederim. (Nazik kapanış)"
+    }
+  ],
+  "Spor ve Fitness": [
+    {
+      "de": "Machst du Sport?",
+      "tr": "Spor yapıyor musun? (Gündelik soru)"
+    },
+    {
+      "de": "Ich gehe joggen.",
+      "tr": "Koşu yapmaya gidiyorum. (Fitness faaliyeti)"
+    },
+    {
+      "de": "Ich trainiere dreimal pro Woche.",
+      "tr": "Haftada üç kez antrenman yapıyorum. (Rutin)"
+    },
+    {
+      "de": "Ich gehe ins Fitnessstudio.",
+      "tr": "Spor salonuna gidiyorum. (Yaygın ifade)"
+    },
+    {
+      "de": "Ich spiele Fußball im Verein.",
+      "tr": "Bir kulüpte futbol oynuyorum. (Takım sporu)"
+    },
+    {
+      "de": "Ich mache Yoga.",
+      "tr": "Yoga yapıyorum. (Sağlık faaliyeti)"
+    },
+    {
+      "de": "Ich gehe schwimmen.",
+      "tr": "Yüzmeye gidiyorum. (Spor)"
+    },
+    {
+      "de": "Ich mag Mannschaftssport.",
+      "tr": "Takım sporlarını severim. (Tercih)"
+    },
+    {
+      "de": "Ich brauche neue Laufschuhe.",
+      "tr": "Yeni koşu ayakkabılarına ihtiyacım var. (Ekipman)"
+    },
+    {
+      "de": "Ich dehne mich vor dem Training.",
+      "tr": "Antrenmandan önce esneme hareketleri yapıyorum. (Fitness önerisi)"
+    },
+    {
+      "de": "Ich habe Muskelkater.",
+      "tr": "Kas ağrım var. (Antrenman sonrası ifade)"
+    },
+    {
+      "de": "Ich will fitter werden.",
+      "tr": "Daha formda olmak istiyorum. (Hedef beyanı)"
+    },
+    {
+      "de": "Ich kann heute nicht trainieren.",
+      "tr": "Bugün antrenman yapamam. (Müsait değil)"
+    },
+    {
+      "de": "Ich schaue gern Sport im Fernsehen.",
+      "tr": "Televizyonda spor izlemeyi severim. (İlgi)"
+    },
+    {
+      "de": "Was ist dein Lieblingssport?",
+      "tr": "En sevdiğin spor nedir? (İlgi sorusu)"
+    },
+    {
+      "de": "Ich mache Krafttraining.",
+      "tr": "Ağırlık antrenmanı yapıyorum. (Fitness türü)"
+    },
+    {
+      "de": "Ich nehme an einem Marathon teil.",
+      "tr": "Bir maratona katılıyorum. (Etkinlik)"
+    },
+    {
+      "de": "Ich spiele gerne Tennis.",
+      "tr": "Tenis oynamayı severim. (Spor tercihi)"
+    },
+    {
+      "de": "Ich habe ein Heimtraining gemacht.",
+      "tr": "Evde antrenman yaptım. (Rutin)"
+    },
+    {
+      "de": "Ich gehe oft wandern.",
+      "tr": "Sık sık doğa yürüyüşüne giderim. (Açık hava faaliyeti)"
+    }
+  ],
+  "Dışarı Çıkmak ve Eğlence": [
+    {
+      "de": "Wollen wir heute Abend ausgehen?",
+      "tr": "Bu akşam dışarı çıkalım mı? (Plan yapma)"
+    },
+    {
+      "de": "Ich habe Kinokarten gekauft.",
+      "tr": "Sinema biletleri aldım. (Sinema planı)"
+    },
+    {
+      "de": "Lass uns tanzen gehen!",
+      "tr": "Dans etmeye gidelim! (Heyecan)"
+    },
+    {
+      "de": "Ich gehe gern auf Konzerte.",
+      "tr": "Konserlere gitmeyi severim. (Müzik ilgisi)"
+    },
+    {
+      "de": "Wo läuft der Film?",
+      "tr": "Film nerede oynatılıyor? (Sinema kontrolü)"
+    },
+    {
+      "de": "Gibt es heute Abend Veranstaltungen?",
+      "tr": "Bu akşam etkinlikler var mı? (Ne var ne yok)"
+    },
+    {
+      "de": "Ich habe keine Lust, auszugehen.",
+      "tr": "Dışarı çıkma hevesim yok. (Planı reddetme)"
+    },
+    {
+      "de": "Kennen Sie ein gutes Restaurant?",
+      "tr": "İyi bir restoran biliyor musunuz? (Öneri)"
+    },
+    {
+      "de": "Wir treffen uns um acht.",
+      "tr": "Sekizde buluşuyoruz. (Randevu)"
+    },
+    {
+      "de": "Ich bin heute Abend verabredet.",
+      "tr": "Bu akşam randevum var. (Taahhüt)"
+    },
+    {
+      "de": "Es war ein toller Abend.",
+      "tr": "Harika bir akşamdı. (Değerlendirme)"
+    },
+    {
+      "de": "Ich möchte einen Cocktail bestellen.",
+      "tr": "Bir kokteyl sipariş etmek istiyorum. (Barda)"
+    },
+    {
+      "de": "Können wir draußen sitzen?",
+      "tr": "Dışarıda oturabilir miyiz? (Oturma yeri talebi)"
+    },
+    {
+      "de": "Die Stimmung war super!",
+      "tr": "Ortam süperdi! (Eğlence değerlendirmesi)"
+    },
+    {
+      "de": "Das Konzert war ausverkauft.",
+      "tr": "Konserin biletleri tükenmişti. (Bilet bilgisi)"
+    },
+    {
+      "de": "Ich habe viel gelacht.",
+      "tr": "Çok güldüm. (Eğlence ifadesi)"
+    },
+    {
+      "de": "Es war laut, aber lustig.",
+      "tr": "Gürültülü ama eğlenceliydi. (Gece dışarı çıkış geri bildirimi)"
+    },
+    {
+      "de": "Der DJ war richtig gut.",
+      "tr": "DJ gerçekten çok iyiydi. (Müzik övgüsü)"
+    },
+    {
+      "de": "Ich gehe morgen wieder hin.",
+      "tr": "Yarın tekrar gideceğim. (Tekrarlanan ziyaret)"
+    },
+    {
+      "de": "Danke für den schönen Abend!",
+      "tr": "Güzel akşam için teşekkürler! (Minnettarlık)"
+    }
+  ],
+  "Okul ve Eğitim": [
+    {
+      "de": "Ich gehe noch zur Schule.",
+      "tr": "Hâlâ okula gidiyorum. (Durum güncellemesi)"
+    },
+    {
+      "de": "Ich studiere an der Universität.",
+      "tr": "Üniversitede okuyorum. (Akademik bağlam)"
+    },
+    {
+      "de": "Was ist dein Lieblingsfach?",
+      "tr": "En sevdiğin ders hangisi? (Gündelik soru)"
+    },
+    {
+      "de": "Ich habe morgen eine Prüfung.",
+      "tr": "Yarın sınavım var. (Yaklaşan test)"
+    },
+    {
+      "de": "Ich muss für den Test lernen.",
+      "tr": "Test için ders çalışmam gerekiyor. (Akademik rutin)"
+    },
+    {
+      "de": "Die Hausaufgaben sind schwierig.",
+      "tr": "Ev ödevleri zor. (Yorum)"
+    },
+    {
+      "de": "Ich habe meine Hausaufgaben vergessen.",
+      "tr": "Ev ödevimi unuttum. (Mazeret)"
+    },
+    {
+      "de": "Ich schreibe eine Arbeit.",
+      "tr": "Ödev/Makale yazıyorum. (Öğrenci görevi)"
+    },
+    {
+      "de": "Der Lehrer ist sehr nett.",
+      "tr": "Öğretmen çok kibar. (Görüş)"
+    },
+    {
+      "de": "Ich verstehe das Thema nicht.",
+      "tr": "Konuyu anlamıyorum. (Materyalle ilgili zorluk)"
+    },
+    {
+      "de": "Ich brauche Nachhilfe.",
+      "tr": "Özel derse ihtiyacım var. (Yardım isteme)"
+    },
+    {
+      "de": "Ich habe eine gute Note bekommen.",
+      "tr": "İyi bir not aldım. (Olumlu sonuç)"
+    },
+    {
+      "de": "Der Unterricht beginnt um acht Uhr.",
+      "tr": "Ders saat sekizde başlıyor. (Ders programı bilgisi)"
+    },
+    {
+      "de": "Ich habe Pause um zehn.",
+      "tr": "Saat onda teneffüsüm var. (Ders programı)"
+    },
+    {
+      "de": "Wir machen eine Gruppenarbeit.",
+      "tr": "Grup çalışması yapıyoruz. (Ortak öğrenme)"
+    },
+    {
+      "de": "Ich habe heute keine Schule.",
+      "tr": "Bugün okulda dersim yok. (Program güncellemesi)"
+    },
+    {
+      "de": "Ich interessiere mich für Geschichte.",
+      "tr": "Tarihle ilgileniyorum. (Ders tercihi)"
+    },
+    {
+      "de": "Ich brauche ein neues Heft.",
+      "tr": "Yeni bir deftere ihtiyacım var. (Malzemeler)"
+    },
+    {
+      "de": "Wann sind die Ferien?",
+      "tr": "Tatil ne zaman? (Tatil sorgulaması)"
+    },
+    {
+      "de": "Ich bin in der elften Klasse.",
+      "tr": "On birinci sınıftayım. (Sınıf seviyesi)"
+    }
+  ],
+  "Teknoloji ve Cihazlar": [
+    {
+      "de": "Ich habe ein neues Handy.",
+      "tr": "Yeni bir cep telefonum var. (Teknoloji güncellemesi)"
+    },
+    {
+      "de": "Mein Computer ist kaputt.",
+      "tr": "Bilgisayarım bozuk. (Sorun)"
+    },
+    {
+      "de": "Ich brauche ein Ladegerät.",
+      "tr": "Bir şarj cihazına ihtiyacım var. (Pil sorunu)"
+    },
+    {
+      "de": "Wie funktioniert das?",
+      "tr": "Bu nasıl çalışıyor? (Teknoloji kafa karışıklığı)"
+    },
+    {
+      "de": "Ich bin nicht so technisch.",
+      "tr": "Teknolojiyle pek aram yok. (Zorluğu kabul etme)"
+    },
+    {
+      "de": "Ich installiere eine App.",
+      "tr": "Bir uygulama yüklüyorum. (Telefon kullanımı)"
+    },
+    {
+      "de": "Mein WLAN funktioniert nicht.",
+      "tr": "Kablosuz ağım çalışmıyor. (Bağlantı sorunu)"
+    },
+    {
+      "de": "Der Akku ist leer.",
+      "tr": "Pil bitti. (Pil sorunu)"
+    },
+    {
+      "de": "Ich muss ein Update machen.",
+      "tr": "Güncelleme yapmam gerekiyor. (Bakım)"
+    },
+    {
+      "de": "Ich nutze das jeden Tag.",
+      "tr": "Bunu her gün kullanıyorum. (Teknoloji rutini)"
+    },
+    {
+      "de": "Ich schaue Videos auf meinem Tablet.",
+      "tr": "Tabletimden videolar izliyorum. (Kullanım)"
+    },
+    {
+      "de": "Ich habe meine Daten verloren.",
+      "tr": "Verilerimi kaybettim. (Sorun)"
+    },
+    {
+      "de": "Kannst du mir das zeigen?",
+      "tr": "Bunu bana gösterebilir misin? (Yardım isteme)"
+    },
+    {
+      "de": "Ich brauche mehr Speicherplatz.",
+      "tr": "Daha fazla depolama alanına ihtiyacım var. (Cihaz sınırı)"
+    },
+    {
+      "de": "Ich habe ein neues Passwort eingerichtet.",
+      "tr": "Yeni bir şifre oluşturdum. (Güvenlik)"
+    },
+    {
+      "de": "Wie kann ich das verbinden?",
+      "tr": "Bunu nasıl bağlayabilirim? (Kurulum sorusu)"
+    },
+    {
+      "de": "Ich benutze Bluetooth.",
+      "tr": "Bluetooth kullanıyorum. (Kablosuz teknoloji)"
+    },
+    {
+      "de": "Mein Bildschirm ist schwarz.",
+      "tr": "Ekranım siyah. (Teknoloji sorunu)"
+    },
+    {
+      "de": "Ich muss den Router neu starten.",
+      "tr": "Yönlendiriciyi yeniden başlatmam gerekiyor. (Wi-Fi düzeltmesi)"
+    },
+    {
+      "de": "Technik macht manchmal Probleme.",
+      "tr": "Teknoloji bazen sorun çıkarıyor. (Genel yorum)"
+    }
+  ],
+  "Evcil Hayvanlar ve Hayvanlar": [
+    {
+      "de": "Hast du ein Haustier?",
+      "tr": "Evcil hayvanın var mı? (Gündelik soru)"
+    },
+    {
+      "de": "Ich habe einen Hund.",
+      "tr": "Bir köpeğim var. (Evcil hayvan sahipliği)"
+    },
+    {
+      "de": "Meine Katze schläft viel.",
+      "tr": "Kedim çok uyuyor. (Evcil hayvan davranışını tanımlama)"
+    },
+    {
+      "de": "Er ist sehr verspielt.",
+      "tr": "O çok oyuncu. (Kişilik özelliği)"
+    },
+    {
+      "de": "Ich muss den Hund füttern.",
+      "tr": "Köpeği beslemem gerekiyor. (Günlük görev)"
+    },
+    {
+      "de": "Wir gehen jeden Tag Gassi.",
+      "tr": "Her gün köpeği yürüyüşe çıkarıyoruz. (Evcil hayvan rutini)"
+    },
+    {
+      "de": "Meine Katze liebt es, zu kuscheln.",
+      "tr": "Kedim sarılmayı çok sever. (Sevgi dolu evcil hayvan)"
+    },
+    {
+      "de": "Ich habe einen Hamster im Käfig.",
+      "tr": "Kafeste bir hamsterım var. (Evcil hayvan türü)"
+    },
+    {
+      "de": "Der Vogel singt morgens.",
+      "tr": "Kuş sabahları ötüyor. (Evcil hayvan davranışı)"
+    },
+    {
+      "de": "Ich bringe mein Tier zum Tierarzt.",
+      "tr": "Hayvanımı veterinere götürüyorum. (Sağlık bakımı)"
+    },
+    {
+      "de": "Mein Hund bellt viel.",
+      "tr": "Köpeğim çok havlıyor. (Davranışı tanımlama)"
+    },
+    {
+      "de": "Ich muss das Aquarium reinigen.",
+      "tr": "Akvaryumu temizlemem gerekiyor. (Evcil hayvan bakımı)"
+    },
+    {
+      "de": "Der Tierarzttermin ist morgen.",
+      "tr": "Veteriner randevusu yarın. (Takvim)"
+    },
+    {
+      "de": "Sie ist sehr zahm.",
+      "tr": "O çok evcil. (Bir hayvanı tanımlama)"
+    },
+    {
+      "de": "Mein Haustier ist wie ein Familienmitglied.",
+      "tr": "Evcil hayvanım bir aile üyesi gibi. (Sevgi)"
+    },
+    {
+      "de": "Ich habe allergisch auf Katzen reagiert.",
+      "tr": "Kedilere karşı alerjik reaksiyon gösterdim. (Sağlık notu)"
+    },
+    {
+      "de": "Füttern Sie bitte die Fische.",
+      "tr": "Lütfen balıkları besleyin. (Rica)"
+    },
+    {
+      "de": "Er ist sehr neugierig.",
+      "tr": "O çok meraklı. (Evcil hayvan özelliği)"
+    },
+    {
+      "de": "Wie alt ist dein Hund?",
+      "tr": "Köpeğin kaç yaşında? (Evcil hayvan sorgulaması)"
+    },
+    {
+      "de": "Wir haben unser Haustier adoptiert.",
+      "tr": "Evcil hayvanımızı sahiplendik. (Evcil hayvan kökeni)"
+    }
+  ],
+  "Duygular ve Görüşler": [
+    {
+      "de": "Ich finde das interessant.",
+      "tr": "Bunu ilginç buluyorum. (Görüş belirtme)"
+    },
+    {
+      "de": "Das gefällt mir nicht.",
+      "tr": "Bunu beğenmedim. (Olumsuz görüş)"
+    },
+    {
+      "de": "Ich bin begeistert!",
+      "tr": "Çok heyecanlandım! (Güçlü olumlu duygu)"
+    },
+    {
+      "de": "Ich mag das wirklich.",
+      "tr": "Bunu gerçekten seviyorum. (Olumlu tepki)"
+    },
+    {
+      "de": "Ich bin anderer Meinung.",
+      "tr": "Farklı düşünüyorum. (Farklı bir görüş sunma)"
+    },
+    {
+      "de": "Ich glaube, das ist richtig.",
+      "tr": "Bunun doğru olduğuna inanıyorum. (Kabul etme)"
+    },
+    {
+      "de": "Ich bin unsicher.",
+      "tr": "Emin değilim. (Kesinlik eksikliği)"
+    },
+    {
+      "de": "Das war enttäuschend.",
+      "tr": "Bu hayal kırıklığı yarattı. (Olumsuz geri bildirim)"
+    },
+    {
+      "de": "Ich fühle mich sicher hier.",
+      "tr": "Burada güvende hissediyorum. (Konfor ifadesi)"
+    },
+    {
+      "de": "Ich bin verwirrt.",
+      "tr": "Kafam karıştı. (Zihinsel durum)"
+    },
+    {
+      "de": "Das hat mir Spaß gemacht.",
+      "tr": "Bu çok eğlenceliydi. (Keyif aldığını ifade etme)"
+    },
+    {
+      "de": "Ich habe keine starke Meinung dazu.",
+      "tr": "Bu konuda güçlü bir fikrim yok. (Tarafsız duruş)"
+    },
+    {
+      "de": "Ich bin neugierig darauf.",
+      "tr": "Bunu merak ediyorum. (İlgi)"
+    },
+    {
+      "de": "Ich bin stolz auf dich.",
+      "tr": "Seninle gurur duyuyorum. (Teşvik etme)"
+    },
+    {
+      "de": "Ich bin dankbar für deine Hilfe.",
+      "tr": "Yardımın için minnettarım. (Minnettarlık)"
+    },
+    {
+      "de": "Ich finde das langweilig.",
+      "tr": "Bunu sıkıcı buluyorum. (Olumsuz yargı)"
+    },
+    {
+      "de": "Das regt mich auf.",
+      "tr": "Bu beni sinirlendiriyor. (Duygusal hayal kırıklığı)"
+    },
+    {
+      "de": "Ich fühle mich wohl.",
+      "tr": "Kendimi iyi hissediyorum. (Fiziksel/duygusal konfor)"
+    },
+    {
+      "de": "Ich finde das mutig.",
+      "tr": "Bunu cesurca buluyorum. (Saygı/hayranlık)"
+    },
+    {
+      "de": "Ich schätze deine Meinung.",
+      "tr": "Görüşüne değer veriyorum. (Saygılı onaylama)"
+    }
+  ],
+  "Planlar Yapmak": [
+    {
+      "de": "Hast du morgen Zeit?",
+      "tr": "Yarın vaktin var mı? (Scheduling inquiry)"
+    },
+    {
+      "de": "Lass uns etwas unternehmen.",
+      "tr": "Hadi bir şeyler yapalım. (Making a suggestion)"
+    },
+    {
+      "de": "Wann passt es dir?",
+      "tr": "Ne zaman sana uyar? (Finding a time)"
+    },
+    {
+      "de": "Wollen wir uns treffen?",
+      "tr": "Buluşalım mı? (Plan proposal)"
+    },
+    {
+      "de": "Ich kann am Wochenende.",
+      "tr": "Hafta sonu müsaitim. (Availability)"
+    },
+    {
+      "de": "Wie wäre es mit Freitag?",
+      "tr": "Cuma günü nasıl olur? (Offering a day)"
+    },
+    {
+      "de": "Ich bin leider schon verplant.",
+      "tr": "Maalesef planım dolu. (Declining)"
+    },
+    {
+      "de": "Wir sehen uns um 18 Uhr.",
+      "tr": "Saat 18:00'de görüşürüz. (Confirming a plan)"
+    },
+    {
+      "de": "Ich freue mich darauf.",
+      "tr": "Dört gözle bekliyorum. (Positive anticipation)"
+    },
+    {
+      "de": "Wo wollen wir uns treffen?",
+      "tr": "Nerede buluşalım? (Meeting place)"
+    },
+    {
+      "de": "Ich komme ein bisschen später.",
+      "tr": "Biraz gecikeceğim. (Time update)"
+    },
+    {
+      "de": "Können wir es verschieben?",
+      "tr": "Erteleyebilir miyiz? (Changing plans)"
+    },
+    {
+      "de": "Ich habe es mir anders überlegt.",
+      "tr": "Fikrimi değiştirdim. (Changing decision)"
+    },
+    {
+      "de": "Ich muss leider absagen.",
+      "tr": "Maalesef iptal etmek zorundayım. (Polite cancellation)"
+    },
+    {
+      "de": "Ich bringe einen Freund mit.",
+      "tr": "Bir arkadaşımı getiriyorum. (Adding a guest)"
+    },
+    {
+      "de": "Wollen wir zusammen fahren?",
+      "tr": "Birlikte gidelim mi? (Logistics)"
+    },
+    {
+      "de": "Ich schreib dir noch mal vorher.",
+      "tr": "Öncesinde sana tekrar yazacağım. (Pre-meeting contact)"
+    },
+    {
+      "de": "Der Plan klingt gut.",
+      "tr": "Plan kulağa iyi geliyor. (Agreement)"
+    },
+    {
+      "de": "Lass uns das spontan entscheiden.",
+      "tr": "Bunu spontane karar verelim. (Flexible planning)"
+    },
+    {
+      "de": "Bis später dann!",
+      "tr": "O zaman sonra görüşürüz! (Closure of arrangement)"
+    }
+  ],
+  "İhtiyaçları ve İstekleri İfade Etmek": [
+    {
+      "de": "Ich brauche Hilfe.",
+      "tr": "Yardıma ihtiyacım var. (Simple need)"
+    },
+    {
+      "de": "Ich möchte etwas essen.",
+      "tr": "Bir şeyler yemek istiyorum. (Stating a want)"
+    },
+    {
+      "de": "Ich will nach Hause.",
+      "tr": "Eve gitmek istiyorum. (Expressing desire)"
+    },
+    {
+      "de": "Ich habe Durst.",
+      "tr": "Susadım. (Physical need)"
+    },
+    {
+      "de": "Ich bin müde.",
+      "tr": "Yorgunum. (Stating condition)"
+    },
+    {
+      "de": "Ich brauche eine Pause.",
+      "tr": "Molaya ihtiyacım var. (Expressing need)"
+    },
+    {
+      "de": "Ich möchte das nicht tun.",
+      "tr": "Bunu yapmak istemiyorum. (Refusal)"
+    },
+    {
+      "de": "Ich wünsche mir Ruhe.",
+      "tr": "Huzur diliyorum. (Emotional want)"
+    },
+    {
+      "de": "Ich vill das jetzt machen.",
+      "tr": "Bunu şimdi yapmak istiyorum. (Determination)"
+    },
+    {
+      "de": "Ich brauche mehr Zeit.",
+      "tr": "Daha fazla zamana ihtiyacım var. (Time-related need)"
+    },
+    {
+      "de": "Ich habe Hunger.",
+      "tr": "Karnım aç. (Stating hunger)"
+    },
+    {
+      "de": "Ich will nicht warten.",
+      "tr": "Beklemek istemiyorum. (Impatience)"
+    },
+    {
+      "de": "Ich brauche frische Luft.",
+      "tr": "Temiz havaya ihtiyacım var. (Health or emotional need)"
+    },
+    {
+      "de": "Ich will allein sein.",
+      "tr": "Yalnız kalmak istiyorum. (Privacy)"
+    },
+    {
+      "de": "Ich hätte gern einen Kaffee.",
+      "tr": "Bir kahve alabilirdim. (Polite request)"
+    },
+    {
+      "de": "Ich brauche Schlaf.",
+      "tr": "Uykuya ihtiyacım var. (Exhaustion)"
+    },
+    {
+      "de": "Ich will das verstehen.",
+      "tr": "Bunu anlamak istiyorum. (Mental effort)"
+    },
+    {
+      "de": "Ich wünsche mir einen Hund.",
+      "tr": "Bir köpek diliyorum. (Desire)"
+    },
+    {
+      "de": "Ich will es später machen.",
+      "tr": "Bunu daha sonra yapmak istiyorum. (Postponement)"
+    },
+    {
+      "de": "Ich habe das Bedürfnis zu reden.",
+      "tr": "Konuşma ihtiyacı hissediyorum. (Emotional expression)"
+    }
+  ],
+  "Yasal ve İdari İşlemler": [
+    {
+      "de": "Ich brauche einen Termin beim Amt.",
+      "tr": "Resmi daireden randevu almam gerekiyor. (Administrative task)"
+    },
+    {
+      "de": "Wo ist das Bürgerbüro?",
+      "tr": "Nüfus müdürlüğü nerede? (Finding a government office)"
+    },
+    {
+      "de": "Ich muss meinen Ausweis verlängern.",
+      "tr": "Kimliğimi yeniletmem gerekiyor. (Document renewal)"
+    },
+    {
+      "de": "Welche Unterlagen brauche ich?",
+      "tr": "Hangi belgelere ihtiyacım var? (Paperwork inquiry)"
+    },
+    {
+      "de": "Ich habe einen Termin beim Einwohnermeldeamt.",
+      "tr": "Nüfus müdürlüğünde randevum var. (Check-in)"
+    },
+    {
+      "de": "Ich möchte meinen Wohnsitz ummelden.",
+      "tr": "İkametgah adresimi değiştirmek istiyorum. (Moving)"
+    },
+    {
+      "de": "Ich brauche eine Meldebescheinigung.",
+      "tr": "İkametgah belgesine ihtiyacım var. (Common request)"
+    },
+    {
+      "de": "Wie lange dauert die Bearbeitung?",
+      "tr": "İşlem ne kadar sürüyor? (Time inquiry)"
+    },
+    {
+      "de": "Gibt es eine Online-Option?",
+      "tr": "Çevrim içi seçenek var mı? (Convenience check)"
+    },
+    {
+      "de": "Ich brauche einen Reisepass.",
+      "tr": "Pasaporta ihtiyacım var. (Travel document)"
+    },
+    {
+      "de": "Ich möchte mein Auto anmelden.",
+      "tr": "Arabamı kaydettirmek istiyorum. (Vehicle registration)"
+    },
+    {
+      "de": "Ich habe einen Strafzettel bekommen.",
+      "tr": "Trafik cezası aldım. (Legal situation)"
+    },
+    {
+      "de": "Muss ich persönlich erscheinen?",
+      "tr": "Şahsen görünmem gerekiyor mu? (Requirement question)"
+    },
+    {
+      "de": "Welche Frist gilt hier?",
+      "tr": "Burada hangi süre geçerli? (Time restriction)"
+    },
+    {
+      "de": "Ich brauche rechtliche Beratung.",
+      "tr": "Hukuki danışmanlığa ihtiyacım var. (Legal need)"
+    },
+    {
+      "de": "Ich habe eine Vorladung erhalten.",
+      "tr": "Mahkeme celbi aldım. (Legal document)"
+    },
+    {
+      "de": "Ich muss zum Gericht.",
+      "tr": "Mahkemeye gitmem gerekiyor. (Legal obligation)"
+    },
+    {
+      "de": "Gibt es Gebühren?",
+      "tr": "Ücretler var mı? (Payment question)"
+    },
+    {
+      "de": "Wie kann ich Einspruch einlegen?",
+      "tr": "Nasıl itiraz edebilirim? (Legal procedure)"
+    },
+    {
+      "de": "Ich brauche eine Kopie dieses Dokuments.",
+      "tr": "Bu belgenin bir kopyasına ihtiyacım var. (Basic request)"
+    }
+  ],
+  "Doğa ve Çevre": [
+    {
+      "de": "Ich gehe gern in den Wald.",
+      "tr": "Ormana gitmeyi severim. (Nature activity)"
+    },
+    {
+      "de": "Die Luft ist heute frisch.",
+      "tr": "Bugün hava taze. (Environmental comment)"
+    },
+    {
+      "de": "Ich mache gern Picknick im Park.",
+      "tr": "Parkta piknik yapmayı severim. (Outdoor activity)"
+    },
+    {
+      "de": "Der See ist wunderschön.",
+      "tr": "Göl harika güzellikte. (Nature description)"
+    },
+    {
+      "de": "Ich liebe die Berge.",
+      "tr": "Dağları seviyorum. (Natural setting preference)"
+    },
+    {
+      "de": "Es gibt viele Tiere hier.",
+      "tr": "Burada çok hayvan var. (Wildlife observation)"
+    },
+    {
+      "de": "Wir müssen die Umwelt schützen.",
+      "tr": "Çevreyi korumalıyız. (Environmental awareness)"
+    },
+    {
+      "de": "Ich trenne meinen Müll.",
+      "tr": "Çöplerimi ayrıştırıyorum. (Eco-conscious behavior)"
+    },
+    {
+      "de": "Das Wetter ist perfekt für eine Wanderung.",
+      "tr": "Hava yürüyüş için mükemmel. (Outdoor plan)"
+    },
+    {
+      "de": "Ich genieße die Ruhe in der Natur.",
+      "tr": "Doğadaki huzurun tadını çıkarıyorum. (Mental benefit)"
+    },
+    {
+      "de": "Der Fluss fließt ruhig.",
+      "tr": "Nehir sakin akıyor. (Nature observation)"
+    },
+    {
+      "de": "Hast du die Sterne gesehen?",
+      "tr": "Yıldızları gördün mü? (Night sky moment)"
+    },
+    {
+      "de": "Die Blumen blühen im Frühling.",
+      "tr": "Çiçekler ilkbaharda açar. (Seasonal note)"
+    },
+    {
+      "de": "Ich pflanze Gemüse im Garten.",
+      "tr": "Bahçeye sebze ekiyorum. (Sustainable action)"
+    },
+    {
+      "de": "Es ist wichtig, Bäume zu pflanzen.",
+      "tr": "Ağaç dikmek önemlidir. (Environmental action)"
+    },
+    {
+      "de": "Ich habe einen Baum adoptiert.",
+      "tr": "Bir ağaç sahiplendim. (Green initiative)"
+    },
+    {
+      "de": "Wir haben eine Wanderung gemacht.",
+      "tr": "Doğa yürüyüşü yaptık. (Outdoor activity)"
+    },
+    {
+      "de": "Der Himmel ist heute klar.",
+      "tr": "Bugün gökyüzü berrak. (Weather/nature)"
+    },
+    {
+      "de": "Ich höre die Vögel zwitschern.",
+      "tr": "Kuşların cıvıltısını duyuyorum. (Peaceful moment)"
+    },
+    {
+      "de": "Ich liebe es, draußen zu sein.",
+      "tr": "Dışarıda olmayı seviyorum. (General sentiment)"
+    }
+  ],
+  "Din ve İnanç": [
+    {
+      "de": "Ich glaube an Gott.",
+      "tr": "Tanrı'ya inanıyorum. (Statement of faith)"
+    },
+    {
+      "de": "Ich bete jeden Tag.",
+      "tr": "Her gün dua ediyorum. (Religious habit)"
+    },
+    {
+      "de": "Gehst du in die Kirche?",
+      "tr": "Kiliseye gidiyor musun? (Question about practice)"
+    },
+    {
+      "de": "Ich bin katholisch.",
+      "tr": "Katoliğim. (Religious identity)"
+    },
+    {
+      "de": "Ich bin evangelisch.",
+      "tr": "Protestanım. (Religious identity)"
+    },
+    {
+      "de": "Ich bin muslimisch.",
+      "tr": "Müslümanım. (Religious identity)"
+    },
+    {
+      "de": "Ich faste im Ramadan.",
+      "tr": "Ramazan'da oruç tutuyorum. (Religious practice)"
+    },
+    {
+      "de": "Frohe Weihnachten!",
+      "tr": "Mutlu Noeller! (Holiday greeting)"
+    },
+    {
+      "de": "Gesegnete Ostern!",
+      "tr": "Kutsal Paskalyalar! (Holiday greeting)"
+    },
+    {
+      "de": "Ich gehe sonntags zur Messe.",
+      "tr": "Pazar günleri ayine gidiyorum. (Christian practice)"
+    },
+    {
+      "de": "Ich glaube an das Gute im Menschen.",
+      "tr": "İnsanlardaki iyiliğe inanıyorum. (Spiritual perspective)"
+    },
+    {
+      "de": "Ich lese in der Bibel.",
+      "tr": "İncil okuyorum. (Religious practice)"
+    },
+    {
+      "de": "Ich danke Gott für mein Leben.",
+      "tr": "Hayatım için Tanrı'ya şükrediyorum. (Gratitude and faith)"
+    },
+    {
+      "de": "Was ist dein Glaube?",
+      "tr": "İnancın nedir? (Respectful inquiry)"
+    },
+    {
+      "de": "Wir feiern ein religiöses Fest.",
+      "tr": "Dini bir bayram kutluyoruz. (Faith-related event)"
+    },
+    {
+      "de": "Ich bete für dich.",
+      "tr": "Senin için dua ediyorum. (Offering support)"
+    },
+    {
+      "de": "Ich glaube an ein Leben nach dem Tod.",
+      "tr": "Ölümden sonra hayata inanıyorum. (Spiritual belief)"
+    },
+    {
+      "de": "Ich respektiere alle Religionen.",
+      "tr": "Tüm dinlere saygı duyuyorum. (Tolerance statement)"
+    },
+    {
+      "de": "Ich habe Fragen zum Glauben.",
+      "tr": "İnançla ilgili sorularım var. (Spiritual curiosity)"
+    },
+    {
+      "de": "Mein Glaube gibt mir Kraft.",
+      "tr": "İnancım bana güç veriyor. (Personal strength)"
+    }
+  ],
+  "Gençler ve Z Kuşağı Dili": [
+    {
+      "de": "Das ist voll krass!",
+      "tr": "Bu tamamen çılgınca! (Surprised reaction)"
+    },
+    {
+      "de": "Mega geil!",
+      "tr": "Süper harika! (Excitement)"
+    },
+    {
+      "de": "Läuft bei dir!",
+      "tr": "İşler yolunda! (Admiring success)"
+    },
+    {
+      "de": "YOLO!",
+      "tr": "Sadece bir kez yaşıyorsun! (Taking risks)"
+    },
+    {
+      "de": "Chillig bleiben.",
+      "tr": "Sakin kal. (Keep calm)"
+    },
+    {
+      "de": "Ehrenmann / Ehrenfrau!",
+      "tr": "Kral / Kraliçesin! (Praising someone)"
+    },
+    {
+      "de": "Ich bin lost.",
+      "tr": "Ne yapacağımı bilmiyorum. (Feeling clueless)"
+    },
+    {
+      "de": "Same!",
+      "tr": "Aynen! (Relating to someone)"
+    },
+    {
+      "de": "Das ist cringe.",
+      "tr": "Bu çok utanç verici. (Cringey)"
+    },
+    {
+      "de": "Sie ist voll extra.",
+      "tr": "O çok abartılı. (Drama queen)"
+    },
+    {
+      "de": "Ich feier das hart.",
+      "tr": "Buna bayılıyorum. (Enjoying something)"
+    },
+    {
+      "de": "Ich bin durch.",
+      "tr": "Tükendim. (Exhausted)"
+    },
+    {
+      "de": "Was geht ab?",
+      "tr": "Naber? (Informal greeting)"
+    },
+    {
+      "de": "Keine Ahnung, Bruder.",
+      "tr": "Hiçbir fikrim yok, kanka. (Clueless response)"
+    },
+    {
+      "de": "Safe!",
+      "tr": "Kesinlikle! (Affirmation)"
+    },
+    {
+      "de": "Ich gönn mir was.",
+      "tr": "Kendime ödül veriyorum. (Self-care)"
+    },
+    {
+      "de": "Bro, ernsthaft?",
+      "tr": "Kanka, ciddi misin? (Doubt)"
+    },
+    {
+      "de": "Das ist voll mein Vibe.",
+      "tr": "Tam benim tarzım. (Personal preference)"
+    },
+    {
+      "de": "Bisschen over, oder?",
+      "tr": "Biraz fazla, değil mi? (Judging)"
+    },
+    {
+      "de": "Ich schwöre!",
+      "tr": "Yemin ederim! (Emphasis)"
+    }
+  ],
+  "Ev ve Mobilya": [
+    {
+      "de": "Ich wohne in einer Wohnung.",
+      "tr": "Bir dairede yaşıyorum. (Housing situation)"
+    },
+    {
+      "de": "Mein Zimmer ist im ersten Stock.",
+      "tr": "Odam birinci katta. (House layout)"
+    },
+    {
+      "de": "Wo ist das Badezimmer?",
+      "tr": "Banyo nerede? (Common question)"
+    },
+    {
+      "de": "Die Küche ist sehr modern.",
+      "tr": "Mutfak çok modern. (Describing a room)"
+    },
+    {
+      "de": "Ich habe ein bequemes Sofa.",
+      "tr": "Rahat bir koltuğum var. (Furniture description)"
+    },
+    {
+      "de": "Der Tisch ist aus Holz.",
+      "tr": "Masa ahşaptan. (Material description)"
+    },
+    {
+      "de": "Ich muss mein Bett machen.",
+      "tr": "Yatağımı düzeltmem gerekiyor. (Daily task)"
+    },
+    {
+      "de": "Die Lampe ist kaputt.",
+      "tr": "Lamba bozuk. (Problem)"
+    },
+    {
+      "de": "Wo steht der Schrank?",
+      "tr": "Dolap nerede? (Furniture location)"
+    },
+    {
+      "de": "Wir essen im Esszimmer.",
+      "tr": "Yemek odasında yemek yiyoruz. (Room usage)"
+    },
+    {
+      "de": "Die Fenster sind groß.",
+      "tr": "Pencereler büyük. (House feature)"
+    },
+    {
+      "de": "Ich habe einen Balkon.",
+      "tr": "Bir balkonum var. (Apartment feature)"
+    },
+    {
+      "de": "Die Wände sind weiß gestrichen.",
+      "tr": "Duvarlar beyaz boyalı. (Decoration detail)"
+    },
+    {
+      "de": "Ich dekoriere mein Wohnzimmer.",
+      "tr": "Oturma odamı dekore ediyorum. (Interior activity)"
+    },
+    {
+      "de": "Ich habe einen Teppich gekauft.",
+      "tr": "Bir halı satın aldım. (Furniture purchase)"
+    },
+    {
+      "de": "Die Tür quietscht.",
+      "tr": "Kapı gıcırdıyor. (House issue)"
+    },
+    {
+      "de": "Wir renovieren das Bad.",
+      "tr": "Banyoyu yeniliyoruz. (Home improvement)"
+    },
+    {
+      "de": "Ich habe einen neuen Schreibtisch.",
+      "tr": "Yeni bir çalışma masam var. (Furniture update)"
+    },
+    {
+      "de": "Die Wohnung hat drei Zimmer.",
+      "tr": "Daire üç odalı. (Real estate detail)"
+    },
+    {
+      "de": "Ich brauche mehr Stauraum.",
+      "tr": "Daha fazla depolama alanına ihtiyacım var. (Household need)"
+    }
+  ],
+  "Para ve Bütçe Planlaması": [
+    {
+      "de": "Ich muss Geld sparen.",
+      "tr": "Para biriktirmem gerekiyor. (Budgeting goal)"
+    },
+    {
+      "de": "Wie viel kostet das?",
+      "tr": "Bu ne kadara mal oluyor? (Price inquiry)"
+    },
+    {
+      "de": "Ich habe kein Bargeld.",
+      "tr": "Nakit param yok. (Payment issue)"
+    },
+    {
+      "de": "Kann ich mit Karte zahlen?",
+      "tr": "Kartla ödeyebilir miyim? (Payment method)"
+    },
+    {
+      "de": "Ich habe ein Budget.",
+      "tr": "Bir bütçem var. (Financial plan)"
+    },
+    {
+      "de": "Ich gebe zu viel aus.",
+      "tr": "Çok fazla harcama yapıyorum. (Spending habit)"
+    },
+    {
+      "de": "Ich muss meine Ausgaben kontrollieren.",
+      "tr": "Harcamalarımı kontrol etmem gerekiyor. (Budgeting discipline)"
+    },
+    {
+      "de": "Ich bezahle meine Rechnungen pünktlich.",
+      "tr": "Faturalarımı zamanında ödüyorum. (Financial responsibility)"
+    },
+    {
+      "de": "Ich spare für den Urlaub.",
+      "tr": "Tatil için para biriktiriyorum. (Financial goal)"
+    },
+    {
+      "de": "Ich habe Schulden.",
+      "tr": "Borçlarım var. (Financial status)"
+    },
+    {
+      "de": "Ich habe ein Sparkonto.",
+      "tr": "Bir tasarruf hesabım var. (Banking)"
+    },
+    {
+      "de": "Ich brauche einen Finanzplan.",
+      "tr": "Finansal plana ihtiyacım var. (Planning ahead)"
+    },
+    {
+      "de": "Ich vergleiche Preise.",
+      "tr": "Fiyatları karşılaştırıyorum. (Shopping strategy)"
+    },
+    {
+      "de": "Ich habe eine günstige Wohnung gefunden.",
+      "tr": "Uygun fiyatlı bir daire buldum. (Success in budgeting)"
+    },
+    {
+      "de": "Das ist mir zu teuer.",
+      "tr": "Bu bana göre çok pahalı. (Price concern)"
+    },
+    {
+      "de": "Ich investiere in Aktien.",
+      "tr": "Hisselere yatırım yapıyorum. (Finance activity)"
+    },
+    {
+      "de": "Ich habe eine monatliche Miete.",
+      "tr": "Aylık kira ödüyorum. (Fixed cost)"
+    },
+    {
+      "de": "Ich arbeite, um mein Studium zu finanzieren.",
+      "tr": "Eğitimimi finanse etmek için çalışıyorum. (Student finance)"
+    },
+    {
+      "de": "Ich plane meine Ausgaben jeden Monat.",
+      "tr": "Her ay harcamalarımı planlıyorum. (Financial habit)"
+    },
+    {
+      "de": "Ich brauche einen Kredit.",
+      "tr": "Krediye ihtiyacım var. (Financial need)"
+    }
+  ],
+  "Partiler ve Kutlamalar": [
+    {
+      "de": "Herzlichen Glückwunsch!",
+      "tr": "Tebrikler! (Celebratory expression)"
+    },
+    {
+      "de": "Alles Gute zum Geburtstag!",
+      "tr": "Doğum günün kutlu olsun! (Birthday greeting)"
+    },
+    {
+      "de": "I lade dich zur Party ein.",
+      "tr": "Seni partiye davet ediyorum. (Invitation)"
+    },
+    {
+      "de": "Wann beginnt die Feier?",
+      "tr": "Kutlama ne zaman başlıyor? (Event timing)"
+    },
+    {
+      "de": "Wo findet die Party statt?",
+      "tr": "Parti nerede gerçekleşiyor? (Location inquiry)"
+    },
+    {
+      "de": "Ich bringe einen Kuchen mit.",
+      "tr": "Pasta getireceğim. (Contribution)"
+    },
+    {
+      "de": "Lass uns tanzen!",
+      "tr": "Hadi dans edelim! (Celebratory mood)"
+    },
+    {
+      "de": "Ich freue mich auf die Party.",
+      "tr": "Partiyi dört gözle bekliyorum. (Anticipation)"
+    },
+    {
+      "de": "Was soll ich anziehen?",
+      "tr": "Ne giymeliyim? (Outfit question)"
+    },
+    {
+      "de": "Wir feiern bei mir zu Hause.",
+      "tr": "Evimde kutluyoruz. (Host info)"
+    },
+    {
+      "de": "Die Musik ist super!",
+      "tr": "Müzik süper! (Positive feedback)"
+    },
+    {
+      "de": "Wie viele Gäste kommen?",
+      "tr": "Kaç misafir geliyor? (Planning)"
+    },
+    {
+      "de": "Ich bin zu spät gekommen.",
+      "tr": "Geç kaldım. (Party context)"
+    },
+    {
+      "de": "Wir haben viel gelacht.",
+      "tr": "Çok güldük. (After-party reflection)"
+    },
+    {
+      "de": "Es gibt Snacks und Getränke.",
+      "tr": "Atıştırmalıklar ve içecekler var. (Whats offered)"
+    },
+    {
+      "de": "Ich habe ein Geschenk mitgebracht.",
+      "tr": "Hediye getirdim. (Gifting)"
+    },
+    {
+      "de": "I wünsche euch viel Spaß!",
+      "tr": "İyi eğlenceler dilerim! (Party well-wish)"
+    },
+    {
+      "de": "Wir stoßen an!",
+      "tr": "Kadeh tokuşturuyoruz! (Drinking cheer)"
+    },
+    {
+      "de": "Die Stimmung war fantastisch.",
+      "tr": "Ortam fantastikti. (Review)"
+    },
+    {
+      "de": "Bis zur nächsten Feier!",
+      "tr": "Sonraki kutlamaya kadar! (Farewell)"
+    }
+  ],
+  "Asya Hakkında Her Şey": [
+    {
+      "de": "Ich interessiere mich für asiatische Kulturen.",
+      "tr": "Asya kültürleriyle ilgileniyorum. (Cultural interest)"
+    },
+    {
+      "de": "Ich esse gern asiatisches Essen.",
+      "tr": "Asya yemekleri yemeyi severim. (Food preference)"
+    },
+    {
+      "de": "Ich lerne Japanisch.",
+      "tr": "Japonca öğreniyorum. (Language study)"
+    },
+    {
+      "de": "Warst du schon mal in Asien?",
+      "tr": "Daha önce Asya'da bulundun mu? (Travel question)"
+    },
+    {
+      "de": "Ich möchte nach Japan reisen.",
+      "tr": "Japonya'ya seyahat etmek istiyorum. (Travel plan)"
+    },
+    {
+      "de": "Ich liebe koreanische Dramen.",
+      "tr": "Kore dizilerini seviyorum. (Media interest)"
+    },
+    {
+      "de": "Chinesisch ist eine schwierige Sprache.",
+      "tr": "Çince zor bir dil. (Language opinion)"
+    },
+    {
+      "de": "Ich habe Sushi zum ersten Mal probiert.",
+      "tr": "İlk kez suşi denedim. (Experience)"
+    },
+    {
+      "de": "Ich interessiere mich für asiatische Geschichte.",
+      "tr": "Asya tarihiyle ilgileniyorum. (Academic interest)"
+    },
+    {
+      "de": "Ich folge einem thailändischen Kochkanal.",
+      "tr": "Taylandlı yemek kanalını takip ediyorum. (Digital culture)"
+    },
+    {
+      "de": "Ich war in Vietnam unterwegs.",
+      "tr": "Vietnam'da seyahat ettim. (Travel history)"
+    },
+    {
+      "de": "Ich kenne viele asiatische Freunde.",
+      "tr": "Birçok Asyalı arkadaşım var. (Personal network)"
+    },
+    {
+      "de": "K-Pop ist total beliebt.",
+      "tr": "K-Pop son derece popüler. (Pop culture)"
+    },
+    {
+      "de": "Ich mag indische Gewürze.",
+      "tr": "Hint baharatlarını severim. (Food culture)"
+    },
+    {
+      "de": "Ich habe asiatische Wurzeln.",
+      "tr": "Asya kökenliyim. (Cultural identity)"
+    },
+    {
+      "de": "Ich liebe asiatische Architektur.",
+      "tr": "Asya mimarisini seviyorum. (Cultural appreciation)"
+    },
+    {
+      "de": "Ich lerne mit einer asiatischen App.",
+      "tr": "Asya menşeli bir uygulamayla öğreniyorum. (Tech and learning)"
+    },
+    {
+      "de": "Ich interessiere mich für asiatische Religionen.",
+      "tr": "Asya dinleriyle ilgileniyorum. (Cultural curiosity)"
+    },
+    {
+      "de": "Ich habe einen chinesischen Mitbewohner.",
+      "tr": "Çinli ev arkadaşım var. (Cultural proximity)"
+    },
+    {
+      "de": "Wir feiern das Mondfest.",
+      "tr": "Sonbahar Ortası Festivali'ni kutluyoruz. (Cultural practice)"
+    }
+  ],
+  "Pop Kültür": [
+    {
+      "de": "Ich liebe diesen Film!",
+      "tr": "Bu filmi seviyorum! (Fan expression)"
+    },
+    {
+      "de": "Hast du die neue Serie gesehen?",
+      "tr": "Yeni diziyi gördün mü? (Media discussion)"
+    },
+    {
+      "de": "Er ist ein berühmter Schauspieler.",
+      "tr": "O ünlü bir oyuncu. (Celebrity talk)"
+    },
+    {
+      "de": "Das Lied ist ein Ohrwurm.",
+      "tr": "Bu şarkı dile dolandı. (Music comment)"
+    },
+    {
+      "de": "Sie ist mein Lieblingsstar.",
+      "tr": "O benim en sevdiğim yıldız. (Fandom)"
+    },
+    {
+      "de": "Das war ein virales Video.",
+      "tr": "Bu viral bir videoydu. (Online trend)"
+    },
+    {
+      "de": "Ich folge ihr auf Instagram.",
+      "tr": "Onu Instagram'da takip ediyorum. (Social media use)"
+    },
+    {
+      "de": "Der Film hat viele Preise gewonnen.",
+      "tr": "Film birçok ödül kazandı. (Recognition)"
+    },
+    {
+      "de": "Das war ein Blockbuster.",
+      "tr": "Bu bir gişe rekoru kıran filmdi. (Success note)"
+    },
+    {
+      "de": "Ich bin total im Fandom.",
+      "tr": "Tamamen hayran kulübünün içindeyim. (Fan culture)"
+    },
+    {
+      "de": "Er hat einen neuen Song gedroppt.",
+      "tr": "Yeni bir şarkı çıkardı. (Music release)"
+    },
+    {
+      "de": "Kennst du dieses Meme?",
+      "tr": "Bu mizah görselini biliyor musun? (Internet culture)"
+    },
+    {
+      "de": "Der Trailer ist gerade rausgekommen.",
+      "tr": "Fragman yeni çıktı. (New release)"
+    },
+    {
+      "de": "Sie ist ein TikTok-Star.",
+      "tr": "O bir TikTok yıldızı. (Online fame)"
+    },
+    {
+      "de": "Das ist ein Trend auf Twitter.",
+      "tr": "Bu Twitter'da gündem. (Social media)"
+    },
+    {
+      "de": "Ich höre das Lied in Dauerschleife.",
+      "tr": "Şarkıyı döngüye alıp dinliyorum. (Music habit)"
+    },
+    {
+      "de": "Sie sind das Promi-Paar des Jahres.",
+      "tr": "Onlar yılın ünlü çifti. (Pop gossip)"
+    },
+    {
+      "de": "Ich sammle Fanartikel.",
+      "tr": "Hayran ürünleri topluyorum. (Fandom activity)"
+    },
+    {
+      "de": "Er war in einem Musikvideo.",
+      "tr": "Bir müzik klübünde/videosunda yer aldı. (Appearance info)"
+    },
+    {
+      "de": "Popkultur verändert sich ständig.",
+      "tr": "Pop kültür sürekli değişiyor. (General observation)"
+    }
+  ],
+  "Sosyal Sorunlar": [
+    {
+      "de": "Gleichberechtigung ist wichtig.",
+      "tr": "Eşitlik önemlidir. (Principle statement)"
+    },
+    {
+      "de": "Wir müssen über Rassismus sprechen.",
+      "tr": "Irkçılık hakkında konuşmalıyız. (Call for awareness)"
+    },
+    {
+      "de": "Klimaschutz geht uns alle an.",
+      "tr": "İklimi korumak hepimizi ilgilendirir. (Environmental justice)"
+    },
+    {
+      "de": "Ich unterstütze soziale Gerechtigkeit.",
+      "tr": "Sosyal adaletini destekliyorum. (Stance)"
+    },
+    {
+      "de": "Armut ist ein globales Problem.",
+      "tr": "Yoksulluk küresel bir sorundur. (Acknowledgment)"
+    },
+    {
+      "de": "Ich demonstriere für mehr Rechte.",
+      "tr": "Daha fazla hak için protesto yapıyorum. (Activism)"
+    },
+    {
+      "de": "Bildung sollte für alle zugänglich sein.",
+      "tr": "Eğitim herkes için erişilebilir olmalı. (Equality in education)"
+    },
+    {
+      "de": "Diskriminierung ist nie okay.",
+      "tr": "Ayrımcılık asla kabul edilemez. (Ethical position)"
+    },
+    {
+      "de": "Wir brauchen mehr Inklusion.",
+      "tr": "Daha fazla kapsayıcılığa ihtiyacımız var. (Call to action)"
+    },
+    {
+      "de": "Ich spende für Hilfsorganisationen.",
+      "tr": "Yardım kuruluşlarına bağış yapıyorum. (Supportive action)"
+    },
+    {
+      "de": "Gleichstellung der Geschlechter ist notwendig.",
+      "tr": "Cinsiyet eşitliği gereklidir. (Social equity)"
+    },
+    {
+      "de": "Ich bin gegen Ungerechtigkeit.",
+      "tr": "Adaletsizliğe karşıyım. (Positioning)"
+    },
+    {
+      "de": "Wir müssen marginalisierte Gruppen unterstützen.",
+      "tr": "Ötekileştirilmiş grupları desteklemeliyiz. (Solidarity)"
+    },
+    {
+      "de": "Obdachlosigkeit nimmt zu.",
+      "tr": "Evsizlik artıyor. (Social observation)"
+    },
+    {
+      "de": "Wir sollten nachhaltiger leben.",
+      "tr": "Daha sürdürülebilir yaşamalıyız. (Climate responsibility)"
+    },
+    {
+      "de": "Migration ist ein komplexes Thema.",
+      "tr": "Göç karmaşık bir konudur. (Sociopolitical observation)"
+    },
+    {
+      "de": "Jeder Mensch verdient Respekt.",
+      "tr": "Her insan saygıyı hak eder. (Fundamental value)"
+    },
+    {
+      "de": "Ich engagiere mich ehrenamtlich.",
+      "tr": "Gönüllü çalışmalar yapıyorum. (Civic engagement)"
+    },
+    {
+      "de": "Digitale Spaltung betrifft viele Menschen.",
+      "tr": "Dijital uçurum birçok insanı etkiliyor. (Technology equity)"
+    },
+    {
+      "de": "Soziale Themen gehen uns alle etwas an.",
+      "tr": "Sosyal konular hepimizi ilgilendirir. (Call for awareness)"
+    }
+  ],
+  "Tatiller ve Gelenekler": [
+    {
+      "de": "Frohes neues Jahr!",
+      "tr": "Mutlu yıllar! (Holiday greeting)"
+    },
+    {
+      "de": "Feierst du Weihnachten?",
+      "tr": "Noeli kutluyor musun? (Cultural inquiry)"
+    },
+    {
+      "de": "Wir machen eine Silvesterparty.",
+      "tr": "Yılbaşı partisi veriyoruz. (Event planning)"
+    },
+    {
+      "de": "Ich schenke gern etwas zu Weihnachten.",
+      "tr": "Noel'de hediye vermeyi severim. (Holiday custom)"
+    },
+    {
+      "de": "Wir feiern Ostern mit der Familie.",
+      "tr": "Paskalya'yı aileyle kutluyoruz. (Family tradition)"
+    },
+    {
+      "de": "Der Nikolaus kommt am 6. Dezember.",
+      "tr": "Aziz Nikolaos 6 Aralık'ta gelir. (German tradition)"
+    },
+    {
+      "de": "Ich gehe zur Kirmes.",
+      "tr": "Panayıra gidiyorum. (Cultural tradition)"
+    },
+    {
+      "de": "Was machst du an Halloween?",
+      "tr": "Cadılar Bayramı'nda ne yapıyorsun? (Seasonal event)"
+    },
+    {
+      "de": "Ich liebe den Weihnachtsmarkt.",
+      "tr": "Noel pazarını seviyorum. (German tradition)"
+    },
+    {
+      "de": "Ich mache eine Laterne für Sankt Martin.",
+      "tr": "Aziz Martin için fener yapıyorum. (Children's tradition)"
+    },
+    {
+      "de": "Wir haben Karneval gefeiert.",
+      "tr": "Karnaval kutladık. (Cultural celebration)"
+    },
+    {
+      "de": "Ich genieße die Feiertage.",
+      "tr": "Tatilin tadını çıkarıyorum. (General sentiment)"
+    },
+    {
+      "de": "Wir grillen am 1. Mai.",
+      "tr": "1 Mayıs'ta mangal yapıyoruz. (Labor Day tradition)"
+    },
+    {
+      "de": "Ich habe frei an einem Feiertag.",
+      "tr": "Resmi tatilde iznim var. (Work-free day)"
+    },
+    {
+      "de": "Ich kenne dieses Brauchtum nicht.",
+      "tr": "Bu adeti bilmiyorum. (Cultural curiosity)"
+    },
+    {
+      "de": "Ich faste in der Fastenzeit.",
+      "tr": "Perhizde oruç tutuyorum. (Religious tradition)"
+    },
+    {
+      "de": "Ich wünsche dir frohe Feiertage!",
+      "tr": "Mutlu tatiller dilerim! (Seasonal greeting)"
+    },
+    {
+      "de": "Der Feiertag fällt auf einen Montag.",
+      "tr": "Tatil pazartesiye denk geliyor. (Calendar detail)"
+    },
+    {
+      "de": "Wir machen einen Adventskranz.",
+      "tr": "Advent çelengi yapıyoruz. (Christmas tradition)"
+    },
+    {
+      "de": "Ich finde Traditionen schön.",
+      "tr": "Gelenekleri güzel buluyorum. (Cultural appreciation)"
+    }
+  ],
+  "Cinsiyet ve Kimlik": [
+    {
+      "de": "Ich identifiziere mich als nicht-binär.",
+      "tr": "Non-binary olarak kimlikleniyorum. (Gender identity)"
+    },
+    {
+      "de": "Meine Pronomen sind er/ihm.",
+      "tr": "Zamirlerim o/ona. (Pronoun declaration)"
+    },
+    {
+      "de": "Respektiere bitte meine Identität.",
+      "tr": "Lütfen kimliğime saygı duy. (Assertion of self)"
+    },
+    {
+      "de": "Ich fühle mich nicht verstanden.",
+      "tr": "Anlaşıldığımı hissetmiyorum. (Identity conflict)"
+    },
+    {
+      "de": "Gender ist ein Spektrum.",
+      "tr": "Cinsiyet bir tayftır. (Social awareness)"
+    },
+    {
+      "de": "Ich bin Teil der LGBTQ+-Community.",
+      "tr": "LGBTQ+ topluluğunun bir parçasıyım. (Community affiliation)"
+    },
+    {
+      "de": "Outing kann sehr schwer sein.",
+      "tr": "Açılmak çok zor olabilir. (Emotional experience)"
+    },
+    {
+      "de": "Ich habe mich geoutet.",
+      "tr": "Açıldım. (Sharing identity)"
+    },
+    {
+      "de": "Ich wurde misgendert.",
+      "tr": "Yanlış cinsiyet zamiriyle anıldım. (Misidentification)"
+    },
+    {
+      "de": "Was sind deine Pronomen?",
+      "tr": "Zamirlerin neler? (Respectful question)"
+    },
+    {
+      "de": "Ich unterstütze queere Rechte.",
+      "tr": "Kuir haklarını destekliyorum. (Allyship)"
+    },
+    {
+      "de": "Alle Menschen verdienen Gleichbehandlung.",
+      "tr": "Tüm insanlar eşit muameleyi hak eder. (Equality principle)"
+    },
+    {
+      "de": "Ich habe mich verändert und finde es gut.",
+      "tr": "Değiştim ve bunu iyi buluyorum. (Self-discovery)"
+    },
+    {
+      "de": "Ich trage, was mir gefällt.",
+      "tr": "Ne istersem onu giyiyorum. (Gender expression)"
+    },
+    {
+      "de": "Ich fühle mich sicher in meiner Haut.",
+      "tr": "Kendi tenimde güvende hissediyorum. (Body and identity)"
+    },
+    {
+      "de": "Identität ist sehr persönlich.",
+      "tr": "Kimlik çok kişiseldir. (General statement)"
+    },
+    {
+      "de": "Wir sollten mehr inklusiv sein.",
+      "tr": "Daha kapsayıcı olmalıyız. (Call to action)"
+    },
+    {
+      "de": "Ich finde es wichtig, sichtbar zu sein.",
+      "tr": "Görünür olmanın önemli olduğunu düşünüyorum. (Visibility)"
+    },
+    {
+      "de": "Nicht jeder passt in eine Schublade.",
+      "tr": "Herkes bir kalıba sığmaz. (Critique of labels)"
+    },
+    {
+      "de": "Ich bin stolz auf meine Identität.",
+      "tr": "Kimliğimle gurur duyuyorum. (Affirmation)"
+    }
+  ],
+  "Ev Aletleri ve Makineleri Çalıştırmak": [
+    {
+      "de": "Wie schalte ich das ein?",
+      "tr": "Bunu nasıl açarım? (Basic operation)"
+    },
+    {
+      "de": "Drück den Knopf hier.",
+      "tr": "Buradaki düğmeye bas. (Instruction)"
+    },
+    {
+      "de": "Das funktioniert nicht.",
+      "tr": "Bu çalışmıyor. (Frustration)"
+    },
+    {
+      "de": "Ich muss das Gerät neu starten.",
+      "tr": "Cihazı yeniden başlatmalıyım. (Troubleshooting)"
+    },
+    {
+      "de": "Der Akku ist leer.",
+      "tr": "Pil bitti. (Power issue)"
+    },
+    {
+      "de": "Hast du die Anleitung gelesen?",
+      "tr": "Kılavuzu okudun mu? (Setup step)"
+    },
+    {
+      "de": "Ich muss den Stecker ziehen.",
+      "tr": "Fişi çekmem gerekiyor. (Safety or reset)"
+    },
+    {
+      "de": "Wie stellt man das ein?",
+      "tr": "Bu nasıl ayarlanır? (Adjusting settings)"
+    },
+    {
+      "de": "Es macht komische Geräusche.",
+      "tr": "Garip sesler çıkarıyor. (Malfunction)"
+    },
+    {
+      "de": "Das Display reagiert nicht.",
+      "tr": "Ekran tepki vermiyor. (Tech issue)"
+    },
+    {
+      "de": "Ich lade das Handy gerade auf.",
+      "tr": "Telefonu şarj ediyorum. (Common task)"
+    },
+    {
+      "de": "Du musst länger drücken.",
+      "tr": "Daha uzun basmalısın. (Usage tip)"
+    },
+    {
+      "de": "Das Kabel ist locker.",
+      "tr": "Kablo gevşek. (Hardware issue)"
+    },
+    {
+      "de": "Ich brauche einen Adapter.",
+      "tr": "Adaptöre ihtiyacım var. (Accessory need)"
+    },
+    {
+      "de": "Wie stellt man die Temperatur ein?",
+      "tr": "Sıcaklık nasıl ayarlanır? (Appliance use)"
+    },
+    {
+      "de": "Die Waschmaschine ist kaputt.",
+      "tr": "Çamaşır makinesi bozuk. (Household issue)"
+    },
+    {
+      "de": "Wo ist der Netzschalter?",
+      "tr": "Güç düğmesi nerede? (Initial setup)"
+    },
+    {
+      "de": "Ich stelle den Timer ein.",
+      "tr": "Zamanlayıcıyı ayarlıyorum. (Usage action)"
+    },
+    {
+      "de": "Das ist ganz einfach zu bedienen.",
+      "tr": "Kullanımı çok kolay. (Simplicity)"
+    },
+    {
+      "de": "Ich kann das nicht bedienen.",
+      "tr": "Bunu kullanamıyorum. (Lack of experience)"
+    }
+  ],
+  "Kızgınken Söylenen Sözler": [
+    {
+      "de": "Lass mich in Ruhe!",
+      "tr": "Beni rahat bırak! (Dismissive)"
+    },
+    {
+      "de": "Ich habe es satt!",
+      "tr": "Bıktım artık! (Frustration)"
+    },
+    {
+      "de": "Warum hörst du nie zu?",
+      "tr": "Neden asla dinlemiyorsun? (Accusation)"
+    },
+    {
+      "de": "Das ist so unfair!",
+      "tr": "Bu çok adaletsiz! (Complaint)"
+    },
+    {
+      "de": "Du verstehst gar nichts!",
+      "tr": "Hiçbir şey anlamıyorsun! (Frustration)"
+    },
+    {
+      "de": "Ich will das nicht nochmal sagen!",
+      "tr": "Bunu tekrar söylemek istemiyorum! (Irritation)"
+    },
+    {
+      "de": "Immer das Gleiche!",
+      "tr": "Hep aynı şey! (Routine frustration)"
+    },
+    {
+      "de": "Was soll der Mist?",
+      "tr": "Bu saçmalık da ne? (Vulgar)"
+    },
+    {
+      "de": "Du machst alles schlimmer!",
+      "tr": "Her şeyi daha da kötüleştiriyorsun! (Escalation)"
+    },
+    {
+      "de": "Ich kann nicht mehr!",
+      "tr": "Artık dayanamıyorum! (Breaking point)"
+    },
+    {
+      "de": "Das war die letzte Chance!",
+      "tr": "Bu son şanstı! (Ultimatum)"
+    },
+    {
+      "de": "Ich hab genug!",
+      "tr": "Yeter! (Closing off)"
+    },
+    {
+      "de": "Denk doch mal nach!",
+      "tr": "Biraz düşün! (Provocation)"
+    },
+    {
+      "de": "Warum tust du das immer?",
+      "tr": "Neden bunu hep yapıyorsun? (Pattern frustration)"
+    },
+    {
+      "de": "Ich schreie gleich!",
+      "tr": "Birazdan bağıracağım! (Warning)"
+    },
+    {
+      "de": "Reiß dich zusammen!",
+      "tr": "Kendine gel! (Blaming)"
+    },
+    {
+      "de": "Halt den Mund!",
+      "tr": "Sesini kes! (Hostile)"
+    },
+    {
+      "de": "Du gehst mir auf die Nerven!",
+      "tr": "Sinirlerimi bozuyorsun! (Annoyance)"
+    },
+    {
+      "de": "So geht das nicht weiter!",
+      "tr": "Bu böyle gitmez! (Serious)"
+    },
+    {
+      "de": "Du machst mich wahnsinnig!",
+      "tr": "Beni deli ediyorsun! (High emotion)"
+    }
+  ],
+  "Sunucu Sözleri": [
+    {
+      "de": "Herzlich willkommen, meine Damen und Herren!",
+      "tr": "Sayın konuklar, hoş geldiniz! (Opening)"
+    },
+    {
+      "de": "Schön, dass Sie heute hier sind!",
+      "tr": "Bugün burada olmanız harika! (Greeting)"
+    },
+    {
+      "de": "Das Programm beginnt in wenigen Minuten.",
+      "tr": "Program birkaç dakika içinde başlayacak. (Info)"
+    },
+    {
+      "de": "Ich freue mich, Sie durch den Abend zu führen.",
+      "tr": "Gecenin sunuculuğunu yapmaktan mutluluk duyuyorum. (Intro)"
+    },
+    {
+      "de": "Darf ich um Ihre Aufmerksamkeit bitten?",
+      "tr": "Dikkatinizi rica edebilir miyim? (Attention)"
+    },
+    {
+      "de": "Ein großer Applaus für...",
+      "tr": "... için büyük bir alkış! (Introducing)"
+    },
+    {
+      "de": "Wir machen jetzt eine kurze Pause.",
+      "tr": "Şimdi kısa bir mola veriyoruz. (Break)"
+    },
+    {
+      "de": "Wir fahren nun fort mit...",
+      "tr": "... ile devam ediyoruz. (Transition)"
+    },
+    {
+      "de": "Ich hoffe, Sie genießen den Abend.",
+      "tr": "Umarım gecenin tadını çıkarıyorsunuzdur. (Engagement)"
+    },
+    {
+      "de": "Vielen Dank für Ihre Aufmerksamkeit.",
+      "tr": "Dikkatiniz için çok teşekkürler. (Conclusion)"
+    },
+    {
+      "de": "Now übergebe ich das Wort an...",
+      "tr": "Şimdi sözü ...'ye devrediyorum. (Transition)"
+    },
+    {
+      "de": "Ich bitte um etwas Ruhe im Saal.",
+      "tr": "Salonda sessizlik rica ediyorum. (Crowd control)"
+    },
+    {
+      "de": "Vergessen Sie nicht, Ihr Handy stumm zu schalten.",
+      "tr": "Telefonunuzu sessize almayı unutmayın. (Reminder)"
+    },
+    {
+      "de": "Wir haben ein spannendes Programm vorbereitet.",
+      "tr": "Heyecan verici bir program hazırladık. (Hype)"
+    },
+    {
+      "de": "Bleiben Sie gespannt!",
+      "tr": "Takipte kalın! (Suspense)"
+    },
+    {
+      "de": "Wir danken unseren Sponsoren.",
+      "tr": "Sponsorlarımıza teşekkür ederiz. (Sponsors)"
+    },
+    {
+      "de": "Jetzt kommt ein ganz besonderer Moment.",
+      "tr": "Şimdi çok özel bir an geliyor. (Highlight)"
+    },
+    {
+      "de": "Bitte begrüßen Sie mit mir...",
+      "tr": "Lütfen benimle birlikte alkışlayın... (Introduction)"
+    },
+    {
+      "de": "Zum Abschluss...",
+      "tr": "Kapanış olarak... (Closing)"
+    },
+    {
+      "de": "Ich wünsche Ihnen einen schönen Abend!",
+      "tr": "İyi akşamlar dilerim! (Farewell)"
+    }
+  ],
+  "Kazalar ve Felaketler": [
+    {
+      "de": "Es gab einen Unfall.",
+      "tr": "Bir kaza meydana geldi. (Incident)"
+    },
+    {
+      "de": "Ist jemand verletzt?",
+      "tr": "Yaralanan var mı? (Response)"
+    },
+    {
+      "de": "Rufen Sie den Notarzt!",
+      "tr": "Acil doktorunu çağırın! (Action)"
+    },
+    {
+      "de": "Die Straße ist blockiert.",
+      "tr": "Yol kapalı. (Traffic)"
+    },
+    {
+      "de": "Wir brauchen Hilfe!",
+      "tr": "Yardıma ihtiyacımız var! (Help)"
+    },
+    {
+      "de": "Das Gebäude wurde evakuiert.",
+      "tr": "Bina tahliye edildi. (Safety)"
+    },
+    {
+      "de": "Ich habe einen lauten Knall gehört.",
+      "tr": "Yüksek bir patlama sesi duydum. (Report)"
+    },
+    {
+      "de": "Die Feuerwehr ist unterwegs.",
+      "tr": "İtfaiye yolda. (Response)"
+    },
+    {
+      "de": "Es gibt einen Brand.",
+      "tr": "Yangın var. (Fire)"
+    },
+    {
+      "de": "Bitte bleiben Sie ruhig.",
+      "tr": "Lütfen sakin kalınız. (Calm)"
+    },
+    {
+      "de": "Folgen Sie den Anweisungen.",
+      "tr": "Talimatları izleyin. (Instructions)"
+    },
+    {
+      "de": "Die Polizei ist vor Ort.",
+      "tr": "Polis olay yerinde. (Police)"
+    },
+    {
+      "de": "Es gab eine Explosion.",
+      "tr": "Bir patlama oldu. (Explosion)"
+    },
+    {
+      "de": "Die Ursache ist noch unklar.",
+      "tr": "Neden henüz belirsiz. (Unclear)"
+    },
+    {
+      "de": "Wir warten auf weitere Informationen.",
+      "tr": "Ek bilgi bekliyoruz. (Updates)"
+    },
+    {
+      "de": "Die Lage ist ernst.",
+      "tr": "Durum ciddi. (Serious)"
+    },
+    {
+      "de": "Der Strom ist ausgefallen.",
+      "tr": "Elektrikler kesildi. (Power)"
+    },
+    {
+      "de": "Es wird eine Warnung herausgegeben.",
+      "tr": "Bir uyarı yayınlanıyor. (Warning)"
+    },
+    {
+      "de": "Bitte halten Sie Abstand.",
+      "tr": "Lütfen mesafe koruyun. (Distance)"
+    },
+    {
+      "de": "Wir hoffen auf schnelle Hilfe.",
+      "tr": "Hızlı yardım umuyoruz. (Hope)"
+    }
+  ],
+  "Dedikodu Yapmak": [
+    {
+      "de": "Hast du schon gehört?",
+      "tr": "Duydun mu? (Opener)"
+    },
+    {
+      "de": "Ich habe ein Geheimnis gehört.",
+      "tr": "Bir sır duydum. (Secret)"
+    },
+    {
+      "de": "Sie hat sich getrennt.",
+      "tr": "Ayrıldı. (Breakup)"
+    },
+    {
+      "de": "Er war nicht bei der Arbeit gestern.",
+      "tr": "Dün işte yoktu. (Observation)"
+    },
+    {
+      "de": "Angeblich bekommt sie eine Beförderung.",
+      "tr": "Söylentiye göre terfi alacak. (Speculation)"
+    },
+    {
+      "de": "Ich habe ihn mit jemand anderem gesehen.",
+      "tr": "Onu başkasıyla gördüm. (Scandal)"
+    },
+    {
+      "de": "Die zwei verstehen sich gar nicht.",
+      "tr": "İkisi hiç anlaşamıyor. (Conflict)"
+    },
+    {
+      "de": "Weißt du, was passiert ist?",
+      "tr": "Ne olduğunu biliyor musun? (Curiosity)"
+    },
+    {
+      "de": "Ich sage es nur dir.",
+      "tr": "Sadece sana söylüyorum. (Exclusive)"
+    },
+    {
+      "de": "Er hat es total verbockt.",
+      "tr": "Tamamen yüzüne gözüne bulaştırdı. (Judgment)"
+    },
+    {
+      "de": "Sie tut so, als ob nichts wäre.",
+      "tr": "Hiçbir şey olmamış gibi davranıyor. (Suspicion)"
+    },
+    {
+      "de": "Das bleibt aber unter uns!",
+      "tr": "Aramızda kalsın! (Confidential)"
+    },
+    {
+      "de": "Ich glaube, da läuft was.",
+      "tr": "Sanırım bir şeyler oluyor. (Flirt)"
+    },
+    {
+      "de": "Kein Wunder, dass alle reden.",
+      "tr": "Herkesin konuşmasına şaşmamalı. (Rumor)"
+    },
+    {
+      "de": "Er denkt, keiner merkt es.",
+      "tr": "Kimse fark etmiyor sanıyor. (Mocking)"
+    },
+    {
+      "de": "Sie hat sich komplett verändert.",
+      "tr": "Tamamen değişmiş. (Transformation)"
+    },
+    {
+      "de": "Ich glaube, das ist mehr als Freundschaft.",
+      "tr": "Bence bu arkadaşlıktan öte. (Relationship)"
+    },
+    {
+      "de": "Man sagt, er hat Probleme.",
+      "tr": "Problemleri olduğu söyleniyor. (Whisper)"
+    },
+    {
+      "de": "Und rate mal, wer noch da war!",
+      "tr": "Tahmin et orada kim vardı! (Cliffhanger)"
+    },
+    {
+      "de": "Ich will ja nichts sagen, aber ...",
+      "tr": "Bir şey demek istemiyorum ama... (Sneaky)"
+    }
+  ],
+  "Dijital Bağlam": [
+    {
+      "de": "Ich bin online.",
+      "tr": "Çevrim içiyim. (Status)"
+    },
+    {
+      "de": "Ich poste ein Bild.",
+      "tr": "Fotoğraf paylaşıyorum. (Social media)"
+    },
+    {
+      "de": "Ich habe es gegoogelt.",
+      "tr": "Google'da arattım. (Search)"
+    },
+    {
+      "de": "Das Video ist viral gegangen.",
+      "tr": "Video viral oldu. (Trend)"
+    },
+    {
+      "de": "Ich habe eine Nachricht bekommen.",
+      "tr": "Mesaj aldım. (Notification)"
+    },
+    {
+      "de": "Kannst du das liken?",
+      "tr": "Beğenebilir misin? (Interaction)"
+    },
+    {
+      "de": "Ich wurde markiert.",
+      "tr": "Etiketlendim. (Tag)"
+    },
+    {
+      "de": "Ich habe einen Screenshot gemacht.",
+      "tr": "Ekran görüntüsü aldım. (Capture)"
+    },
+    {
+      "de": "Ich habe das in der Cloud gespeichert.",
+      "tr": "Buluta kaydettim. (Cloud)"
+    },
+    {
+      "de": "Ich bin im WLAN.",
+      "tr": "Kablosuz ağa bağlıyım. (Wi-Fi)"
+    },
+    {
+      "de": "Mein Akku ist fast leer.",
+      "tr": "Şarjım neredeyse bitiyor. (Battery)"
+    },
+    {
+      "de": "Ich habe den Link geschickt.",
+      "tr": "Bağlantıyı gönderdim. (Link)"
+    },
+    {
+      "de": "Ich habe es in meiner Story gepostet.",
+      "tr": "Hikayemde paylaştım. (Story)"
+    },
+    {
+      "de": "Der Server ist down.",
+      "tr": "Sunucu çöktü. (Server)"
+    },
+    {
+      "de": "Ich bin im Zoom-Meeting.",
+      "tr": "Zoom toplantısındayım. (Zoom)"
+    },
+    {
+      "de": "Ich aktualisiere die Seite.",
+      "tr": "Sayfayı yeniliyorum. (Refresh)"
+    },
+    {
+      "de": "Ich bin offline gegangen.",
+      "tr": "Çevrim dışı oldum. (Offline)"
+    },
+    {
+      "de": "Kannst du mir den QR-Code schicken?",
+      "tr": "QR kodu gönderebilir misin? (QR)"
+    },
+    {
+      "de": "Ich habe Push-Nachrichten deaktiviert.",
+      "tr": "Bildirimleri kapattım. (Push)"
+    },
+    {
+      "de": "Ich brauche mehr Speicherplatz.",
+      "tr": "Daha fazla depolama alanına ihtiyacım var. (Storage)"
+    }
+  ],
+  "Ofis İşlemleri": [
+    {
+      "de": "Ich drucke das Dokument aus.",
+      "tr": "Belgeyi yazdırıyorum. (Print)"
+    },
+    {
+      "de": "Ich fülle das Formular aus.",
+      "tr": "Formu dolduruyorum. (Form)"
+    },
+    {
+      "de": "Ich nehme an der Besprechung teil.",
+      "tr": "Toplantıya katılıyorum. (Meeting)"
+    },
+    {
+      "de": "Ich schalte den Computer aus.",
+      "tr": "Bilgisayarı kapatıyorum. (Shutdown)"
+    },
+    {
+      "de": "Ich starte den Rechner neu.",
+      "tr": "Bilgisayarı yeniden başlatıyorum. (Restart)"
+    },
+    {
+      "de": "Ich öffne die Datei.",
+      "tr": "Dosyayı açıyorum. (File)"
+    },
+    {
+      "de": "Ich speichere meine Arbeit.",
+      "tr": "Çalışmamı kaydediyorum. (Save)"
+    },
+    {
+      "de": "Ich scanne das Dokument ein.",
+      "tr": "Belgeyi taratıyorum. (Scan)"
+    },
+    {
+      "de": "Ich sortiere die Unterlagen.",
+      "tr": "Evrakları sıralıyorum. (Sort)"
+    },
+    {
+      "de": "Ich archiviere die Akten.",
+      "tr": "Dosyaları arşive kaldırıyorum. (Archive)"
+    },
+    {
+      "de": "Ich beantworte E-Mails.",
+      "tr": "E-postalara yanıt veriyorum. (Email)"
+    },
+    {
+      "de": "Ich leite die E-Mail weiter.",
+      "tr": "E-postayı iletiyorum. (Forward)"
+    },
+    {
+      "de": "Ich plane einen Termin.",
+      "tr": "Randevu planlıyorum. (Schedule)"
+    },
+    {
+      "de": "Ich bereite eine Präsentation vor.",
+      "tr": "Sunum hazırlıyorum. (Presentation)"
+    },
+    {
+      "de": "Ich leite das Meeting.",
+      "tr": "Toplantıyı yönetiyorum. (Lead)"
+    },
+    {
+      "de": "Ich arbeite an einem Bericht.",
+      "tr": "Rapor üzerinde çalışıyorum. (Report)"
+    },
+    {
+      "de": "Ich telefoniere gerade.",
+      "tr": "Telefon görüşmesi yapıyorum. (Phone)"
+    },
+    {
+      "de": "Ich mache eine Kopie.",
+      "tr": "Fotokopi çekiyorum. (Copy)"
+    },
+    {
+      "de": "Ich räume meinen Schreibtisch auf.",
+      "tr": "Masamı topluyorum. (Desk)"
+    },
+    {
+      "de": "Ich mache Feierabend.",
+      "tr": "Mesaim bitti. (Off work)"
+    }
+  ],
+  "Küfür Sözleri (Yalnızca Referans İçin)": [
+    {
+      "de": "Verdammt!",
+      "tr": "Lanet olsun! (Frustration)"
+    },
+    {
+      "de": "Scheiße!",
+      "tr": "Siktir! (Strong frustration)"
+    },
+    {
+      "de": "Mist!",
+      "tr": "Kahretsin! (Annoyance)"
+    },
+    {
+      "de": "Ach du Scheiße!",
+      "tr": "Ananı! / Hay kafama! (Shock)"
+    },
+    {
+      "de": "Halt die Klappe!",
+      "tr": "Sesini kes! (Rude)"
+    },
+    {
+      "de": "Was zum Teufel?",
+      "tr": "Ne cehennem? (Confusion)"
+    },
+    {
+      "de": "Zum Kotzen!",
+      "tr": "İğrenç! (Disgust)"
+    },
+    {
+      "de": "So ein Dreck!",
+      "tr": "Ne pislik! (Irritation)"
+    },
+    {
+      "de": "Blödsinn!",
+      "tr": "Saçmalık! (Nonsense)"
+    },
+    {
+      "de": "Du spinnst wohl!",
+      "tr": "Çıldırmış olmalısın! (Crazy)"
+    },
+    {
+      "de": "Verpiss dich!",
+      "tr": "Defol git! (Offensive)"
+    },
+    {
+      "de": "Leck mich!",
+      "tr": "Cehenneme git! (Insult)"
+    },
+    {
+      "de": "Scheiß drauf!",
+      "tr": "Boş ver! (Screw it)"
+    },
+    {
+      "de": "Ich hab die Schnauze voll!",
+      "tr": "Bıktım usandım! (Fed up)"
+    },
+    {
+      "de": "Bist du bescheuert?",
+      "tr": "Aptal mısın? (Stupid)"
+    },
+    {
+      "de": "So ein Idiot!",
+      "tr": "Tam bir aptal! (Idiot)"
+    },
+    {
+      "de": "Fick dich!",
+      "tr": "S... git! (Offensive)"
+    },
+    {
+      "de": "Arschloch!",
+      "tr": "Göt! (Asshole)"
+    },
+    {
+      "de": "Krieg dich wieder ein!",
+      "tr": "Kendine gel! (Get a grip)"
+    },
+    {
+      "de": "LMAA",
+      "tr": "Kıçımı öp (Abbreviation)"
+    }
+  ]
+}
