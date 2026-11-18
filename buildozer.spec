@@ -1,8 +1,9 @@
 [app]
 
-title = Almanca by Laurence
+title = Linguin - Almanca
 package.name = almancavokabeln
 package.domain = org.vokabeln
+icon.filename = %(source.dir)s/icon.png
 
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,docx,gif,mp3,json
