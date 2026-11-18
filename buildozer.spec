@@ -5,7 +5,7 @@ package.name = almancavokabeln
 package.domain = org.vokabeln
 
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas,docx,gif,mp3
+source.include_exts = py,png,jpg,kv,atlas,docx,gif,mp3,json
 
 version = 0.1
 
