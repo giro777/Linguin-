@@ -84,17 +84,40 @@ def label(text, groesse, hoehe=None, **kw):
     return lbl
 
 
+# --- HILFSFUNKTION FÜR SOUNDS (Thread-sicher gegen Einfrieren) ---
+def spiele_soundfile(dateiname):
+    def lade():
+        try:
+            pfad = os.path.join(BASIS, dateiname)
+            if not os.path.exists(pfad):
+                pfad = os.path.join(BASIS, "data", dateiname)
+            
+            if os.path.exists(pfad):
+                Clock.schedule_once(lambda dt: _triggere_sound(pfad))
+        except Exception as e:
+            print(f"Sound-Fehler bei {dateiname}: {e}")
+    threading.Thread(target=lade, daemon=True).start()
+
+def _triggere_sound(pfad):
+    try:
+        sound = SoundLoader.load(pfad)
+        if sound:
+            sound.play()
+    except Exception as e:
+        print(f"Abspiel-Fehler für Sound: {e}")
+
+
 # --- ÄSTHETISCHER, ABGERUNDETER KNOPF (PILL BUTTON) ---
 class AbgerundeterButton(Button):
-    def __init__(self, farbe=BLAU, **kwargs):
+    def __init__(self, farbe=BLAU, sound_effekt="blip.mp3", **kwargs):
         super().__init__(**kwargs)
         self.background_normal = ''
-        self.background_color = (0, 0, 0, 0) # Standard-Hintergrund von Kivy unsichtbar machen
+        self.background_color = (0, 0, 0, 0) 
         self.custom_farbe = farbe
+        self.sound_effekt = sound_effekt
 
         with self.canvas.before:
             Color(*self.custom_farbe)
-            # Der Radius setzt sich dynamisch aus der halben Höhe zusammen (perfekte Halbkreise an den Seiten)
             self.rect = RoundedRectangle(pos=self.pos, size=self.size, radius=[self.height / 2.0])
 
         self.bind(pos=self.update_canvas, size=self.update_canvas)
@@ -102,14 +125,17 @@ class AbgerundeterButton(Button):
     def update_canvas(self, *args):
         self.rect.pos = self.pos
         self.rect.size = self.size
-        # Radius dynamisch anpassen, falls sich die Button-Größe ändert
         self.rect.radius = [self.height / 2.0]
 
+    def on_press(self):
+        if self.sound_effekt:
+            spiele_soundfile(self.sound_effekt)
 
-def knopf(text, groesse=16, hoehe=56, farbe=BLAU, **kw):
+
+def knopf(text, groesse=16, hoehe=56, farbe=BLAU, sound="blip.mp3", **kw):
     btn = AbgerundeterButton(text=text, font_size=sp(groesse), bold=True,
                              halign='center', valign='middle',
-                             farbe=farbe, **kw)
+                             farbe=farbe, sound_effekt=sound, **kw)
     btn.size_hint_y = None
     btn.height = dp(hoehe)
     btn.bind(size=lambda w, s: setattr(w, 'text_size', (s[0] - dp(16), s[1])))
@@ -391,10 +417,12 @@ class VokabelRootLayout(BoxLayout):
             aktion.add_widget(zurueck_dreh)
 
             reihe = BoxLayout(spacing=dp(12))
-            nochmal = knopf("Tekrar Çalış", groesse=16, hoehe=56, farbe=GRAU)
+            nochmal = knopf("Tekrar Çalış", groesse=16, hoehe=56, farbe=GRAU, sound="failure.mp3")
             nochmal.bind(on_release=lambda x: self.naechste_karte(wiederholen=True))
-            gewusst = knopf("Biliyorum!", groesse=16, hoehe=56)
+            
+            gewusst = knopf("Biliyorum!", groesse=16, hoehe=56, sound="success.mp3")
             gewusst.bind(on_release=lambda x: self.naechste_karte(wiederholen=False))
+            
             reihe.add_widget(nochmal)
             reihe.add_widget(gewusst)
             aktion.add_widget(reihe)
