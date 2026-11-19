@@ -26,12 +26,23 @@ Window.clearcolor = (0.07, 0.07, 0.07, 1)
 
 BASIS = os.path.dirname(os.path.abspath(__file__))
 
-# --- EXAKTER LOGO-BLAUTON ---
+# --- EXAKTER LOGO-BLAUTON & AKZENTFARBEN ---
 BLAU = (0.125, 0.639, 0.996, 1)
 BLAU_DUNKEL = (0.09, 0.48, 0.78, 1)
 GRAU = (0.35, 0.35, 0.35, 1)
 ROT = (0.85, 0.25, 0.25, 1)
 GRUEN = (0.18, 0.72, 0.38, 1)
+
+# --- FARBCODES FÜR MARKUP (BBCode) ---
+C_ICH = "#20A3FE"       # Blau für "Ich" und "-e"
+C_DU = "#FFB300"        # Gold-Orange für "Du" und "-st" / "-est"
+C_ER = "#4CD964"        # Grün für "Er"
+C_SIE_SG = "#FF6B8B"    # Rosa/Koralle für "Sie" (3. Pers. Singular - kadın)
+C_ES = "#BF5AF2"        # Violett für "Es"
+C_T_END = "#A29BFE"     # Helles Lila für "-t" / "-et" bei 3. Pers. Sg.
+C_WIR = "#00D2D3"       # Türkis für "Wir" und "-en"
+C_IHR = "#FF7675"       # Lachsrot für "Ihr" und "-t" / "-et"
+C_SIE_PL = "#55EFC4"    # Mintgrün für "Sie" (3. Pers. Plural - onlar) und "-en"
 
 # --- VOKABEL-LEKTIONEN (18 Lektionen) ---
 LEKTIONS_UEBERSETZUNG = {
@@ -55,7 +66,7 @@ LEKTIONS_UEBERSETZUNG = {
     "Lektion 18: Präpositionen, Konjunktionen & Adverbien": "Genel Fiiller ve Sıfatlar"
 }
 
-# --- GRAMMATIK-LEKTIONEN ---
+# --- GRAMMATIK-LEKTIONEN (MIT FARBMARKIERUNG) ---
 GRAMMATIK_LEKTIONEN = {
     "Fiiller 1. Bölüm": {
         "karten": [
@@ -64,37 +75,106 @@ GRAMMATIK_LEKTIONEN = {
             "Uygulamada fiil kartları çoğunlukla mastar halindedir, yani:\n\nögrenmek = lernen\noynamak = spielen\nçalışmak = arbeiten",
             "Şimdi bu kelimeleri aktif forma nasıl dönüştüreceğimizi birlikte öğreneceğiz:\n\nöğreniyorum\noynuyorum\nçalışıyorum",
             "Bunun için bir zamire ihtiyacımız var. Senin için kolay kalması adına, zaten bildiğin bir zamirde kalacağız.",
-            "ICH (BEN)",
+            f"[color={C_ICH}]ICH (BEN)[/color]",
             "Şimdi fiillere tekrar bakalım:\n\nlernen = öğrenmek\nspielen = oynamak\narbeiten = çalışmak",
             "Onları aktif forma dönüştürmek için önce fiil kökünü oluşturmalıyız:\n\nlernen = öğrenmek\nspielen = oynamak\narbeiten = çalışmak",
             "Bunun için son heceyi, yani -en takısını çıkarıyoruz:\n\nlern = öğrenmek\nspiel = oynamak\narbeit = çalışmak",
-            "Ardından zamirimizi ekliyoruz:\n\nIch lern = öğrenmek\nIch spiel = oynamak\nIch arbeit = çalışmak",
-            "Son olarak bir kelime sonu eklemeliyiz. Kelime sonu eki her zaman zamire bağlıdır. Ich için bu her zaman bir -e ekidir:\n\nIch lerne = Ben öğreniyorum\nIch spiele = Ben oynuyorum\nIch arbeite = Ben çalışıyorum",
-            "Bu neredeyse tüm fiillerde bu şekilde çalışır. Bunlara düzenli fiiller denir.\n\nİşte birkaç örnek daha:\nyapmak | Ich mache = Ben yapıyorum\nduymak / dinlemek | Ich höre = Ben duyuyorum\nsatın almak | Ich kaufe = Ben satın alıyorum",
+            f"Ardından zamirimizi ekliyoruz:\n\n[color={C_ICH}]Ich[/color] lern = öğrenmek\n[color={C_ICH}]Ich[/color] spiel = oynamak\n[color={C_ICH}]Ich[/color] arbeit = çalışmak",
+            f"Son olarak bir kelime sonu eklemeliyiz. Kelime sonu eki her zaman zamire bağlıdır. [color={C_ICH}]Ich[/color] için bu her zaman bir [color={C_ICH}]-e[/color] ekidir:\n\n[color={C_ICH}]Ich[/color] lern[color={C_ICH}]e[/color] = Ben öğreniyorum\n[color={C_ICH}]Ich[/color] spiel[color={C_ICH}]e[/color] = Ben oynuyorum\n[color={C_ICH}]Ich[/color] arbeit[color={C_ICH}]e[/color] = Ben çalışıyorum",
+            f"Bu neredeyse tüm fiillerde bu şekilde çalışır. Bunlara düzenli fiiller denir.\n\nİşte birkaç örnek daha:\nyapmak | [color={C_ICH}]Ich[/color] mach[color={C_ICH}]e[/color] = Ben yapıyorum\nduymak / dinlemek | [color={C_ICH}]Ich[/color] hör[color={C_ICH}]e[/color] = Ben duyuyorum\nsatın almak | [color={C_ICH}]Ich[/color] kauf[color={C_ICH}]e[/color] = Ben satın alıyorum",
             "Şimdi işleri biraz daha karmaşık hale getiriyoruz. Yanımıza ikinci bir zamir alıyoruz:",
-            "Du (Sen)",
-            "Tıpkı önceki gibi fiil kökünü oluşturuyoruz:\n\nDu lern\nDu spiel\nDu arbeit",
-            "Tıpkı Ich gibi, Du zamirinin de kendine ait bir eki vardır: -st.\n\nDu lernst\nDu spielst",
-            "T veya D ile biten fiil kökleri ve birden fazla sessiz harfle biten fiil köklerini bu şekilde telaffuz etmek zor olurdu, bu yüzden buradaki ek -est olur:\n\nDu arbeitest\nDu öffnest\nDu atmest",
-            "İşte birkaç örnek daha:\n\nDu kochst\nDu startest\nDu landest\nDu lachst",
+            f"[color={C_DU}]Du (Sen)[/color]",
+            f"Tıpkı önceki gibi fiil kökünü oluşturuyoruz:\n\n[color={C_DU}]Du[/color] lern\n[color={C_DU}]Du[/color] spiel\n[color={C_DU}]Du[/color] arbeit",
+            f"Tıpkı [color={C_ICH}]Ich[/color] gibi, [color={C_DU}]Du[/color] zamirinin de kendine ait bir eki vardır: [color={C_DU}]-st[/color].\n\n[color={C_DU}]Du[/color] lern[color={C_DU}]st[/color]\n[color={C_DU}]Du[/color] spiel[color={C_DU}]st[/color]",
+            f"T veya D ile biten fiil kökleri ve birden fazla sessiz harfle biten fiil köklerini bu şekilde telaffuz etmek zor olurdu, bu yüzden buradaki ek [color={C_DU}]-est[/color] olur:\n\n[color={C_DU}]Du[/color] arbeit[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] öffn[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] atm[color={C_DU}]est[/color]",
+            f"İşte birkaç örnek daha:\n\n[color={C_DU}]Du[/color] koch[color={C_DU}]st[/color]\n[color={C_DU}]Du[/color] start[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] land[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] lach[color={C_DU}]st[/color]",
             "Hiç de karmaşık değil, değil mi? O halde küçük bir test deneyelim.\n\nSana Mastar halinde 15 fiil veriyorum ve senin bunları çekimlemen gerekiyor!"
         ],
+        "optionen": ["-e", "-st", "-est"],
         "quiz": [
-            {"anzeige": "Ich + fehlen = Ich fehl___", "antwort": "-e", "vollstaendig": "Ich fehle"},
-            {"anzeige": "Du + duschen = Du dusch___", "antwort": "-st", "vollstaendig": "Du duschst"},
-            {"anzeige": "Ich + frühstücken = Ich frühstück___", "antwort": "-e", "vollstaendig": "Ich frühstücke"},
-            {"anzeige": "Du + planen = Du plan___", "antwort": "-st", "vollstaendig": "Du planst"},
-            {"anzeige": "Ich + duschen = Ich dusch___", "antwort": "-e", "vollstaendig": "Ich dusche"},
-            {"anzeige": "Du + trinken = Du trink___", "antwort": "-st", "vollstaendig": "Du trinkst"},
-            {"anzeige": "Ich + feiern = Ich feier___", "antwort": "-e", "vollstaendig": "Ich feiere"},
-            {"anzeige": "Du + heben = Du heb___", "antwort": "-st", "vollstaendig": "Du hebst"},
-            {"anzeige": "Ich + kaufen = Ich kauf___", "antwort": "-e", "vollstaendig": "Ich kaufe"},
-            {"anzeige": "Du + reden = Du red___", "antwort": "-est", "vollstaendig": "Du redest"},
-            {"anzeige": "Ich + antworten = Ich antwort___", "antwort": "-e", "vollstaendig": "Ich antworte"},
-            {"anzeige": "Ich + baden = Ich bad___", "antwort": "-e", "vollstaendig": "Ich bade"},
-            {"anzeige": "Ich + senden = Ich send___", "antwort": "-e", "vollstaendig": "Ich sende"},
-            {"anzeige": "Du + glauben = Du glaub___", "antwort": "-st", "vollstaendig": "Du glaubst"},
-            {"anzeige": "Ich + hoffen = Ich hoff___", "antwort": "-e", "vollstaendig": "Ich hoffe"}
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + fehlen = [color={C_ICH}]Ich[/color] fehl___", "antwort": "-e", "vollstaendig": "Ich fehle"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + duschen = [color={C_DU}]Du[/color] dusch___", "antwort": "-st", "vollstaendig": "Du duschst"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + frühstücken = [color={C_ICH}]Ich[/color] frühstück___", "antwort": "-e", "vollstaendig": "Ich frühstücke"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + planen = [color={C_DU}]Du[/color] plan___", "antwort": "-st", "vollstaendig": "Du planst"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + duschen = [color={C_ICH}]Ich[/color] dusch___", "antwort": "-e", "vollstaendig": "Ich dusche"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + trinken = [color={C_DU}]Du[/color] trink___", "antwort": "-st", "vollstaendig": "Du trinkst"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + feiern = [color={C_ICH}]Ich[/color] feier___", "antwort": "-e", "vollstaendig": "Ich feiere"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + heben = [color={C_DU}]Du[/color] heb___", "antwort": "-st", "vollstaendig": "Du hebst"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + kaufen = [color={C_ICH}]Ich[/color] kauf___", "antwort": "-e", "vollstaendig": "Ich kaufe"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + reden = [color={C_DU}]Du[/color] red___", "antwort": "-est", "vollstaendig": "Du redest"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + antworten = [color={C_ICH}]Ich[/color] antwort___", "antwort": "-e", "vollstaendig": "Ich antworte"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + baden = [color={C_ICH}]Ich[/color] bad___", "antwort": "-e", "vollstaendig": "Ich bade"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + senden = [color={C_ICH}]Ich[/color] send___", "antwort": "-e", "vollstaendig": "Ich sende"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + glauben = [color={C_DU}]Du[/color] glaub___", "antwort": "-st", "vollstaendig": "Du glaubst"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + hoffen = [color={C_ICH}]Ich[/color] hoff___", "antwort": "-e", "vollstaendig": "Ich hoffe"}
+        ]
+    },
+    "Fiiller 2. Bölüm": {
+        "karten": [
+            f"[color={C_ICH}]Ben[/color] ve [color={C_DU}]Sen[/color] zamirlerine hakim olduğuna göre, oradan devam edelim.",
+            "Üçüncü tekil şahıs Almancada Türkçeye göre biraz daha karmaşıktır. Türkçede kimden bahsedilirse bahsedilsin her zaman O kullanılırken, Almancada cinsiyete göre ayrılır.",
+            f"[color={C_ER}]Er[/color] (erkek), [color={C_SIE_SG}]Sie[/color] (kadın) ve [color={C_ES}]Es[/color] (nötr)",
+            f"Ama endişelenme, üçü de aynı eki paylaşır: [color={C_T_END}]-t[/color]",
+            f"[color={C_ER}]Er[/color] lach[color={C_T_END}]t[/color], [color={C_SIE_SG}]Sie[/color] schreib[color={C_T_END}]t[/color], [color={C_ES}]Es[/color] stürm[color={C_T_END}]t[/color]",
+            f"[color={C_ER}]Er[/color] zamirini düşünürken aklına Türkçe Erkek kelimesi gelirse bunu kolayca hatırlayabilirsin.",
+            f"[color={C_DU}]Du[/color] zamirinde [color={C_DU}]-est[/color] ile biten kelimeler burada [color={C_T_END}]-et[/color] ile biter",
+            f"[color={C_ER}]Er[/color] arbeit[color={C_T_END}]et[/color], [color={C_SIE_SG}]Sie[/color] land[color={C_T_END}]et[/color], [color={C_ES}]Es[/color] start[color={C_T_END}]et[/color]",
+            "Çoğul ile devam edelim. Mantığı anladığına göre ilke çok basit",
+            f"[color={C_WIR}]Wir[/color] (Biz) + [color={C_WIR}]en[/color]",
+            f"Şimdi kolaylaşıyor! Biz ([color={C_WIR}]Wir[/color]) ile kurulan cümlelerdeki ek, mastar haliyle aynıdır, yani olduğu gibi bırakabilirsin! Harika değil mi?",
+            f"[color={C_WIR}]Wir[/color] lauf[color={C_WIR}]en[/color], [color={C_WIR}]Wir[/color] trag[color={C_WIR}]en[/color], [color={C_WIR}]Wir[/color] koch[color={C_WIR}]en[/color]",
+            f"[color={C_IHR}]Ihr[/color] (Siz) + [color={C_IHR}]t[/color]",
+            f"[color={C_IHR}]Ihr[/color] kämpf[color={C_IHR}]t[/color], [color={C_IHR}]Ihr[/color] arbeit[color={C_IHR}]et[/color], [color={C_IHR}]Ihr[/color] rauch[color={C_IHR}]t[/color]",
+            f"Tıpkı [color={C_ER}]Er[/color]/[color={C_SIE_SG}]Sie[/color]/[color={C_ES}]Es[/color] gibi, yani bunu zaten biliyorsun, harika değil mi?",
+            "Neredeyse bitti! Sadece tek bir zamir kaldı!",
+            f"[color={C_SIE_PL}]Sie[/color] (Onlar) + [color={C_SIE_PL}]en[/color]",
+            f"Başlangıçta iki tane Sie olması biraz kafa karıştırıcı olabilir ama farkı ekten anlarsın. Tıpkı Biz ([color={C_WIR}]Wir[/color]) gibi yazılışı mastar haliyle aynı bırakabilirsin",
+            f"[color={C_SIE_PL}]Sie[/color] lauf[color={C_SIE_PL}]en[/color], [color={C_SIE_PL}]Sie[/color] trag[color={C_SIE_PL}]en[/color], [color={C_SIE_PL}]Sie[/color] koch[color={C_SIE_PL}]en[/color]",
+            "Şimdi küçük bir test ile çekimlere hakim olup olmadığını kontrol edelim"
+        ],
+        "optionen": ["-e", "-st", "-est", "-t", "-et", "-en"],
+        "quiz": [
+            # 1. Pers. Singular (5 reguläre Verben)
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + spielen = [color={C_ICH}]Ich[/color] spiel___", "antwort": "-e", "vollstaendig": "Ich spiele"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + lernen = [color={C_ICH}]Ich[/color] lern___", "antwort": "-e", "vollstaendig": "Ich lerne"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + machen = [color={C_ICH}]Ich[/color] mach___", "antwort": "-e", "vollstaendig": "Ich mache"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + wohnen = [color={C_ICH}]Ich[/color] wohn___", "antwort": "-e", "vollstaendig": "Ich wohne"},
+            {"anzeige": f"[color={C_ICH}]Ich[/color] + hören = [color={C_ICH}]Ich[/color] hör___", "antwort": "-e", "vollstaendig": "Ich höre"},
+
+            # 2. Pers. Singular (5 reguläre Verben)
+            {"anzeige": f"[color={C_DU}]Du[/color] + fragen = [color={C_DU}]Du[/color] frag___", "antwort": "-st", "vollstaendig": "Du fragst"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + suchen = [color={C_DU}]Du[/color] such___", "antwort": "-st", "vollstaendig": "Du suchst"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + lachen = [color={C_DU}]Du[/color] lach___", "antwort": "-st", "vollstaendig": "Du lachst"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + arbeiten = [color={C_DU}]Du[/color] arbeit___", "antwort": "-est", "vollstaendig": "Du arbeitest"},
+            {"anzeige": f"[color={C_DU}]Du[/color] + warten = [color={C_DU}]Du[/color] wart___", "antwort": "-est", "vollstaendig": "Du wartest"},
+
+            # 3. Pers. Singular (5 reguläre Verben: er / sie / es)
+            {"anzeige": f"[color={C_ER}]Er[/color] + kochen = [color={C_ER}]Er[/color] koch___", "antwort": "-t", "vollstaendig": "Er kocht"},
+            {"anzeige": f"[color={C_SIE_SG}]Sie[/color] + malen = [color={C_SIE_SG}]Sie[/color] mal___", "antwort": "-t", "vollstaendig": "Sie malt"},
+            {"anzeige": f"[color={C_ES}]Es[/color] + regnen = [color={C_ES}]Es[/color] regn___", "antwort": "-et", "vollstaendig": "Es regnet"},
+            {"anzeige": f"[color={C_ER}]Er[/color] + reisen = [color={C_ER}]Er[/color] reis___", "antwort": "-t", "vollstaendig": "Er reist"},
+            {"anzeige": f"[color={C_SIE_SG}]Sie[/color] + kosten = [color={C_SIE_SG}]Sie[/color] kost___", "antwort": "-et", "vollstaendig": "Sie kostet"},
+
+            # 1. Pers. Plural (5 reguläre Verben: wir)
+            {"anzeige": f"[color={C_WIR}]Wir[/color] + bauen = [color={C_WIR}]Wir[/color] bau___", "antwort": "-en", "vollstaendig": "Wir bauen"},
+            {"anzeige": f"[color={C_WIR}]Wir[/color] + lieben = [color={C_WIR}]Wir[/color] lieb___", "antwort": "-en", "vollstaendig": "Wir lieben"},
+            {"anzeige": f"[color={C_WIR}]Wir[/color] + packen = [color={C_WIR}]Wir[/color] pack___", "antwort": "-en", "vollstaendig": "Wir packen"},
+            {"anzeige": f"[color={C_WIR}]Wir[/color] + putzen = [color={C_WIR}]Wir[/color] putz___", "antwort": "-en", "vollstaendig": "Wir putzen"},
+            {"anzeige": f"[color={C_WIR}]Wir[/color] + danken = [color={C_WIR}]Wir[/color] dank___", "antwort": "-en", "vollstaendig": "Wir danken"},
+
+            # 2. Pers. Plural (5 reguläre Verben: ihr)
+            {"anzeige": f"[color={C_IHR}]Ihr[/color] + tanzen = [color={C_IHR}]Ihr[/color] tanz___", "antwort": "-t", "vollstaendig": "Ihr tanzt"},
+            {"anzeige": f"[color={C_IHR}]Ihr[/color] + holen = [color={C_IHR}]Ihr[/color] hol___", "antwort": "-t", "vollstaendig": "Ihr holt"},
+            {"anzeige": f"[color={C_IHR}]Ihr[/color] + üben = [color={C_IHR}]Ihr[/color] üb___", "antwort": "-t", "vollstaendig": "Ihr übt"},
+            {"anzeige": f"[color={C_IHR}]Ihr[/color] + baden = [color={C_IHR}]Ihr[/color] bad___", "antwort": "-et", "vollstaendig": "Ihr badet"},
+            {"anzeige": f"[color={C_IHR}]Ihr[/color] + öffnen = [color={C_IHR}]Ihr[/color] öffn___", "antwort": "-et", "vollstaendig": "Ihr öffnet"},
+
+            # 3. Pers. Plural (5 reguläre Verben: sie [onlar])
+            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + singen = [color={C_SIE_PL}]Sie[/color] sing___", "antwort": "-en", "vollstaendig": "Sie singen"},
+            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + winken = [color={C_SIE_PL}]Sie[/color] wink___", "antwort": "-en", "vollstaendig": "Sie winken"},
+            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + sparen = [color={C_SIE_PL}]Sie[/color] spar___", "antwort": "-en", "vollstaendig": "Sie sparen"},
+            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + grüßen = [color={C_SIE_PL}]Sie[/color] grüß___", "antwort": "-en", "vollstaendig": "Sie grüßen"},
+            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + weinen = [color={C_SIE_PL}]Sie[/color] wein___", "antwort": "-en", "vollstaendig": "Sie weinen"}
         ]
     }
 }
@@ -185,6 +265,7 @@ class VokabelRootLayout(BoxLayout):
         self.grammatik_karten = []
         self.grammatik_index = 0
         self.quiz_fragen = []
+        self.quiz_optionen = []
         self.quiz_index = 0
         self.quiz_leben = 3
         self.quiz_punkte = 0
@@ -245,11 +326,11 @@ class VokabelRootLayout(BoxLayout):
         quadrat_block.add_widget(label("Merhaba! Hoş geldin!", 24, 44, bold=True, color=BLAU))
         quadrat_block.add_widget(label("Ne yapmak istiyorsun?", 15, 26, color=(0.70, 0.70, 0.70, 1)))
 
-        btn_lernen = knopf("Öğren (Lernen)", groesse=18, hoehe=58)
+        btn_lernen = knopf("Öğren (Lernen)", groesse=18, hoehe=58, farbe=BLAU)
         btn_lernen.bind(on_release=self.zeige_lernen_menue)
         quadrat_block.add_widget(btn_lernen)
 
-        btn_wiederholen = knopf("Tekrar (Wiederholung)", groesse=18, hoehe=58, farbe=BLAU_DUNKEL)
+        btn_wiederholen = knopf("Tekrar (Wiederholung)", groesse=18, hoehe=58, farbe=BLAU)
         btn_wiederholen.bind(on_release=self.starte_wiederholung_stapel)
         quadrat_block.add_widget(btn_wiederholen)
 
@@ -277,15 +358,15 @@ class VokabelRootLayout(BoxLayout):
         mitte_block.add_widget(label("Öğrenme Alanı", 20, 38, bold=True, color=BLAU))
         mitte_block.add_widget(label("Lütfen bir kategori seç:", 14, 24, color=(0.70, 0.70, 0.70, 1)))
 
-        btn_vokabeln = knopf("Kelime Kartları (Vokabeln)", groesse=16, hoehe=50)
+        btn_vokabeln = knopf("Kelime Kartları (Vokabeln)", groesse=16, hoehe=50, farbe=BLAU)
         btn_vokabeln.bind(on_release=self.zeige_lektionen_menue)
         mitte_block.add_widget(btn_vokabeln)
 
-        btn_phrasen = knopf("Günlük İfadeler (Alltagsphrasen)", groesse=16, hoehe=50, farbe=BLAU_DUNKEL)
+        btn_phrasen = knopf("Günlük İfadeler (Alltagsphrasen)", groesse=16, hoehe=50, farbe=BLAU)
         btn_phrasen.bind(on_release=self.zeige_phrasen_kategorien_menue)
         mitte_block.add_widget(btn_phrasen)
 
-        btn_grammatik = knopf("Gramer (Grammatik)", groesse=16, hoehe=50, farbe=BLAU_DUNKEL)
+        btn_grammatik = knopf("Gramer (Grammatik)", groesse=16, hoehe=50, farbe=BLAU)
         btn_grammatik.bind(on_release=self.zeige_grammatik_menue)
         mitte_block.add_widget(btn_grammatik)
 
@@ -337,6 +418,12 @@ class VokabelRootLayout(BoxLayout):
         self.grammatik_index = 0
         self.zeige_grammatik_karte()
 
+    def _text_ohne_markup(self, text):
+        reiner = text.replace("[/color]", "")
+        for code in (C_ICH, C_DU, C_ER, C_SIE_SG, C_ES, C_T_END, C_WIR, C_IHR, C_SIE_PL):
+            reiner = reiner.replace(f"[color={code}]", "")
+        return reiner
+
     def zeige_grammatik_karte(self):
         self.bildschirm_leeren()
 
@@ -351,10 +438,11 @@ class VokabelRootLayout(BoxLayout):
         self.add_widget(label(f"Kart {self.grammatik_index + 1} / {gesamt}", 15, 36, color=(0.70, 0.70, 0.70, 1)))
 
         text = self.grammatik_karten[self.grammatik_index]
-        schriftgroesse = 26 if len(text) < 25 else 20
+        reiner_text = self._text_ohne_markup(text)
+        schriftgroesse = 25 if len(reiner_text) < 25 else 19
 
         karte = BoxLayout(orientation='vertical', padding=dp(16), spacing=dp(10))
-        karte.add_widget(label(text, schriftgroesse, bold=True, color=(1, 1, 1, 1)))
+        karte.add_widget(label(text, schriftgroesse, bold=True, markup=True, color=(1, 1, 1, 1)))
         self.add_widget(karte)
 
         aktion = BoxLayout(orientation='horizontal', size_hint_y=None, height=dp(64), spacing=dp(12))
@@ -386,6 +474,7 @@ class VokabelRootLayout(BoxLayout):
     def starte_grammatik_quiz(self):
         lektion = GRAMMATIK_LEKTIONEN[self.aktuelle_grammatik_lektion]
         self.quiz_fragen = list(lektion["quiz"])
+        self.quiz_optionen = list(lektion.get("optionen", ["-e", "-st", "-est"]))
         self.quiz_index = 0
         self.quiz_leben = 3
         self.quiz_punkte = 0
@@ -411,17 +500,29 @@ class VokabelRootLayout(BoxLayout):
 
         karte = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(12))
         karte.add_widget(label("Fiili Çekimle", 16, 34, bold=True, color=BLAU_DUNKEL))
-        karte.add_widget(label(frage["anzeige"], 28, bold=True, color=(1, 1, 1, 1)))
+        karte.add_widget(label(frage["anzeige"], 26, bold=True, markup=True, color=(1, 1, 1, 1)))
         self.add_widget(karte)
 
-        # 3 Antwort-Buttons nebeneinander: -e, -st, -est
-        antwort_reihe = BoxLayout(orientation='horizontal', size_hint_y=None, height=dp(72), spacing=dp(12), padding=[0, dp(6), 0, dp(6)])
-        for option in ["-e", "-st", "-est"]:
-            btn = knopf(option, groesse=20, hoehe=60, farbe=BLAU)
-            btn.bind(on_release=lambda b, opt=option: self.pruefe_quiz_antwort(opt))
-            antwort_reihe.add_widget(btn)
+        # Einheitlich blaue Antwort-Buttons (bei mehr als 3 Optionen in zwei Reihen)
+        if len(self.quiz_optionen) <= 3:
+            antwort_container = BoxLayout(orientation='horizontal', size_hint_y=None, height=dp(68), spacing=dp(10), padding=[0, dp(4), 0, dp(4)])
+            for option in self.quiz_optionen:
+                btn = knopf(option, groesse=19, hoehe=56, farbe=BLAU)
+                btn.bind(on_release=lambda b, opt=option: self.pruefe_quiz_antwort(opt))
+                antwort_container.add_widget(btn)
+        else:
+            antwort_container = BoxLayout(orientation='vertical', size_hint_y=None, height=dp(124), spacing=dp(8), padding=[0, dp(4), 0, dp(4)])
+            mitte = (len(self.quiz_optionen) + 1) // 2
+            zeilen = [self.quiz_optionen[:mitte], self.quiz_optionen[mitte:]]
+            for zeile in zeilen:
+                reihe = BoxLayout(orientation='horizontal', size_hint_y=None, height=dp(54), spacing=dp(10))
+                for option in zeile:
+                    btn = knopf(option, groesse=18, hoehe=52, farbe=BLAU)
+                    btn.bind(on_release=lambda b, opt=option: self.pruefe_quiz_antwort(opt))
+                    reihe.add_widget(btn)
+                antwort_container.add_widget(reihe)
 
-        self.add_widget(antwort_reihe)
+        self.add_widget(antwort_container)
 
     def pruefe_quiz_antwort(self, gewaehlte_endung):
         frage = self.quiz_fragen[self.quiz_index]
@@ -474,7 +575,7 @@ class VokabelRootLayout(BoxLayout):
         self.bildschirm_leeren()
         self.add_widget(Widget(size_hint_y=1))
         self.add_widget(label("Çok iyi! Başardın!", 26, 50, bold=True, color=GRUEN))
-        self.add_widget(label(f"İlk ders bu kadardı!\n{gesamt} üzerinden {self.quiz_punkte} Puan", 18, 70, bold=True, color=BLAU))
+        self.add_widget(label(f"Ders tamamlandı!\n{gesamt} üzerinden {self.quiz_punkte} Puan", 18, 70, bold=True, color=BLAU))
 
         fertig_btn = knopf("Gramer Menüsüne Dön", groesse=18, hoehe=60, farbe=BLAU)
         fertig_btn.bind(on_release=self.zeige_grammatik_menue)
