@@ -17,12 +17,12 @@ from kivy.uix.image import Image
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.label import Label
 from kivy.uix.widget import Widget
-from kivy.graphics import Color, RoundedRectangle
+from kivy.graphics import Color, RoundedRectangle, Line, Ellipse
 from kivy.utils import platform
 
 if platform != "android":
     Window.size = (420, 720)
-Window.clearcolor = (0.07, 0.07, 0.07, 1)
+Window.clearcolor = (0.065, 0.068, 0.075, 1)
 
 BASIS = os.path.dirname(os.path.abspath(__file__))
 
@@ -33,6 +33,12 @@ GRAU = (0.35, 0.35, 0.35, 1)
 ROT = (0.85, 0.25, 0.25, 1)
 GRUEN = (0.18, 0.72, 0.38, 1)
 
+KARTE_FUELLUNG = (0.12, 0.13, 0.16, 1)
+KARTE_RAND = (0.24, 0.27, 0.33, 1)
+KARTE_RAND_BLAU = (0.125, 0.639, 0.996, 0.55)
+TEXT_HELL = (0.96, 0.97, 0.98, 1)
+TEXT_MUTED = (0.68, 0.71, 0.76, 1)
+
 # --- FARBCODES FÜR MARKUP (BBCode) ---
 C_ICH = "#20A3FE"       # Blau für "Ich" und "-e"
 C_DU = "#FFB300"        # Gold-Orange für "Du" und "-st" / "-est"
@@ -42,7 +48,7 @@ C_ES = "#BF5AF2"        # Violett für "Es"
 C_T_END = "#A29BFE"     # Helles Lila für "-t" / "-et" bei 3. Pers. Sg.
 C_WIR = "#00D2D3"       # Türkis für "Wir" und "-en"
 C_IHR = "#FF7675"       # Lachsrot für "Ihr" und "-t" / "-et"
-C_SIE_PL = "#55EFC4"    # Mintgrün für "Sie" (3. Pers. Plural - onlar) und "-en"
+C_SIE_PL = "#55EFC4"    # Mintgrün für "Sie" (3. Pers. Plural - onlar / nezaket) und "-en"
 
 # --- VOKABEL-LEKTIONEN (18 Lektionen) ---
 LEKTIONS_UEBERSETZUNG = {
@@ -66,7 +72,7 @@ LEKTIONS_UEBERSETZUNG = {
     "Lektion 18: Präpositionen, Konjunktionen & Adverbien": "Genel Fiiller ve Sıfatlar"
 }
 
-# --- GRAMMATIK-LEKTIONEN (MIT FARBMARKIERUNG) ---
+# --- GRAMMATIK-LEKTIONEN (MIT DURCHGÄNGIGER FARBMARKIERUNG) ---
 GRAMMATIK_LEKTIONEN = {
     "Fiiller 1. Bölüm": {
         "karten": [
@@ -90,6 +96,8 @@ GRAMMATIK_LEKTIONEN = {
             f"İşte birkaç örnek daha:\n\n[color={C_DU}]Du[/color] koch[color={C_DU}]st[/color]\n[color={C_DU}]Du[/color] start[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] land[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] lach[color={C_DU}]st[/color]",
             "Hiç de karmaşık değil, değil mi? O halde küçük bir test deneyelim.\n\nSana Mastar halinde 15 fiil veriyorum ve senin bunları çekimlemen gerekiyor!"
         ],
+        "quiz_hinweis": "Doğru fiil sonunu seç:",
+        "quiz_titel": "FİİLİ ÇEKİMLE",
         "optionen": ["-e", "-st", "-est"],
         "quiz": [
             {"anzeige": f"[color={C_ICH}]Ich[/color] + fehlen = [color={C_ICH}]Ich[/color] fehl___", "antwort": "-e", "vollstaendig": "Ich fehle"},
@@ -111,70 +119,162 @@ GRAMMATIK_LEKTIONEN = {
     },
     "Fiiller 2. Bölüm": {
         "karten": [
-            f"[color={C_ICH}]Ben[/color] ve [color={C_DU}]Sen[/color] zamirlerine hakim olduğuna göre, oradan devam edelim.",
-            "Üçüncü tekil şahıs Almancada Türkçeye göre biraz daha karmaşıktır. Türkçede kimden bahsedilirse bahsedilsin her zaman O kullanılırken, Almancada cinsiyete göre ayrılır.",
-            f"[color={C_ER}]Er[/color] (erkek), [color={C_SIE_SG}]Sie[/color] (kadın) ve [color={C_ES}]Es[/color] (nötr)",
-            f"Ama endişelenme, üçü de aynı eki paylaşır: [color={C_T_END}]-t[/color]",
-            f"[color={C_ER}]Er[/color] lach[color={C_T_END}]t[/color], [color={C_SIE_SG}]Sie[/color] schreib[color={C_T_END}]t[/color], [color={C_ES}]Es[/color] stürm[color={C_T_END}]t[/color]",
-            f"[color={C_ER}]Er[/color] zamirini düşünürken aklına Türkçe Erkek kelimesi gelirse bunu kolayca hatırlayabilirsin.",
-            f"[color={C_DU}]Du[/color] zamirinde [color={C_DU}]-est[/color] ile biten kelimeler burada [color={C_T_END}]-et[/color] ile biter",
-            f"[color={C_ER}]Er[/color] arbeit[color={C_T_END}]et[/color], [color={C_SIE_SG}]Sie[/color] land[color={C_T_END}]et[/color], [color={C_ES}]Es[/color] start[color={C_T_END}]et[/color]",
-            "Çoğul ile devam edelim. Mantığı anladığına göre ilke çok basit",
-            f"[color={C_WIR}]Wir[/color] (Biz) + [color={C_WIR}]en[/color]",
-            f"Şimdi kolaylaşıyor! Biz ([color={C_WIR}]Wir[/color]) ile kurulan cümlelerdeki ek, mastar haliyle aynıdır, yani olduğu gibi bırakabilirsin! Harika değil mi?",
-            f"[color={C_WIR}]Wir[/color] lauf[color={C_WIR}]en[/color], [color={C_WIR}]Wir[/color] trag[color={C_WIR}]en[/color], [color={C_WIR}]Wir[/color] koch[color={C_WIR}]en[/color]",
-            f"[color={C_IHR}]Ihr[/color] (Siz) + [color={C_IHR}]t[/color]",
-            f"[color={C_IHR}]Ihr[/color] kämpf[color={C_IHR}]t[/color], [color={C_IHR}]Ihr[/color] arbeit[color={C_IHR}]et[/color], [color={C_IHR}]Ihr[/color] rauch[color={C_IHR}]t[/color]",
-            f"Tıpkı [color={C_ER}]Er[/color]/[color={C_SIE_SG}]Sie[/color]/[color={C_ES}]Es[/color] gibi, yani bunu zaten biliyorsun, harika değil mi?",
-            "Neredeyse bitti! Sadece tek bir zamir kaldı!",
-            f"[color={C_SIE_PL}]Sie[/color] (Onlar) + [color={C_SIE_PL}]en[/color]",
-            f"Başlangıçta iki tane Sie olması biraz kafa karıştırıcı olabilir ama farkı ekten anlarsın. Tıpkı Biz ([color={C_WIR}]Wir[/color]) gibi yazılışı mastar haliyle aynı bırakabilirsin",
-            f"[color={C_SIE_PL}]Sie[/color] lauf[color={C_SIE_PL}]en[/color], [color={C_SIE_PL}]Sie[/color] trag[color={C_SIE_PL}]en[/color], [color={C_SIE_PL}]Sie[/color] koch[color={C_SIE_PL}]en[/color]",
-            "Şimdi küçük bir test ile çekimlere hakim olup olmadığını kontrol edelim"
+            f"Artık [color={C_ICH}]Ich[/color] ve [color={C_DU}]Du[/color] zamirlerine hakim olduğuna göre, tam da oradan devam ediyoruz.",
+            "Üçüncü tekil şahıs Almancada Türkçeye göre biraz daha karmaşıktır. Türkçede hakkında konuşulan kişi kim olursa olsun her zaman “O” kullanılırken, Almancada cinsiyete göre ayrım yapılır.",
+            f"[color={C_ER}]Er[/color] (eril), [color={C_SIE_SG}]Sie[/color] (dişil) ve [color={C_ES}]Es[/color] (nötr)",
+            f"Yani O demek yerine bir erkek hakkında konuşurken [color={C_ER}]Er[/color] dersin:\n\n[color={C_ER}]Er[/color] ist mein Verlobter = O benim nişanlım\n\n[color={C_ER}]Er[/color] zamirinde aklına Türkçe Erkek kelimesi gelirse, kolayca hatırlayabilirsin.",
+            f"Ve bir kadın hakkında konuştuğunda O yerine [color={C_SIE_SG}]Sie[/color] dersin.\n[color={C_SIE_SG}]Sie[/color] kelimesindeki S harfi yumuşak okunur, Türkçe Kız kelimesindeki Z harfine benzer:\n\n[color={C_SIE_SG}]Sie[/color] ist meine Tochter = O benim kız çocuğum",
+            "Böylece hangi zamirin hangi cinsiyete ait olduğunu kolayca hatırlayabilirsin.",
+            f"“[color={C_ES}]Es[/color]”, hava durumu gibi nötr bir şeyden bahsettiğinde kullanılır:\n\nDışarısı güzel, hava iyi.\n[color={C_ES}]Es[/color] ist schön draußen, das Wetter ist gut",
+            "Bu karmaşık görünebilir ama anlayana kadar yavaş yavaş ilerleyeceğiz.",
+            "Yine mastar haliyle başlayalım:\n\nspielen = oynamak\nlernen = öğrenmek\narbeiten = çalışmak",
+            "Zaten bildiğin gibi, son heceyi çıkararak fiil kökünü elde etmeliyiz:\n\nspiel = oynamak\nlern = öğrenmek\narbeit = çalışmak",
+            f"Ardından 3 zamirimizi ekliyoruz:\n\n[color={C_ER}]Er[/color] spiel = O (erkek) oynuyor\n[color={C_SIE_SG}]Sie[/color] lern = O (kadın) öğreniyor\n[color={C_ES}]Es[/color] arbeit = O (nötr) çalışıyor",
+            f"Ve sonra ek gelir. Bu ek her üç zamir için de aynıdır: [color={C_T_END}]-t[/color]\n\n[color={C_ER}]Er[/color] spiel[color={C_T_END}]t[/color] = O (erkek) oynuyor\n[color={C_SIE_SG}]Sie[/color] lern[color={C_T_END}]t[/color] = O (kadın) öğreniyor\n[color={C_ES}]Es[/color] arbeit[color={C_T_END}]et[/color] = O (nötr) çalışıyor",
+            "Farklı zamirlerin ne zaman kullanıldığını açıklamak için işte birkaç cümle daha:",
+            f"Das ist Daniel. [color={C_ER}]Er[/color] arbeit[color={C_T_END}]et[/color] im Supermarkt.\nBu Daniel. O süpermarkette çalışıyor.",
+            f"Das ist meine Oma. [color={C_SIE_SG}]Sie[/color] back[color={C_T_END}]t[/color] Kekse.\nBu benim büyükannem. O kurabiye pişiriyor.",
+            f"Das Wetter ist schlecht. [color={C_ES}]Es[/color] regn[color={C_T_END}]et[/color].\nHava kötü. Yağmur yağıyor.",
+            f"[color={C_DU}]Du[/color] zamirinde [color={C_DU}]-est[/color] ile biten kelimeler, burada [color={C_T_END}]-et[/color] ile biter:\n\n[color={C_ER}]Er[/color] arbeit[color={C_T_END}]et[/color], [color={C_SIE_SG}]Sie[/color] land[color={C_T_END}]et[/color], [color={C_ES}]Es[/color] start[color={C_T_END}]et[/color]",
+            "Becerilerini test edelim.\n\nBurada 9 cümlen var ve doğru zamiri yerleştirmen gerekiyor!"
         ],
-        "optionen": ["-e", "-st", "-est", "-t", "-et", "-en"],
+        "quiz_hinweis": "Doğru zamiri seç (Er / Sie / Es):",
+        "quiz_titel": "DOĞRU ZAMİRİ SEÇ",
+        "optionen": ["Er", "Sie", "Es"],
         "quiz": [
-            # 1. Pers. Singular (5 reguläre Verben)
-            {"anzeige": f"[color={C_ICH}]Ich[/color] + spielen = [color={C_ICH}]Ich[/color] spiel___", "antwort": "-e", "vollstaendig": "Ich spiele"},
-            {"anzeige": f"[color={C_ICH}]Ich[/color] + lernen = [color={C_ICH}]Ich[/color] lern___", "antwort": "-e", "vollstaendig": "Ich lerne"},
-            {"anzeige": f"[color={C_ICH}]Ich[/color] + machen = [color={C_ICH}]Ich[/color] mach___", "antwort": "-e", "vollstaendig": "Ich mache"},
-            {"anzeige": f"[color={C_ICH}]Ich[/color] + wohnen = [color={C_ICH}]Ich[/color] wohn___", "antwort": "-e", "vollstaendig": "Ich wohne"},
-            {"anzeige": f"[color={C_ICH}]Ich[/color] + hören = [color={C_ICH}]Ich[/color] hör___", "antwort": "-e", "vollstaendig": "Ich höre"},
-
-            # 2. Pers. Singular (5 reguläre Verben)
-            {"anzeige": f"[color={C_DU}]Du[/color] + fragen = [color={C_DU}]Du[/color] frag___", "antwort": "-st", "vollstaendig": "Du fragst"},
-            {"anzeige": f"[color={C_DU}]Du[/color] + suchen = [color={C_DU}]Du[/color] such___", "antwort": "-st", "vollstaendig": "Du suchst"},
-            {"anzeige": f"[color={C_DU}]Du[/color] + lachen = [color={C_DU}]Du[/color] lach___", "antwort": "-st", "vollstaendig": "Du lachst"},
-            {"anzeige": f"[color={C_DU}]Du[/color] + arbeiten = [color={C_DU}]Du[/color] arbeit___", "antwort": "-est", "vollstaendig": "Du arbeitest"},
-            {"anzeige": f"[color={C_DU}]Du[/color] + warten = [color={C_DU}]Du[/color] wart___", "antwort": "-est", "vollstaendig": "Du wartest"},
-
-            # 3. Pers. Singular (5 reguläre Verben: er / sie / es)
-            {"anzeige": f"[color={C_ER}]Er[/color] + kochen = [color={C_ER}]Er[/color] koch___", "antwort": "-t", "vollstaendig": "Er kocht"},
-            {"anzeige": f"[color={C_SIE_SG}]Sie[/color] + malen = [color={C_SIE_SG}]Sie[/color] mal___", "antwort": "-t", "vollstaendig": "Sie malt"},
-            {"anzeige": f"[color={C_ES}]Es[/color] + regnen = [color={C_ES}]Es[/color] regn___", "antwort": "-et", "vollstaendig": "Es regnet"},
-            {"anzeige": f"[color={C_ER}]Er[/color] + reisen = [color={C_ER}]Er[/color] reis___", "antwort": "-t", "vollstaendig": "Er reist"},
-            {"anzeige": f"[color={C_SIE_SG}]Sie[/color] + kosten = [color={C_SIE_SG}]Sie[/color] kost___", "antwort": "-et", "vollstaendig": "Sie kostet"},
-
-            # 1. Pers. Plural (5 reguläre Verben: wir)
-            {"anzeige": f"[color={C_WIR}]Wir[/color] + bauen = [color={C_WIR}]Wir[/color] bau___", "antwort": "-en", "vollstaendig": "Wir bauen"},
-            {"anzeige": f"[color={C_WIR}]Wir[/color] + lieben = [color={C_WIR}]Wir[/color] lieb___", "antwort": "-en", "vollstaendig": "Wir lieben"},
-            {"anzeige": f"[color={C_WIR}]Wir[/color] + packen = [color={C_WIR}]Wir[/color] pack___", "antwort": "-en", "vollstaendig": "Wir packen"},
-            {"anzeige": f"[color={C_WIR}]Wir[/color] + putzen = [color={C_WIR}]Wir[/color] putz___", "antwort": "-en", "vollstaendig": "Wir putzen"},
-            {"anzeige": f"[color={C_WIR}]Wir[/color] + danken = [color={C_WIR}]Wir[/color] dank___", "antwort": "-en", "vollstaendig": "Wir danken"},
-
-            # 2. Pers. Plural (5 reguläre Verben: ihr)
+            {
+                "anzeige": f"[color={C_ICH}]Ich[/color] kauf[color={C_ICH}]e[/color] ein Handy. ___ ist teuer.\n[size=15sp][color=#A0A6B2]Bir cep telefonu satın alıyorum; pahalı.[/color][/size]",
+                "antwort": "Es",
+                "vollstaendig": "Ich kaufe ein Handy. Es ist teuer."
+            },
+            {
+                "anzeige": f"Das ist meine Tochter. ___ spiel[color={C_T_END}]t[/color] Klavier.\n[size=15sp][color=#A0A6B2]Bu benim kızım. O piyano çalıyor.[/color][/size]",
+                "antwort": "Sie",
+                "vollstaendig": "Das ist meine Tochter. Sie spielt Klavier."
+            },
+            {
+                "anzeige": f"Mein Onkel ist sauer. ___ fluch[color={C_T_END}]t[/color].\n[size=15sp][color=#A0A6B2]Amcam kızgın. O küfrediyor.[/color][/size]",
+                "antwort": "Er",
+                "vollstaendig": "Mein Onkel ist sauer. Er flucht."
+            },
+            {
+                "anzeige": f"Meine Schwester hat 5 Euro. ___ kauf[color={C_T_END}]t[/color] eine Wassermelone.\n[size=15sp][color=#A0A6B2]Kız kardeşimin 5 eurosu var. O bir karpuz satın alıyor.[/color][/size]",
+                "antwort": "Sie",
+                "vollstaendig": "Meine Schwester hat 5 Euro. Sie kauft eine Wassermelone."
+            },
+            {
+                "anzeige": f"Heute kann man Papierdrachen fliegen. ___ ist windig.\n[size=15sp][color=#A0A6B2]Bugün uçurtma uçurulabilir. Hava rüzgârlı.[/color][/size]",
+                "antwort": "Es",
+                "vollstaendig": "Heute kann man Papierdrachen fliegen. Es ist windig."
+            },
+            {
+                "anzeige": f"Mein Sohn heißt Leon, ___ ist 5 Jahre alt.\n[size=15sp][color=#A0A6B2]Oğlumun adı Leon. O 5 yaşında.[/color][/size]",
+                "antwort": "Er",
+                "vollstaendig": "Mein Sohn heißt Leon, er ist 5 Jahre alt."
+            },
+            {
+                "anzeige": f"Mein Mathelehrer heißt Herr Müller. ___ ist sehr streng.\n[size=15sp][color=#A0A6B2]Matematik öğretmenimin adı Bay Müller. Kendisi çok serttir.[/color][/size]",
+                "antwort": "Er",
+                "vollstaendig": "Mein Mathelehrer heißt Herr Müller. Er ist sehr streng."
+            },
+            {
+                "anzeige": f"Meine Mutter wartet auf mich. ___ ist genervt.\n[size=15sp][color=#A0A6B2]Annem beni bekliyor. O sinirli.[/color][/size]",
+                "antwort": "Sie",
+                "vollstaendig": "Meine Mutter wartet auf mich. Sie ist genervt."
+            },
+            {
+                "anzeige": f"Da ist ein Baby. ___ schau[color={C_T_END}]t[/color] mich an.\n[size=15sp][color=#A0A6B2]Orada bir bebek var. O bana bakıyor.[/color][/size]",
+                "antwort": "Es",
+                "vollstaendig": "Da ist ein Baby. Es schaut mich an."
+            }
+        ]
+    },
+    "Fiiller 3. Bölüm": {
+        "karten": [
+            "Harika, başardın! Artık tekil şahısların hepsine hakimsin.\n\nŞimdi çoğul şahısları deneyelim (Biz, Siz, Onlar).",
+            f"Biz = [color={C_WIR}]Wir[/color]",
+            "Her zamanki gibi üç fiilimizin mastar halini alıyoruz:\n\nspielen = oynamak\nlernen = öğrenmek\narbeiten = çalışmak",
+            f"Ve şimdi gerçekten kolaylaşıyor. Çünkü birinci çoğul şahıs mastar haliyle birebir aynı yazılır. Yani tek yapman gereken zamiri eklemek ([color={C_WIR}]Wir[/color] + [color={C_WIR}]-en[/color]):\n\n[color={C_WIR}]Wir[/color] spiel[color={C_WIR}]en[/color] = Biz oynuyoruz\n[color={C_WIR}]Wir[/color] lern[color={C_WIR}]en[/color] = Biz öğreniyoruz\n[color={C_WIR}]Wir[/color] arbeit[color={C_WIR}]en[/color] = Biz çalışıyoruz",
+            f"Birkaç örnek daha:\n\n[color={C_WIR}]Wir[/color] heirat[color={C_WIR}]en[/color] = Biz evleniyoruz\n[color={C_WIR}]Wir[/color] putz[color={C_WIR}]en[/color] = Biz temizliyoruz\n[color={C_WIR}]Wir[/color] wein[color={C_WIR}]en[/color] = Biz ağlıyoruz",
+            "Bu kolaydı, değil mi? O halde bir sonraki kişiyle devam edelim!",
+            f"Siz = [color={C_IHR}]Ihr[/color]",
+            "Her zamanki gibi fiillerimizin mastar halini alıyoruz:\n\nspielen = oynamak\nlernen = öğrenmek\narbeiten = çalışmak",
+            "Tabii ki önce fiil kökünü oluşturmalıyız:\n\nspiel = oynamak\nlern = öğrenmek\narbeit = çalışmak",
+            f"İki veya daha fazla kişiden bahsettiğinde [color={C_IHR}]Ihr[/color] (Siz) zamirini kullanırsın:\n\n[color={C_IHR}]Ihr[/color] spiel = oynamak\n[color={C_IHR}]Ihr[/color] lern = öğrenmek\n[color={C_IHR}]Ihr[/color] arbeit = çalışmak",
+            f"[color={C_IHR}]Ihr[/color] (Siz) için kelime sonu eki [color={C_IHR}]-t[/color]'dir (veya [color={C_IHR}]-et[/color]), tıpkı geçen dersteki [color={C_ER}]Er[/color]/[color={C_SIE_SG}]Sie[/color]/[color={C_ES}]Es[/color] (O) gibi:\n\n[color={C_IHR}]Ihr[/color] spiel[color={C_IHR}]t[/color] = siz oynuyorsunuz\n[color={C_IHR}]Ihr[/color] lern[color={C_IHR}]t[/color] = siz öğreniyorsunuz\n[color={C_IHR}]Ihr[/color] arbeit[color={C_IHR}]et[/color] = siz çalışıyorsunuz",
+            "Birkaç örnek cümle daha:",
+            f"[color={C_WIR}]Wir[/color] arbeit[color={C_WIR}]en[/color] im Supermarkt, [color={C_IHR}]Ihr[/color] arbeit[color={C_IHR}]et[/color] im Baumarkt.\nBiz süpermarkette çalışıyoruz, siz yapı markette çalışıyorsunuz.",
+            f"[color={C_WIR}]Wir[/color] lern[color={C_WIR}]en[/color] Deutsch, [color={C_IHR}]ihr[/color] lern[color={C_IHR}]t[/color] Türkisch.\nBiz Almanca öğreniyoruz, siz Türkçe öğreniyorsunuz.",
+            f"[color={C_WIR}]Wir[/color] guck[color={C_WIR}]en[/color] einen Film, [color={C_IHR}]Ihr[/color] guck[color={C_IHR}]t[/color] eine Serie.\nBiz bir film izliyoruz, siz bir dizi izliyorsunuz.",
+            f"[color={C_WIR}]Wir[/color] hör[color={C_WIR}]en[/color] Musik, [color={C_IHR}]Ihr[/color] hör[color={C_IHR}]t[/color] ein Hörbuch.\nBiz müzik dinliyoruz, siz sesli kitap dinliyorsunuz.",
+            f"[color={C_WIR}]Wir[/color] trainier[color={C_WIR}]en[/color] die Arme, [color={C_IHR}]Ihr[/color] trainier[color={C_IHR}]t[/color] den Bauch.\nBiz kolları çalıştırıyoruz, siz karın bölgesini çalıştırıyorsunuz.",
+            "O halde becerilerini bir kez daha test edelim. Verilen zamirle bu 7 fiili çekimle!"
+        ],
+        "quiz_hinweis": "Doğru fiil sonunu seç:",
+        "quiz_titel": "FİİLİ ÇEKİMLE",
+        "optionen": ["-en", "-t", "-et"],
+        "quiz": [
+            {"anzeige": f"[color={C_IHR}]Ihr[/color] + arbeiten = [color={C_IHR}]Ihr[/color] arbeit___", "antwort": "-et", "vollstaendig": "Ihr arbeitet"},
+            {"anzeige": f"[color={C_IHR}]Ihr[/color] + kaufen = [color={C_IHR}]Ihr[/color] kauf___", "antwort": "-t", "vollstaendig": "Ihr kauft"},
+            {"anzeige": f"[color={C_WIR}]Wir[/color] + schlafen = [color={C_WIR}]Wir[/color] schlaf___", "antwort": "-en", "vollstaendig": "Wir schlafen"},
             {"anzeige": f"[color={C_IHR}]Ihr[/color] + tanzen = [color={C_IHR}]Ihr[/color] tanz___", "antwort": "-t", "vollstaendig": "Ihr tanzt"},
-            {"anzeige": f"[color={C_IHR}]Ihr[/color] + holen = [color={C_IHR}]Ihr[/color] hol___", "antwort": "-t", "vollstaendig": "Ihr holt"},
-            {"anzeige": f"[color={C_IHR}]Ihr[/color] + üben = [color={C_IHR}]Ihr[/color] üb___", "antwort": "-t", "vollstaendig": "Ihr übt"},
-            {"anzeige": f"[color={C_IHR}]Ihr[/color] + baden = [color={C_IHR}]Ihr[/color] bad___", "antwort": "-et", "vollstaendig": "Ihr badet"},
-            {"anzeige": f"[color={C_IHR}]Ihr[/color] + öffnen = [color={C_IHR}]Ihr[/color] öffn___", "antwort": "-et", "vollstaendig": "Ihr öffnet"},
-
-            # 3. Pers. Plural (5 reguläre Verben: sie [onlar])
-            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + singen = [color={C_SIE_PL}]Sie[/color] sing___", "antwort": "-en", "vollstaendig": "Sie singen"},
-            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + winken = [color={C_SIE_PL}]Sie[/color] wink___", "antwort": "-en", "vollstaendig": "Sie winken"},
-            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + sparen = [color={C_SIE_PL}]Sie[/color] spar___", "antwort": "-en", "vollstaendig": "Sie sparen"},
-            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + grüßen = [color={C_SIE_PL}]Sie[/color] grüß___", "antwort": "-en", "vollstaendig": "Sie grüßen"},
-            {"anzeige": f"[color={C_SIE_PL}]Sie[/color] + weinen = [color={C_SIE_PL}]Sie[/color] wein___", "antwort": "-en", "vollstaendig": "Sie weinen"}
+            {"anzeige": f"[color={C_WIR}]Wir[/color] + lernen = [color={C_WIR}]Wir[/color] lern___", "antwort": "-en", "vollstaendig": "Wir lernen"},
+            {"anzeige": f"[color={C_IHR}]Ihr[/color] + fragen = [color={C_IHR}]Ihr[/color] frag___", "antwort": "-t", "vollstaendig": "Ihr fragt"},
+            {"anzeige": f"[color={C_WIR}]Wir[/color] + laufen = [color={C_WIR}]Wir[/color] lauf___", "antwort": "-en", "vollstaendig": "Wir laufen"}
+        ]
+    },
+    "Fiiller 4. Bölüm": {
+        "karten": [
+            f"Artık neredeyse başardın. Usta olamadığın sadece tek bir kişi kaldı.\n\nÜçüncü çoğul şahıs \"[color={C_SIE_PL}]Sie[/color]\" (Onlar)",
+            f"Kafan karışmış olabilir çünkü iki tane \"[color={C_SIE_PL}]Sie[/color]\" versiyonu var. Ama hızlıca alışana kadar pratik yapacağız.",
+            "Yine mastar halindeki fiillerimizle başlayalım:\n\nspielen = oynamak\nlernen = öğrenmek\narbeiten = çalışmak",
+            f"Biz ([color={C_WIR}]Wir[/color]) şahsında olduğu gibi takı mastar haliyle aynıdır, yani işimizi kolaylaştırıp sadece zamiri eklememiz yeterlidir ([color={C_SIE_PL}]Sie[/color] + [color={C_SIE_PL}]-en[/color]):\n\n[color={C_SIE_PL}]Sie[/color] spiel[color={C_SIE_PL}]en[/color] = Onlar oynuyorlar\n[color={C_SIE_PL}]Sie[/color] lern[color={C_SIE_PL}]en[/color] = Onlar öğreniyorlar\n[color={C_SIE_PL}]Sie[/color] arbeit[color={C_SIE_PL}]en[/color] = Onlar çalışıyorlar",
+            "İşte birkaç örnek cümle:",
+            f"Das sind die Schüler der Goethe Realschule. [color={C_SIE_PL}]Sie[/color] schreib[color={C_SIE_PL}]en[/color] einen Test.\nBunlar, Goethe Ortaokulu'nun öğrencileri. Onlar bir sınav yazıyorlar.",
+            f"Die Firma Audi hat viele Angestellte. [color={C_SIE_PL}]Sie[/color] verdien[color={C_SIE_PL}]en[/color] viel Geld.\nAudi firmasının birçok çalışanı var. Onlar çok para kazanıyorlar.",
+            f"Die Familie Müller ist spät dran. [color={C_SIE_PL}]Sie[/color] steh[color={C_SIE_PL}]en[/color] im Stau.\nMüller ailesi gecikti. Trafikteler.",
+            "O kadar da zor değil, değil mi? Ancak bu derste özel bir durum var.",
+            f"Üçüncü çoğul şahıs [color={C_SIE_PL}]Sie[/color] (Onlar) aynı zamanda nezaket şekli (kibar ifade) olarak da kullanılır.",
+            f"Kibar olmanız gereken biriyle konuşurken [color={C_DU}]Du[/color] yerine [color={C_SIE_PL}]Sie[/color] kullanırsınız.",
+            f"Bunun birkaç örnekle nasıl çalıştığını sana göstereyim:\n\nArkadaşına iltifat ediyorsun = [color={C_DU}]Du[/color] sieh[color={C_DU}]st[/color] gut aus (İyi görünüyorsun)\nPatronuna iltifat ediyorsun = [color={C_SIE_PL}]Sie[/color] seh[color={C_SIE_PL}]en[/color] gut aus (İyi görünüyorsunuz)",
+            f"Arkadaşın seninle konuşuyor = [color={C_DU}]Du[/color] ha[color={C_DU}]st[/color] das gut gemacht!\nPatronun seni övüyor = [color={C_SIE_PL}]Sie[/color] hab[color={C_SIE_PL}]en[/color] das gut gemacht!",
+            f"Annenden bir içecek istiyorsun = Ha[color={C_DU}]st[/color] [color={C_DU}]du[/color] Cola? (Kola var mı)\nRestoranda bir içecek istiyorsun = Hab[color={C_SIE_PL}]en[/color] [color={C_SIE_PL}]Sie[/color] Cola? (Kola var mı)",
+            "Şimdi bir test yapalım.\n\nDoğru zamiri cümleye yerleştirin!"
+        ],
+        "quiz_hinweis": "Doğru zamiri cümleye yerleştirin (Du / Sie):",
+        "quiz_titel": "DOĞRU ZAMİRİ SEÇ",
+        "optionen": ["Du", "Sie"],
+        "quiz": [
+            {
+                "anzeige": f"Das sind meine Mitschüler. ___ sind nett.\n[size=15sp][color=#A0A6B2]Bunlar benim sınıf arkadaşlarım. Onlar iyi insanlar.[/color][/size]",
+                "antwort": "Sie",
+                "vollstaendig": "Das sind meine Mitschüler. Sie sind nett."
+            },
+            {
+                "anzeige": f"Guten Tag Herr Müller, ___ seh[color={C_SIE_PL}]en[/color] heute gut aus.\n[size=15sp][color=#A0A6B2]İyi günler Bay Müller, bugün iyi görünüyorsunuz.[/color][/size]",
+                "antwort": "Sie",
+                "vollstaendig": "Guten Tag Herr Müller, Sie sehen heute gut aus."
+            },
+            {
+                "anzeige": f"___ arbeit[color={C_DU}]est[/color] sehr hart!\n[size=15sp][color=#A0A6B2]Çok sıkı çalışıyorsun![/color][/size]",
+                "antwort": "Du",
+                "vollstaendig": "Du arbeitest sehr hart!"
+            },
+            {
+                "anzeige": f"Ich gehe zu meiner Familie. ___ hab[color={C_SIE_PL}]en[/color] mich eingeladen.\n[size=15sp][color=#A0A6B2]Ailemin yanına gidiyorum; beni davet ettiler.[/color][/size]",
+                "antwort": "Sie",
+                "vollstaendig": "Ich gehe zu meiner Familie. Sie haben mich eingeladen."
+            },
+            {
+                "anzeige": f"___ sieh[color={C_DU}]st[/color] lustig aus.\n[size=15sp][color=#A0A6B2]Komik görünüyorsun.[/color][/size]",
+                "antwort": "Du",
+                "vollstaendig": "Du siehst lustig aus."
+            },
+            {
+                "anzeige": f"Guten Tag, hab[color={C_SIE_PL}]en[/color] ___ einen Tisch frei?\n[size=15sp][color=#A0A6B2]İyi günler, boş bir masanız var mı?[/color][/size]",
+                "antwort": "Sie",
+                "vollstaendig": "Guten Tag, haben Sie einen Tisch frei?"
+            }
         ]
     }
 }
@@ -211,21 +311,39 @@ def label(text, groesse, hoehe=None, **kw):
     return lbl
 
 
-# --- ÄSTHETISCHER, ABGERUNDETER KNOPF (PILL BUTTON) ---
+# --- ÄSTHETISCHER, ABGERUNDETER KNOPF (PILL BUTTON) MIT PRESS-EFFEKT ---
 class AbgerundeterButton(Button):
     def __init__(self, farbe=BLAU, **kwargs):
         super().__init__(**kwargs)
         self.background_normal = ''
         self.background_color = (0, 0, 0, 0)
         self.custom_farbe = farbe
+        self.gedrueckt = False
 
         with self.canvas.before:
-            Color(*self.custom_farbe)
+            self._color_instr = Color(*self.custom_farbe)
             self.rect = RoundedRectangle(pos=self.pos, size=self.size, radius=[self.height / 2.0])
 
         self.bind(pos=self.update_canvas, size=self.update_canvas)
 
+    def _aktive_farbe(self):
+        if not self.gedrueckt:
+            return self.custom_farbe
+        r, g, b, a = self.custom_farbe
+        return (max(0.0, r * 0.78), max(0.0, g * 0.78), max(0.0, b * 0.78), a)
+
+    def on_press(self):
+        self.gedrueckt = True
+        self._color_instr.rgba = self._aktive_farbe()
+        return super().on_press()
+
+    def on_release(self):
+        self.gedrueckt = False
+        self._color_instr.rgba = self._aktive_farbe()
+        return super().on_release()
+
     def update_canvas(self, *args):
+        self._color_instr.rgba = self._aktive_farbe()
         self.rect.pos = self.pos
         self.rect.size = self.size
         self.rect.radius = [self.height / 2.0]
@@ -239,6 +357,88 @@ def knopf(text, groesse=16, hoehe=56, farbe=BLAU, **kw):
     btn.height = dp(hoehe)
     btn.bind(size=lambda w, s: setattr(w, 'text_size', (s[0] - dp(16), s[1])))
     return btn
+
+
+# --- ABGERUNDETE KARTENFLÄCHE MIT FEINEM RAHMEN ---
+class KarteBox(BoxLayout):
+    def __init__(self, rand_farbe=KARTE_RAND, **kwargs):
+        super().__init__(**kwargs)
+        self.orientation = 'vertical'
+        self.padding = dp(16)
+        self.spacing = dp(10)
+        self._rand_farbe = rand_farbe
+
+        with self.canvas.before:
+            Color(*KARTE_FUELLUNG)
+            self._bg = RoundedRectangle(pos=self.pos, size=self.size, radius=[dp(18)])
+            self._border_color = Color(*self._rand_farbe)
+            self._border = Line(rounded_rectangle=(self.x, self.y, self.width, self.height, dp(18)), width=dp(1.1))
+
+        self.bind(pos=self._update_karte, size=self._update_karte)
+
+    def _update_karte(self, *args):
+        self._bg.pos = self.pos
+        self._bg.size = self.size
+        self._border.rounded_rectangle = (self.x, self.y, self.width, self.height, dp(18))
+
+
+# --- VISUELLER FORTSCHRITTSBALKEN ---
+class FortschrittsBalken(Widget):
+    def __init__(self, fortschritt_wert=0.0, fuell_farbe=BLAU, **kwargs):
+        super().__init__(**kwargs)
+        self.size_hint_y = None
+        self.height = dp(8)
+        self.fortschritt_wert = max(0.0, min(1.0, fortschritt_wert))
+        self.fuell_farbe = fuell_farbe
+
+        with self.canvas:
+            Color(0.18, 0.20, 0.25, 1)
+            self._track = RoundedRectangle(pos=self.pos, size=self.size, radius=[dp(4)])
+            self._fill_color = Color(*self.fuell_farbe)
+            self._fill = RoundedRectangle(pos=self.pos, size=(0, self.height), radius=[dp(4)])
+
+        self.bind(pos=self._update_balken, size=self._update_balken)
+
+    def _update_balken(self, *args):
+        self._track.pos = self.pos
+        self._track.size = self.size
+        breite = self.width * self.fortschritt_wert if self.fortschritt_wert > 0 else 0
+        self._fill.pos = self.pos
+        self._fill.size = (breite, self.height)
+
+
+# --- VISUELLE 3-LEBEN-ANZEIGE ---
+class LebenAnzeige(BoxLayout):
+    def __init__(self, leben=3, max_leben=3, **kwargs):
+        super().__init__(**kwargs)
+        self.orientation = 'horizontal'
+        self.size_hint = (None, None)
+        self.size = (dp(54), dp(20))
+        self.spacing = dp(6)
+        self.padding = [dp(4), dp(4), dp(4), dp(4)]
+        self.leben = max(0, min(max_leben, leben))
+        self.max_leben = max_leben
+        self._punkte = []
+
+        with self.canvas:
+            for i in range(self.max_leben):
+                aktiv = i < self.leben
+                farbe = GRUEN if self.leben > 1 else (ROT if aktiv else (0.28, 0.30, 0.35, 1))
+                if not aktiv:
+                    farbe = (0.25, 0.27, 0.32, 1)
+                c = Color(*farbe)
+                e = Ellipse(pos=(0, 0), size=(dp(11), dp(11)))
+                self._punkte.append((c, e))
+
+        self.bind(pos=self._update_punkte, size=self._update_punkte)
+
+    def _update_punkte(self, *args):
+        punkt_groesse = dp(11)
+        abstand = dp(5)
+        y_pos = self.y + (self.height - punkt_groesse) / 2.0
+        for idx, (_, ell) in enumerate(self._punkte):
+            ell.pos = (self.x + dp(3) + idx * (punkt_groesse + abstand), y_pos)
+            ell.size = (punkt_groesse, punkt_groesse)
 
 
 class VokabelRootLayout(BoxLayout):
@@ -266,6 +466,8 @@ class VokabelRootLayout(BoxLayout):
         self.grammatik_index = 0
         self.quiz_fragen = []
         self.quiz_optionen = []
+        self.quiz_hinweis = "Doğru fiil sonunu seç:"
+        self.quiz_titel = "FİİLİ ÇEKİMLE"
         self.quiz_index = 0
         self.quiz_leben = 3
         self.quiz_punkte = 0
@@ -311,6 +513,13 @@ class VokabelRootLayout(BoxLayout):
         except Exception as e:
             print(f"Abspiel-Fehler: {e}")
 
+    def _anzahl_wiederholungs_karten(self):
+        gesamt = 0
+        for kat, karten in self.fortschritt.items():
+            if isinstance(karten, list) and kat != "grammatik_abgeschlossen":
+                gesamt += len(karten)
+        return gesamt
+
     # ---------- 1. Hauptmenü (Start) ----------
     def zeige_hauptmenue(self, *args):
         self.bildschirm_leeren()
@@ -324,13 +533,15 @@ class VokabelRootLayout(BoxLayout):
         self.logo_hinzufuegen(quadrat_block, hoehe=150)
 
         quadrat_block.add_widget(label("Merhaba! Hoş geldin!", 24, 44, bold=True, color=BLAU))
-        quadrat_block.add_widget(label("Ne yapmak istiyorsun?", 15, 26, color=(0.70, 0.70, 0.70, 1)))
+        quadrat_block.add_widget(label("Ne yapmak istiyorsun?", 15, 26, color=TEXT_MUTED))
 
         btn_lernen = knopf("Öğren (Lernen)", groesse=18, hoehe=58, farbe=BLAU)
         btn_lernen.bind(on_release=self.zeige_lernen_menue)
         quadrat_block.add_widget(btn_lernen)
 
-        btn_wiederholen = knopf("Tekrar (Wiederholung)", groesse=18, hoehe=58, farbe=BLAU)
+        wiederhol_anzahl = self._anzahl_wiederholungs_karten()
+        wiederhol_text = f"Tekrar (Wiederholung) · {wiederhol_anzahl}" if wiederhol_anzahl > 0 else "Tekrar (Wiederholung)"
+        btn_wiederholen = knopf(wiederhol_text, groesse=18, hoehe=58, farbe=BLAU)
         btn_wiederholen.bind(on_release=self.starte_wiederholung_stapel)
         quadrat_block.add_widget(btn_wiederholen)
 
@@ -356,7 +567,7 @@ class VokabelRootLayout(BoxLayout):
         self.logo_hinzufuegen(mitte_block, hoehe=150)
 
         mitte_block.add_widget(label("Öğrenme Alanı", 20, 38, bold=True, color=BLAU))
-        mitte_block.add_widget(label("Lütfen bir kategori seç:", 14, 24, color=(0.70, 0.70, 0.70, 1)))
+        mitte_block.add_widget(label("Lütfen bir kategori seç:", 14, 24, color=TEXT_MUTED))
 
         btn_vokabeln = knopf("Kelime Kartları (Vokabeln)", groesse=16, hoehe=50, farbe=BLAU)
         btn_vokabeln.bind(on_release=self.zeige_lektionen_menue)
@@ -376,14 +587,16 @@ class VokabelRootLayout(BoxLayout):
 
     def zeige_platzhalter_info(self, nachricht):
         self.bildschirm_leeren()
-        layout = BoxLayout(orientation='vertical', padding=dp(20), spacing=dp(20))
-        layout.add_widget(label(nachricht, 20, 60, bold=True, color=BLAU))
-        layout.add_widget(label("Bu özellik yakında eklenecektir.", 16, 40, color=(0.7, 0.7, 0.7, 1)))
+        self.add_widget(Widget(size_hint_y=1))
+        karte = KarteBox(rand_farbe=KARTE_RAND_BLAU, size_hint_y=None, height=dp(190))
+        karte.add_widget(label(nachricht, 19, 80, bold=True, color=BLAU))
+        karte.add_widget(label("Bu özellik yakında eklenecektir.", 15, 36, color=TEXT_MUTED))
+        self.add_widget(karte)
 
-        zurueck = knopf("Geri Dön", groesse=16, hoehe=56)
+        zurueck = knopf("Geri Dön", groesse=16, hoehe=56, farbe=BLAU)
         zurueck.bind(on_release=self.zeige_lernen_menue)
-        layout.add_widget(zurueck)
-        self.add_widget(layout)
+        self.add_widget(zurueck)
+        self.add_widget(Widget(size_hint_y=1))
 
     # ---------- 3C. Grammatik-Lektionen-Menü ----------
     def zeige_grammatik_menue(self, *args):
@@ -397,13 +610,14 @@ class VokabelRootLayout(BoxLayout):
         layout.add_widget(zurueck)
 
         layout.add_widget(label("Gramer Dersleri", 22, 50, bold=True, color=BLAU))
-        layout.add_widget(label("Lütfen bir ders seç:", 16, 30, color=(0.70, 0.70, 0.70, 1)))
+        layout.add_widget(label("Lütfen bir ders seç:", 16, 30, color=TEXT_MUTED))
 
         abgeschlossen = self.fortschritt.get("grammatik_abgeschlossen", [])
 
         for lektions_name in GRAMMATIK_LEKTIONEN.keys():
-            status = "  (Tamamlandı)" if lektions_name in abgeschlossen else ""
-            farbe = GRUEN if lektions_name in abgeschlossen else BLAU
+            ist_fertig = lektions_name in abgeschlossen
+            status = "  ✓ (Tamamlandı)" if ist_fertig else ""
+            farbe = GRUEN if ist_fertig else BLAU
             btn = knopf(f"{lektions_name}{status}", groesse=16, hoehe=58, farbe=farbe)
             btn.bind(on_release=lambda b, ln=lektions_name: self.starte_grammatik_lektion(ln))
             layout.add_widget(btn)
@@ -419,9 +633,10 @@ class VokabelRootLayout(BoxLayout):
         self.zeige_grammatik_karte()
 
     def _text_ohne_markup(self, text):
-        reiner = text.replace("[/color]", "")
-        for code in (C_ICH, C_DU, C_ER, C_SIE_SG, C_ES, C_T_END, C_WIR, C_IHR, C_SIE_PL):
+        reiner = text.replace("[/color]", "").replace("[/size]", "")
+        for code in (C_ICH, C_DU, C_ER, C_SIE_SG, C_ES, C_T_END, C_WIR, C_IHR, C_SIE_PL, "#A0A6B2"):
             reiner = reiner.replace(f"[color={code}]", "")
+        reiner = reiner.replace("[size=15sp]", "")
         return reiner
 
     def zeige_grammatik_karte(self):
@@ -435,14 +650,17 @@ class VokabelRootLayout(BoxLayout):
         self.add_widget(top)
 
         gesamt = len(self.grammatik_karten)
-        self.add_widget(label(f"Kart {self.grammatik_index + 1} / {gesamt}", 15, 36, color=(0.70, 0.70, 0.70, 1)))
+        fortschritt_quote = (self.grammatik_index + 1) / max(1, gesamt)
+        self.add_widget(FortschrittsBalken(fortschritt_wert=fortschritt_quote, fuell_farbe=BLAU))
+        self.add_widget(label(f"Kart {self.grammatik_index + 1} / {gesamt}", 14, 28, color=TEXT_MUTED))
 
         text = self.grammatik_karten[self.grammatik_index]
         reiner_text = self._text_ohne_markup(text)
-        schriftgroesse = 25 if len(reiner_text) < 25 else 19
+        schriftgroesse = 25 if len(reiner_text) < 25 else 18
 
-        karte = BoxLayout(orientation='vertical', padding=dp(16), spacing=dp(10))
-        karte.add_widget(label(text, schriftgroesse, bold=True, markup=True, color=(1, 1, 1, 1)))
+        karte = KarteBox(rand_farbe=KARTE_RAND_BLAU)
+        karte.add_widget(label("KONU ANLATIMI", 11, 22, bold=True, color=BLAU))
+        karte.add_widget(label(text, schriftgroesse, bold=True, markup=True, color=TEXT_HELL))
         self.add_widget(karte)
 
         aktion = BoxLayout(orientation='horizontal', size_hint_y=None, height=dp(64), spacing=dp(12))
@@ -475,6 +693,8 @@ class VokabelRootLayout(BoxLayout):
         lektion = GRAMMATIK_LEKTIONEN[self.aktuelle_grammatik_lektion]
         self.quiz_fragen = list(lektion["quiz"])
         self.quiz_optionen = list(lektion.get("optionen", ["-e", "-st", "-est"]))
+        self.quiz_hinweis = lektion.get("quiz_hinweis", "Doğru fiil sonunu seç:")
+        self.quiz_titel = lektion.get("quiz_titel", "FİİLİ ÇEKİMLE")
         self.quiz_index = 0
         self.quiz_leben = 3
         self.quiz_punkte = 0
@@ -483,27 +703,35 @@ class VokabelRootLayout(BoxLayout):
     def zeige_grammatik_quiz_frage(self, feedback_text="", feedback_farbe=BLAU):
         self.bildschirm_leeren()
 
-        top = BoxLayout(size_hint_y=None, height=dp(52), spacing=dp(10))
-        zurueck = knopf("< Çık", groesse=15, hoehe=52, farbe=GRAU, size_hint_x=None, width=dp(90))
+        top = BoxLayout(size_hint_y=None, height=dp(52), spacing=dp(8))
+        zurueck = knopf("< Çık", groesse=15, hoehe=52, farbe=GRAU, size_hint_x=None, width=dp(86))
         zurueck.bind(on_release=self.zeige_grammatik_menue)
         top.add_widget(zurueck)
         top.add_widget(label(f"Soru {self.quiz_index + 1} / {len(self.quiz_fragen)}", 15, bold=True, color=BLAU))
-        top.add_widget(label(f"Can: {self.quiz_leben} / 3", 15, bold=True, color=ROT if self.quiz_leben == 1 else GRUEN))
+
+        leben_box = BoxLayout(orientation='horizontal', size_hint_x=None, width=dp(116), spacing=dp(4))
+        leben_box.add_widget(label(f"{self.quiz_leben}/3", 14, bold=True, color=ROT if self.quiz_leben == 1 else GRUEN))
+        leben_box.add_widget(LebenAnzeige(leben=self.quiz_leben, max_leben=3))
+        top.add_widget(leben_box)
         self.add_widget(top)
 
+        quote = self.quiz_index / max(1, len(self.quiz_fragen))
+        self.add_widget(FortschrittsBalken(fortschritt_wert=quote, fuell_farbe=GRUEN if feedback_farbe == GRUEN else BLAU))
+
         if feedback_text:
-            self.add_widget(label(feedback_text, 17, 42, bold=True, color=feedback_farbe))
+            self.add_widget(label(feedback_text, 15, 42, bold=True, color=feedback_farbe))
         else:
-            self.add_widget(label("Doğru fiil sonunu seç:", 15, 36, color=(0.70, 0.70, 0.70, 1)))
+            self.add_widget(label(self.quiz_hinweis, 15, 32, color=TEXT_MUTED))
 
         frage = self.quiz_fragen[self.quiz_index]
+        reiner_frage_text = self._text_ohne_markup(frage["anzeige"])
+        frage_groesse = 21 if len(reiner_frage_text) > 35 else 26
 
-        karte = BoxLayout(orientation='vertical', padding=dp(12), spacing=dp(12))
-        karte.add_widget(label("Fiili Çekimle", 16, 34, bold=True, color=BLAU_DUNKEL))
-        karte.add_widget(label(frage["anzeige"], 26, bold=True, markup=True, color=(1, 1, 1, 1)))
+        karte = KarteBox(rand_farbe=KARTE_RAND_BLAU)
+        karte.add_widget(label(self.quiz_titel, 12, 24, bold=True, color=BLAU))
+        karte.add_widget(label(frage["anzeige"], frage_groesse, bold=True, markup=True, color=TEXT_HELL))
         self.add_widget(karte)
 
-        # Einheitlich blaue Antwort-Buttons (bei mehr als 3 Optionen in zwei Reihen)
         if len(self.quiz_optionen) <= 3:
             antwort_container = BoxLayout(orientation='horizontal', size_hint_y=None, height=dp(68), spacing=dp(10), padding=[0, dp(4), 0, dp(4)])
             for option in self.quiz_optionen:
@@ -524,9 +752,9 @@ class VokabelRootLayout(BoxLayout):
 
         self.add_widget(antwort_container)
 
-    def pruefe_quiz_antwort(self, gewaehlte_endung):
+    def pruefe_quiz_antwort(self, gewaehlte_antwort):
         frage = self.quiz_fragen[self.quiz_index]
-        richtig = (gewaehlte_endung == frage["antwort"])
+        richtig = (gewaehlte_antwort == frage["antwort"])
 
         if richtig:
             self.quiz_punkte += 1
@@ -536,7 +764,7 @@ class VokabelRootLayout(BoxLayout):
                 self.zeige_grammatik_quiz_erfolg()
             else:
                 self.zeige_grammatik_quiz_frage(
-                    feedback_text=f"Doğru! ({frage['vollstaendig']})",
+                    feedback_text=f"Doğru!  →  {frage['vollstaendig']}",
                     feedback_farbe=GRUEN
                 )
         else:
@@ -545,15 +773,19 @@ class VokabelRootLayout(BoxLayout):
                 self.zeige_grammatik_quiz_verloren()
             else:
                 self.zeige_grammatik_quiz_frage(
-                    feedback_text=f"Yanlış! '{gewaehlte_endung}' değil. Tekrar dene!",
+                    feedback_text=f"Yanlış! '{gewaehlte_antwort}' değil. Tekrar dene!",
                     feedback_farbe=ROT
                 )
 
     def zeige_grammatik_quiz_verloren(self):
         self.bildschirm_leeren()
         self.add_widget(Widget(size_hint_y=1))
-        self.add_widget(label("Canların Bitti!", 26, 50, bold=True, color=ROT))
-        self.add_widget(label("3 kez yanlış cevap verdin. Dersi tamamlamak için testi baştan yapmalısın.", 16, 70, color=(0.80, 0.80, 0.80, 1)))
+
+        karte = KarteBox(rand_farbe=ROT, size_hint_y=None, height=dp(210))
+        karte.add_widget(label("Canların Bitti!", 25, 44, bold=True, color=ROT))
+        karte.add_widget(label("3 kez yanlış cevap verdin.\nDersi tamamlamak için testi baştan yapmalısın.", 15, 76, color=TEXT_MUTED))
+        karte.add_widget(label(f"İlerleme: {self.quiz_index} / {len(self.quiz_fragen)}", 15, 32, bold=True, color=TEXT_HELL))
+        self.add_widget(karte)
 
         nochmal_btn = knopf("Testi Tekrar Başlat", groesse=18, hoehe=60, farbe=BLAU)
         nochmal_btn.bind(on_release=lambda x: self.starte_grammatik_quiz())
@@ -574,8 +806,12 @@ class VokabelRootLayout(BoxLayout):
         gesamt = len(self.quiz_fragen)
         self.bildschirm_leeren()
         self.add_widget(Widget(size_hint_y=1))
-        self.add_widget(label("Çok iyi! Başardın!", 26, 50, bold=True, color=GRUEN))
-        self.add_widget(label(f"Ders tamamlandı!\n{gesamt} üzerinden {self.quiz_punkte} Puan", 18, 70, bold=True, color=BLAU))
+
+        karte = KarteBox(rand_farbe=GRUEN, size_hint_y=None, height=dp(220))
+        karte.add_widget(label("Çok iyi! Başardın!", 25, 44, bold=True, color=GRUEN))
+        karte.add_widget(label(self.aktuelle_grammatik_lektion, 16, 32, bold=True, color=BLAU))
+        karte.add_widget(label(f"Puan: {self.quiz_punkte} / {gesamt}   ·   Kalan Can: {self.quiz_leben}/3", 16, 42, bold=True, color=TEXT_HELL))
+        self.add_widget(karte)
 
         fertig_btn = knopf("Gramer Menüsüne Dön", groesse=18, hoehe=60, farbe=BLAU)
         fertig_btn.bind(on_release=self.zeige_grammatik_menue)
@@ -594,7 +830,7 @@ class VokabelRootLayout(BoxLayout):
         layout.add_widget(zurueck)
 
         layout.add_widget(label("Kelime Dersleri", 22, 50, bold=True, color=BLAU))
-        layout.add_widget(label("Lütfen bir ders seç:", 16, 30, color=(0.70, 0.70, 0.70, 1)))
+        layout.add_widget(label("Lütfen bir ders seç:", 16, 30, color=TEXT_MUTED))
 
         for lektions_titel, vokabel_liste in self.lektionen.items():
             tuerkisch_titel = LEKTIONS_UEBERSETZUNG.get(lektions_titel, lektions_titel)
@@ -603,8 +839,10 @@ class VokabelRootLayout(BoxLayout):
             anzahl_gelernt = len(gelernte_liste)
             gesamt = len(vokabel_liste)
 
-            status_text = f"  ({anzahl_gelernt}/{gesamt})"
-            btn = knopf(f"{tuerkisch_titel}{status_text}", groesse=15, hoehe=56)
+            ist_komplett = (gesamt > 0 and anzahl_gelernt >= gesamt)
+            farbe = GRUEN if ist_komplett else BLAU
+            status_text = f"  ✓ ({anzahl_gelernt}/{gesamt})" if ist_komplett else f"  ({anzahl_gelernt}/{gesamt})"
+            btn = knopf(f"{tuerkisch_titel}{status_text}", groesse=15, hoehe=56, farbe=farbe)
             btn.bind(on_release=lambda b, lt=lektions_titel: self.starte_lektion(lt, ist_phrasen=False))
             layout.add_widget(btn)
 
@@ -623,15 +861,17 @@ class VokabelRootLayout(BoxLayout):
         layout.add_widget(zurueck)
 
         layout.add_widget(label("Günlük İfadeler", 22, 50, bold=True, color=BLAU))
-        layout.add_widget(label("Lütfen bir kategori seç:", 16, 30, color=(0.70, 0.70, 0.70, 1)))
+        layout.add_widget(label("Lütfen bir kategori seç:", 16, 30, color=TEXT_MUTED))
 
         for kat_titel, phrasen_liste in self.phrasen_daten.items():
             gelernte_liste = self.fortschritt.get(kat_titel, [])
             anzahl_gelernt = len(gelernte_liste)
             gesamt = len(phrasen_liste)
 
-            status_text = f"  ({anzahl_gelernt}/{gesamt})"
-            btn = knopf(f"{kat_titel}{status_text}", groesse=15, hoehe=56, farbe=BLAU_DUNKEL)
+            ist_komplett = (gesamt > 0 and anzahl_gelernt >= gesamt)
+            farbe = GRUEN if ist_komplett else BLAU
+            status_text = f"  ✓ ({anzahl_gelernt}/{gesamt})" if ist_komplett else f"  ({anzahl_gelernt}/{gesamt})"
+            btn = knopf(f"{kat_titel}{status_text}", groesse=15, hoehe=56, farbe=farbe)
             btn.bind(on_release=lambda b, kt=kat_titel: self.starte_lektion(kt, ist_phrasen=True))
             layout.add_widget(btn)
 
@@ -696,21 +936,24 @@ class VokabelRootLayout(BoxLayout):
         top.add_widget(label(self.aktiver_titel, 13, bold=True, color=BLAU))
         self.add_widget(top)
 
-        if feedback_text:
-            self.add_widget(label(feedback_text, 18, 40, bold=True, color=(0.94, 0.76, 0.06, 1)))
-
         gesamt = len(self.aktuelle_vokabeln)
-        self.add_widget(label(f"Kart {self.karten_index + 1} / {gesamt}", 15, 36, color=(0.70, 0.70, 0.70, 1)))
+        quote = (self.karten_index + 1) / max(1, gesamt)
+        self.add_widget(FortschrittsBalken(fortschritt_wert=quote, fuell_farbe=BLAU))
+
+        if feedback_text:
+            self.add_widget(label(feedback_text, 17, 36, bold=True, color=(0.94, 0.76, 0.06, 1)))
+
+        self.add_widget(label(f"Kart {self.karten_index + 1} / {gesamt}", 14, 28, color=TEXT_MUTED))
 
         vokabel = self.aktuelle_vokabeln[self.karten_index]
 
         if not self.ist_umgedreht and vorlesen:
             self.sprache_abspielen(vokabel["de"])
 
-        karte = BoxLayout(orientation='vertical', padding=dp(10), spacing=dp(10))
-        karte.add_widget(label("Almanca" if not self.ist_umgedreht else "Türkçe", 16, 36, bold=True, color=BLAU_DUNKEL))
-        karte.add_widget(label(vokabel["de"] if not self.ist_umgedreht else vokabel["tr"], 32, bold=True, color=(1, 1, 1, 1)))
-        karte.add_widget(label("(Çevirmek için alttaki butona tıkla)", 13, 32, color=(0.55, 0.55, 0.55, 1)))
+        karte = KarteBox(rand_farbe=KARTE_RAND_BLAU if not self.ist_umgedreht else KARTE_RAND)
+        karte.add_widget(label("ALMANCA" if not self.ist_umgedreht else "TÜRKÇE", 13, 30, bold=True, color=BLAU))
+        karte.add_widget(label(vokabel["de"] if not self.ist_umgedreht else vokabel["tr"], 31, bold=True, color=TEXT_HELL))
+        karte.add_widget(label("(Çevirmek için alttaki butona tıkla)", 13, 28, color=TEXT_MUTED))
         self.add_widget(karte)
 
         aktion = BoxLayout(orientation='vertical', size_hint_y=None, height=dp(140), spacing=dp(10), padding=[0, dp(8), 0, dp(8)])
@@ -718,7 +961,7 @@ class VokabelRootLayout(BoxLayout):
         if not self.ist_umgedreht:
             hoeren = knopf("Tekrar Dinle (Almanca)", groesse=16, hoehe=56, farbe=BLAU_DUNKEL)
             hoeren.bind(on_release=lambda x: self.sprache_abspielen(vokabel["de"]))
-            drehen = knopf("Kartı Çevir", groesse=18, hoehe=56)
+            drehen = knopf("Kartı Çevir", groesse=18, hoehe=56, farbe=BLAU)
             drehen.bind(on_release=lambda x: self.karte_umdrehen())
             aktion.add_widget(hoeren)
             aktion.add_widget(drehen)
@@ -730,7 +973,7 @@ class VokabelRootLayout(BoxLayout):
             reihe = BoxLayout(spacing=dp(12))
             nochmal = knopf("Tekrar Çalış", groesse=16, hoehe=56, farbe=GRAU)
             nochmal.bind(on_release=lambda x: self.naechste_karte(wiederholen=True))
-            gewusst = knopf("Biliyorum!", groesse=16, hoehe=56)
+            gewusst = knopf("Biliyorum!", groesse=16, hoehe=56, farbe=BLAU)
             gewusst.bind(on_release=lambda x: self.naechste_karte(wiederholen=False))
             reihe.add_widget(nochmal)
             reihe.add_widget(gewusst)
@@ -770,11 +1013,18 @@ class VokabelRootLayout(BoxLayout):
 
     def zeige_fertig_bildschirm(self):
         self.bildschirm_leeren()
-        self.add_widget(label("Harika! Ders bitti!", 26, bold=True, color=BLAU))
-        self.add_widget(label("Bu dersteki bütün ifadeleri başarıyla tamamladın!", 16, color=(0.70, 0.70, 0.70, 1)))
-        neu = knopf("Menüye Dön", groesse=18, hoehe=60)
+        self.add_widget(Widget(size_hint_y=1))
+
+        karte = KarteBox(rand_farbe=GRUEN, size_hint_y=None, height=dp(200))
+        karte.add_widget(label("Harika! Ders bitti!", 25, 44, bold=True, color=GRUEN))
+        karte.add_widget(label(self.aktiver_titel, 16, 32, bold=True, color=BLAU))
+        karte.add_widget(label("Bu dersteki bütün ifadeleri başarıyla tamamladın!", 15, 50, color=TEXT_MUTED))
+        self.add_widget(karte)
+
+        neu = knopf("Menüye Dön", groesse=18, hoehe=60, farbe=BLAU)
         neu.bind(on_release=lambda x: self.ruecksprung_funktion())
         self.add_widget(neu)
+        self.add_widget(Widget(size_hint_y=1))
 
 
 class VokabelApp(App):
