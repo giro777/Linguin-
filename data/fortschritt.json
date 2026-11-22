@@ -1,0 +1,140 @@
+{
+  "einstellungen": {
+    "app_lang": "tr",
+    "learn_lang": "de"
+  },
+  "Lektion 1: Zahlen & Mengen": [
+    {
+      "id": "00001",
+      "nr": "14",
+      "de": "ein",
+      "tr": "bir"
+    },
+    {
+      "id": "00002",
+      "nr": "23",
+      "de": "einige",
+      "tr": "bazı"
+    },
+    {
+      "id": "00003",
+      "nr": "49",
+      "de": "jeder",
+      "tr": "her biri"
+    }
+  ],
+  "tr_en::Lektion 1: Sayılar ve Miktarlar": [
+    {
+      "tr": "bir",
+      "en": "one"
+    },
+    {
+      "tr": "iki",
+      "en": "two"
+    },
+    {
+      "tr": "üç",
+      "en": "three"
+    },
+    {
+      "tr": "dört",
+      "en": "four"
+    },
+    {
+      "tr": "beş",
+      "en": "five"
+    },
+    {
+      "tr": "altı",
+      "en": "six"
+    },
+    {
+      "tr": "yedi",
+      "en": "seven"
+    },
+    {
+      "tr": "sekiz",
+      "en": "eight"
+    },
+    {
+      "tr": "dokuz",
+      "en": "nine"
+    },
+    {
+      "tr": "on",
+      "en": "ten"
+    },
+    {
+      "tr": "yirmi",
+      "en": "twenty"
+    },
+    {
+      "tr": "yüz",
+      "en": "hundred"
+    },
+    {
+      "tr": "bin",
+      "en": "thousand"
+    },
+    {
+      "tr": "milyon",
+      "en": "million"
+    },
+    {
+      "tr": "birinci / ilk",
+      "en": "first"
+    },
+    {
+      "tr": "ikinci",
+      "en": "second"
+    },
+    {
+      "tr": "üçüncü",
+      "en": "third"
+    },
+    {
+      "tr": "çok / fazla",
+      "en": "much / a lot"
+    },
+    {
+      "tr": "birçok / çok",
+      "en": "many"
+    },
+    {
+      "tr": "az / küçük",
+      "en": "little"
+    },
+    {
+      "tr": "birkaç / az",
+      "en": "few"
+    },
+    {
+      "tr": "bazı",
+      "en": "some"
+    },
+    {
+      "tr": "hepsi / bütün",
+      "en": "all"
+    },
+    {
+      "tr": "her / her biri",
+      "en": "every / each"
+    },
+    {
+      "tr": "her ikisi",
+      "en": "both"
+    },
+    {
+      "tr": "yeterli / yeter",
+      "en": "enough"
+    },
+    {
+      "tr": "daha fazla",
+      "en": "more"
+    },
+    {
+      "tr": "daha az",
+      "en": "less"
+    }
+  ]
+}

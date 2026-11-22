@@ -1,0 +1,1930 @@
+{
+  "Lektion 1: Zahlen & Mengen": [
+    {
+      "de": "eins",
+      "en": "one"
+    },
+    {
+      "de": "zwei",
+      "en": "two"
+    },
+    {
+      "de": "drei",
+      "en": "three"
+    },
+    {
+      "de": "vier",
+      "en": "four"
+    },
+    {
+      "de": "fünf",
+      "en": "five"
+    },
+    {
+      "de": "sechs",
+      "en": "six"
+    },
+    {
+      "de": "sieben",
+      "en": "seven"
+    },
+    {
+      "de": "acht",
+      "en": "eight"
+    },
+    {
+      "de": "neun",
+      "en": "nine"
+    },
+    {
+      "de": "zehn",
+      "en": "ten"
+    },
+    {
+      "de": "zwanzig",
+      "en": "twenty"
+    },
+    {
+      "de": "hundert",
+      "en": "hundred"
+    },
+    {
+      "de": "tausend",
+      "en": "thousand"
+    },
+    {
+      "de": "Million",
+      "en": "million"
+    },
+    {
+      "de": "erste(r/s)",
+      "en": "first"
+    },
+    {
+      "de": "zweite(r/s)",
+      "en": "second"
+    },
+    {
+      "de": "dritte(r/s)",
+      "en": "third"
+    },
+    {
+      "de": "viel",
+      "en": "much / a lot"
+    },
+    {
+      "de": "viele",
+      "en": "many"
+    },
+    {
+      "de": "wenig",
+      "en": "little"
+    },
+    {
+      "de": "wenige / ein paar",
+      "en": "few"
+    },
+    {
+      "de": "einige / etwas",
+      "en": "some"
+    },
+    {
+      "de": "alle / ganz",
+      "en": "all"
+    },
+    {
+      "de": "jede(r/s)",
+      "en": "every / each"
+    },
+    {
+      "de": "beide",
+      "en": "both"
+    },
+    {
+      "de": "genug",
+      "en": "enough"
+    },
+    {
+      "de": "mehr",
+      "en": "more"
+    },
+    {
+      "de": "weniger",
+      "en": "less"
+    },
+    {
+      "de": "die meisten / am meisten",
+      "en": "most"
+    },
+    {
+      "de": "am wenigsten / geringste",
+      "en": "least"
+    },
+    {
+      "de": "Zahl / Nummer",
+      "en": "number"
+    },
+    {
+      "de": "Menge / Betrag",
+      "en": "amount"
+    },
+    {
+      "de": "halb / Hälfte",
+      "en": "half"
+    },
+    {
+      "de": "ganz",
+      "en": "whole"
+    },
+    {
+      "de": "Teil / Stück",
+      "en": "part / piece"
+    },
+    {
+      "de": "Paar",
+      "en": "pair"
+    },
+    {
+      "de": "gesamt / Gesamtsumme",
+      "en": "total"
+    },
+    {
+      "de": "null / niemand",
+      "en": "zero / none"
+    },
+    {
+      "de": "zählen",
+      "en": "to count"
+    },
+    {
+      "de": "messen",
+      "en": "to measure"
+    }
+  ],
+  "Lektion 2: Farben & Aussehen": [
+    {
+      "de": "Farbe",
+      "en": "color"
+    },
+    {
+      "de": "weiß",
+      "en": "white"
+    },
+    {
+      "de": "schwarz",
+      "en": "black"
+    },
+    {
+      "de": "rot",
+      "en": "red"
+    },
+    {
+      "de": "blau",
+      "en": "blue"
+    },
+    {
+      "de": "grün",
+      "en": "green"
+    },
+    {
+      "de": "gelb",
+      "en": "yellow"
+    },
+    {
+      "de": "orange",
+      "en": "orange"
+    },
+    {
+      "de": "lila / violett",
+      "en": "purple"
+    },
+    {
+      "de": "rosa / pink",
+      "en": "pink"
+    },
+    {
+      "de": "braun",
+      "en": "brown"
+    },
+    {
+      "de": "grau",
+      "en": "gray"
+    },
+    {
+      "de": "Gold",
+      "en": "gold"
+    },
+    {
+      "de": "Silber",
+      "en": "silver"
+    },
+    {
+      "de": "Licht / hell",
+      "en": "light"
+    },
+    {
+      "de": "dunkel",
+      "en": "dark"
+    },
+    {
+      "de": "hell / leuchtend",
+      "en": "bright"
+    },
+    {
+      "de": "Form",
+      "en": "shape"
+    },
+    {
+      "de": "Kreis",
+      "en": "circle"
+    },
+    {
+      "de": "Dreieck",
+      "en": "triangle"
+    },
+    {
+      "de": "Quadrat",
+      "en": "square"
+    },
+    {
+      "de": "Linie / Strich",
+      "en": "line"
+    },
+    {
+      "de": "Muster",
+      "en": "pattern"
+    },
+    {
+      "de": "Ansicht / Ausblick",
+      "en": "view"
+    }
+  ],
+  "Lektion 3: Tiere": [
+    {
+      "de": "Tier",
+      "en": "animal"
+    },
+    {
+      "de": "Hund",
+      "en": "dog"
+    },
+    {
+      "de": "Katze",
+      "en": "cat"
+    },
+    {
+      "de": "Vogel",
+      "en": "bird"
+    },
+    {
+      "de": "Fisch",
+      "en": "fish"
+    },
+    {
+      "de": "Pferd",
+      "en": "horse"
+    },
+    {
+      "de": "Kuh",
+      "en": "cow"
+    },
+    {
+      "de": "Schwein",
+      "en": "pig"
+    },
+    {
+      "de": "Schaf",
+      "en": "sheep"
+    },
+    {
+      "de": "Huhn / Hähnchen",
+      "en": "chicken"
+    },
+    {
+      "de": "Ente",
+      "en": "duck"
+    },
+    {
+      "de": "Bär",
+      "en": "bear"
+    },
+    {
+      "de": "Löwe",
+      "en": "lion"
+    },
+    {
+      "de": "Wolf",
+      "en": "wolf"
+    },
+    {
+      "de": "Fuchs",
+      "en": "fox"
+    },
+    {
+      "de": "Maus",
+      "en": "mouse"
+    },
+    {
+      "de": "Kaninchen / Hase",
+      "en": "rabbit"
+    },
+    {
+      "de": "Insekt",
+      "en": "insect"
+    },
+    {
+      "de": "Biene",
+      "en": "bee"
+    },
+    {
+      "de": "Schmetterling",
+      "en": "butterfly"
+    },
+    {
+      "de": "Schlange",
+      "en": "snake"
+    },
+    {
+      "de": "Frosch",
+      "en": "frog"
+    },
+    {
+      "de": "Flügel",
+      "en": "wing"
+    },
+    {
+      "de": "Schwanz",
+      "en": "tail"
+    }
+  ],
+  "Lektion 4: Familie & Menschen": [
+    {
+      "de": "Person / Mensch",
+      "en": "person"
+    },
+    {
+      "de": "Leute / Menschen",
+      "en": "people"
+    },
+    {
+      "de": "Familie",
+      "en": "family"
+    },
+    {
+      "de": "Mutter",
+      "en": "mother"
+    },
+    {
+      "de": "Vater",
+      "en": "father"
+    },
+    {
+      "de": "Elternteil",
+      "en": "parent"
+    },
+    {
+      "de": "Kind",
+      "en": "child"
+    },
+    {
+      "de": "Kinder",
+      "en": "children"
+    },
+    {
+      "de": "Sohn",
+      "en": "son"
+    },
+    {
+      "de": "Tochter",
+      "en": "daughter"
+    },
+    {
+      "de": "Bruder",
+      "en": "brother"
+    },
+    {
+      "de": "Schwester",
+      "en": "sister"
+    },
+    {
+      "de": "Großvater / Opa",
+      "en": "grandfather"
+    },
+    {
+      "de": "Großmutter / Oma",
+      "en": "grandmother"
+    },
+    {
+      "de": "Baby",
+      "en": "baby"
+    },
+    {
+      "de": "Junge",
+      "en": "boy"
+    },
+    {
+      "de": "Mädchen",
+      "en": "girl"
+    },
+    {
+      "de": "Mann",
+      "en": "man"
+    },
+    {
+      "de": "Frau",
+      "en": "woman"
+    },
+    {
+      "de": "Freund(in)",
+      "en": "friend"
+    },
+    {
+      "de": "Nachbar(in)",
+      "en": "neighbor"
+    },
+    {
+      "de": "Gast",
+      "en": "guest"
+    },
+    {
+      "de": "Ehemann / Ehefrau",
+      "en": "husband / wife"
+    },
+    {
+      "de": "Name",
+      "en": "name"
+    },
+    {
+      "de": "Alter",
+      "en": "age"
+    },
+    {
+      "de": "Gruppe",
+      "en": "group"
+    }
+  ],
+  "Lektion 5: Körper & Gesundheit": [
+    {
+      "de": "Körper",
+      "en": "body"
+    },
+    {
+      "de": "Kopf",
+      "en": "head"
+    },
+    {
+      "de": "Gesicht",
+      "en": "face"
+    },
+    {
+      "de": "Auge",
+      "en": "eye"
+    },
+    {
+      "de": "Ohr",
+      "en": "ear"
+    },
+    {
+      "de": "Nase",
+      "en": "nose"
+    },
+    {
+      "de": "Mund",
+      "en": "mouth"
+    },
+    {
+      "de": "Zahn",
+      "en": "tooth"
+    },
+    {
+      "de": "Zunge",
+      "en": "tongue"
+    },
+    {
+      "de": "Hals / Nacken",
+      "en": "neck"
+    },
+    {
+      "de": "Schulter",
+      "en": "shoulder"
+    },
+    {
+      "de": "Arm",
+      "en": "arm"
+    },
+    {
+      "de": "Hand",
+      "en": "hand"
+    },
+    {
+      "de": "Finger",
+      "en": "finger"
+    },
+    {
+      "de": "Bein",
+      "en": "leg"
+    },
+    {
+      "de": "Fuß",
+      "en": "foot"
+    },
+    {
+      "de": "Herz",
+      "en": "heart"
+    },
+    {
+      "de": "Blut",
+      "en": "blood"
+    },
+    {
+      "de": "Knochen",
+      "en": "bone"
+    },
+    {
+      "de": "Haut",
+      "en": "skin"
+    },
+    {
+      "de": "Haar(e)",
+      "en": "hair"
+    },
+    {
+      "de": "Stimme",
+      "en": "voice"
+    },
+    {
+      "de": "Schlaf",
+      "en": "sleep"
+    },
+    {
+      "de": "Gesundheit",
+      "en": "health"
+    },
+    {
+      "de": "krank",
+      "en": "sick"
+    },
+    {
+      "de": "Schmerz",
+      "en": "pain"
+    },
+    {
+      "de": "Arzt / Ärztin",
+      "en": "doctor"
+    },
+    {
+      "de": "Medikament / Medizin",
+      "en": "medicine"
+    }
+  ],
+  "Lektion 6: Essen & Trinken": [
+    {
+      "de": "Essen / Nahrung",
+      "en": "food"
+    },
+    {
+      "de": "Getränk",
+      "en": "drink"
+    },
+    {
+      "de": "Wasser",
+      "en": "water"
+    },
+    {
+      "de": "Milch",
+      "en": "milk"
+    },
+    {
+      "de": "Tee",
+      "en": "tea"
+    },
+    {
+      "de": "Kaffee",
+      "en": "coffee"
+    },
+    {
+      "de": "Saft",
+      "en": "juice"
+    },
+    {
+      "de": "Brot",
+      "en": "bread"
+    },
+    {
+      "de": "Käse",
+      "en": "cheese"
+    },
+    {
+      "de": "Ei",
+      "en": "egg"
+    },
+    {
+      "de": "Fleisch",
+      "en": "meat"
+    },
+    {
+      "de": "Reis",
+      "en": "rice"
+    },
+    {
+      "de": "Suppe",
+      "en": "soup"
+    },
+    {
+      "de": "Obst / Frucht",
+      "en": "fruit"
+    },
+    {
+      "de": "Apfel",
+      "en": "apple"
+    },
+    {
+      "de": "Banane",
+      "en": "banana"
+    },
+    {
+      "de": "Gemüse",
+      "en": "vegetable"
+    },
+    {
+      "de": "Zucker",
+      "en": "sugar"
+    },
+    {
+      "de": "Salz",
+      "en": "salt"
+    },
+    {
+      "de": "Frühstück",
+      "en": "breakfast"
+    },
+    {
+      "de": "Mittagessen",
+      "en": "lunch"
+    },
+    {
+      "de": "Abendessen",
+      "en": "dinner"
+    }
+  ],
+  "Lektion 7: Natur, Wetter & Geografie": [
+    {
+      "de": "Natur",
+      "en": "nature"
+    },
+    {
+      "de": "Erde",
+      "en": "earth"
+    },
+    {
+      "de": "Sonne",
+      "en": "sun"
+    },
+    {
+      "de": "Mond",
+      "en": "moon"
+    },
+    {
+      "de": "Stern",
+      "en": "star"
+    },
+    {
+      "de": "Himmel",
+      "en": "sky"
+    },
+    {
+      "de": "Wetter",
+      "en": "weather"
+    },
+    {
+      "de": "Luft",
+      "en": "air"
+    },
+    {
+      "de": "Regen",
+      "en": "rain"
+    },
+    {
+      "de": "Schnee",
+      "en": "snow"
+    },
+    {
+      "de": "Wind",
+      "en": "wind"
+    },
+    {
+      "de": "Wolke",
+      "en": "cloud"
+    },
+    {
+      "de": "Sturm / Gewitter",
+      "en": "storm"
+    },
+    {
+      "de": "Hitze / Wärme",
+      "en": "heat"
+    },
+    {
+      "de": "kalt / Kälte",
+      "en": "cold"
+    },
+    {
+      "de": "Baum",
+      "en": "tree"
+    },
+    {
+      "de": "Wald",
+      "en": "forest"
+    },
+    {
+      "de": "Blume",
+      "en": "flower"
+    },
+    {
+      "de": "Gras",
+      "en": "grass"
+    },
+    {
+      "de": "Blatt",
+      "en": "leaf"
+    },
+    {
+      "de": "Berg",
+      "en": "mountain"
+    },
+    {
+      "de": "Fluss",
+      "en": "river"
+    },
+    {
+      "de": "See",
+      "en": "lake"
+    },
+    {
+      "de": "Meer",
+      "en": "sea"
+    },
+    {
+      "de": "Ozean",
+      "en": "ocean"
+    },
+    {
+      "de": "Insel",
+      "en": "island"
+    },
+    {
+      "de": "Stein",
+      "en": "stone"
+    },
+    {
+      "de": "Boden / Erde",
+      "en": "ground / soil"
+    },
+    {
+      "de": "Feuer",
+      "en": "fire"
+    }
+  ],
+  "Lektion 8: Zeit, Kalender & Jahreszeiten": [
+    {
+      "de": "Zeit",
+      "en": "time"
+    },
+    {
+      "de": "Sekunde",
+      "en": "second (time)"
+    },
+    {
+      "de": "Minute",
+      "en": "minute"
+    },
+    {
+      "de": "Stunde",
+      "en": "hour"
+    },
+    {
+      "de": "Tag",
+      "en": "day"
+    },
+    {
+      "de": "Woche",
+      "en": "week"
+    },
+    {
+      "de": "Monat",
+      "en": "month"
+    },
+    {
+      "de": "Jahr",
+      "en": "year"
+    },
+    {
+      "de": "Morgen",
+      "en": "morning"
+    },
+    {
+      "de": "Nachmittag",
+      "en": "afternoon"
+    },
+    {
+      "de": "Abend",
+      "en": "evening"
+    },
+    {
+      "de": "Nacht",
+      "en": "night"
+    },
+    {
+      "de": "heute",
+      "en": "today"
+    },
+    {
+      "de": "gestern",
+      "en": "yesterday"
+    },
+    {
+      "de": "morgen",
+      "en": "tomorrow"
+    },
+    {
+      "de": "jetzt",
+      "en": "now"
+    },
+    {
+      "de": "immer",
+      "en": "always"
+    },
+    {
+      "de": "oft",
+      "en": "often"
+    },
+    {
+      "de": "manchmal",
+      "en": "sometimes"
+    },
+    {
+      "de": "nie",
+      "en": "never"
+    },
+    {
+      "de": "früh",
+      "en": "early"
+    },
+    {
+      "de": "spät",
+      "en": "late"
+    },
+    {
+      "de": "Frühling",
+      "en": "spring"
+    },
+    {
+      "de": "Sommer",
+      "en": "summer"
+    },
+    {
+      "de": "Herbst",
+      "en": "autumn"
+    },
+    {
+      "de": "Winter",
+      "en": "winter"
+    }
+  ],
+  "Lektion 9: Zuhause, Möbel & Alltag": [
+    {
+      "de": "Haus",
+      "en": "house"
+    },
+    {
+      "de": "Wohnung / Apartment",
+      "en": "apartment"
+    },
+    {
+      "de": "Zimmer / Raum",
+      "en": "room"
+    },
+    {
+      "de": "Küche",
+      "en": "kitchen"
+    },
+    {
+      "de": "Badezimmer",
+      "en": "bathroom"
+    },
+    {
+      "de": "Tür",
+      "en": "door"
+    },
+    {
+      "de": "Fenster",
+      "en": "window"
+    },
+    {
+      "de": "Wand / Mauer",
+      "en": "wall"
+    },
+    {
+      "de": "Boden / Fußboden",
+      "en": "floor"
+    },
+    {
+      "de": "Dach",
+      "en": "roof"
+    },
+    {
+      "de": "Tisch",
+      "en": "table"
+    },
+    {
+      "de": "Stuhl",
+      "en": "chair"
+    },
+    {
+      "de": "Bett",
+      "en": "bed"
+    },
+    {
+      "de": "Spiegel",
+      "en": "mirror"
+    },
+    {
+      "de": "Lampe",
+      "en": "lamp"
+    },
+    {
+      "de": "Schlüssel",
+      "en": "key"
+    },
+    {
+      "de": "Karton / Schachtel",
+      "en": "box"
+    },
+    {
+      "de": "Tasche / Beutel",
+      "en": "bag"
+    },
+    {
+      "de": "Flasche",
+      "en": "bottle"
+    },
+    {
+      "de": "Tasse / Becher",
+      "en": "cup"
+    },
+    {
+      "de": "Teller",
+      "en": "plate"
+    },
+    {
+      "de": "Messer",
+      "en": "knife"
+    },
+    {
+      "de": "Löffel",
+      "en": "spoon"
+    },
+    {
+      "de": "Telefon / Handy",
+      "en": "phone"
+    },
+    {
+      "de": "Computer",
+      "en": "computer"
+    }
+  ],
+  "Lektion 10: Kleidung & Materialien": [
+    {
+      "de": "Kleidung / Kleider",
+      "en": "clothes"
+    },
+    {
+      "de": "Hemd",
+      "en": "shirt"
+    },
+    {
+      "de": "Hose",
+      "en": "pants / trousers"
+    },
+    {
+      "de": "Kleid",
+      "en": "dress"
+    },
+    {
+      "de": "Jacke",
+      "en": "jacket"
+    },
+    {
+      "de": "Mantel",
+      "en": "coat"
+    },
+    {
+      "de": "Schuh",
+      "en": "shoe"
+    },
+    {
+      "de": "Socke",
+      "en": "sock"
+    },
+    {
+      "de": "Hut / Mütze",
+      "en": "hat"
+    },
+    {
+      "de": "Brille",
+      "en": "glasses"
+    },
+    {
+      "de": "Ring",
+      "en": "ring"
+    },
+    {
+      "de": "Gürtel",
+      "en": "belt"
+    },
+    {
+      "de": "Tasche (am Kleidungsstück)",
+      "en": "pocket"
+    },
+    {
+      "de": "Holz",
+      "en": "wood"
+    },
+    {
+      "de": "Glas",
+      "en": "glass"
+    },
+    {
+      "de": "Metall",
+      "en": "metal"
+    },
+    {
+      "de": "Gold (Material)",
+      "en": "gold (material)"
+    },
+    {
+      "de": "Papier",
+      "en": "paper"
+    },
+    {
+      "de": "Leder",
+      "en": "leather"
+    },
+    {
+      "de": "Stoff / Tuch",
+      "en": "cloth"
+    }
+  ],
+  "Lektion 11: Stadt, Orte & Reisen": [
+    {
+      "de": "Stadt",
+      "en": "city"
+    },
+    {
+      "de": "Kleinstadt / Ort",
+      "en": "town"
+    },
+    {
+      "de": "Dorf",
+      "en": "village"
+    },
+    {
+      "de": "Land",
+      "en": "country"
+    },
+    {
+      "de": "Straße",
+      "en": "street"
+    },
+    {
+      "de": "Straße / Weg",
+      "en": "road / way"
+    },
+    {
+      "de": "Brücke",
+      "en": "bridge"
+    },
+    {
+      "de": "Platz / Quadrat",
+      "en": "square"
+    },
+    {
+      "de": "Park",
+      "en": "park"
+    },
+    {
+      "de": "Schule",
+      "en": "school"
+    },
+    {
+      "de": "Krankenhaus",
+      "en": "hospital"
+    },
+    {
+      "de": "Geschäft / Laden",
+      "en": "shop / store"
+    },
+    {
+      "de": "Markt",
+      "en": "market"
+    },
+    {
+      "de": "Restaurant",
+      "en": "restaurant"
+    },
+    {
+      "de": "Hotel",
+      "en": "hotel"
+    },
+    {
+      "de": "Bank",
+      "en": "bank"
+    },
+    {
+      "de": "Bahnhof / Station",
+      "en": "station"
+    },
+    {
+      "de": "Flughafen",
+      "en": "airport"
+    },
+    {
+      "de": "Auto",
+      "en": "car"
+    },
+    {
+      "de": "Bus",
+      "en": "bus"
+    },
+    {
+      "de": "Zug",
+      "en": "train"
+    },
+    {
+      "de": "Flugzeug",
+      "en": "plane"
+    },
+    {
+      "de": "Boot / Schiff",
+      "en": "boat / ship"
+    },
+    {
+      "de": "Fahrrad",
+      "en": "bicycle"
+    },
+    {
+      "de": "Fahrkarte / Ticket",
+      "en": "ticket"
+    },
+    {
+      "de": "Reise / Ausflug",
+      "en": "travel / trip"
+    },
+    {
+      "de": "Karte / Landkarte",
+      "en": "map"
+    }
+  ],
+  "Lektion 12: Arbeit, Bildung & Wissenschaft": [
+    {
+      "de": "Arbeit / Job",
+      "en": "work / job"
+    },
+    {
+      "de": "Büro",
+      "en": "office"
+    },
+    {
+      "de": "Firma / Unternehmen",
+      "en": "company"
+    },
+    {
+      "de": "Geld",
+      "en": "money"
+    },
+    {
+      "de": "Preis",
+      "en": "price"
+    },
+    {
+      "de": "Kunde / Kundin",
+      "en": "customer"
+    },
+    {
+      "de": "Lehrer(in)",
+      "en": "teacher"
+    },
+    {
+      "de": "Schüler(in) / Student(in)",
+      "en": "student"
+    },
+    {
+      "de": "Lektion / Unterricht",
+      "en": "lesson"
+    },
+    {
+      "de": "Test / Prüfung",
+      "en": "test / exam"
+    },
+    {
+      "de": "Buch",
+      "en": "book"
+    },
+    {
+      "de": "Seite",
+      "en": "page"
+    },
+    {
+      "de": "Wort",
+      "en": "word"
+    },
+    {
+      "de": "Satz",
+      "en": "sentence"
+    },
+    {
+      "de": "Frage",
+      "en": "question"
+    },
+    {
+      "de": "Antwort",
+      "en": "answer"
+    },
+    {
+      "de": "Idee",
+      "en": "idea"
+    },
+    {
+      "de": "Information",
+      "en": "information"
+    },
+    {
+      "de": "Wissenschaft",
+      "en": "science"
+    },
+    {
+      "de": "Forschung",
+      "en": "research"
+    },
+    {
+      "de": "Projekt",
+      "en": "project"
+    },
+    {
+      "de": "Plan",
+      "en": "plan"
+    },
+    {
+      "de": "Erfolg",
+      "en": "success"
+    },
+    {
+      "de": "Problem",
+      "en": "problem"
+    }
+  ],
+  "Lektion 13: Sprache, Musik & Kunst": [
+    {
+      "de": "Sprache",
+      "en": "language"
+    },
+    {
+      "de": "Musik",
+      "en": "music"
+    },
+    {
+      "de": "Lied / Song",
+      "en": "song"
+    },
+    {
+      "de": "Kunst",
+      "en": "art"
+    },
+    {
+      "de": "Gemälde / Bild",
+      "en": "painting / picture"
+    },
+    {
+      "de": "Foto",
+      "en": "photo"
+    },
+    {
+      "de": "Film",
+      "en": "movie / film"
+    },
+    {
+      "de": "Geschichte",
+      "en": "story"
+    },
+    {
+      "de": "Gedicht",
+      "en": "poem"
+    },
+    {
+      "de": "Theater",
+      "en": "theater"
+    },
+    {
+      "de": "Tanz",
+      "en": "dance"
+    },
+    {
+      "de": "Spiel",
+      "en": "game"
+    },
+    {
+      "de": "Nachricht(en)",
+      "en": "news"
+    },
+    {
+      "de": "Brief",
+      "en": "letter"
+    },
+    {
+      "de": "Nachricht / Mitteilung",
+      "en": "message"
+    }
+  ],
+  "Lektion 14: Gefühle & Eigenschaften": [
+    {
+      "de": "glücklich / froh",
+      "en": "happy"
+    },
+    {
+      "de": "traurig",
+      "en": "sad"
+    },
+    {
+      "de": "wütend / sauer",
+      "en": "angry"
+    },
+    {
+      "de": "ängstlich",
+      "en": "afraid"
+    },
+    {
+      "de": "überrascht",
+      "en": "surprised"
+    },
+    {
+      "de": "müde",
+      "en": "tired"
+    },
+    {
+      "de": "hungrig",
+      "en": "hungry"
+    },
+    {
+      "de": "durstig",
+      "en": "thirsty"
+    },
+    {
+      "de": "gut",
+      "en": "good"
+    },
+    {
+      "de": "schlecht",
+      "en": "bad"
+    },
+    {
+      "de": "groß",
+      "en": "big"
+    },
+    {
+      "de": "klein",
+      "en": "small"
+    },
+    {
+      "de": "lang",
+      "en": "long"
+    },
+    {
+      "de": "kurz",
+      "en": "short"
+    },
+    {
+      "de": "hoch",
+      "en": "high"
+    },
+    {
+      "de": "niedrig / tief",
+      "en": "low"
+    },
+    {
+      "de": "neu",
+      "en": "new"
+    },
+    {
+      "de": "alt",
+      "en": "old"
+    },
+    {
+      "de": "jung",
+      "en": "young"
+    },
+    {
+      "de": "schön",
+      "en": "beautiful"
+    },
+    {
+      "de": "hässlich",
+      "en": "ugly"
+    },
+    {
+      "de": "einfach / leicht",
+      "en": "easy"
+    },
+    {
+      "de": "schwierig / schwer",
+      "en": "difficult / hard"
+    },
+    {
+      "de": "schnell",
+      "en": "fast"
+    },
+    {
+      "de": "langsam",
+      "en": "slow"
+    },
+    {
+      "de": "sauber",
+      "en": "clean"
+    },
+    {
+      "de": "schmutzig",
+      "en": "dirty"
+    },
+    {
+      "de": "offen",
+      "en": "open"
+    },
+    {
+      "de": "geschlossen",
+      "en": "closed"
+    },
+    {
+      "de": "wahr / richtig",
+      "en": "true / right"
+    },
+    {
+      "de": "falsch",
+      "en": "wrong"
+    },
+    {
+      "de": "wichtig",
+      "en": "important"
+    },
+    {
+      "de": "sicher",
+      "en": "safe"
+    },
+    {
+      "de": "gefährlich",
+      "en": "dangerous"
+    },
+    {
+      "de": "frei / kostenlos",
+      "en": "free"
+    },
+    {
+      "de": "teuer",
+      "en": "expensive"
+    },
+    {
+      "de": "billig / günstig",
+      "en": "cheap"
+    }
+  ],
+  "Lektion 15: Verben: Bewegung & Alltag": [
+    {
+      "de": "sein",
+      "en": "to be"
+    },
+    {
+      "de": "haben",
+      "en": "to have"
+    },
+    {
+      "de": "tun / machen",
+      "en": "to do / to make"
+    },
+    {
+      "de": "gehen / fahren",
+      "en": "to go"
+    },
+    {
+      "de": "kommen",
+      "en": "to come"
+    },
+    {
+      "de": "bleiben",
+      "en": "to stay"
+    },
+    {
+      "de": "leben / wohnen",
+      "en": "to live"
+    },
+    {
+      "de": "gehen / zu Fuß gehen",
+      "en": "to walk"
+    },
+    {
+      "de": "rennen / laufen",
+      "en": "to run"
+    },
+    {
+      "de": "sitzen",
+      "en": "to sit"
+    },
+    {
+      "de": "stehen",
+      "en": "to stand"
+    },
+    {
+      "de": "liegen",
+      "en": "to lie"
+    },
+    {
+      "de": "schlafen",
+      "en": "to sleep"
+    },
+    {
+      "de": "aufwachen",
+      "en": "to wake up"
+    },
+    {
+      "de": "essen",
+      "en": "to eat"
+    },
+    {
+      "de": "trinken",
+      "en": "to drink"
+    },
+    {
+      "de": "kochen",
+      "en": "to cook"
+    },
+    {
+      "de": "öffnen",
+      "en": "to open"
+    },
+    {
+      "de": "schließen",
+      "en": "to close"
+    },
+    {
+      "de": "nehmen / bringen",
+      "en": "to take / to bring"
+    },
+    {
+      "de": "geben",
+      "en": "to give"
+    },
+    {
+      "de": "kaufen",
+      "en": "to buy"
+    },
+    {
+      "de": "verkaufen",
+      "en": "to sell"
+    },
+    {
+      "de": "arbeiten",
+      "en": "to work"
+    },
+    {
+      "de": "spielen",
+      "en": "to play"
+    },
+    {
+      "de": "anfangen / beginnen",
+      "en": "to start"
+    },
+    {
+      "de": "beenden / fertig werden",
+      "en": "to finish"
+    },
+    {
+      "de": "helfen",
+      "en": "to help"
+    },
+    {
+      "de": "warten",
+      "en": "to wait"
+    },
+    {
+      "de": "suchen / finden",
+      "en": "to look for / to find"
+    },
+    {
+      "de": "verlieren",
+      "en": "to lose"
+    },
+    {
+      "de": "tragen",
+      "en": "to carry"
+    },
+    {
+      "de": "ziehen / drücken",
+      "en": "to pull / to push"
+    },
+    {
+      "de": "fallen",
+      "en": "to fall"
+    },
+    {
+      "de": "fliegen",
+      "en": "to fly"
+    },
+    {
+      "de": "schwimmen",
+      "en": "to swim"
+    }
+  ],
+  "Lektion 16: Verben: Denken & Kommunikation": [
+    {
+      "de": "sehen",
+      "en": "to see"
+    },
+    {
+      "de": "schauen / blicken",
+      "en": "to look"
+    },
+    {
+      "de": "hören",
+      "en": "to hear"
+    },
+    {
+      "de": "zuhören / anhören",
+      "en": "to listen"
+    },
+    {
+      "de": "sprechen / reden",
+      "en": "to speak / to talk"
+    },
+    {
+      "de": "sagen / erzählen",
+      "en": "to say / to tell"
+    },
+    {
+      "de": "fragen",
+      "en": "to ask"
+    },
+    {
+      "de": "antworten",
+      "en": "to answer"
+    },
+    {
+      "de": "lesen",
+      "en": "to read"
+    },
+    {
+      "de": "schreiben",
+      "en": "to write"
+    },
+    {
+      "de": "denken",
+      "en": "to think"
+    },
+    {
+      "de": "wissen / kennen",
+      "en": "to know"
+    },
+    {
+      "de": "verstehen",
+      "en": "to understand"
+    },
+    {
+      "de": "lernen",
+      "en": "to learn"
+    },
+    {
+      "de": "unterrichten / beibringen",
+      "en": "to teach"
+    },
+    {
+      "de": "sich erinnern",
+      "en": "to remember"
+    },
+    {
+      "de": "vergessen",
+      "en": "to forget"
+    },
+    {
+      "de": "wollen / möchten",
+      "en": "to want"
+    },
+    {
+      "de": "mögen / lieben",
+      "en": "to like / to love"
+    },
+    {
+      "de": "glauben",
+      "en": "to believe"
+    },
+    {
+      "de": "hoffen",
+      "en": "to hope"
+    },
+    {
+      "de": "entscheiden",
+      "en": "to decide"
+    },
+    {
+      "de": "zeigen",
+      "en": "to show"
+    },
+    {
+      "de": "wählen / auswählen",
+      "en": "to choose"
+    }
+  ],
+  "Lektion 17: Pronomen & Fragewörter": [
+    {
+      "de": "ich",
+      "en": "I"
+    },
+    {
+      "de": "du / ihr / Sie",
+      "en": "you"
+    },
+    {
+      "de": "er",
+      "en": "he"
+    },
+    {
+      "de": "sie",
+      "en": "she"
+    },
+    {
+      "de": "es",
+      "en": "it"
+    },
+    {
+      "de": "wir",
+      "en": "we"
+    },
+    {
+      "de": "sie (Plural)",
+      "en": "they"
+    },
+    {
+      "de": "mein(e)",
+      "en": "my"
+    },
+    {
+      "de": "dein(e) / euer / Ihr(e)",
+      "en": "your"
+    },
+    {
+      "de": "sein(e)",
+      "en": "his"
+    },
+    {
+      "de": "ihr(e)",
+      "en": "her"
+    },
+    {
+      "de": "unser(e)",
+      "en": "our"
+    },
+    {
+      "de": "ihr(e) (Plural)",
+      "en": "their"
+    },
+    {
+      "de": "dies(er/e/es)",
+      "en": "this"
+    },
+    {
+      "de": "das / jener",
+      "en": "that"
+    },
+    {
+      "de": "diese",
+      "en": "these"
+    },
+    {
+      "de": "jene / die dort",
+      "en": "those"
+    },
+    {
+      "de": "wer",
+      "en": "who"
+    },
+    {
+      "de": "was",
+      "en": "what"
+    },
+    {
+      "de": "wo",
+      "en": "where"
+    },
+    {
+      "de": "wann",
+      "en": "when"
+    },
+    {
+      "de": "warum",
+      "en": "why"
+    },
+    {
+      "de": "wie",
+      "en": "how"
+    }
+  ],
+  "Lektion 18: Präpositionen, Konjunktionen & Adverbien": [
+    {
+      "de": "in / drinnen",
+      "en": "in"
+    },
+    {
+      "de": "auf / an / über",
+      "en": "on"
+    },
+    {
+      "de": "unter",
+      "en": "under"
+    },
+    {
+      "de": "neben / bei",
+      "en": "next to / by"
+    },
+    {
+      "de": "zwischen",
+      "en": "between"
+    },
+    {
+      "de": "vor",
+      "en": "in front of"
+    },
+    {
+      "de": "hinter",
+      "en": "behind"
+    },
+    {
+      "de": "zu / nach",
+      "en": "to"
+    },
+    {
+      "de": "von / aus",
+      "en": "from"
+    },
+    {
+      "de": "mit",
+      "en": "with"
+    },
+    {
+      "de": "ohne",
+      "en": "without"
+    },
+    {
+      "de": "für",
+      "en": "for"
+    },
+    {
+      "de": "über / von",
+      "en": "about"
+    },
+    {
+      "de": "und",
+      "en": "and"
+    },
+    {
+      "de": "oder",
+      "en": "or"
+    },
+    {
+      "de": "aber",
+      "en": "but"
+    },
+    {
+      "de": "weil / denn",
+      "en": "because"
+    },
+    {
+      "de": "wenn / falls",
+      "en": "if"
+    },
+    {
+      "de": "hier",
+      "en": "here"
+    },
+    {
+      "de": "dort",
+      "en": "there"
+    },
+    {
+      "de": "sehr",
+      "en": "very"
+    },
+    {
+      "de": "auch / zu",
+      "en": "too / also"
+    },
+    {
+      "de": "nur",
+      "en": "only"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "Fiiller 1. Bölüm": {
+    "karten": [
+      "İlk dil bilgisi dersine hoş geldin!",
+      "Bu derste fiillerin (eylem kelimelerinin) Almancada nasıl kullanıldığına birlikte bakacağız.",
+      "Uygulamada fiil kartları çoğunlukla mastar halindedir, yani:\n\nögrenmek = lernen\noynamak = spielen\nçalışmak = arbeiten",
+      "Şimdi bu kelimeleri aktif forma nasıl dönüştüreceğimizi birlikte öğreneceğiz:\n\nöğreniyorum\noynuyorum\nçalışıyorum",
+      "Bunun için bir zamire ihtiyacımız var. Senin için kolay kalması adına, zaten bildiğin bir zamirde kalacağız.",
+      "[color={C_ICH}]ICH (BEN)[/color]",
+      "Şimdi fiillere tekrar bakalım:\n\nlernen = öğrenmek\nspielen = oynamak\narbeiten = çalışmak",
+      "Onları aktif forma dönüştürmek için önce fiil kökünü oluşturmalıyız:\n\nlernen = öğrenmek\nspielen = oynamak\narbeiten = çalışmak",
+      "Bunun için son heceyi, yani -en takısını çıkarıyoruz:\n\nlern = öğrenmek\nspiel = oynamak\narbeit = çalışmak",
+      "Ardından zamirimizi ekliyoruz:\n\n[color={C_ICH}]Ich[/color] lern = öğrenmek\n[color={C_ICH}]Ich[/color] spiel = oynamak\n[color={C_ICH}]Ich[/color] arbeit = çalışmak",
+      "Son olarak bir kelime sonu eklemeliyiz. Kelime sonu eki her zaman zamire bağlıdır. [color={C_ICH}]Ich[/color] için bu her zaman bir [color={C_ICH}]-e[/color] ekidir:\n\n[color={C_ICH}]Ich[/color] lern[color={C_ICH}]e[/color] = Ben öğreniyorum\n[color={C_ICH}]Ich[/color] spiel[color={C_ICH}]e[/color] = Ben oynuyorum\n[color={C_ICH}]Ich[/color] arbeit[color={C_ICH}]e[/color] = Ben çalışıyorum",
+      "Bu neredeyse tüm fiillerde bu şekilde çalışır. Bunlara düzenli fiiller denir.\n\nİşte birkaç örnek daha:\nyapmak | [color={C_ICH}]Ich[/color] mach[color={C_ICH}]e[/color] = Ben yapıyorum\nduymak / dinlemek | [color={C_ICH}]Ich[/color] hör[color={C_ICH}]e[/color] = Ben duyuyorum\nsatın almak | [color={C_ICH}]Ich[/color] kauf[color={C_ICH}]e[/color] = Ben satın alıyorum",
+      "Şimdi işleri biraz daha karmaşık hale getiriyoruz. Yanımıza ikinci bir zamir alıyoruz:",
+      "[color={C_DU}]Du (Sen)[/color]",
+      "Tıpkı önceki gibi fiil kökünü oluşturuyoruz:\n\n[color={C_DU}]Du[/color] lern\n[color={C_DU}]Du[/color] spiel\n[color={C_DU}]Du[/color] arbeit",
+      "Tıpkı [color={C_ICH}]Ich[/color] gibi, [color={C_DU}]Du[/color] zamirinin de kendine ait bir eki vardır: [color={C_DU}]-st[/color].\n\n[color={C_DU}]Du[/color] lern[color={C_DU}]st[/color]\n[color={C_DU}]Du[/color] spiel[color={C_DU}]st[/color]",
+      "T veya D ile biten fiil kökleri ve birden fazla sessiz harfle biten fiil köklerini bu şekilde telaffuz etmek zor olurdu, bu yüzden buradaki ek [color={C_DU}]-est[/color] olur:\n\n[color={C_DU}]Du[/color] arbeit[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] öffn[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] atm[color={C_DU}]est[/color]",
+      "İşte birkaç örnek daha:\n\n[color={C_DU}]Du[/color] koch[color={C_DU}]st[/color]\n[color={C_DU}]Du[/color] start[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] land[color={C_DU}]est[/color]\n[color={C_DU}]Du[/color] lach[color={C_DU}]st[/color]",
+      "Hiç de karmaşık değil, değil mi? O halde küçük bir test deneyelim.\n\nSana Mastar halinde 15 fiil veriyorum ve senin bunları çekimlemen gerekiyor!"
+    ],
+    "quiz_hinweis": "Doğru fiil sonunu seç:",
+    "quiz_titel": "FİİLİ ÇEKİMLE",
+    "optionen": ["-e", "-st", "-est"],
+    "quiz": [
+      {"anzeige": "[color={C_ICH}]Ich[/color] + fehlen = [color={C_ICH}]Ich[/color] fehl___", "antwort": "-e", "vollstaendig": "Ich fehle"},
+      {"anzeige": "[color={C_DU}]Du[/color] + duschen = [color={C_DU}]Du[/color] dusch___", "antwort": "-st", "vollstaendig": "Du duschst"},
+      {"anzeige": "[color={C_ICH}]Ich[/color] + frühstücken = [color={C_ICH}]Ich[/color] frühstück___", "antwort": "-e", "vollstaendig": "Ich frühstücke"},
+      {"anzeige": "[color={C_DU}]Du[/color] + planen = [color={C_DU}]Du[/color] plan___", "antwort": "-st", "vollstaendig": "Du planst"},
+      {"anzeige": "[color={C_ICH}]Ich[/color] + duschen = [color={C_ICH}]Ich[/color] dusch___", "antwort": "-e", "vollstaendig": "Ich dusche"},
+      {"anzeige": "[color={C_DU}]Du[/color] + trinken = [color={C_DU}]Du[/color] trink___", "antwort": "-st", "vollstaendig": "Du trinkst"},
+      {"anzeige": "[color={C_ICH}]Ich[/color] + feiern = [color={C_ICH}]Ich[/color] feier___", "antwort": "-e", "vollstaendig": "Ich feiere"},
+      {"anzeige": "[color={C_DU}]Du[/color] + heben = [color={C_DU}]Du[/color] heb___", "antwort": "-st", "vollstaendig": "Du hebst"},
+      {"anzeige": "[color={C_ICH}]Ich[/color] + kaufen = [color={C_ICH}]Ich[/color] kauf___", "antwort": "-e", "vollstaendig": "Ich kaufe"},
+      {"anzeige": "[color={C_DU}]Du[/color] + reden = [color={C_DU}]Du[/color] red___", "antwort": "-est", "vollstaendig": "Du redest"},
+      {"anzeige": "[color={C_ICH}]Ich[/color] + antworten = [color={C_ICH}]Ich[/color] antwort___", "antwort": "-e", "vollstaendig": "Ich antworte"},
+      {"anzeige": "[color={C_ICH}]Ich[/color] + baden = [color={C_ICH}]Ich[/color] bad___", "antwort": "-e", "vollstaendig": "Ich bade"},
+      {"anzeige": "[color={C_ICH}]Ich[/color] + senden = [color={C_ICH}]Ich[/color] send___", "antwort": "-e", "vollstaendig": "Ich sende"},
+      {"anzeige": "[color={C_DU}]Du[/color] + glauben = [color={C_DU}]Du[/color] glaub___", "antwort": "-st", "vollstaendig": "Du glaubst"},
+      {"anzeige": "[color={C_ICH}]Ich[/color] + hoffen = [color={C_ICH}]Ich[/color] hoff___", "antwort": "-e", "vollstaendig": "Ich hoffe"}
+    ]
+  },
+  "Fiiller 2. Bölüm": {
+    "karten": [
+      "Artık [color={C_ICH}]Ich[/color] ve [color={C_DU}]Du[/color] zamirlerine hakim olduğuna göre, tam da oradan devam ediyoruz.",
+      "Üçüncü tekil şahıs Almancada Türkçeye göre biraz daha karmaşıktır. Türkçede hakkında konuşulan kişi kim olursa olsun her zaman “O” kullanılırken, Almancada cinsiyete göre ayrım yapılır.",
+      "[color={C_ER}]Er[/color] (eril), [color={C_SIE_SG}]Sie[/color] (dişil) ve [color={C_ES}]Es[/color] (nötr)",
+      "Yani O demek yerine bir erkek hakkında konuşurken [color={C_ER}]Er[/color] dersin:\n\n[color={C_ER}]Er[/color] ist mein Verlobter = O benim nişanlım\n\n[color={C_ER}]Er[/color] zamirinde aklına Türkçe Erkek kelimesi gelirse, kolayca hatırlayabilirsin.",
+      "Ve bir kadın hakkında konuştuğunda O yerine [color={C_SIE_SG}]Sie[/color] dersin.\n[color={C_SIE_SG}]Sie[/color] kelimesindeki S harfi yumuşak okunur, Türkçe Kız kelimesindeki Z harfine benzer:\n\n[color={C_SIE_SG}]Sie[/color] ist meine Tochter = O benim kız çocuğum",
+      "Böylece hangi zamirin hangi cinsiyete ait olduğunu kolayca hatırlayabilirsin.",
+      "“[color={C_ES}]Es[/color]”, hava durumu gibi nötr bir şeyden bahsettiğinde kullanılır:\n\nDışarısı güzel, hava iyi.\n[color={C_ES}]Es[/color] ist schön draußen, das Wetter ist gut",
+      "Bu karmaşık görünebilir ama anlayana kadar yavaş yavaş ilerleyeceğiz.",
+      "Yine mastar haliyle başlayalım:\n\nspielen = oynamak\nlernen = öğrenmek\narbeiten = çalışmak",
+      "Zaten bildiğin gibi, son heceyi çıkararak fiil kökünü elde etmeliyiz:\n\nspiel = oynamak\nlern = öğrenmek\narbeit = çalışmak",
+      "Ardından 3 zamirimizi ekliyoruz:\n\n[color={C_ER}]Er[/color] spiel = O (erkek) oynuyor\n[color={C_SIE_SG}]Sie[/color] lern = O (kadın) öğreniyor\n[color={C_ES}]Es[/color] arbeit = O (nötr) çalışıyor",
+      "Ve sonra ek gelir. Bu ek her üç zamir için de aynıdır: [color={C_T_END}]-t[/color]\n\n[color={C_ER}]Er[/color] spiel[color={C_T_END}]t[/color] = O (erkek) oynuyor\n[color={C_SIE_SG}]Sie[/color] lern[color={C_T_END}]t[/color] = O (kadın) öğreniyor\n[color={C_ES}]Es[/color] arbeit[color={C_T_END}]et[/color] = O (nötr) çalışıyor",
+      "Farklı zamirlerin ne zaman kullanıldığını açıklamak için işte birkaç cümle daha:",
+      "Das ist Daniel. [color={C_ER}]Er[/color] arbeit[color={C_T_END}]et[/color] im Supermarkt.\nBu Daniel. O süpermarkette çalışıyor.",
+      "Das ist meine Oma. [color={C_SIE_SG}]Sie[/color] back[color={C_T_END}]t[/color] Kekse.\nBu benim büyükannem. O kurabiye pişiriyor.",
+      "Das Wetter ist schlecht. [color={C_ES}]Es[/color] regn[color={C_T_END}]et[/color].\nHava kötü. Yağmur yağıyor.",
+      "[color={C_DU}]Du[/color] zamirinde [color={C_DU}]-est[/color] ile biten kelimeler, burada [color={C_T_END}]-et[/color] ile biter:\n\n[color={C_ER}]Er[/color] arbeit[color={C_T_END}]et[/color], [color={C_SIE_SG}]Sie[/color] land[color={C_T_END}]et[/color], [color={C_ES}]Es[/color] start[color={C_T_END}]et[/color]",
+      "Becerilerini test edelim.\n\nBurada 9 cümlen var ve doğru zamiri yerleştirmen gerekiyor!"
+    ],
+    "quiz_hinweis": "Doğru zamiri seç (Er / Sie / Es):",
+    "quiz_titel": "DOĞRU ZAMİRİ SEÇ",
+    "optionen": ["Er", "Sie", "Es"],
+    "quiz": [
+      {
+        "anzeige": "[color={C_ICH}]Ich[/color] kauf[color={C_ICH}]e[/color] ein Handy. ___ ist teuer.\n[size=15sp][color={C_MUTED_TXT}]Bir cep telefonu satın alıyorum; pahalı.[/color][/size]",
+        "antwort": "Es",
+        "vollstaendig": "Ich kaufe ein Handy. Es ist teuer."
+      },
+      {
+        "anzeige": "Das ist meine Tochter. ___ spiel[color={C_T_END}]t[/color] Klavier.\n[size=15sp][color={C_MUTED_TXT}]Bu benim kızım. O piyano çalıyor.[/color][/size]",
+        "antwort": "Sie",
+        "vollstaendig": "Das ist meine Tochter. Sie spielt Klavier."
+      },
+      {
+        "anzeige": "Mein Onkel ist sauer. ___ fluch[color={C_T_END}]t[/color].\n[size=15sp][color={C_MUTED_TXT}]Amcam kızgın. O küfrediyor.[/color][/size]",
+        "antwort": "Er",
+        "vollstaendig": "Mein Onkel ist sauer. Er flucht."
+      },
+      {
+        "anzeige": "Meine Schwester hat 5 Euro. ___ kauf[color={C_T_END}]t[/color] eine Wassermelone.\n[size=15sp][color={C_MUTED_TXT}]Kız kardeşimin 5 eurosu var. O bir karpuz satın alıyor.[/color][/size]",
+        "antwort": "Sie",
+        "vollstaendig": "Meine Schwester hat 5 Euro. Sie kauft eine Wassermelone."
+      },
+      {
+        "anzeige": "Heute kann man Papierdrachen fliegen. ___ ist windig.\n[size=15sp][color={C_MUTED_TXT}]Bugün uçurtma uçurulabilir. Hava rüzgârlı.[/color][/size]",
+        "antwort": "Es",
+        "vollstaendig": "Heute kann man Papierdrachen fliegen. Es ist windig."
+      },
+      {
+        "anzeige": "Mein Sohn heißt Leon, ___ ist 5 Jahre alt.\n[size=15sp][color={C_MUTED_TXT}]Oğlumun adı Leon. O 5 yaşında.[/color][/size]",
+        "antwort": "Er",
+        "vollstaendig": "Mein Sohn heißt Leon, er ist 5 Jahre alt."
+      },
+      {
+        "anzeige": "Mein Mathelehrer heißt Herr Müller. ___ ist sehr streng.\n[size=15sp][color={C_MUTED_TXT}]Matematik öğretmenimin adı Bay Müller. Kendisi çok serttir.[/color][/size]",
+        "antwort": "Er",
+        "vollstaendig": "Mein Mathelehrer heißt Herr Müller. Er ist sehr streng."
+      },
+      {
+        "anzeige": "Meine Mutter wartet auf mich. ___ ist genervt.\n[size=15sp][color={C_MUTED_TXT}]Annem beni bekliyor. O sinirli.[/color][/size]",
+        "antwort": "Sie",
+        "vollstaendig": "Meine Mutter wartet auf mich. Sie ist genervt."
+      },
+      {
+        "anzeige": "Da ist ein Baby. ___ schau[color={C_T_END}]t[/color] mich an.\n[size=15sp][color={C_MUTED_TXT}]Orada bir bebek var. O bana bakıyor.[/color][/size]",
+        "antwort": "Es",
+        "vollstaendig": "Da ist ein Baby. Es schaut mich an."
+      }
+    ]
+  },
+  "Fiiller 3. Bölüm": {
+    "karten": [
+      "Harika, başardın! Artık tekil şahısların hepsine hakimsin.\n\nŞimdi çoğul şahısları deneyelim (Biz, Siz, Onlar).",
+      "Biz = [color={C_WIR}]Wir[/color]",
+      "Her zamanki gibi üç fiilimizin mastar halini alıyoruz:\n\nspielen = oynamak\nlernen = öğrenmek\narbeiten = çalışmak",
+      "Ve şimdi gerçekten kolaylaşıyor. Çünkü birinci çoğul şahıs mastar haliyle birebir aynı yazılır. Yani tek yapman gereken zamiri eklemek ([color={C_WIR}]Wir[/color] + [color={C_WIR}]-en[/color]):\n\n[color={C_WIR}]Wir[/color] spiel[color={C_WIR}]en[/color] = Biz oynuyoruz\n[color={C_WIR}]Wir[/color] lern[color={C_WIR}]en[/color] = Biz öğreniyoruz\n[color={C_WIR}]Wir[/color] arbeit[color={C_WIR}]en[/color] = Biz çalışıyoruz",
+      "Birkaç örnek daha:\n\n[color={C_WIR}]Wir[/color] heirat[color={C_WIR}]en[/color] = Biz evleniyoruz\n[color={C_WIR}]Wir[/color] putz[color={C_WIR}]en[/color] = Biz temizliyoruz\n[color={C_WIR}]Wir[/color] wein[color={C_WIR}]en[/color] = Biz ağlıyoruz",
+      "Bu kolaydı, değil mi? O halde bir sonraki kişiyle devam edelim!",
+      "Siz = [color={C_IHR}]Ihr[/color]",
+      "Her zamanki gibi fiillerimizin mastar halini alıyoruz:\n\nspielen = oynamak\nlernen = öğrenmek\narbeiten = çalışmak",
+      "Tabii ki önce fiil kökünü oluşturmalıyız:\n\nspiel = oynamak\nlern = öğrenmek\narbeit = çalışmak",
+      "İki veya daha fazla kişiden bahsettiğinde [color={C_IHR}]Ihr[/color] (Siz) zamirini kullanırsın:\n\n[color={C_IHR}]Ihr[/color] spiel = oynamak\n[color={C_IHR}]Ihr[/color] lern = öğrenmek\n[color={C_IHR}]Ihr[/color] arbeit = çalışmak",
+      "[color={C_IHR}]Ihr[/color] (Siz) için kelime sonu eki [color={C_IHR}]-t[/color]'dir (veya [color={C_IHR}]-et[/color]), tıpkı geçen dersteki [color={C_ER}]Er[/color]/[color={C_SIE_SG}]Sie[/color]/[color={C_ES}]Es[/color] (O) gibi:\n\n[color={C_IHR}]Ihr[/color] spiel[color={C_IHR}]t[/color] = siz oynuyorsunuz\n[color={C_IHR}]Ihr[/color] lern[color={C_IHR}]t[/color] = siz öğreniyorsunuz\n[color={C_IHR}]Ihr[/color] arbeit[color={C_IHR}]et[/color] = siz çalışıyorsunuz",
+      "Birkaç örnek cümle daha:",
+      "[color={C_WIR}]Wir[/color] arbeit[color={C_WIR}]en[/color] im Supermarkt, [color={C_IHR}]Ihr[/color] arbeit[color={C_IHR}]et[/color] im Baumarkt.\nBiz süpermarkette çalışıyoruz, siz yapı markette çalışıyorsunuz.",
+      "[color={C_WIR}]Wir[/color] lern[color={C_WIR}]en[/color] Deutsch, [color={C_IHR}]ihr[/color] lern[color={C_IHR}]t[/color] Türkisch.\nBiz Almanca öğreniyoruz, siz Türkçe öğreniyorsunuz.",
+      "[color={C_WIR}]Wir[/color] guck[color={C_WIR}]en[/color] einen Film, [color={C_IHR}]Ihr[/color] guck[color={C_IHR}]t[/color] eine Serie.\nBiz bir film izliyoruz, siz bir dizi izliyorsunuz.",
+      "[color={C_WIR}]Wir[/color] hör[color={C_WIR}]en[/color] Musik, [color={C_IHR}]Ihr[/color] hör[color={C_IHR}]t[/color] ein Hörbuch.\nBiz müzik dinliyoruz, siz sesli kitap dinliyorsunuz.",
+      "[color={C_WIR}]Wir[/color] trainier[color={C_WIR}]en[/color] die Arme, [color={C_IHR}]Ihr[/color] trainier[color={C_IHR}]t[/color] den Bauch.\nBiz kolları çalıştırıyoruz, siz karın bölgesini çalıştırıyorsunuz.",
+      "O halde becerilerini bir kez daha test edelim. Verilen zamirle bu 7 fiili çekimle!"
+    ],
+    "quiz_hinweis": "Doğru fiil sonunu seç:",
+    "quiz_titel": "FİİLİ ÇEKİMLE",
+    "optionen": ["-en", "-t", "-et"],
+    "quiz": [
+      {"anzeige": "[color={C_IHR}]Ihr[/color] + arbeiten = [color={C_IHR}]Ihr[/color] arbeit___", "antwort": "-et", "vollstaendig": "Ihr arbeitet"},
+      {"anzeige": "[color={C_IHR}]Ihr[/color] + kaufen = [color={C_IHR}]Ihr[/color] kauf___", "antwort": "-t", "vollstaendig": "Ihr kauft"},
+      {"anzeige": "[color={C_WIR}]Wir[/color] + schlafen = [color={C_WIR}]Wir[/color] schlaf___", "antwort": "-en", "vollstaendig": "Wir schlafen"},
+      {"anzeige": "[color={C_IHR}]Ihr[/color] + tanzen = [color={C_IHR}]Ihr[/color] tanz___", "antwort": "-t", "vollstaendig": "Ihr tanzt"},
+      {"anzeige": "[color={C_WIR}]Wir[/color] + lernen = [color={C_WIR}]Wir[/color] lern___", "antwort": "-en", "vollstaendig": "Wir lernen"},
+      {"anzeige": "[color={C_IHR}]Ihr[/color] + fragen = [color={C_IHR}]Ihr[/color] frag___", "antwort": "-t", "vollstaendig": "Ihr fragt"},
+      {"anzeige": "[color={C_WIR}]Wir[/color] + laufen = [color={C_WIR}]Wir[/color] lauf___", "antwort": "-en", "vollstaendig": "Wir laufen"}
+    ]
+  },
+  "Fiiller 4. Bölüm": {
+    "karten": [
+      "Artık neredeyse başardın. Usta olamadığın sadece tek bir kişi kaldı.\n\nÜçüncü çoğul şahıs \"[color={C_SIE_PL}]Sie[/color]\" (Onlar)",
+      "Kafan karışmış olabilir çünkü iki tane \"[color={C_SIE_PL}]Sie[/color]\" versiyonu var. Ama hızlıca alışana kadar pratik yapacağız.",
+      "Yine mastar halindeki fiillerimizle başlayalım:\n\nspielen = oynamak\nlernen = öğrenmek\narbeiten = çalışmak",
+      "Biz ([color={C_WIR}]Wir[/color]) şahsında olduğu gibi takı mastar haliyle aynıdır, yani işimizi kolaylaştırıp sadece zamiri eklememiz yeterlidir ([color={C_SIE_PL}]Sie[/color] + [color={C_SIE_PL}]-en[/color]):\n\n[color={C_SIE_PL}]Sie[/color] spiel[color={C_SIE_PL}]en[/color] = Onlar oynuyorlar\n[color={C_SIE_PL}]Sie[/color] lern[color={C_SIE_PL}]en[/color] = Onlar öğreniyorlar\n[color={C_SIE_PL}]Sie[/color] arbeit[color={C_SIE_PL}]en[/color] = Onlar çalışıyorlar",
+      "İşte birkaç örnek cümle:",
+      "Das sind die Schüler der Goethe Realschule. [color={C_SIE_PL}]Sie[/color] schreib[color={C_SIE_PL}]en[/color] einen Test.\nBunlar, Goethe Ortaokulu'nun öğrencileri. Onlar bir sınav yazıyorlar.",
+      "Die Firma Audi hat viele Angestellte. [color={C_SIE_PL}]Sie[/color] verdien[color={C_SIE_PL}]en[/color] viel Geld.\nAudi firmasının birçok çalışanı var. Onlar çok para kazanıyorlar.",
+      "Die Familie Müller ist spät dran. [color={C_SIE_PL}]Sie[/color] steh[color={C_SIE_PL}]en[/color] im Stau.\nMüller ailesi gecikti. Trafikteler.",
+      "O kadar da zor değil, değil mi? Ancak bu derste özel bir durum var.",
+      "Üçüncü çoğul şahıs [color={C_SIE_PL}]Sie[/color] (Onlar) aynı zamanda nezaket şekli (kibar ifade) olarak da kullanılır.",
+      "Kibar olmanız gereken biriyle konuşurken [color={C_DU}]Du[/color] yerine [color={C_SIE_PL}]Sie[/color] kullanırsınız.",
+      "Bunun birkaç örnekle nasıl çalıştığını sana göstereyim:\n\nArkadaşına iltifat ediyorsun = [color={C_DU}]Du[/color] sieh[color={C_DU}]st[/color] gut aus (İyi görünüyorsun)\nPatronuna iltifat ediyorsun = [color={C_SIE_PL}]Sie[/color] seh[color={C_SIE_PL}]en[/color] gut aus (İyi görünüyorsunuz)",
+      "Arkadaşın seninle konuşuyor = [color={C_DU}]Du[/color] ha[color={C_DU}]st[/color] das gut gemacht!\nPatronun seni övüyor = [color={C_SIE_PL}]Sie[/color] hab[color={C_SIE_PL}]en[/color] das gut gemacht!",
+      "Annenden bir içecek istiyorsun = Ha[color={C_DU}]st[/color] [color={C_DU}]du[/color] Cola? (Kola var mı)\nRestoranda bir içecek istiyorsun = Hab[color={C_SIE_PL}]en[/color] [color={C_SIE_PL}]Sie[/color] Cola? (Kola var mı)",
+      "Şimdi bir test yapalım.\n\nDoğru zamiri cümleye yerleştirin!"
+    ],
+    "quiz_hinweis": "Doğru zamiri cümleye yerleştirin (Du / Sie):",
+    "quiz_titel": "DOĞRU ZAMİRİ SEÇ",
+    "optionen": ["Du", "Sie"],
+    "quiz": [
+      {
+        "anzeige": "Das sind meine Mitschüler. ___ sind nett.\n[size=15sp][color={C_MUTED_TXT}]Bunlar benim sınıf arkadaşlarım. Onlar iyi insanlar.[/color][/size]",
+        "antwort": "Sie",
+        "vollstaendig": "Das sind meine Mitschüler. Sie sind nett."
+      },
+      {
+        "anzeige": "Guten Tag Herr Müller, ___ seh[color={C_SIE_PL}]en[/color] heute gut aus.\n[size=15sp][color={C_MUTED_TXT}]İyi günler Bay Müller, bugün iyi görünüyorsunuz.[/color][/size]",
+        "antwort": "Sie",
+        "vollstaendig": "Guten Tag Herr Müller, Sie sehen heute gut aus."
+      },
+      {
+        "anzeige": "___ arbeit[color={C_DU}]est[/color] sehr hart!\n[size=15sp][color={C_MUTED_TXT}]Çok sıkı çalışıyorsun![/color][/size]",
+        "antwort": "Du",
+        "vollstaendig": "Du arbeitest sehr hart!"
+      },
+      {
+        "anzeige": "Ich gehe zu meiner Familie. ___ hab[color={C_SIE_PL}]en[/color] mich eingeladen.\n[size=15sp][color={C_MUTED_TXT}]Ailemin yanına gidiyorum; beni davet ettiler.[/color][/size]",
+        "antwort": "Sie",
+        "vollstaendig": "Ich gehe zu meiner Familie. Sie haben mich eingeladen."
+      },
+      {
+        "anzeige": "___ sieh[color={C_DU}]st[/color] lustig aus.\n[size=15sp][color={C_MUTED_TXT}]Komik görünüyorsun.[/color][/size]",
+        "antwort": "Du",
+        "vollstaendig": "Du siehst lustig aus."
+      },
+      {
+        "anzeige": "Guten Tag, hab[color={C_SIE_PL}]en[/color] ___ einen Tisch frei?\n[size=15sp][color={C_MUTED_TXT}]İyi günler, boş bir masanız var mı?[/color][/size]",
+        "antwort": "Sie",
+        "vollstaendig": "Guten Tag, haben Sie einen Tisch frei?"
+      }
+    ]
+  }
+}

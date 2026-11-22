@@ -1,0 +1,4102 @@
+{
+  "Selamlaşmalar ve Vedalaşmalar": [
+    {
+      "target": "Hello!",
+      "native": "Merhaba! (Genel selamlama)"
+    },
+    {
+      "target": "Good morning!",
+      "native": "Günaydın! (Sabah selamlaması)"
+    },
+    {
+      "target": "Good afternoon!",
+      "native": "İyi günler! (Standart gündüz selamlaması)"
+    },
+    {
+      "target": "Good evening!",
+      "native": "İyi akşamlar! (Saat 18:00'den sonra)"
+    },
+    {
+      "target": "Good night!",
+      "native": "İyi geceler! (Yatmadan önce)"
+    },
+    {
+      "target": "Bye!",
+      "native": "Hoşça kal! / Görüşürüz! (Samimi veda)"
+    },
+    {
+      "target": "Goodbye!",
+      "native": "Hoşça kalın! (Resmi veda)"
+    },
+    {
+      "target": "See you later!",
+      "native": "Sonra görüşürüz! (Samimi)"
+    },
+    {
+      "target": "See you soon!",
+      "native": "Yakında görüşürüz! (Samimi)"
+    },
+    {
+      "target": "Have a nice day!",
+      "native": "İyi günler dilerim! (Nazik veda)"
+    },
+    {
+      "target": "How's it going?",
+      "native": "Nasıl gidiyor? / Ne haber? (Samimi selamlama)"
+    },
+    {
+      "target": "How are you?",
+      "native": "Nasılsınız? (Resmi)"
+    },
+    {
+      "target": "All good?",
+      "native": "Her şey yolunda mı? (Çok günlük/samimi)"
+    },
+    {
+      "target": "I'm good, thanks.",
+      "native": "İyiyim, teşekkürler. (Cevap)"
+    },
+    {
+      "target": "And you?",
+      "native": "Ya sen? / Sende nasıl? (Devam sorusu)"
+    },
+    {
+      "target": "Welcome!",
+      "native": "Hoş geldiniz! (Birini bir yere karşılarken)"
+    },
+    {
+      "target": "Good to see you!",
+      "native": "Seni gördüğüme sevindim! (Dostça selamlama)"
+    },
+    {
+      "target": "Take care!",
+      "native": "Kendine iyi bak! (Samimi veda)"
+    },
+    {
+      "target": "Until next time!",
+      "native": "Bir sonraki sefere görüşmek üzere! (Dostça kapanış)"
+    },
+    {
+      "target": "I wish you a nice day!",
+      "native": "Sana güzel bir gün dilerim! (Nazik)"
+    }
+  ],
+  "Kafe veya Restoranda": [
+    {
+      "target": "I'd like a coffee.",
+      "native": "Bir kahve alabilirdim / Kahve istiyordum. (Nazikçe sipariş verme)"
+    },
+    {
+      "target": "What would you like to order?",
+      "native": "Ne sipariş etmek istersiniz? (Garson müşteriye sorar)"
+    },
+    {
+      "target": "The menu, please.",
+      "native": "Menüyü alabilir miyim, lütfen. (Menü isteme)"
+    },
+    {
+      "target": "Just a moment, please.",
+      "native": "Bir an bekleyin lütfen. (Zaman isteme)"
+    },
+    {
+      "target": "I'll have the schnitzel.",
+      "native": "Schnitzel alacağım. (Yemek siparişi verme)"
+    },
+    {
+      "target": "What do you recommend?",
+      "native": "Ne tavsiye edersiniz? (Öneri isteme)"
+    },
+    {
+      "target": "The bill, please.",
+      "native": "Hesap lütfen. (Ödeme isteme)"
+    },
+    {
+      "target": "Together or separate?",
+      "native": "Birlikte mi, ayrı mı? (Garsonun hesabı nasıl böleceğini sorması)"
+    },
+    {
+      "target": "It tasted very good.",
+      "native": "Çok lezzetliydi. (Yemeği övme)"
+    },
+    {
+      "target": "Can I have a little more?",
+      "native": "Biraz daha alabilir miyim? (Ekstra isteme)"
+    },
+    {
+      "target": "I'm allergic to nuts.",
+      "native": "Fındığa/Cevize alerjim var. (Önemli diyet bilgisi)"
+    },
+    {
+      "target": "I'd like still water.",
+      "native": "Gazsız su istiyorum. (İçecek siparişi)"
+    },
+    {
+      "target": "By card, please.",
+      "native": "Kartla, lütfen. (Kartla ödeme)"
+    },
+    {
+      "target": "Keep the change.",
+      "native": "Üstü kalsın. (Bahşiş verme)"
+    },
+    {
+      "target": "Could I get a glass of water?",
+      "native": "Bir bardak su alabilir miyim? (Nazik istek)"
+    },
+    {
+      "target": "Do you have vegetarian dishes?",
+      "native": "Vejetaryen yemekleriniz var mı? (Diyet tercihi)"
+    },
+    {
+      "target": "Where is the restroom?",
+      "native": "Tuvalet nerede? (Sık sorulan soru)"
+    },
+    {
+      "target": "I'd like to make a reservation.",
+      "native": "Rezervasyon yaptırmak istiyorum. (Rezervasyon yapma)"
+    },
+    {
+      "target": "For how many people?",
+      "native": "Kaç kişilik? (Personelin sorusu)"
+    },
+    {
+      "target": "At what time?",
+      "native": "Saat kaçta? (Rezervasyon detayı)"
+    }
+  ],
+  "Alışveriş": [
+    {
+      "target": "How much does this cost?",
+      "native": "Fiyatı ne kadar? (Fiyat sorma)"
+    },
+    {
+      "target": "Can I pay by card?",
+      "native": "Kartla ödeyebilir miyim? (Kasada)"
+    },
+    {
+      "target": "I'm just looking, thanks.",
+      "native": "Sadece bakıyorum, teşekkürler. (Göz gezdirme)"
+    },
+    {
+      "target": "Do you have this in another size?",
+      "native": "Bunu başka bir bedende var mı? (Giyim mağazası)"
+    },
+    {
+      "target": "Where are the fitting rooms?",
+      "native": "Soyunma kabinleri nerede? (Kıyafet deneme)"
+    },
+    {
+      "target": "Is there a discount?",
+      "native": "İndirim var mı? (Fiyat indirimi isteme)"
+    },
+    {
+      "target": "I'll take it.",
+      "native": "Bunu alıyorum. (Satın almayı onaylama)"
+    },
+    {
+      "target": "I'd like to return this.",
+      "native": "Bunu iade etmek istiyorum. (Ürün iade etme)"
+    },
+    {
+      "target": "Do you have a bag?",
+      "native": "Poşetiniz var mı? (Alışveriş poşeti isteme)"
+    },
+    {
+      "target": "Can I get a receipt?",
+      "native": "Fiş alabilir miyim? (Fiş isteme)"
+    },
+    {
+      "target": "That's too expensive.",
+      "native": "Bu çok pahalı. (Fiyat hakkında yorum)"
+    },
+    {
+      "target": "I'm looking for a gift.",
+      "native": "Bir hediye arıyorum. (Biri için alışveriş yapma)"
+    },
+    {
+      "target": "Do you have this in blue as well?",
+      "native": "Bunun mavisi de var mı? (Renk tercihi)"
+    },
+    {
+      "target": "The quality is very good.",
+      "native": "Kalitesi çok iyi. (Olumlu yorum)"
+    },
+    {
+      "target": "I'd like to pay in cash.",
+      "native": "Nakit ödemek istiyorum. (Nakit ödeme)"
+    },
+    {
+      "target": "This doesn't fit me.",
+      "native": "Bu bana uymuyor / olmuyor. (Kıyafet deneme)"
+    },
+    {
+      "target": "I need a different size.",
+      "native": "Farklı bir bedene ihtiyacım var. (Beden sorunu)"
+    },
+    {
+      "target": "Can I try this on?",
+      "native": "Bunu deneyebilir miyim? (Kıyafet ürünü)"
+    },
+    {
+      "target": "What time do you close?",
+      "native": "Ne zaman kapatıyorsunuz? (Mağaza saatleri)"
+    },
+    {
+      "target": "Are you open?",
+      "native": "Açık mısınız? (Mağazanın açık olup olmadığını kontrol etme)"
+    }
+  ],
+  "Yardım veya Yol Sorma": [
+    {
+      "target": "Can you help me?",
+      "native": "Bana yardım edebilir misiniz? (Yardım isteme)"
+    },
+    {
+      "target": "I'm lost.",
+      "native": "Kayboldum. (Yol arama)"
+    },
+    {
+      "target": "Where is the train station?",
+      "native": "Tren istasyonu nerede? (Ulaşım bulma)"
+    },
+    {
+      "target": "How do I get to the airport?",
+      "native": "Havalimanına nasıl gidebilirim? (Yol tarifi isteme)"
+    },
+    {
+      "target": "Is there a subway nearby?",
+      "native": "Yakınlarda metro var mı? (Yerel ulaşım)"
+    },
+    {
+      "target": "I'm looking for this address.",
+      "native": "Bu adresi arıyorum. (Konum bulma)"
+    },
+    {
+      "target": "Is it far from here?",
+      "native": "Buradan uzak mı? (Mesafe sorgulama)"
+    },
+    {
+      "target": "Go straight ahead.",
+      "native": "Düz gidin. (Yol tarifi verme)"
+    },
+    {
+      "target": "Turn left.",
+      "native": "Sola dönün. (Yol tarifi verme)"
+    },
+    {
+      "target": "Turn right.",
+      "native": "Sağa dönün. (Yol tarifi verme)"
+    },
+    {
+      "target": "It's nearby.",
+      "native": "Yakınlarda. (Mesafe yorumu)"
+    },
+    {
+      "target": "It's across from the bank.",
+      "native": "Bankanın karşısında. (İşaret referansı)"
+    },
+    {
+      "target": "Can you please repeat that?",
+      "native": "Bunu lütfen tekrarlayabilir misiniz? (Açıklama isteme)"
+    },
+    {
+      "target": "Do you speak English?",
+      "native": "İngilizce konuşuyor musunuz? (Dil yardımı)"
+    },
+    {
+      "target": "Only a little German.",
+      "native": "Sadece biraz Almanca. (Dil seviyesi)"
+    },
+    {
+      "target": "I don't understand.",
+      "native": "Anlamıyorum. (Açıklama)"
+    },
+    {
+      "target": "What is the name of this street?",
+      "native": "Bu caddenin adı ne? (İsim sorma)"
+    },
+    {
+      "target": "Which bus goes to the city center?",
+      "native": "Merkeze hangi otobüs gidiyor? (Toplu taşıma)"
+    },
+    {
+      "target": "Where can I find a taxi?",
+      "native": "Nerede taksi bulabilirim? (Ulaşım)"
+    },
+    {
+      "target": "Thank you very much for your help!",
+      "native": "Yardımlarınız için çok teşekkür ederim! (Minnettarlık)"
+    }
+  ],
+  "Doktorda": [
+    {
+      "target": "I have an appointment.",
+      "native": "Randevum var. (Kayıt yaptırma)"
+    },
+    {
+      "target": "I don't feel well.",
+      "native": "Kendimi iyi hissetmiyorum. (Belirtileri açıklama)"
+    },
+    {
+      "target": "I have a headache.",
+      "native": "Başım ağrıyor. (Belirti tanımlama)"
+    },
+    {
+      "target": "I have a fever.",
+      "native": "Ateşim var. (Belirti tanımlama)"
+    },
+    {
+      "target": "I feel dizzy.",
+      "native": "Başım dönüyor. (Belirti tanımlama)"
+    },
+    {
+      "target": "I have a cough and a runny nose.",
+      "native": "Öksürük ve nezlem var. (Soğuk algınlığı belirtileri)"
+    },
+    {
+      "target": "I need a prescription.",
+      "native": "Reçeteye ihtiyacım var. (İlaç talebi)"
+    },
+    {
+      "target": "I'm allergic to penicillin.",
+      "native": "Penisiline alerjim var. (Önemli sağlık bilgisi)"
+    },
+    {
+      "target": "Do you have your insurance card?",
+      "native": "Sigorta kartınız var mı? (Resepsiyonist sorusu)"
+    },
+    {
+      "target": "Please take a seat in the waiting room.",
+      "native": "Lütfen bekleme odasında yerinizi alınız. (Klinik talimatı)"
+    },
+    {
+      "target": "How long have you had these symptoms?",
+      "native": "Şikayetleriniz ne kadardır var? (Doktorun sorusu)"
+    },
+    {
+      "target": "I have back pain.",
+      "native": "Sırtım ağrıyor. (Belirti tanımlama)"
+    },
+    {
+      "target": "I can't sleep well.",
+      "native": "İyi uyuyamıyorum. (Uyku sorunu)"
+    },
+    {
+      "target": "I need a doctor's note.",
+      "native": "İstirahat raporuna ihtiyacım var. (İş izni mazereti)"
+    },
+    {
+      "target": "I don't take any medication.",
+      "native": "Herhangi bir ilaç kullanmıyorum. (Sağlık geçmişi)"
+    },
+    {
+      "target": "I had surgery before.",
+      "native": "Daha önce ameliyat geçirdim. (Tıbbi geçmiş)"
+    },
+    {
+      "target": "I need a referral.",
+      "native": "Sevk kağıdına ihtiyacım var. (Uzman doktor sevk talebi)"
+    },
+    {
+      "target": "Are there side effects?",
+      "native": "Yan etkileri var mı? (İlaç endişesi)"
+    },
+    {
+      "target": "When should I come back?",
+      "native": "Ne zaman tekrar gelmeliyim? (Takip kontrolü)"
+    },
+    {
+      "target": "Thank you very much, goodbye.",
+      "native": "Çok teşekkürler, hoşça kalın. (Nazik çıkış)"
+    }
+  ],
+  "Randevu Almak": [
+    {
+      "target": "I'd like to make an appointment.",
+      "native": "Randevu almak istiyorum. (Genel istek)"
+    },
+    {
+      "target": "When are you available?",
+      "native": "Ne zaman müsait siniz? (Planlama)"
+    },
+    {
+      "target": "Does tomorrow work too?",
+      "native": "Yarın da uygun mu? (Alternatif zaman)"
+    },
+    {
+      "target": "Unfortunately, I can't make it.",
+      "native": "Maalesef gelemiyorum. (İptal etme)"
+    },
+    {
+      "target": "I need to reschedule the appointment.",
+      "native": "Randevuyu ertelemem gerekiyor. (Plan değişikliği)"
+    },
+    {
+      "target": "How long will the appointment take?",
+      "native": "Randevu ne kadar sürecek? (Zaman sorgulama)"
+    },
+    {
+      "target": "What time is my appointment?",
+      "native": "Randevum saat kaçta? (Onaylama)"
+    },
+    {
+      "target": "Can I come later?",
+      "native": "Daha sonra gelebilir miyim? (Yeniden planlama)"
+    },
+    {
+      "target": "Is it possible to come earlier?",
+      "native": "Daha erken gelmek mümkün mü? (Yeniden planlama)"
+    },
+    {
+      "target": "I have an appointment today at ten o'clock.",
+      "native": "Bugün saat onda randevum var. (Zaman belirtme)"
+    },
+    {
+      "target": "The appointment is on Tuesday.",
+      "native": "Randevu Salı günü. (Gün referansı)"
+    },
+    {
+      "target": "We'll meet at 2 PM.",
+      "native": "Saat 14:00'te görüşürüz. (Onaylama)"
+    },
+    {
+      "target": "Is the office open today?",
+      "native": "Ofis bugün açık mı? (Müsaitlik kontrolü)"
+    },
+    {
+      "target": "Can I book online too?",
+      "native": "Çevrim içi de rezervasyon yapabilir miyim? (Modern seçenek)"
+    },
+    {
+      "target": "I'll be a few minutes late.",
+      "native": "Birkaç dakika gecikeceğim. (Geç kalma durumu)"
+    },
+    {
+      "target": "I'm on my way.",
+      "native": "Yoldayım. (Randevu bağlamı)"
+    },
+    {
+      "target": "Thank you very much for the appointment.",
+      "native": "Randevu için çok teşekkürler. (Nazik kapanış)"
+    },
+    {
+      "target": "I received a confirmation.",
+      "native": "Onay aldım. (Rezervasyon takibi)"
+    },
+    {
+      "target": "Please confirm the appointment.",
+      "native": "Lütfen randevuyu onaylayın. (Nazik rica)"
+    },
+    {
+      "target": "I look forward to our appointment.",
+      "native": "Randevumuzu dört gözle bekliyorum. (Dostça ton)"
+    }
+  ],
+  "Duygulardan Bahsetmek": [
+    {
+      "target": "I'm happy.",
+      "native": "Mutluyum. (Olumlu duygu ifade etme)"
+    },
+    {
+      "target": "I'm sad.",
+      "native": "Üzgünüm. (Üzüntü ifade etme)"
+    },
+    {
+      "target": "I'm angry.",
+      "native": "Kızgınım / Öfkeliyim. (Öfke ifade etme)"
+    },
+    {
+      "target": "I'm nervous.",
+      "native": "Gerginim / Heyecanlıyım. (Kaygı ifade etme)"
+    },
+    {
+      "target": "I'm scared.",
+      "native": "Korkuyorum. (Korku veya endişe)"
+    },
+    {
+      "target": "I'm disappointed.",
+      "native": "Hayal kırıklığına uğradım. (Olumsuz duygu)"
+    },
+    {
+      "target": "I'm looking forward to it.",
+      "native": "Dört gözle bekliyorum. (Heyecan veya beklenti)"
+    },
+    {
+      "target": "I'm stressed.",
+      "native": "Stresliyim. (Yaygın şikayet)"
+    },
+    {
+      "target": "I feel lonely.",
+      "native": "Yalnız hissediyorum. (Yalnızlık ifade etme)"
+    },
+    {
+      "target": "I'm relieved.",
+      "native": "Rahatladım. (Stres veya korku sonrası)"
+    },
+    {
+      "target": "I'm proud of you.",
+      "native": "Seninle gurur duyuyorum. (Teşvik etme)"
+    },
+    {
+      "target": "I love you.",
+      "native": "Seni seviyorum. (Romantik veya derin sevgi)"
+    },
+    {
+      "target": "I like you.",
+      "native": "Senden hoşlanıyorum. (Dostluk veya ilgi)"
+    },
+    {
+      "target": "I miss you.",
+      "native": "Seni özledim. (Duygusal bağ)"
+    },
+    {
+      "target": "I'm grateful.",
+      "native": "Minnettarım. (Olumlu yansıma)"
+    },
+    {
+      "target": "I'm worn out from the day.",
+      "native": "Günün yorgunluğundan bitkin düştüm. (Günün sonu duygusu)"
+    },
+    {
+      "target": "I'm content.",
+      "native": "Memnunum. (Olumlu tarafsızlık)"
+    },
+    {
+      "target": "I can't describe my feelings.",
+      "native": "Duygularımı tarif edemiyorum. (Duygusal karmaşa)"
+    },
+    {
+      "target": "I need a break.",
+      "native": "Bir molaya ihtiyacım var. (Bunalma veya stres)"
+    },
+    {
+      "target": "I'm not feeling so well.",
+      "native": "Çok iyi sayılmam. (Genel duygusal durum)"
+    }
+  ],
+  "İş Yeri Almancası": [
+    {
+      "target": "I work as an engineer.",
+      "native": "Mühendis olarak çalışıyorum. (Meslek belirtme)"
+    },
+    {
+      "target": "I'm working from home.",
+      "native": "Evden çalışıyorum. (Uzaktan çalışma)"
+    },
+    {
+      "target": "I have many meetings today.",
+      "native": "Bugün çok toplantım var. (Yoğun program)"
+    },
+    {
+      "target": "Can you help me with this?",
+      "native": "Bana bunda yardım edebilir misin? (Ekip iş birliği)"
+    },
+    {
+      "target": "I'll send you an email.",
+      "native": "Sana bir e-posta göndereceğim. (Ofis iletişimi)"
+    },
+    {
+      "target": "I need more time.",
+      "native": "Daha fazla zamana ihtiyacım var. (Teslim tarihi gecikmesi)"
+    },
+    {
+      "target": "That's not my task.",
+      "native": "Bu benim görevim değil. (Görevleri netleştirme)"
+    },
+    {
+      "target": "We need to discuss this.",
+      "native": "Bunu konuşmamız gerekiyor. (İş koordinasyonu)"
+    },
+    {
+      "target": "Did you finish the report?",
+      "native": "Raporu bitirdin mi? (İlerlemeyi kontrol etme)"
+    },
+    {
+      "target": "I'm working on a project.",
+      "native": "Bir proje üzerinde çalışıyorum. (Proje çalışması)"
+    },
+    {
+      "target": "I'll be right back.",
+      "native": "Hemen döneceğim. (Masadan geçici olarak ayrılma)"
+    },
+    {
+      "target": "I'm in a meeting.",
+      "native": "Toplantıdayım. (Ulaşılamayan an)"
+    },
+    {
+      "target": "I'm taking vacation today.",
+      "native": "Bugün izin alıyorum. (İzin zamanı)"
+    },
+    {
+      "target": "I prepared a presentation.",
+      "native": "Bir sunum hazırladım. (Toplantı hazırlığı)"
+    },
+    {
+      "target": "We have a problem with the system.",
+      "native": "Sistemle ilgili bir sorunumuz var. (BT ile ilgili)"
+    },
+    {
+      "target": "I'm responsible for marketing.",
+      "native": "Pazarlamadan ben sorumluyum. (Departman rolü)"
+    },
+    {
+      "target": "We need to make a decision.",
+      "native": "Bir karar vermemiz gerekiyor. (Ekip eylemi)"
+    },
+    {
+      "target": "The deadline is tomorrow.",
+      "native": "Son teslim tarihi yarın. (Zamana duyarlı görev)"
+    },
+    {
+      "target": "Can we postpone this?",
+      "native": "Bunu erteleyebilir miyiz? (İşi yeniden planlama)"
+    },
+    {
+      "target": "Thanks for your support.",
+      "native": "Desteğin için teşekkürler. (İş yerinde minnettarlık)"
+    }
+  ],
+  "Günlük Rutinler": [
+    {
+      "target": "I wake up at seven o'clock.",
+      "native": "Saat yedi'de kalkıyorum. (Sabah rutini)"
+    },
+    {
+      "target": "I have breakfast every morning.",
+      "native": "Her sabah kahvaltı yaparım. (Sabah alışkanlığı)"
+    },
+    {
+      "target": "I go to work.",
+      "native": "İşe gidiyorum. (Günlük işe gidiş)"
+    },
+    {
+      "target": "I take the bus.",
+      "native": "Otobüsle gidiyorum. (Ulaşım)"
+    },
+    {
+      "target": "I work from nine to five.",
+      "native": "Dokuzdan beşe kadar çalışıyorum. (Tipik iş günü)"
+    },
+    {
+      "target": "I take a break at noon.",
+      "native": "Öğle vakti mola veriyorum. (İş günü yapısı)"
+    },
+    {
+      "target": "I have lunch in the cafeteria.",
+      "native": "Öğle yemeğini yemekhanede yiyorum. (İş yeri rutini)"
+    },
+    {
+      "target": "I come home at six o'clock.",
+      "native": "Saat altıda eve geliyorum. (Akşam dönüşü)"
+    },
+    {
+      "target": "I cook dinner.",
+      "native": "Akşam yemeğini pişiriyorum. (Akşam faaliyeti)"
+    },
+    {
+      "target": "I watch TV.",
+      "native": "Televizyon izliyorum. (Dinlenme faaliyeti)"
+    },
+    {
+      "target": "I go for a walk.",
+      "native": "Yürüyüşe çıkıyorum. (Boş zaman faaliyeti)"
+    },
+    {
+      "target": "I read a book before sleeping.",
+      "native": "Uyumadan önce kitap okuyorum. (Akşam alışkanlığı)"
+    },
+    {
+      "target": "I go to bed around eleven o'clock.",
+      "native": "Saat on bire doğru yatağa giriyorum. (Yatma rutini)"
+    },
+    {
+      "target": "I shower in the morning.",
+      "native": "Sabahları duş alırım. (Hijyen rutini)"
+    },
+    {
+      "target": "I brush my teeth.",
+      "native": "Dişlerimi fırçalıyorum. (Hijyen rutini)"
+    },
+    {
+      "target": "I work out in the evening.",
+      "native": "Akşam spor yapıyorum. (Fitness rutini)"
+    },
+    {
+      "target": "I talk to my parents on the phone.",
+      "native": "Ailemle telefonla konuşuyorum. (Aile rutini)"
+    },
+    {
+      "target": "I do housework.",
+      "native": "Ev işi yapıyorum. (Ev işleri)"
+    },
+    {
+      "target": "I take the kids to school.",
+      "native": "Çocukları okula götürüyorum. (Aile görevi)"
+    },
+    {
+      "target": "I relax on the weekend.",
+      "native": "Hafta sonu dinleniyorum. (Hafta sonu rutini)"
+    }
+  ],
+  "İnsanları veya Nesneleri Tanımlamak": [
+    {
+      "target": "He is very friendly.",
+      "native": "O çok samimi/dost canlısı. (Kişiliği tanımlama)"
+    },
+    {
+      "target": "She is intelligent and hardworking.",
+      "native": "O zeki ve çalışkan. (Karakter özellikleri)"
+    },
+    {
+      "target": "The house is big and modern.",
+      "native": "Ev büyük ve modern. (Mülk tanımlama)"
+    },
+    {
+      "target": "The bag is red and expensive.",
+      "native": "Çanta kırmızı ve pahalı. (Öğeyi tanımlama)"
+    },
+    {
+      "target": "The movie was exciting.",
+      "native": "Film heyecan vericiydi. (Görüş)"
+    },
+    {
+      "target": "She has long, dark hair.",
+      "native": "Uzun, koyu renk saçları var. (Görünüşü tanımlama)"
+    },
+    {
+      "target": "He wears glasses.",
+      "native": "Gözlük takıyor. (Görünüş detayı)"
+    },
+    {
+      "target": "The weather is nice today.",
+      "native": "Bugün hava güzel. (Günlük sohbet)"
+    },
+    {
+      "target": "I find that interesting.",
+      "native": "Bunu ilginç buluyorum. (Görüş paylaşma)"
+    },
+    {
+      "target": "He is quite calm.",
+      "native": "O oldukça sessiz/sakin. (Davranışı tanımlama)"
+    },
+    {
+      "target": "She has a nice smile.",
+      "native": "Güzel bir gülümsemesi var. (İltifat)"
+    },
+    {
+      "target": "The car is fast and new.",
+      "native": "Araba hızlı ve yeni. (Nesneyi tanımlama)"
+    },
+    {
+      "target": "This book is boring.",
+      "native": "Bu kitap sıkıcı. (Olumsuz görüş)"
+    },
+    {
+      "target": "The apartment is cozy.",
+      "native": "Daire sıcak ve rahat. (Evi tanımlama)"
+    },
+    {
+      "target": "The food tastes delicious.",
+      "native": "Yemek lezzetli geliyor. (Tat izlenimi)"
+    },
+    {
+      "target": "He is very helpful.",
+      "native": "O çok yardımsever. (Birini övme)"
+    },
+    {
+      "target": "The dress looks good on you.",
+      "native": "Elbise sana çok yakışmış. (İltifat)"
+    },
+    {
+      "target": "She is a good colleague.",
+      "native": "O iyi bir meslektaş. (İş yerinde birini tanımlama)"
+    },
+    {
+      "target": "I like the color.",
+      "native": "Rengi beğendim. (Nesne hakkında görüş)"
+    },
+    {
+      "target": "He is taller than me.",
+      "native": "O benden daha uzun. (Karşılaştırma)"
+    }
+  ],
+  "Telefon ve Çevrim İçi İletişim": [
+    {
+      "target": "Hello, this is Anna.",
+      "native": "Alo, ben Anna. (Telefonda kendini tanıtma)"
+    },
+    {
+      "target": "Can you hear me?",
+      "native": "Beni duyabiliyor musunuz? (Telefon bağlantı kontrolü)"
+    },
+    {
+      "target": "I'll call back later.",
+      "native": "Daha sonra geri arayacağım. (Aramayı erteleme)"
+    },
+    {
+      "target": "The connection is bad.",
+      "native": "Bağlantı kötü. (Bağlantı sorunu)"
+    },
+    {
+      "target": "Can you please repeat that?",
+      "native": "Lütfen bunu tekrarlayabilir misiniz? (Açıklama)"
+    },
+    {
+      "target": "I received your message.",
+      "native": "Mesajınızı aldım. (Mesajı onaylama)"
+    },
+    {
+      "target": "I'll send you a message.",
+      "native": "Sana bir mesaj yazacağım. (Metin iletişimi)"
+    },
+    {
+      "target": "I'm busy right now.",
+      "native": "Şu anda meşgulüm. (Ulaşılamayan an)"
+    },
+    {
+      "target": "Can we chat?",
+      "native": "Sohbet edebilir miyiz? (Çevrim içi konuşma)"
+    },
+    {
+      "target": "I forwarded the email.",
+      "native": "E-postayı ilettim. (E-posta iletişimi)"
+    },
+    {
+      "target": "Please send me the details.",
+      "native": "Lütfen detayları bana gönderin. (Bilgi talep etme)"
+    },
+    {
+      "target": "I'll send you the link.",
+      "native": "Sana bağlantıyı göndereceğim. (Çevrim içi bilgi paylaşımı)"
+    },
+    {
+      "target": "Can you send me the attachment?",
+      "native": "Bana eki gönderebilir misin? (İş e-postası isteği)"
+    },
+    {
+      "target": "I'm waiting for your reply.",
+      "native": "Cevabınızı bekliyorum. (Takip)"
+    },
+    {
+      "target": "Let's make a video call.",
+      "native": "Görüntülü arama yapalım. (Modern iletişim)"
+    },
+    {
+      "target": "I'm unreachable.",
+      "native": "Ulaşılamaz durumdayım. (Durum güncellemesi)"
+    },
+    {
+      "target": "I'll reply later.",
+      "native": "Daha sonra cevaplayacağım. (Cevabı erteleme)"
+    },
+    {
+      "target": "The line is busy.",
+      "native": "Numara meşgul. (Telefon arama sorunu)"
+    },
+    {
+      "target": "I hung up by mistake.",
+      "native": "Yanlışlıkla kapattım. (Hata için özür dileme)"
+    },
+    {
+      "target": "Thanks for calling.",
+      "native": "Araman için teşekkürler. (Nazikçe aramayı sonlandırma)"
+    }
+  ],
+  "Havalimanında": [
+    {
+      "target": "Where is the check-in desk?",
+      "native": "Check-in bankosu nerede? (Havayolunuzu bulma)"
+    },
+    {
+      "target": "I'd like to check in.",
+      "native": "Check-in yapmak istiyorum. (Check-in kontuarında)"
+    },
+    {
+      "target": "Do you have your ticket and ID?",
+      "native": "Biletiniz ve kimliğiniz yanınızda mı? (Havalimanı personeli sorusu)"
+    },
+    {
+      "target": "How many bags do you have?",
+      "native": "Kaç parça bagajınız var? (Bagaj kontrolü)"
+    },
+    {
+      "target": "My flight is delayed.",
+      "native": "Uçağım rötarlı. (Yaygın anons)"
+    },
+    {
+      "target": "When does boarding start?",
+      "native": "Uçağa biniş ne zaman başlıyor? (Uçuş bilgisi)"
+    },
+    {
+      "target": "Where is gate A12?",
+      "native": "A12 kapısı nerede? (Kalkış kapısını bulma)"
+    },
+    {
+      "target": "I missed my flight.",
+      "native": "Uçağımı kaçırdım. (Durumu açıklama)"
+    },
+    {
+      "target": "I lost my luggage.",
+      "native": "Bagajımı kaybettim. (Sorun bildirimi)"
+    },
+    {
+      "target": "I'm traveling only with carry-on luggage.",
+      "native": "Sadece el bagajıyla seyahat ediyorum. (Bagaj bilgisi)"
+    },
+    {
+      "target": "Is there Wi-Fi at the airport?",
+      "native": "Havalimanında kablosuz ağ var mı? (Bağlantı)"
+    },
+    {
+      "target": "How long is the flight?",
+      "native": "Uçuş ne kadar sürüyor? (Genel soru)"
+    },
+    {
+      "target": "Can I change my seat?",
+      "native": "Koltuğumu değiştirebilir miyim? (Koltuk tercihi)"
+    },
+    {
+      "target": "Where is security?",
+      "native": "Güvenlik kontrolü nerede? (Havalimanında yön bulma)"
+    },
+    {
+      "target": "I have nothing to declare.",
+      "native": "Gümrüke tabi hiçbir şeyim yok. (Gümrük beyanı)"
+    },
+    {
+      "target": "The flight was canceled.",
+      "native": "Uçuş iptal edildi. (Uçuş durumu)"
+    },
+    {
+      "target": "I'm flying to Berlin.",
+      "native": "Berlin'e uçuyorum. (Varış yerini belirtme)"
+    },
+    {
+      "target": "When does the plane land?",
+      "native": "Uçak ne zaman iniyor? (Varış sorgulaması)"
+    },
+    {
+      "target": "Please show your passport.",
+      "native": "Lütfen pasaportunuzu gösterin. (Güvenlik veya biniş)"
+    },
+    {
+      "target": "Have a good flight!",
+      "native": "İyi uçuşlar! (Birine iyi dilekte bulunma)"
+    }
+  ],
+  "Hava Durumu ve Küçük Sohbet": [
+    {
+      "target": "How's the weather today?",
+      "native": "Bugün hava nasıl? (Küçük sohbeti açma)"
+    },
+    {
+      "target": "It's sunny.",
+      "native": "Hava güneşli. (Hava durumunu tanımlama)"
+    },
+    {
+      "target": "It's raining.",
+      "native": "Yağmur yağıyor. (Hava koşulu)"
+    },
+    {
+      "target": "It's cloudy.",
+      "native": "Hava bulutlu. (Hava koşulu)"
+    },
+    {
+      "target": "It's cold outside.",
+      "native": "Dışarısı soğuk. (Hava durumuyla ilgili yorum)"
+    },
+    {
+      "target": "It's very warm today.",
+      "native": "Bugün hava çok sıcak. (Hava durumuyla ilgili yorum)"
+    },
+    {
+      "target": "The sky is clear.",
+      "native": "Gökyüzü açık. (Hava gözlemi)"
+    },
+    {
+      "target": "There's a thunderstorm.",
+      "native": "Fırtına var. (Hava durumu uyarısı)"
+    },
+    {
+      "target": "It's snowing.",
+      "native": "Kar yağıyor. (Kış havası)"
+    },
+    {
+      "target": "How was your weekend?",
+      "native": "Hafta sonun nasıl geçti? (Küçük sohbet)"
+    },
+    {
+      "target": "Do you have plans for tonight?",
+      "native": "Bu akşam için planların var mı? (Gündelik sorgulama)"
+    },
+    {
+      "target": "I hope the weather stays like this.",
+      "native": "Umarım hava böyle kalır. (Gündelik umut)"
+    },
+    {
+      "target": "It's windy.",
+      "native": "Hava rüzgarlı. (Hava durumu açıklaması)"
+    },
+    {
+      "target": "I like this weather.",
+      "native": "Bu havayı seviyorum. (Tercih paylaşma)"
+    },
+    {
+      "target": "What are you doing this weekend?",
+      "native": "Hafta sonu ne yapıyorsun? (Küçük sohbet)"
+    },
+    {
+      "target": "The weather is perfect for a walk.",
+      "native": "Hava yürüyüş yapmak için mükemmel. (Öneri)"
+    },
+    {
+      "target": "Is it that cold where you are too?",
+      "native": "Senin olduğun yerde de bu kadar soğuk mu? (Hava durumu karşılaştırması)"
+    },
+    {
+      "target": "Hopefully it gets better tomorrow.",
+      "native": "Umarım yarın daha iyi olur. (Hava durumu yorumu)"
+    },
+    {
+      "target": "It's humid.",
+      "native": "Hava boğucu / rutubetli ve sıcak. (Hava durumu tanımlama)"
+    },
+    {
+      "target": "It looks like rain.",
+      "native": "Yağmur yağacağa benziyor. (Hava tahmini)"
+    }
+  ],
+  "Toplu Taşıma": [
+    {
+      "target": "When does the next bus leave?",
+      "native": "Bir sonraki otobüs ne zaman kalkıyor? (Zaman sorusu)"
+    },
+    {
+      "target": "Where is the nearest stop?",
+      "native": "En yakın durak nerede? (Konumu bulma)"
+    },
+    {
+      "target": "Does this train go to Munich?",
+      "native": "Bu tren Münih'e gidiyor mu? (Güzergah onayı)"
+    },
+    {
+      "target": "How much is a ticket?",
+      "native": "Bilet ne kadar? (Ücret sorgulama)"
+    },
+    {
+      "target": "I'd like to buy a ticket.",
+      "native": "Bir bilet satın almak istiyorum. (Bilet otomatında veya gişede)"
+    },
+    {
+      "target": "Where can I buy a ticket?",
+      "native": "Nereden bilet alabilirim? (Bilet sorgulama)"
+    },
+    {
+      "target": "Are there discounts?",
+      "native": "İndirimler var mı? (İndirim sorgulama)"
+    },
+    {
+      "target": "I lost my ticket.",
+      "native": "Biletimi kaybettim. (Sorun bildirimi)"
+    },
+    {
+      "target": "This seat is taken.",
+      "native": "Bu koltuk dolu. (Oturacak yer bulma)"
+    },
+    {
+      "target": "I'm getting off at the next stop.",
+      "native": "Bir sonraki durakta iniyorum. (Varış yeri bilgisi)"
+    },
+    {
+      "target": "The train is delayed.",
+      "native": "Tren rötarlı. (Tarife sorunu)"
+    },
+    {
+      "target": "Where do I need to transfer?",
+      "native": "Nerede aktarma yapmam gerekiyor? (Güzergah planlaması)"
+    },
+    {
+      "target": "The streetcar is on time.",
+      "native": "Tramvay zamanında. (Olumlu güncelleme)"
+    },
+    {
+      "target": "The next stop is Central Station.",
+      "native": "Sonraki durak Ana Tren İstasyonu. (Araç içi anons)"
+    },
+    {
+      "target": "Is there a schedule?",
+      "native": "Tarife var mı? (Planlama sorgulaması)"
+    },
+    {
+      "target": "Can I bring my bike?",
+      "native": "Bisikletimi yanımda götürebilir miyim? (Ulaşım kuralları)"
+    },
+    {
+      "target": "Is this a monthly pass?",
+      "native": "Bu aylık bilet mi? (Bilet türü sorusu)"
+    },
+    {
+      "target": "Does this bus run on Sundays too?",
+      "native": "Bu otobüs pazar günleri de çalışıyor mu? (Tarife sorgulaması)"
+    },
+    {
+      "target": "I need to go to the final stop.",
+      "native": "Son durağa gitmem gerekiyor. (Varış yeri beyanı)"
+    },
+    {
+      "target": "Excuse me, is this seat free?",
+      "native": "Affedersiniz, bu koltuk boş mu? (Nazik sorgulama)"
+    }
+  ],
+  "Bankada": [
+    {
+      "target": "I'd like to open an account.",
+      "native": "Hesap açtırmak istiyorum. (Banka hizmet talebi)"
+    },
+    {
+      "target": "I forgot my password.",
+      "native": "Şifremi unuttum. (Çevrim içi bankacılık sorunu)"
+    },
+    {
+      "target": "Where is the nearest ATM?",
+      "native": "En yakın ATM nerede? (ATM konum sorgulama)"
+    },
+    {
+      "target": "I'd like to withdraw money.",
+      "native": "Para çekmek istiyorum. (ATM'de veya gişede)"
+    },
+    {
+      "target": "I'd like to deposit money.",
+      "native": "Para yatırmak istiyorum. (Banka işlemi)"
+    },
+    {
+      "target": "What is the minimum amount?",
+      "native": "Asgari tutar ne kadar? (Banka kuralı sorusu)"
+    },
+    {
+      "target": "Can I pay by card?",
+      "native": "Kartla ödeme yapabilir miyim? (Ödeme seçeneği)"
+    },
+    {
+      "target": "I lost my card.",
+      "native": "Kartımı kaybettim. (Kayıp kart bildirimi)"
+    },
+    {
+      "target": "I need a new bank card.",
+      "native": "Yeni bir banka kartına ihtiyacım var. (Kart değiştirme)"
+    },
+    {
+      "target": "How long does the transfer take?",
+      "native": "Havale ne kadar sürüyor? (İşlem zamanı)"
+    },
+    {
+      "target": "I'd like to set up a standing order.",
+      "native": "Otomatik ödeme talimatı vermek istiyorum. (Düzenli ödeme)"
+    },
+    {
+      "target": "What are the fees?",
+      "native": "Ücretler ne kadar? (Maliyet sorgulama)"
+    },
+    {
+      "target": "I need an account confirmation.",
+      "native": "Hesap onay belgesine ihtiyacım var. (Hesap kanıtı)"
+    },
+    {
+      "target": "Can I change my limit?",
+      "native": "Limitimi değiştirebilir miyim? (Harcama veya çekim limiti)"
+    },
+    {
+      "target": "I saw a suspicious transaction.",
+      "native": "Şüpheli bir işlem gördüm. (Dolandırıcılık endişesi)"
+    },
+    {
+      "target": "How can I activate online banking?",
+      "native": "Çevrim içi bankacılığı nasıl etkinleştirebilirim? (Dijital erişim)"
+    },
+    {
+      "target": "I'd like to close my account.",
+      "native": "Hesabımı kapatmak istiyorum. (Kapatma talebi)"
+    },
+    {
+      "target": "Do you have an advisor available?",
+      "native": "Boşta bir danışmanınız var mı? (Danışmanlık talep etme)"
+    },
+    {
+      "target": "What is the current exchange rate?",
+      "native": "Güncel döviz kuru nedir? (Para birimi sorusu)"
+    },
+    {
+      "target": "I need a confirmation for the tax office.",
+      "native": "Maliye için bir onay belgesine ihtiyacım var. (Vergi ile ilgili)"
+    }
+  ],
+  "Eczanede": [
+    {
+      "target": "I need to get this prescription filled.",
+      "native": "Bu reçeteyi temin etmek istiyorum. (Reçete talebi)"
+    },
+    {
+      "target": "Do you have anything for a headache?",
+      "native": "Baş ağrısına karşı bir şeyiniz var mı? (Semptom giderme)"
+    },
+    {
+      "target": "Does this come in tablet form too?",
+      "native": "Bunun hap formu da var mı? (İlaç biçimi)"
+    },
+    {
+      "target": "How often should I take this?",
+      "native": "Bunu ne sıklıkla kullanmalıyım? (Dozaj sorusu)"
+    },
+    {
+      "target": "Are there side effects?",
+      "native": "Yan etkileri var mı? (İlaç endişeleri)"
+    },
+    {
+      "target": "Is this over-the-counter?",
+      "native": "Bu reçetesiz mi satılıyor? (Reçete zorunluluğu)"
+    },
+    {
+      "target": "I have a penicillin allergy.",
+      "native": "Penisiline alerjim var. (Alerji uyarısı)"
+    },
+    {
+      "target": "Can I take this with other medications?",
+      "native": "Bunu diğer ilaçlarla birlikte alabilir miyim? (Güvenlik kontrolü)"
+    },
+    {
+      "target": "Do you need the original prescription?",
+      "native": "Orijinal reçeteye ihtiyacınız var mı? (Eczane politikası)"
+    },
+    {
+      "target": "When does the pharmacy close?",
+      "native": "Eczane ne zaman kapanıyor? (Çalışma saatleri)"
+    },
+    {
+      "target": "I'm looking for an ointment for a rash.",
+      "native": "Döküntüye karşı bir merhem arıyorum. (Cilt durumu)"
+    },
+    {
+      "target": "How much does this cost?",
+      "native": "Fiyatı ne kadar? (Fiyat sorgulama)"
+    },
+    {
+      "target": "I'd like something for a cold.",
+      "native": "Soğuk algınlığına karşı bir şeyler istiyorum. (Yaygın talep)"
+    },
+    {
+      "target": "What is the expiration date?",
+      "native": "Bunun son kullanma tarihi nedir? (Son kullanma tarihi sorgulama)"
+    },
+    {
+      "target": "Do you have something natural?",
+      "native": "Doğal bir şeyiniz var mı? (Tercih sorgulama)"
+    },
+    {
+      "target": "I need nasal spray.",
+      "native": "Burun spreyine ihtiyacım var. (Spesifik ürün)"
+    },
+    {
+      "target": "Is this suitable for children?",
+      "native": "Bu çocuklar için uygun mu? (Çocuk güvenliği)"
+    },
+    {
+      "target": "Can I pay by card?",
+      "native": "Kartla ödeme yapabilir miyim? (Ödeme yöntemi)"
+    },
+    {
+      "target": "I'd like a small pack.",
+      "native": "Küçük bir paket alabilirdim. (Boyut tercihi)"
+    },
+    {
+      "target": "Thanks, that was very helpful.",
+      "native": "Teşekkürler, bu çok faydalıydı. (Etkileşimi sonlandırma)"
+    }
+  ],
+  "Otelde": [
+    {
+      "target": "I have a reservation.",
+      "native": "Rezervasyonum var. (Giriş yapma)"
+    },
+    {
+      "target": "Under what name?",
+      "native": "Hangi isim adına? (Resepsiyonist sorusu)"
+    },
+    {
+      "target": "I'd like a single room.",
+      "native": "Tek kişilik bir oda istiyorum. (Oda talebi)"
+    },
+    {
+      "target": "How many nights are you staying?",
+      "native": "Kaç gece kalacaksınız? (Rezervasyon detayı)"
+    },
+    {
+      "target": "Do you have an ID?",
+      "native": "Kimliğiniz var mı? (Kimlik kontrolü)"
+    },
+    {
+      "target": "Is breakfast included?",
+      "native": "Kahvaltı fiyata dâhil mi? (Hizmet sorgulama)"
+    },
+    {
+      "target": "Is there Wi-Fi in the room?",
+      "native": "Odada kablosuz ağ var mı? (İnternet erişimi)"
+    },
+    {
+      "target": "Where is the elevator?",
+      "native": "Asansör nerede? (Otel olanaklarını bulma)"
+    },
+    {
+      "target": "What time is check-out?",
+      "native": "Çıkış saati kaçta? (Ayrılış bilgisi)"
+    },
+    {
+      "target": "I'd like a late check-out.",
+      "native": "Geç çıkış yapmak istiyorum. (Talep)"
+    },
+    {
+      "target": "Can you call me a taxi?",
+      "native": "Bana bir taksi çağırabilir misiniz? (Hizmet talep etme)"
+    },
+    {
+      "target": "The room isn't clean.",
+      "native": "Oda temiz değil. (Şikayet)"
+    },
+    {
+      "target": "The air conditioning isn't working.",
+      "native": "Klima çalışmıyor. (Sorun bildirimi)"
+    },
+    {
+      "target": "I need fresh towels.",
+      "native": "Temiz havlulara ihtiyacım var. (Oda temizliği talebi)"
+    },
+    {
+      "target": "How do I get into town?",
+      "native": "Şehir merkezine nasıl gidebilirim? (Seyahat bilgisi)"
+    },
+    {
+      "target": "Is there a city map?",
+      "native": "Şehir haritası var mı? (Turist yardımı)"
+    },
+    {
+      "target": "I'd like to cancel.",
+      "native": "İptal etmek istiyorum. (İptal talebi)"
+    },
+    {
+      "target": "Can you book this for me?",
+      "native": "Bunu benim için rezerve edebilir misiniz? (Konsiyerj hizmeti)"
+    },
+    {
+      "target": "I'm checking out tomorrow.",
+      "native": "Yarın ayrılıyorum. (Çıkış bildirimi)"
+    },
+    {
+      "target": "Thank you very much for the stay.",
+      "native": "Konaklama için çok teşekkür ederim. (Nazik veda)"
+    }
+  ],
+  "Acil Durumlar": [
+    {
+      "target": "Help!",
+      "native": "İmdat! / Yardım edin! (Acil durum çağrısı)"
+    },
+    {
+      "target": "Call an ambulance!",
+      "native": "Ambulans çağırın! (Tıbbi acil durum)"
+    },
+    {
+      "target": "I need a doctor.",
+      "native": "Bir doktora ihtiyacım var. (Sağlık acil durumu)"
+    },
+    {
+      "target": "I'm injured.",
+      "native": "Yaralandım. (Durumu açıklama)"
+    },
+    {
+      "target": "Where is the nearest hospital?",
+      "native": "En yakın hastane nerede? (Yardım bulma)"
+    },
+    {
+      "target": "I lost my bag.",
+      "native": "Çantamı kaybettim. (Kayıp eşya bildirimi)"
+    },
+    {
+      "target": "I was robbed.",
+      "native": "Soyuldum. (Suç bildirimi)"
+    },
+    {
+      "target": "I lost my documents.",
+      "native": "Evraklarımı kaybettim. (Kayıp kimlik veya pasaport)"
+    },
+    {
+      "target": "Is there an emergency number?",
+      "native": "Acil durum numarası var mı? (Yardım arama)"
+    },
+    {
+      "target": "I saw an accident.",
+      "native": "Bir kaza gördüm. (Olayı bildirme)"
+    },
+    {
+      "target": "My car is broken down.",
+      "native": "Arabam bozuldu. (Araç sorunu)"
+    },
+    {
+      "target": "I'm in danger.",
+      "native": "Tehlikedeyim. (Ciddi acil durum)"
+    },
+    {
+      "target": "Can you please help me?",
+      "native": "Lütfen bana yardım edebilir misiniz? (Genel yardım çağrısı)"
+    },
+    {
+      "target": "Call the police!",
+      "native": "Polisi çağırın! (Tehdit durumunda)"
+    },
+    {
+      "target": "Where is the nearest police station?",
+      "native": "En yakın polis merkezi nerede? (Yardım bulma)"
+    },
+    {
+      "target": "I need help with an emergency.",
+      "native": "Bir acil durum için yardıma ihtiyacım var. (Durumu açıklama)"
+    },
+    {
+      "target": "I'm having an allergic reaction.",
+      "native": "Alerjik reaksiyon geçiriyorum. (Tıbbi acil durum)"
+    },
+    {
+      "target": "I fainted.",
+      "native": "Bayıldım. (Durumu açıklama)"
+    },
+    {
+      "target": "My phone was stolen.",
+      "native": "Cep telefonum çalındı. (Çalınan eşyayı bildirme)"
+    },
+    {
+      "target": "I had a breakdown.",
+      "native": "Yolda kaldım. (Araba sorunu)"
+    }
+  ],
+  "Aile ve İlişkiler": [
+    {
+      "target": "Do you have siblings?",
+      "native": "Kardeşin var mı? (Birisini tanımaya çalışırken)"
+    },
+    {
+      "target": "I have a brother and a sister.",
+      "native": "Bir erkek ve bir kız kardeşim var. (Ailenden bahsetme)"
+    },
+    {
+      "target": "I'm married.",
+      "native": "Evliyim. (İlişki durumunu paylaşma)"
+    },
+    {
+      "target": "I'm single.",
+      "native": "Bekarım. (İlişki durumu)"
+    },
+    {
+      "target": "I have two children.",
+      "native": "İki çocuğum var. (Ailenden bahsetme)"
+    },
+    {
+      "target": "What's your dad's name?",
+      "native": "Babanın adı ne? (Akrabalar hakkında soru sorma)"
+    },
+    {
+      "target": "My mom is a teacher.",
+      "native": "Annem öğretmen. (Aile üyesini tanımlama)"
+    },
+    {
+      "target": "I'm the oldest.",
+      "native": "En büyüğüm. (Kardeş sıralaması)"
+    },
+    {
+      "target": "We live together.",
+      "native": "Birlikte yaşıyoruz. (Yaşam durumu)"
+    },
+    {
+      "target": "I'm divorced.",
+      "native": "Boşanmışım. (İlişki durumu)"
+    },
+    {
+      "target": "I have a partner.",
+      "native": "Bir partnerim var. (İlişki bilgisi)"
+    },
+    {
+      "target": "My grandparents live far away.",
+      "native": "Büyükannem ve büyükbabam uzakta yaşıyor. (Aile konusu)"
+    },
+    {
+      "target": "We're visiting our relatives.",
+      "native": "Akrabalarımızı ziyaret ediyoruz. (Aile faaliyeti)"
+    },
+    {
+      "target": "I became an uncle/aunt.",
+      "native": "Amca/Dayı veya Teyze/Hala oldum. (Ailedeki rol)"
+    },
+    {
+      "target": "I love my family.",
+      "native": "Ailemi seviyorum. (Sevgi)"
+    },
+    {
+      "target": "How long have you been together?",
+      "native": "Ne kadardır birlikteisiniz? (İlişki hakkında soru sorma)"
+    },
+    {
+      "target": "We have a dog as a pet.",
+      "native": "Evcil hayvan olarak bir köpeğimiz var. (Aile detayı)"
+    },
+    {
+      "target": "We often celebrate together.",
+      "native": "Sık sık birlikte kutlama yapıyoruz. (Aile bağı)"
+    },
+    {
+      "target": "My sister is younger than me.",
+      "native": "Kız kardeşim benden daha küçük. (Kardeş karşılaştırması)"
+    },
+    {
+      "target": "He is like a brother to me.",
+      "native": "O benim için bir kardeş gibi. (Yakın ilişki)"
+    }
+  ],
+  "Hobiler ve Boş Zaman": [
+    {
+      "target": "What do you like to do in your free time?",
+      "native": "Boş zamanlarında ne yapmaktan hoşlanırsın? (Açılış sorusu)"
+    },
+    {
+      "target": "I like playing guitar.",
+      "native": "Gitar çalmayı severim. (Hobileri paylaşma)"
+    },
+    {
+      "target": "I really like reading.",
+      "native": "Kitap okumayı çok severim. (En sevilen vakit geçirme biçimi)"
+    },
+    {
+      "target": "Sports is my hobby.",
+      "native": "Spor benim hobim. (İlgi alanlarından bahsetme)"
+    },
+    {
+      "target": "I often go to the movies.",
+      "native": "Sık sık sinemaya giderim. (Boş zaman faaliyeti)"
+    },
+    {
+      "target": "I like listening to music.",
+      "native": "Müzik dinlemeyi severim. (Yaygın hobi)"
+    },
+    {
+      "target": "I like going for walks.",
+      "native": "Yürüyüşe çıkmayı severim. (Dinlendirici faaliyet)"
+    },
+    {
+      "target": "I'm interested in photography.",
+      "native": "Fotoğrafçılıkla ilgileniyorum. (Kişisel ilgi)"
+    },
+    {
+      "target": "I like cooking new recipes.",
+      "native": "Yeni tarifler pişirmeyi severim. (Yaratıcı hobi)"
+    },
+    {
+      "target": "I'm meeting up with friends.",
+      "native": "Arkadaşlarımla buluşuyorum. (Sosyal faaliyet)"
+    },
+    {
+      "target": "I play video games.",
+      "native": "Video oyunları oynuyorum. (Modern hobi)"
+    },
+    {
+      "target": "I like being outside in nature.",
+      "native": "Doğada olmayı severim. (Doğa ile ilgili hobi)"
+    },
+    {
+      "target": "I like drawing.",
+      "native": "Resim yapmayı severim. (Sanatla ilgili faaliyet)"
+    },
+    {
+      "target": "I enjoy doing yoga.",
+      "native": "Yoga yapmaktan keyif alırım. (Fiziksel ve zihinsel faaliyet)"
+    },
+    {
+      "target": "I go to the gym.",
+      "native": "Spor salonuna gidiyorum. (Fitness rutini)"
+    },
+    {
+      "target": "I watch shows on Netflix.",
+      "native": "Netflix'te dizi izliyorum. (Modern vakit geçirme)"
+    },
+    {
+      "target": "I collect stamps.",
+      "native": "Pul koleksiyonu yapıyorum. (Niş hobi)"
+    },
+    {
+      "target": "I garden in my yard.",
+      "native": "Bahçemde bahçıvanlık yapıyorum. (Açık hava hobisi)"
+    },
+    {
+      "target": "I like taking landscape photos.",
+      "native": "Manzara fotoğrafları çekmeyi severim. (Yaratıcı faaliyet)"
+    },
+    {
+      "target": "I write in my free time.",
+      "native": "Boş zamanlarımda yazıyorum. (Yaratıcı ifade)"
+    }
+  ],
+  "Yemek Pişirme ve Gıda": [
+    {
+      "target": "I'm cooking tonight.",
+      "native": "Bu akşam yemek pişiriyorum. (Günlük rutin)"
+    },
+    {
+      "target": "What's your favorite food?",
+      "native": "En sevdiğin yemek nedir? (Gündelik soru)"
+    },
+    {
+      "target": "I don't eat meat.",
+      "native": "Et yemiyorum. (Diyet kısıtlaması)"
+    },
+    {
+      "target": "Are you a good cook?",
+      "native": "İyi yemek pişirebiliyor musun? (Yetenek hakkında soru sorma)"
+    },
+    {
+      "target": "That tastes delicious!",
+      "native": "Çok lezzetli! (Yemeği övme)"
+    },
+    {
+      "target": "I'm a vegetarian.",
+      "native": "Vejetaryenim. (Diyet kimliği)"
+    },
+    {
+      "target": "How long does this need to cook?",
+      "native": "Bunun ne kadar süre pişmesi gerekiyor? (Tarif talimatı)"
+    },
+    {
+      "target": "I'm chopping the vegetables.",
+      "native": "Sebzeleri doğruyorum. (Yemek pişirme adımı)"
+    },
+    {
+      "target": "Can you pass me the salt?",
+      "native": "Tuzu bana verebilir misin? (Mutfakta rica)"
+    },
+    {
+      "target": "We need more oil.",
+      "native": "Daha fazla sıvı yağa ihtiyacımız var. (Mutfak malzemesi)"
+    },
+    {
+      "target": "I'm baking a cake.",
+      "native": "Pasta pişiriyorum. (Faaliyet)"
+    },
+    {
+      "target": "Where is the pot?",
+      "native": "Tencere nerede? (Mutfak aletlerini arama)"
+    },
+    {
+      "target": "I love Italian food.",
+      "native": "İtalyan yemeklerini seviyorum. (Tat tercihi)"
+    },
+    {
+      "target": "I'm making soup.",
+      "native": "Çorba yapıyorum. (Yemek hazırlığı)"
+    },
+    {
+      "target": "This is too spicy.",
+      "native": "Bu çok acı. (Tat şikayeti)"
+    },
+    {
+      "target": "I'm trying a new recipe.",
+      "native": "Yeni bir tarif deniyorum. (Yemek deneyi)"
+    },
+    {
+      "target": "The pasta is ready.",
+      "native": "Makarna hazır. (Yemeği duyurma)"
+    },
+    {
+      "target": "We eat at seven o'clock.",
+      "native": "Saat yedi'de yemek yiyoruz. (Yemek saati)"
+    },
+    {
+      "target": "I clean up after dinner.",
+      "native": "Yemekten sonra ortalığı topluyorum. (Yemek sonrası görev)"
+    },
+    {
+      "target": "Can you set the table?",
+      "native": "Masayı kurabilir misin? (Yemek öncesi görev)"
+    }
+  ],
+  "Postanede": [
+    {
+      "target": "I'd like to send a letter.",
+      "native": "Bir mektup göndermek istiyorum. (Posta görevi)"
+    },
+    {
+      "target": "How much is the postage?",
+      "native": "Posta ücreti ne kadar? (Maliyet sorgulama)"
+    },
+    {
+      "target": "I need a stamp.",
+      "native": "Pul ihtiyacım var. (Temel alışveriş)"
+    },
+    {
+      "target": "Is this registered mail?",
+      "native": "Bu taahhütlü bir mektup mu? (Onay)"
+    },
+    {
+      "target": "How long does shipping take?",
+      "native": "Gönderim ne kadar sürüyor? (Kargo süresi)"
+    },
+    {
+      "target": "Can I track the package?",
+      "native": "Paketi takip edebilir miyim? (Takip sorusu)"
+    },
+    {
+      "target": "I received a package.",
+      "native": "Bir paket teslim aldım. (Teslimat alma)"
+    },
+    {
+      "target": "The package arrived damaged.",
+      "native": "Paket hasarlı geldi. (Şikayet)"
+    },
+    {
+      "target": "Where is my package?",
+      "native": "Paketim nerede? (Kayıp teslimat)"
+    },
+    {
+      "target": "I'd like to pick up a package.",
+      "native": "Bir paket teslim almak istiyorum. (Gişede)"
+    },
+    {
+      "target": "I have a pickup notice.",
+      "native": "Teslim alma bildirimim var. (Bildirim kağıdını gösterme)"
+    },
+    {
+      "target": "Do I have to show ID?",
+      "native": "Kimlik göstermem gerekiyor mu? (Doğrulama)"
+    },
+    {
+      "target": "Can I insure this?",
+      "native": "Bunu sigortalatabilir miyim? (Paket güvenliği)"
+    },
+    {
+      "target": "Is this international shipping?",
+      "native": "Bu uluslararası bir gönderi mi? (Gönderi kapsamı)"
+    },
+    {
+      "target": "Is there a faster option?",
+      "native": "Daha hızlı bir seçenek var mı? (Hizmet seviyesi)"
+    },
+    {
+      "target": "I'd like to fill out a form.",
+      "native": "Bir form doldurmak istiyorum. (Posta süreci)"
+    },
+    {
+      "target": "Are you open today?",
+      "native": "Bugün açık mısınız? (Çalışma saatleri)"
+    },
+    {
+      "target": "I need an envelope.",
+      "native": "Bir zarfa ihtiyacım var. (Ürün talebi)"
+    },
+    {
+      "target": "Can I drop off a package here?",
+      "native": "Buraya bir paket verebilir miyim? (Paket bırakma sorgulaması)"
+    },
+    {
+      "target": "Thank you very much for your help.",
+      "native": "Yardımlarınız için çok teşekkür ederim. (Nazik kapanış)"
+    }
+  ],
+  "Spor ve Fitness": [
+    {
+      "target": "Do you work out?",
+      "native": "Spor yapıyor musun? (Gündelik soru)"
+    },
+    {
+      "target": "I'm going for a jog.",
+      "native": "Koşu yapmaya gidiyorum. (Fitness faaliyeti)"
+    },
+    {
+      "target": "I work out three times a week.",
+      "native": "Haftada üç kez antrenman yapıyorum. (Rutin)"
+    },
+    {
+      "target": "I go to the gym.",
+      "native": "Spor salonuna gidiyorum. (Yaygın ifade)"
+    },
+    {
+      "target": "I play soccer on a club team.",
+      "native": "Bir kulüpte futbol oynuyorum. (Takım sporu)"
+    },
+    {
+      "target": "I do yoga.",
+      "native": "Yoga yapıyorum. (Sağlık faaliyeti)"
+    },
+    {
+      "target": "I'm going swimming.",
+      "native": "Yüzmeye gidiyorum. (Spor)"
+    },
+    {
+      "target": "I like team sports.",
+      "native": "Takım sporlarını severim. (Tercih)"
+    },
+    {
+      "target": "I need new running shoes.",
+      "native": "Yeni koşu ayakkabılarına ihtiyacım var. (Ekipman)"
+    },
+    {
+      "target": "I stretch before working out.",
+      "native": "Antrenmandan önce esneme hareketleri yapıyorum. (Fitness önerisi)"
+    },
+    {
+      "target": "I have sore muscles.",
+      "native": "Kas ağrım var. (Antrenman sonrası ifade)"
+    },
+    {
+      "target": "I want to get in better shape.",
+      "native": "Daha formda olmak istiyorum. (Hedef beyanı)"
+    },
+    {
+      "target": "I can't work out today.",
+      "native": "Bugün antrenman yapamam. (Müsait değil)"
+    },
+    {
+      "target": "I like watching sports on TV.",
+      "native": "Televizyonda spor izlemeyi severim. (İlgi)"
+    },
+    {
+      "target": "What's your favorite sport?",
+      "native": "En sevdiğin spor nedir? (İlgi sorusu)"
+    },
+    {
+      "target": "I do strength training.",
+      "native": "Ağırlık antrenmanı yapıyorum. (Fitness türü)"
+    },
+    {
+      "target": "I'm running a marathon.",
+      "native": "Bir maratona katılıyorum. (Etkinlik)"
+    },
+    {
+      "target": "I like playing tennis.",
+      "native": "Tenis oynamayı severim. (Spor tercihi)"
+    },
+    {
+      "target": "I did a home workout.",
+      "native": "Evde antrenman yaptım. (Rutin)"
+    },
+    {
+      "target": "I often go hiking.",
+      "native": "Sık sık doğa yürüyüşüne giderim. (Açık hava faaliyeti)"
+    }
+  ],
+  "Dışarı Çıkmak ve Eğlence": [
+    {
+      "target": "Do you want to go out tonight?",
+      "native": "Bu akşam dışarı çıkalım mı? (Plan yapma)"
+    },
+    {
+      "target": "I bought movie tickets.",
+      "native": "Sinema biletleri aldım. (Sinema planı)"
+    },
+    {
+      "target": "Let's go dancing!",
+      "native": "Dans etmeye gidelim! (Heyecan)"
+    },
+    {
+      "target": "I like going to concerts.",
+      "native": "Konserlere gitmeyi severim. (Müzik ilgisi)"
+    },
+    {
+      "target": "Where is the movie playing?",
+      "native": "Film nerede oynatılıyor? (Sinema kontrolü)"
+    },
+    {
+      "target": "Are there events tonight?",
+      "native": "Bu akşam etkinlikler var mı? (Ne var ne yok)"
+    },
+    {
+      "target": "I don't feel like going out.",
+      "native": "Dışarı çıkma hevesim yok. (Planı reddetme)"
+    },
+    {
+      "target": "Do you know a good restaurant?",
+      "native": "İyi bir restoran biliyor musunuz? (Öneri)"
+    },
+    {
+      "target": "We're meeting at eight.",
+      "native": "Sekizde buluşuyoruz. (Randevu)"
+    },
+    {
+      "target": "I have plans tonight.",
+      "native": "Bu akşam randevum var. (Taahhüt)"
+    },
+    {
+      "target": "It was a great evening.",
+      "native": "Harika bir akşamdı. (Değerlendirme)"
+    },
+    {
+      "target": "I'd like to order a cocktail.",
+      "native": "Bir kokteyl sipariş etmek istiyorum. (Barda)"
+    },
+    {
+      "target": "Can we sit outside?",
+      "native": "Dışarıda oturabilir miyiz? (Oturma yeri talebi)"
+    },
+    {
+      "target": "The vibe was awesome!",
+      "native": "Ortam süperdi! (Eğlence değerlendirmesi)"
+    },
+    {
+      "target": "The concert was sold out.",
+      "native": "Konserin biletleri tükenmişti. (Bilet bilgisi)"
+    },
+    {
+      "target": "I laughed a lot.",
+      "native": "Çok güldüm. (Eğlence ifadesi)"
+    },
+    {
+      "target": "It was loud, but fun.",
+      "native": "Gürültülü ama eğlenceliydi. (Gece dışarı çıkış geri bildirimi)"
+    },
+    {
+      "target": "The DJ was really good.",
+      "native": "DJ gerçekten çok iyiydi. (Müzik övgüsü)"
+    },
+    {
+      "target": "I'm going back tomorrow.",
+      "native": "Yarın tekrar gideceğim. (Tekrarlanan ziyaret)"
+    },
+    {
+      "target": "Thanks for the great evening!",
+      "native": "Güzel akşam için teşekkürler! (Minnettarlık)"
+    }
+  ],
+  "Okul ve Eğitim": [
+    {
+      "target": "I'm still in school.",
+      "native": "Hâlâ okula gidiyorum. (Durum güncellemesi)"
+    },
+    {
+      "target": "I study at the university.",
+      "native": "Üniversitede okuyorum. (Akademik bağlam)"
+    },
+    {
+      "target": "What's your favorite subject?",
+      "native": "En sevdiğin ders hangisi? (Gündelik soru)"
+    },
+    {
+      "target": "I have an exam tomorrow.",
+      "native": "Yarın sınavım var. (Yaklaşan test)"
+    },
+    {
+      "target": "I have to study for the test.",
+      "native": "Test için ders çalışmam gerekiyor. (Akademik rutin)"
+    },
+    {
+      "target": "The homework is hard.",
+      "native": "Ev ödevleri zor. (Yorum)"
+    },
+    {
+      "target": "I forgot my homework.",
+      "native": "Ev ödevimi unuttum. (Mazeret)"
+    },
+    {
+      "target": "I'm writing a paper.",
+      "native": "Ödev/Makale yazıyorum. (Öğrenci görevi)"
+    },
+    {
+      "target": "The teacher is very nice.",
+      "native": "Öğretmen çok kibar. (Görüş)"
+    },
+    {
+      "target": "I don't understand the topic.",
+      "native": "Konuyu anlamıyorum. (Materyalle ilgili zorluk)"
+    },
+    {
+      "target": "I need a tutor.",
+      "native": "Özel derse ihtiyacım var. (Yardım isteme)"
+    },
+    {
+      "target": "I got a good grade.",
+      "native": "İyi bir not aldım. (Olumlu sonuç)"
+    },
+    {
+      "target": "Class starts at eight o'clock.",
+      "native": "Ders saat sekizde başlıyor. (Ders programı bilgisi)"
+    },
+    {
+      "target": "I have a break at ten.",
+      "native": "Saat onda teneffüsüm var. (Ders programı)"
+    },
+    {
+      "target": "We're doing group work.",
+      "native": "Grup çalışması yapıyoruz. (Ortak öğrenme)"
+    },
+    {
+      "target": "I don't have school today.",
+      "native": "Bugün okulda dersim yok. (Program güncellemesi)"
+    },
+    {
+      "target": "I'm interested in history.",
+      "native": "Tarihle ilgileniyorum. (Ders tercihi)"
+    },
+    {
+      "target": "I need a new notebook.",
+      "native": "Yeni bir deftere ihtiyacım var. (Malzemeler)"
+    },
+    {
+      "target": "When is break?",
+      "native": "Tatil ne zaman? (Tatil sorgulaması)"
+    },
+    {
+      "target": "I'm in eleventh grade.",
+      "native": "On birinci sınıftayım. (Sınıf seviyesi)"
+    }
+  ],
+  "Teknoloji ve Cihazlar": [
+    {
+      "target": "I have a new phone.",
+      "native": "Yeni bir cep telefonum var. (Teknoloji güncellemesi)"
+    },
+    {
+      "target": "My computer is broken.",
+      "native": "Bilgisayarım bozuk. (Sorun)"
+    },
+    {
+      "target": "I need a charger.",
+      "native": "Bir şarj cihazına ihtiyacım var. (Pil sorunu)"
+    },
+    {
+      "target": "How does this work?",
+      "native": "Bu nasıl çalışıyor? (Teknoloji kafa karışıklığı)"
+    },
+    {
+      "target": "I'm not very tech-savvy.",
+      "native": "Teknolojiyle pek aram yok. (Zorluğu kabul etme)"
+    },
+    {
+      "target": "I'm installing an app.",
+      "native": "Bir uygulama yüklüyorum. (Telefon kullanımı)"
+    },
+    {
+      "target": "My Wi-Fi isn't working.",
+      "native": "Kablosuz ağım çalışmıyor. (Bağlantı sorunu)"
+    },
+    {
+      "target": "The battery is dead.",
+      "native": "Pil bitti. (Pil sorunu)"
+    },
+    {
+      "target": "I need to run an update.",
+      "native": "Güncelleme yapmam gerekiyor. (Bakım)"
+    },
+    {
+      "target": "I use this every day.",
+      "native": "Bunu her gün kullanıyorum. (Teknoloji rutini)"
+    },
+    {
+      "target": "I watch videos on my tablet.",
+      "native": "Tabletimden videolar izliyorum. (Kullanım)"
+    },
+    {
+      "target": "I lost my data.",
+      "native": "Verilerimi kaybettim. (Sorun)"
+    },
+    {
+      "target": "Can you show me?",
+      "native": "Bunu bana gösterebilir misin? (Yardım isteme)"
+    },
+    {
+      "target": "I need more storage space.",
+      "native": "Daha fazla depolama alanına ihtiyacım var. (Cihaz sınırı)"
+    },
+    {
+      "target": "I set up a new password.",
+      "native": "Yeni bir şifre oluşturdum. (Güvenlik)"
+    },
+    {
+      "target": "How do I connect this?",
+      "native": "Bunu nasıl bağlayabilirim? (Kurulum sorusu)"
+    },
+    {
+      "target": "I use Bluetooth.",
+      "native": "Bluetooth kullanıyorum. (Kablosuz teknoloji)"
+    },
+    {
+      "target": "My screen is black.",
+      "native": "Ekranım siyah. (Teknoloji sorunu)"
+    },
+    {
+      "target": "I need to restart the router.",
+      "native": "Yönlendiriciyi yeniden başlatmam gerekiyor. (Wi-Fi düzeltmesi)"
+    },
+    {
+      "target": "Tech can be glitchy sometimes.",
+      "native": "Teknoloji bazen sorun çıkarıyor. (Genel yorum)"
+    }
+  ],
+  "Evcil Hayvanlar ve Hayvanlar": [
+    {
+      "target": "Do you have a pet?",
+      "native": "Evcil hayvanın var mı? (Gündelik soru)"
+    },
+    {
+      "target": "I have a dog.",
+      "native": "Bir köpeğim var. (Evcil hayvan sahipliği)"
+    },
+    {
+      "target": "My cat sleeps a lot.",
+      "native": "Kedim çok uyuyor. (Evcil hayvan davranışını tanımlama)"
+    },
+    {
+      "target": "He is very playful.",
+      "native": "O çok oyuncu. (Kişilik özelliği)"
+    },
+    {
+      "target": "I need to feed the dog.",
+      "native": "Köpeği beslemem gerekiyor. (Günlük görev)"
+    },
+    {
+      "target": "We walk the dog every day.",
+      "native": "Her gün köpeği yürüyüşe çıkarıyoruz. (Evcil hayvan rutini)"
+    },
+    {
+      "target": "My cat loves to cuddle.",
+      "native": "Kedim sarılmayı çok sever. (Sevgi dolu evcil hayvan)"
+    },
+    {
+      "target": "I have a hamster in a cage.",
+      "native": "Kafeste bir hamsterım var. (Evcil hayvan türü)"
+    },
+    {
+      "target": "The bird sings in the morning.",
+      "native": "Kuş sabahları ötüyor. (Evcil hayvan davranışı)"
+    },
+    {
+      "target": "I'm taking my pet to the vet.",
+      "native": "Hayvanımı veterinere götürüyorum. (Sağlık bakımı)"
+    },
+    {
+      "target": "My dog barks a lot.",
+      "native": "Köpeğim çok havlıyor. (Davranışı tanımlama)"
+    },
+    {
+      "target": "I need to clean the tank.",
+      "native": "Akvaryumu temizlemem gerekiyor. (Evcil hayvan bakımı)"
+    },
+    {
+      "target": "The vet appointment is tomorrow.",
+      "native": "Veteriner randevusu yarın. (Takvim)"
+    },
+    {
+      "target": "She is very tame.",
+      "native": "O çok evcil. (Bir hayvanı tanımlama)"
+    },
+    {
+      "target": "My pet is like a member of the family.",
+      "native": "Evcil hayvanım bir aile üyesi gibi. (Sevgi)"
+    },
+    {
+      "target": "I had an allergic reaction to cats.",
+      "native": "Kedilere karşı alerjik reaksiyon gösterdim. (Sağlık notu)"
+    },
+    {
+      "target": "Please feed the fish.",
+      "native": "Lütfen balıkları besleyin. (Rica)"
+    },
+    {
+      "target": "He is very curious.",
+      "native": "O çok meraklı. (Evcil hayvan özelliği)"
+    },
+    {
+      "target": "How old is your dog?",
+      "native": "Köpeğin kaç yaşında? (Evcil hayvan sorgulaması)"
+    },
+    {
+      "target": "We adopted our pet.",
+      "native": "Evcil hayvanımızı sahiplendik. (Evcil hayvan kökeni)"
+    }
+  ],
+  "Duygular ve Görüşler": [
+    {
+      "target": "I find that interesting.",
+      "native": "Bunu ilginç buluyorum. (Görüş belirtme)"
+    },
+    {
+      "target": "I don't like that.",
+      "native": "Bunu beğenmedim. (Olumsuz görüş)"
+    },
+    {
+      "target": "I'm thrilled!",
+      "native": "Çok heyecanlandım! (Güçlü olumlu duygu)"
+    },
+    {
+      "target": "I really like that.",
+      "native": "Bunu gerçekten seviyorum. (Olumlu tepki)"
+    },
+    {
+      "target": "I have a different opinion.",
+      "native": "Farklı düşünüyorum. (Farklı bir görüş sunma)"
+    },
+    {
+      "target": "I think that's right.",
+      "native": "Bunun doğru olduğuna inanıyorum. (Kabul etme)"
+    },
+    {
+      "target": "I'm not sure.",
+      "native": "Emin değilim. (Kesinlik eksikliği)"
+    },
+    {
+      "target": "That was disappointing.",
+      "native": "Bu hayal kırıklığı yarattı. (Olumsuz geri bildirim)"
+    },
+    {
+      "target": "I feel safe here.",
+      "native": "Burada güvende hissediyorum. (Konfor ifadesi)"
+    },
+    {
+      "target": "I'm confused.",
+      "native": "Kafam karıştı. (Zihinsel durum)"
+    },
+    {
+      "target": "That was fun.",
+      "native": "Bu çok eğlenceliydi. (Keyif aldığını ifade etme)"
+    },
+    {
+      "target": "I don't have a strong opinion on that.",
+      "native": "Bu konuda güçlü bir fikrim yok. (Tarafsız duruş)"
+    },
+    {
+      "target": "I'm curious about it.",
+      "native": "Bunu merak ediyorum. (İlgi)"
+    },
+    {
+      "target": "I'm proud of you.",
+      "native": "Seninle gurur duyuyorum. (Teşvik etme)"
+    },
+    {
+      "target": "I'm grateful for your help.",
+      "native": "Yardımın için minnettarım. (Minnettarlık)"
+    },
+    {
+      "target": "I find that boring.",
+      "native": "Bunu sıkıcı buluyorum. (Olumsuz yargı)"
+    },
+    {
+      "target": "That annoys me.",
+      "native": "Bu beni sinirlendiriyor. (Duygusal hayal kırıklığı)"
+    },
+    {
+      "target": "I feel comfortable.",
+      "native": "Kendimi iyi hissediyorum. (Fiziksel/duygusal konfor)"
+    },
+    {
+      "target": "I find that brave.",
+      "native": "Bunu cesurca buluyorum. (Saygı/hayranlık)"
+    },
+    {
+      "target": "I appreciate your opinion.",
+      "native": "Görüşüne değer veriyorum. (Saygılı onaylama)"
+    }
+  ],
+  "Planlar Yapmak": [
+    {
+      "target": "Are you free tomorrow?",
+      "native": "Yarın vaktin var mı? (Scheduling inquiry)"
+    },
+    {
+      "target": "Let's do something.",
+      "native": "Hadi bir şeyler yapalım. (Making a suggestion)"
+    },
+    {
+      "target": "When works for you?",
+      "native": "Ne zaman sana uyar? (Finding a time)"
+    },
+    {
+      "target": "Do you want to meet up?",
+      "native": "Buluşalım mı? (Plan proposal)"
+    },
+    {
+      "target": "I'm free on the weekend.",
+      "native": "Hafta sonu müsaitim. (Availability)"
+    },
+    {
+      "target": "How about Friday?",
+      "native": "Cuma günü nasıl olur? (Offering a day)"
+    },
+    {
+      "target": "Unfortunately, I already have plans.",
+      "native": "Maalesef planım dolu. (Declining)"
+    },
+    {
+      "target": "We'll meet at 6 PM.",
+      "native": "Saat 18:00'de görüşürüz. (Confirming a plan)"
+    },
+    {
+      "target": "I'm looking forward to it.",
+      "native": "Dört gözle bekliyorum. (Positive anticipation)"
+    },
+    {
+      "target": "Where should we meet?",
+      "native": "Nerede buluşalım? (Meeting place)"
+    },
+    {
+      "target": "I'll be a little late.",
+      "native": "Biraz gecikeceğim. (Time update)"
+    },
+    {
+      "target": "Can we reschedule it?",
+      "native": "Erteleyebilir miyiz? (Changing plans)"
+    },
+    {
+      "target": "I changed my mind.",
+      "native": "Fikrimi değiştirdim. (Changing decision)"
+    },
+    {
+      "target": "Unfortunately, I have to cancel.",
+      "native": "Maalesef iptal etmek zorundayım. (Polite cancellation)"
+    },
+    {
+      "target": "I'm bringing a friend.",
+      "native": "Bir arkadaşımı getiriyorum. (Adding a guest)"
+    },
+    {
+      "target": "Do you want to ride together?",
+      "native": "Birlikte gidelim mi? (Logistics)"
+    },
+    {
+      "target": "I'll text you beforehand.",
+      "native": "Öncesinde sana tekrar yazacağım. (Pre-meeting contact)"
+    },
+    {
+      "target": "The plan sounds good.",
+      "native": "Plan kulağa iyi geliyor. (Agreement)"
+    },
+    {
+      "target": "Let's decide spontaneously.",
+      "native": "Bunu spontane karar verelim. (Flexible planning)"
+    },
+    {
+      "target": "See you later then!",
+      "native": "O zaman sonra görüşürüz! (Closure of arrangement)"
+    }
+  ],
+  "İhtiyaçları ve İstekleri İfade Etmek": [
+    {
+      "target": "I need help.",
+      "native": "Yardıma ihtiyacım var. (Simple need)"
+    },
+    {
+      "target": "I'd like to eat something.",
+      "native": "Bir şeyler yemek istiyorum. (Stating a want)"
+    },
+    {
+      "target": "I want to go home.",
+      "native": "Eve gitmek istiyorum. (Expressing desire)"
+    },
+    {
+      "target": "I'm thirsty.",
+      "native": "Susadım. (Physical need)"
+    },
+    {
+      "target": "I'm tired.",
+      "native": "Yorgunum. (Stating condition)"
+    },
+    {
+      "target": "I need a break.",
+      "native": "Molaya ihtiyacım var. (Expressing need)"
+    },
+    {
+      "target": "I don't want to do that.",
+      "native": "Bunu yapmak istemiyorum. (Refusal)"
+    },
+    {
+      "target": "I wish for peace and quiet.",
+      "native": "Huzur diliyorum. (Emotional want)"
+    },
+    {
+      "target": "I want to do this now.",
+      "native": "Bunu şimdi yapmak istiyorum. (Determination)"
+    },
+    {
+      "target": "I need more time.",
+      "native": "Daha fazla zamana ihtiyacım var. (Time-related need)"
+    },
+    {
+      "target": "I'm hungry.",
+      "native": "Karnım aç. (Stating hunger)"
+    },
+    {
+      "target": "I don't want to wait.",
+      "native": "Beklemek istemiyorum. (Impatience)"
+    },
+    {
+      "target": "I need fresh air.",
+      "native": "Temiz havaya ihtiyacım var. (Health or emotional need)"
+    },
+    {
+      "target": "I want to be alone.",
+      "native": "Yalnız kalmak istiyorum. (Privacy)"
+    },
+    {
+      "target": "I'd like a coffee.",
+      "native": "Bir kahve alabilirdim. (Polite request)"
+    },
+    {
+      "target": "I need sleep.",
+      "native": "Uykuya ihtiyacım var. (Exhaustion)"
+    },
+    {
+      "target": "I want to understand this.",
+      "native": "Bunu anlamak istiyorum. (Mental effort)"
+    },
+    {
+      "target": "I wish I had a dog.",
+      "native": "Bir köpek diliyorum. (Desire)"
+    },
+    {
+      "target": "I want to do it later.",
+      "native": "Bunu daha sonra yapmak istiyorum. (Postponement)"
+    },
+    {
+      "target": "I feel the need to talk.",
+      "native": "Konuşma ihtiyacı hissediyorum. (Emotional expression)"
+    }
+  ],
+  "Yasal ve İdari İşlemler": [
+    {
+      "target": "I need an appointment at the office.",
+      "native": "Resmi daireden randevu almam gerekiyor. (Administrative task)"
+    },
+    {
+      "target": "Where is the citizens' office?",
+      "native": "Nüfus müdürlüğü nerede? (Finding a government office)"
+    },
+    {
+      "target": "I need to renew my ID.",
+      "native": "Kimliğimi yeniletmem gerekiyor. (Document renewal)"
+    },
+    {
+      "target": "What documents do I need?",
+      "native": "Hangi belgelere ihtiyacım var? (Paperwork inquiry)"
+    },
+    {
+      "target": "I have an appointment at the registration office.",
+      "native": "Nüfus müdürlüğünde randevum var. (Check-in)"
+    },
+    {
+      "target": "I'd like to register my new address.",
+      "native": "İkametgah adresimi değiştirmek istiyorum. (Moving)"
+    },
+    {
+      "target": "I need a registration certificate.",
+      "native": "İkametgah belgesine ihtiyacım var. (Common request)"
+    },
+    {
+      "target": "How long does processing take?",
+      "native": "İşlem ne kadar sürüyor? (Time inquiry)"
+    },
+    {
+      "target": "Is there an online option?",
+      "native": "Çevrim içi seçenek var mı? (Convenience check)"
+    },
+    {
+      "target": "I need a passport.",
+      "native": "Pasaporta ihtiyacım var. (Travel document)"
+    },
+    {
+      "target": "I'd like to register my car.",
+      "native": "Arabamı kaydettirmek istiyorum. (Vehicle registration)"
+    },
+    {
+      "target": "I got a parking ticket.",
+      "native": "Trafik cezası aldım. (Legal situation)"
+    },
+    {
+      "target": "Do I have to appear in person?",
+      "native": "Şahsen görünmem gerekiyor mu? (Requirement question)"
+    },
+    {
+      "target": "What is the deadline here?",
+      "native": "Burada hangi süre geçerli? (Time restriction)"
+    },
+    {
+      "target": "I need legal advice.",
+      "native": "Hukuki danışmanlığa ihtiyacım var. (Legal need)"
+    },
+    {
+      "target": "I received a summons.",
+      "native": "Mahkeme celbi aldım. (Legal document)"
+    },
+    {
+      "target": "I have to go to court.",
+      "native": "Mahkemeye gitmem gerekiyor. (Legal obligation)"
+    },
+    {
+      "target": "Are there any fees?",
+      "native": "Ücretler var mı? (Payment question)"
+    },
+    {
+      "target": "How can I file an appeal?",
+      "native": "Nasıl itiraz edebilirim? (Legal procedure)"
+    },
+    {
+      "target": "I need a copy of this document.",
+      "native": "Bu belgenin bir kopyasına ihtiyacım var. (Basic request)"
+    }
+  ],
+  "Doğa ve Çevre": [
+    {
+      "target": "I like going to the woods.",
+      "native": "Ormana gitmeyi severim. (Nature activity)"
+    },
+    {
+      "target": "The air is fresh today.",
+      "native": "Bugün hava taze. (Environmental comment)"
+    },
+    {
+      "target": "I like having picnics in the park.",
+      "native": "Parkta piknik yapmayı severim. (Outdoor activity)"
+    },
+    {
+      "target": "The lake is gorgeous.",
+      "native": "Göl harika güzellikte. (Nature description)"
+    },
+    {
+      "target": "I love the mountains.",
+      "native": "Dağları seviyorum. (Natural setting preference)"
+    },
+    {
+      "target": "There are lots of animals here.",
+      "native": "Burada çok hayvan var. (Wildlife observation)"
+    },
+    {
+      "target": "We need to protect the environment.",
+      "native": "Çevreyi korumalıyız. (Environmental awareness)"
+    },
+    {
+      "target": "I sort my trash.",
+      "native": "Çöplerimi ayrıştırıyorum. (Eco-conscious behavior)"
+    },
+    {
+      "target": "The weather is perfect for a hike.",
+      "native": "Hava yürüyüş için mükemmel. (Outdoor plan)"
+    },
+    {
+      "target": "I enjoy the peace and quiet in nature.",
+      "native": "Doğadaki huzurun tadını çıkarıyorum. (Mental benefit)"
+    },
+    {
+      "target": "The river flows calmly.",
+      "native": "Nehir sakin akıyor. (Nature observation)"
+    },
+    {
+      "target": "Did you see the stars?",
+      "native": "Yıldızları gördün mü? (Night sky moment)"
+    },
+    {
+      "target": "Flowers bloom in spring.",
+      "native": "Çiçekler ilkbaharda açar. (Seasonal note)"
+    },
+    {
+      "target": "I plant vegetables in the garden.",
+      "native": "Bahçeye sebze ekiyorum. (Sustainable action)"
+    },
+    {
+      "target": "It's important to plant trees.",
+      "native": "Ağaç dikmek önemlidir. (Environmental action)"
+    },
+    {
+      "target": "I adopted a tree.",
+      "native": "Bir ağaç sahiplendim. (Green initiative)"
+    },
+    {
+      "target": "We went on a hike.",
+      "native": "Doğa yürüyüşü yaptık. (Outdoor activity)"
+    },
+    {
+      "target": "The sky is clear today.",
+      "native": "Bugün gökyüzü berrak. (Weather/nature)"
+    },
+    {
+      "target": "I hear the birds chirping.",
+      "native": "Kuşların cıvıltısını duyuyorum. (Peaceful moment)"
+    },
+    {
+      "target": "I love being outdoors.",
+      "native": "Dışarıda olmayı seviyorum. (General sentiment)"
+    }
+  ],
+  "Din ve İnanç": [
+    {
+      "target": "I believe in God.",
+      "native": "Tanrı'ya inanıyorum. (Statement of faith)"
+    },
+    {
+      "target": "I pray every day.",
+      "native": "Her gün dua ediyorum. (Religious habit)"
+    },
+    {
+      "target": "Do you go to church?",
+      "native": "Kiliseye gidiyor musun? (Question about practice)"
+    },
+    {
+      "target": "I'm Catholic.",
+      "native": "Katoliğim. (Religious identity)"
+    },
+    {
+      "target": "I'm Protestant.",
+      "native": "Protestanım. (Religious identity)"
+    },
+    {
+      "target": "I'm Muslim.",
+      "native": "Müslümanım. (Religious identity)"
+    },
+    {
+      "target": "I fast during Ramadan.",
+      "native": "Ramazan'da oruç tutuyorum. (Religious practice)"
+    },
+    {
+      "target": "Merry Christmas!",
+      "native": "Mutlu Noeller! (Holiday greeting)"
+    },
+    {
+      "target": "Happy Easter!",
+      "native": "Kutsal Paskalyalar! (Holiday greeting)"
+    },
+    {
+      "target": "I go to mass on Sundays.",
+      "native": "Pazar günleri ayine gidiyorum. (Christian practice)"
+    },
+    {
+      "target": "I believe in the good in people.",
+      "native": "İnsanlardaki iyiliğe inanıyorum. (Spiritual perspective)"
+    },
+    {
+      "target": "I read the Bible.",
+      "native": "İncil okuyorum. (Religious practice)"
+    },
+    {
+      "target": "I thank God for my life.",
+      "native": "Hayatım için Tanrı'ya şükrediyorum. (Gratitude and faith)"
+    },
+    {
+      "target": "What is your faith?",
+      "native": "İnancın nedir? (Respectful inquiry)"
+    },
+    {
+      "target": "We're celebrating a religious holiday.",
+      "native": "Dini bir bayram kutluyoruz. (Faith-related event)"
+    },
+    {
+      "target": "I'm praying for you.",
+      "native": "Senin için dua ediyorum. (Offering support)"
+    },
+    {
+      "target": "I believe in an afterlife.",
+      "native": "Ölümden sonra hayata inanıyorum. (Spiritual belief)"
+    },
+    {
+      "target": "I respect all religions.",
+      "native": "Tüm dinlere saygı duyuyorum. (Tolerance statement)"
+    },
+    {
+      "target": "I have questions about faith.",
+      "native": "İnançla ilgili sorularım var. (Spiritual curiosity)"
+    },
+    {
+      "target": "My faith gives me strength.",
+      "native": "İnancım bana güç veriyor. (Personal strength)"
+    }
+  ],
+  "Gençler ve Z Kuşağı Dili": [
+    {
+      "target": "That's wild!",
+      "native": "Bu tamamen çılgınca! (Surprised reaction)"
+    },
+    {
+      "target": "So sick!",
+      "native": "Süper harika! (Excitement)"
+    },
+    {
+      "target": "Living the dream!",
+      "native": "İşler yolunda! (Admiring success)"
+    },
+    {
+      "target": "YOLO!",
+      "native": "Sadece bir kez yaşıyorsun! (Taking risks)"
+    },
+    {
+      "target": "Stay chill.",
+      "native": "Sakin kal. (Keep calm)"
+    },
+    {
+      "target": "Legend!",
+      "native": "Kral / Kraliçesin! (Praising someone)"
+    },
+    {
+      "target": "I'm lost.",
+      "native": "Ne yapacağımı bilmiyorum. (Feeling clueless)"
+    },
+    {
+      "target": "Same!",
+      "native": "Aynen! (Relating to someone)"
+    },
+    {
+      "target": "That's cringe.",
+      "native": "Bu çok utanç verici. (Cringey)"
+    },
+    {
+      "target": "She's doing the most.",
+      "native": "O çok abartılı. (Drama queen)"
+    },
+    {
+      "target": "I'm really vibing with this.",
+      "native": "Buna bayılıyorum. (Enjoying something)"
+    },
+    {
+      "target": "I'm cooked.",
+      "native": "Tükendim. (Exhausted)"
+    },
+    {
+      "target": "What's good?",
+      "native": "Naber? (Informal greeting)"
+    },
+    {
+      "target": "No clue, bro.",
+      "native": "Hiçbir fikrim yok, kanka. (Clueless response)"
+    },
+    {
+      "target": "Bet!",
+      "native": "Kesinlikle! (Affirmation)"
+    },
+    {
+      "target": "I'm treating myself.",
+      "native": "Kendime ödül veriyorum. (Self-care)"
+    },
+    {
+      "target": "Bro, seriously?",
+      "native": "Kanka, ciddi misin? (Doubt)"
+    },
+    {
+      "target": "That's totally my vibe.",
+      "native": "Tam benim tarzım. (Personal preference)"
+    },
+    {
+      "target": "A bit much, right?",
+      "native": "Biraz fazla, değil mi? (Judging)"
+    },
+    {
+      "target": "I swear!",
+      "native": "Yemin ederim! (Emphasis)"
+    }
+  ],
+  "Ev ve Mobilya": [
+    {
+      "target": "I live in an apartment.",
+      "native": "Bir dairede yaşıyorum. (Housing situation)"
+    },
+    {
+      "target": "My room is on the second floor.",
+      "native": "Odam birinci katta. (House layout)"
+    },
+    {
+      "target": "Where is the bathroom?",
+      "native": "Banyo nerede? (Common question)"
+    },
+    {
+      "target": "The kitchen is very modern.",
+      "native": "Mutfak çok modern. (Describing a room)"
+    },
+    {
+      "target": "I have a comfortable couch.",
+      "native": "Rahat bir koltuğum var. (Furniture description)"
+    },
+    {
+      "target": "The table is made of wood.",
+      "native": "Masa ahşaptan. (Material description)"
+    },
+    {
+      "target": "I need to make my bed.",
+      "native": "Yatağımı düzeltmem gerekiyor. (Daily task)"
+    },
+    {
+      "target": "The lamp is broken.",
+      "native": "Lamba bozuk. (Problem)"
+    },
+    {
+      "target": "Where is the closet?",
+      "native": "Dolap nerede? (Furniture location)"
+    },
+    {
+      "target": "We eat in the dining room.",
+      "native": "Yemek odasında yemek yiyoruz. (Room usage)"
+    },
+    {
+      "target": "The windows are big.",
+      "native": "Pencereler büyük. (House feature)"
+    },
+    {
+      "target": "I have a balcony.",
+      "native": "Bir balkonum var. (Apartment feature)"
+    },
+    {
+      "target": "The walls are painted white.",
+      "native": "Duvarlar beyaz boyalı. (Decoration detail)"
+    },
+    {
+      "target": "I'm decorating my living room.",
+      "native": "Oturma odamı dekore ediyorum. (Interior activity)"
+    },
+    {
+      "target": "I bought a rug.",
+      "native": "Bir halı satın aldım. (Furniture purchase)"
+    },
+    {
+      "target": "The door squeaks.",
+      "native": "Kapı gıcırdıyor. (House issue)"
+    },
+    {
+      "target": "We're remodeling the bathroom.",
+      "native": "Banyoyu yeniliyoruz. (Home improvement)"
+    },
+    {
+      "target": "I have a new desk.",
+      "native": "Yeni bir çalışma masam var. (Furniture update)"
+    },
+    {
+      "target": "The apartment has three bedrooms.",
+      "native": "Daire üç odalı. (Real estate detail)"
+    },
+    {
+      "target": "I need more storage space.",
+      "native": "Daha fazla depolama alanına ihtiyacım var. (Household need)"
+    }
+  ],
+  "Para ve Bütçe Planlaması": [
+    {
+      "target": "I need to save money.",
+      "native": "Para biriktirmem gerekiyor. (Budgeting goal)"
+    },
+    {
+      "target": "How much does this cost?",
+      "native": "Bu ne kadara mal oluyor? (Price inquiry)"
+    },
+    {
+      "target": "I don't have cash.",
+      "native": "Nakit param yok. (Payment issue)"
+    },
+    {
+      "target": "Can I pay by card?",
+      "native": "Kartla ödeyebilir miyim? (Payment method)"
+    },
+    {
+      "target": "I have a budget.",
+      "native": "Bir bütçem var. (Financial plan)"
+    },
+    {
+      "target": "I spend too much.",
+      "native": "Çok fazla harcama yapıyorum. (Spending habit)"
+    },
+    {
+      "target": "I need to control my spending.",
+      "native": "Harcamalarımı kontrol etmem gerekiyor. (Budgeting discipline)"
+    },
+    {
+      "target": "I pay my bills on time.",
+      "native": "Faturalarımı zamanında ödüyorum. (Financial responsibility)"
+    },
+    {
+      "target": "I'm saving up for vacation.",
+      "native": "Tatil için para biriktiriyorum. (Financial goal)"
+    },
+    {
+      "target": "I have debt.",
+      "native": "Borçlarım var. (Financial status)"
+    },
+    {
+      "target": "I have a savings account.",
+      "native": "Bir tasarruf hesabım var. (Banking)"
+    },
+    {
+      "target": "I need a financial plan.",
+      "native": "Finansal plana ihtiyacım var. (Planning ahead)"
+    },
+    {
+      "target": "I compare prices.",
+      "native": "Fiyatları karşılaştırıyorum. (Shopping strategy)"
+    },
+    {
+      "target": "I found an affordable apartment.",
+      "native": "Uygun fiyatlı bir daire buldum. (Success in budgeting)"
+    },
+    {
+      "target": "That's too expensive for me.",
+      "native": "Bu bana göre çok pahalı. (Price concern)"
+    },
+    {
+      "target": "I invest in stocks.",
+      "native": "Hisselere yatırım yapıyorum. (Finance activity)"
+    },
+    {
+      "target": "I pay monthly rent.",
+      "native": "Aylık kira ödüyorum. (Fixed cost)"
+    },
+    {
+      "target": "I work to pay for school.",
+      "native": "Eğitimimi finanse etmek için çalışıyorum. (Student finance)"
+    },
+    {
+      "target": "I plan my expenses every month.",
+      "native": "Her ay harcamalarımı planlıyorum. (Financial habit)"
+    },
+    {
+      "target": "I need a loan.",
+      "native": "Krediye ihtiyacım var. (Financial need)"
+    }
+  ],
+  "Partiler ve Kutlamalar": [
+    {
+      "target": "Congratulations!",
+      "native": "Tebrikler! (Celebratory expression)"
+    },
+    {
+      "target": "Happy birthday!",
+      "native": "Doğum günün kutlu olsun! (Birthday greeting)"
+    },
+    {
+      "target": "I'm inviting you to the party.",
+      "native": "Seni partiye davet ediyorum. (Invitation)"
+    },
+    {
+      "target": "When does the party start?",
+      "native": "Kutlama ne zaman başlıyor? (Event timing)"
+    },
+    {
+      "target": "Where is the party taking place?",
+      "native": "Parti nerede gerçekleşiyor? (Location inquiry)"
+    },
+    {
+      "target": "I'll bring a cake.",
+      "native": "Pasta getireceğim. (Contribution)"
+    },
+    {
+      "target": "Let's dance!",
+      "native": "Hadi dans edelim! (Celebratory mood)"
+    },
+    {
+      "target": "I'm looking forward to the party.",
+      "native": "Partiyi dört gözle bekliyorum. (Anticipation)"
+    },
+    {
+      "target": "What should I wear?",
+      "native": "Ne giymeliyim? (Outfit question)"
+    },
+    {
+      "target": "We're celebrating at my place.",
+      "native": "Evimde kutluyoruz. (Host info)"
+    },
+    {
+      "target": "The music is great!",
+      "native": "Müzik süper! (Positive feedback)"
+    },
+    {
+      "target": "How many guests are coming?",
+      "native": "Kaç misafir geliyor? (Planning)"
+    },
+    {
+      "target": "I arrived late.",
+      "native": "Geç kaldım. (Party context)"
+    },
+    {
+      "target": "We laughed a lot.",
+      "native": "Çok güldük. (After-party reflection)"
+    },
+    {
+      "target": "There are snacks and drinks.",
+      "native": "Atıştırmalıklar ve içecekler var. (Whats offered)"
+    },
+    {
+      "target": "I brought a gift.",
+      "native": "Hediye getirdim. (Gifting)"
+    },
+    {
+      "target": "I hope you all have fun!",
+      "native": "İyi eğlenceler dilerim! (Party well-wish)"
+    },
+    {
+      "target": "Cheers!",
+      "native": "Kadeh tokuşturuyoruz! (Drinking cheer)"
+    },
+    {
+      "target": "The mood was fantastic.",
+      "native": "Ortam fantastikti. (Review)"
+    },
+    {
+      "target": "Until the next celebration!",
+      "native": "Sonraki kutlamaya kadar! (Farewell)"
+    }
+  ],
+  "Asya Hakkında Her Şey": [
+    {
+      "target": "I'm interested in Asian cultures.",
+      "native": "Asya kültürleriyle ilgileniyorum. (Cultural interest)"
+    },
+    {
+      "target": "I like eating Asian food.",
+      "native": "Asya yemekleri yemeyi severim. (Food preference)"
+    },
+    {
+      "target": "I'm learning Japanese.",
+      "native": "Japonca öğreniyorum. (Language study)"
+    },
+    {
+      "target": "Have you ever been to Asia?",
+      "native": "Daha önce Asya'da bulundun mu? (Travel question)"
+    },
+    {
+      "target": "I'd like to travel to Japan.",
+      "native": "Japonya'ya seyahat etmek istiyorum. (Travel plan)"
+    },
+    {
+      "target": "I love Korean dramas.",
+      "native": "Kore dizilerini seviyorum. (Media interest)"
+    },
+    {
+      "target": "Chinese is a difficult language.",
+      "native": "Çince zor bir dil. (Language opinion)"
+    },
+    {
+      "target": "I tried sushi for the first time.",
+      "native": "İlk kez suşi denedim. (Experience)"
+    },
+    {
+      "target": "I'm interested in Asian history.",
+      "native": "Asya tarihiyle ilgileniyorum. (Academic interest)"
+    },
+    {
+      "target": "I follow a Thai cooking channel.",
+      "native": "Taylandlı yemek kanalını takip ediyorum. (Digital culture)"
+    },
+    {
+      "target": "I traveled around Vietnam.",
+      "native": "Vietnam'da seyahat ettim. (Travel history)"
+    },
+    {
+      "target": "I have many Asian friends.",
+      "native": "Birçok Asyalı arkadaşım var. (Personal network)"
+    },
+    {
+      "target": "K-pop is super popular.",
+      "native": "K-Pop son derece popüler. (Pop culture)"
+    },
+    {
+      "target": "I like Indian spices.",
+      "native": "Hint baharatlarını severim. (Food culture)"
+    },
+    {
+      "target": "I have Asian roots.",
+      "native": "Asya kökenliyim. (Cultural identity)"
+    },
+    {
+      "target": "I love Asian architecture.",
+      "native": "Asya mimarisini seviyorum. (Cultural appreciation)"
+    },
+    {
+      "target": "I'm learning with an Asian app.",
+      "native": "Asya menşeli bir uygulamayla öğreniyorum. (Tech and learning)"
+    },
+    {
+      "target": "I'm interested in Asian religions.",
+      "native": "Asya dinleriyle ilgileniyorum. (Cultural curiosity)"
+    },
+    {
+      "target": "I have a Chinese roommate.",
+      "native": "Çinli ev arkadaşım var. (Cultural proximity)"
+    },
+    {
+      "target": "We're celebrating the Mid-Autumn Festival.",
+      "native": "Sonbahar Ortası Festivali'ni kutluyoruz. (Cultural practice)"
+    }
+  ],
+  "Pop Kültür": [
+    {
+      "target": "I love this movie!",
+      "native": "Bu filmi seviyorum! (Fan expression)"
+    },
+    {
+      "target": "Did you watch the new show?",
+      "native": "Yeni diziyi gördün mü? (Media discussion)"
+    },
+    {
+      "target": "He is a famous actor.",
+      "native": "O ünlü bir oyuncu. (Celebrity talk)"
+    },
+    {
+      "target": "This song is a total earworm.",
+      "native": "Bu şarkı dile dolandı. (Music comment)"
+    },
+    {
+      "target": "She is my favorite star.",
+      "native": "O benim en sevdiğim yıldız. (Fandom)"
+    },
+    {
+      "target": "That was a viral video.",
+      "native": "Bu viral bir videoydu. (Online trend)"
+    },
+    {
+      "target": "I follow her on Instagram.",
+      "native": "Onu Instagram'da takip ediyorum. (Social media use)"
+    },
+    {
+      "target": "The movie won lots of awards.",
+      "native": "Film birçok ödül kazandı. (Recognition)"
+    },
+    {
+      "target": "That was a blockbuster.",
+      "native": "Bu bir gişe rekoru kıran filmdi. (Success note)"
+    },
+    {
+      "target": "I'm deep in the fandom.",
+      "native": "Tamamen hayran kulübünün içindeyim. (Fan culture)"
+    },
+    {
+      "target": "He dropped a new song.",
+      "native": "Yeni bir şarkı çıkardı. (Music release)"
+    },
+    {
+      "target": "Do you know this meme?",
+      "native": "Bu mizah görselini biliyor musun? (Internet culture)"
+    },
+    {
+      "target": "The trailer just came out.",
+      "native": "Fragman yeni çıktı. (New release)"
+    },
+    {
+      "target": "She is a TikTok star.",
+      "native": "O bir TikTok yıldızı. (Online fame)"
+    },
+    {
+      "target": "That's trending on Twitter.",
+      "native": "Bu Twitter'da gündem. (Social media)"
+    },
+    {
+      "target": "I'm listening to the song on repeat.",
+      "native": "Şarkıyı döngüye alıp dinliyorum. (Music habit)"
+    },
+    {
+      "target": "They are the celebrity couple of the year.",
+      "native": "Onlar yılın ünlü çifti. (Pop gossip)"
+    },
+    {
+      "target": "I collect merch.",
+      "native": "Hayran ürünleri topluyorum. (Fandom activity)"
+    },
+    {
+      "target": "He was in a music video.",
+      "native": "Bir müzik klübünde/videosunda yer aldı. (Appearance info)"
+    },
+    {
+      "target": "Pop culture is constantly changing.",
+      "native": "Pop kültür sürekli değişiyor. (General observation)"
+    }
+  ],
+  "Sosyal Sorunlar": [
+    {
+      "target": "Equality is important.",
+      "native": "Eşitlik önemlidir. (Principle statement)"
+    },
+    {
+      "target": "We need to talk about racism.",
+      "native": "Irkçılık hakkında konuşmalıyız. (Call for awareness)"
+    },
+    {
+      "target": "Climate action affects all of us.",
+      "native": "İklimi korumak hepimizi ilgilendirir. (Environmental justice)"
+    },
+    {
+      "target": "I support social justice.",
+      "native": "Sosyal adaletini destekliyorum. (Stance)"
+    },
+    {
+      "target": "Poverty is a global problem.",
+      "native": "Yoksulluk küresel bir sorundur. (Acknowledgment)"
+    },
+    {
+      "target": "I'm protesting for more rights.",
+      "native": "Daha fazla hak için protesto yapıyorum. (Activism)"
+    },
+    {
+      "target": "Education should be accessible to everyone.",
+      "native": "Eğitim herkes için erişilebilir olmalı. (Equality in education)"
+    },
+    {
+      "target": "Discrimination is never okay.",
+      "native": "Ayrımcılık asla kabul edilemez. (Ethical position)"
+    },
+    {
+      "target": "We need more inclusion.",
+      "native": "Daha fazla kapsayıcılığa ihtiyacımız var. (Call to action)"
+    },
+    {
+      "target": "I donate to charities.",
+      "native": "Yardım kuruluşlarına bağış yapıyorum. (Supportive action)"
+    },
+    {
+      "target": "Gender equality is necessary.",
+      "native": "Cinsiyet eşitliği gereklidir. (Social equity)"
+    },
+    {
+      "target": "I'm against injustice.",
+      "native": "Adaletsizliğe karşıyım. (Positioning)"
+    },
+    {
+      "target": "We need to support marginalized groups.",
+      "native": "Ötekileştirilmiş grupları desteklemeliyiz. (Solidarity)"
+    },
+    {
+      "target": "Homelessness is rising.",
+      "native": "Evsizlik artıyor. (Social observation)"
+    },
+    {
+      "target": "We should live more sustainably.",
+      "native": "Daha sürdürülebilir yaşamalıyız. (Climate responsibility)"
+    },
+    {
+      "target": "Migration is a complex issue.",
+      "native": "Göç karmaşık bir konudur. (Sociopolitical observation)"
+    },
+    {
+      "target": "Every person deserves respect.",
+      "native": "Her insan saygıyı hak eder. (Fundamental value)"
+    },
+    {
+      "target": "I volunteer.",
+      "native": "Gönüllü çalışmalar yapıyorum. (Civic engagement)"
+    },
+    {
+      "target": "The digital divide affects many people.",
+      "native": "Dijital uçurum birçok insanı etkiliyor. (Technology equity)"
+    },
+    {
+      "target": "Social issues concern all of us.",
+      "native": "Sosyal konular hepimizi ilgilendirir. (Call for awareness)"
+    }
+  ],
+  "Tatiller ve Gelenekler": [
+    {
+      "target": "Happy New Year!",
+      "native": "Mutlu yıllar! (Holiday greeting)"
+    },
+    {
+      "target": "Do you celebrate Christmas?",
+      "native": "Noeli kutluyor musun? (Cultural inquiry)"
+    },
+    {
+      "target": "We're having a New Year's Eve party.",
+      "native": "Yılbaşı partisi veriyoruz. (Event planning)"
+    },
+    {
+      "target": "I like giving gifts for Christmas.",
+      "native": "Noel'de hediye vermeyi severim. (Holiday custom)"
+    },
+    {
+      "target": "We celebrate Easter with family.",
+      "native": "Paskalya'yı aileyle kutluyoruz. (Family tradition)"
+    },
+    {
+      "target": "St. Nicholas comes on December 6th.",
+      "native": "Aziz Nikolaos 6 Aralık'ta gelir. (German tradition)"
+    },
+    {
+      "target": "I'm going to the fair.",
+      "native": "Panayıra gidiyorum. (Cultural tradition)"
+    },
+    {
+      "target": "What are you doing for Halloween?",
+      "native": "Cadılar Bayramı'nda ne yapıyorsun? (Seasonal event)"
+    },
+    {
+      "target": "I love the Christmas market.",
+      "native": "Noel pazarını seviyorum. (German tradition)"
+    },
+    {
+      "target": "I'm making a lantern for St. Martin's Day.",
+      "native": "Aziz Martin için fener yapıyorum. (Children's tradition)"
+    },
+    {
+      "target": "We celebrated Carnival.",
+      "native": "Karnaval kutladık. (Cultural celebration)"
+    },
+    {
+      "target": "I'm enjoying the holidays.",
+      "native": "Tatilin tadını çıkarıyorum. (General sentiment)"
+    },
+    {
+      "target": "We have a barbecue on May 1st.",
+      "native": "1 Mayıs'ta mangal yapıyoruz. (Labor Day tradition)"
+    },
+    {
+      "target": "I have the day off for a holiday.",
+      "native": "Resmi tatilde iznim var. (Work-free day)"
+    },
+    {
+      "target": "I'm not familiar with this tradition.",
+      "native": "Bu adeti bilmiyorum. (Cultural curiosity)"
+    },
+    {
+      "target": "I fast during Lent.",
+      "native": "Perhizde oruç tutuyorum. (Religious tradition)"
+    },
+    {
+      "target": "Happy holidays!",
+      "native": "Mutlu tatiller dilerim! (Seasonal greeting)"
+    },
+    {
+      "target": "The holiday falls on a Monday.",
+      "native": "Tatil pazartesiye denk geliyor. (Calendar detail)"
+    },
+    {
+      "target": "We're making an Advent wreath.",
+      "native": "Advent çelengi yapıyoruz. (Christmas tradition)"
+    },
+    {
+      "target": "I think traditions are nice.",
+      "native": "Gelenekleri güzel buluyorum. (Cultural appreciation)"
+    }
+  ],
+  "Cinsiyet ve Kimlik": [
+    {
+      "target": "I identify as non-binary.",
+      "native": "Non-binary olarak kimlikleniyorum. (Gender identity)"
+    },
+    {
+      "target": "My pronouns are he/him.",
+      "native": "Zamirlerim o/ona. (Pronoun declaration)"
+    },
+    {
+      "target": "Please respect my identity.",
+      "native": "Lütfen kimliğime saygı duy. (Assertion of self)"
+    },
+    {
+      "target": "I don't feel understood.",
+      "native": "Anlaşıldığımı hissetmiyorum. (Identity conflict)"
+    },
+    {
+      "target": "Gender is a spectrum.",
+      "native": "Cinsiyet bir tayftır. (Social awareness)"
+    },
+    {
+      "target": "I'm part of the LGBTQ+ community.",
+      "native": "LGBTQ+ topluluğunun bir parçasıyım. (Community affiliation)"
+    },
+    {
+      "target": "Coming out can be really hard.",
+      "native": "Açılmak çok zor olabilir. (Emotional experience)"
+    },
+    {
+      "target": "I came out.",
+      "native": "Açıldım. (Sharing identity)"
+    },
+    {
+      "target": "I got misgendered.",
+      "native": "Yanlış cinsiyet zamiriyle anıldım. (Misidentification)"
+    },
+    {
+      "target": "What are your pronouns?",
+      "native": "Zamirlerin neler? (Respectful question)"
+    },
+    {
+      "target": "I support queer rights.",
+      "native": "Kuir haklarını destekliyorum. (Allyship)"
+    },
+    {
+      "target": "All people deserve equal treatment.",
+      "native": "Tüm insanlar eşit muameleyi hak eder. (Equality principle)"
+    },
+    {
+      "target": "I've changed and I feel good about it.",
+      "native": "Değiştim ve bunu iyi buluyorum. (Self-discovery)"
+    },
+    {
+      "target": "I wear what I like.",
+      "native": "Ne istersem onu giyiyorum. (Gender expression)"
+    },
+    {
+      "target": "I feel comfortable in my own skin.",
+      "native": "Kendi tenimde güvende hissediyorum. (Body and identity)"
+    },
+    {
+      "target": "Identity is very personal.",
+      "native": "Kimlik çok kişiseldir. (General statement)"
+    },
+    {
+      "target": "We should be more inclusive.",
+      "native": "Daha kapsayıcı olmalıyız. (Call to action)"
+    },
+    {
+      "target": "I think it's important to be visible.",
+      "native": "Görünür olmanın önemli olduğunu düşünüyorum. (Visibility)"
+    },
+    {
+      "target": "Not everyone fits into a box.",
+      "native": "Herkes bir kalıba sığmaz. (Critique of labels)"
+    },
+    {
+      "target": "I'm proud of my identity.",
+      "native": "Kimliğimle gurur duyuyorum. (Affirmation)"
+    }
+  ],
+  "Ev Aletleri ve Makineleri Çalıştırmak": [
+    {
+      "target": "How do I turn this on?",
+      "native": "Bunu nasıl açarım? (Basic operation)"
+    },
+    {
+      "target": "Press the button here.",
+      "native": "Buradaki düğmeye bas. (Instruction)"
+    },
+    {
+      "target": "This isn't working.",
+      "native": "Bu çalışmıyor. (Frustration)"
+    },
+    {
+      "target": "I need to restart the device.",
+      "native": "Cihazı yeniden başlatmalıyım. (Troubleshooting)"
+    },
+    {
+      "target": "The battery is dead.",
+      "native": "Pil bitti. (Power issue)"
+    },
+    {
+      "target": "Did you read the manual?",
+      "native": "Kılavuzu okudun mu? (Setup step)"
+    },
+    {
+      "target": "I need to unplug it.",
+      "native": "Fişi çekmem gerekiyor. (Safety or reset)"
+    },
+    {
+      "target": "How do you adjust this?",
+      "native": "Bu nasıl ayarlanır? (Adjusting settings)"
+    },
+    {
+      "target": "It's making weird noises.",
+      "native": "Garip sesler çıkarıyor. (Malfunction)"
+    },
+    {
+      "target": "The screen isn't responding.",
+      "native": "Ekran tepki vermiyor. (Tech issue)"
+    },
+    {
+      "target": "I'm charging my phone right now.",
+      "native": "Telefonu şarj ediyorum. (Common task)"
+    },
+    {
+      "target": "You have to press and hold.",
+      "native": "Daha uzun basmalısın. (Usage tip)"
+    },
+    {
+      "target": "The cable is loose.",
+      "native": "Kablo gevşek. (Hardware issue)"
+    },
+    {
+      "target": "I need an adapter.",
+      "native": "Adaptöre ihtiyacım var. (Accessory need)"
+    },
+    {
+      "target": "How do you set the temperature?",
+      "native": "Sıcaklık nasıl ayarlanır? (Appliance use)"
+    },
+    {
+      "target": "The washing machine is broken.",
+      "native": "Çamaşır makinesi bozuk. (Household issue)"
+    },
+    {
+      "target": "Where is the power switch?",
+      "native": "Güç düğmesi nerede? (Initial setup)"
+    },
+    {
+      "target": "I'm setting the timer.",
+      "native": "Zamanlayıcıyı ayarlıyorum. (Usage action)"
+    },
+    {
+      "target": "This is really easy to use.",
+      "native": "Kullanımı çok kolay. (Simplicity)"
+    },
+    {
+      "target": "I don't know how to use this.",
+      "native": "Bunu kullanamıyorum. (Lack of experience)"
+    }
+  ],
+  "Kızgınken Söylenen Sözler": [
+    {
+      "target": "Leave me alone!",
+      "native": "Beni rahat bırak! (Dismissive)"
+    },
+    {
+      "target": "I'm sick of this!",
+      "native": "Bıktım artık! (Frustration)"
+    },
+    {
+      "target": "Why don't you ever listen?",
+      "native": "Neden asla dinlemiyorsun? (Accusation)"
+    },
+    {
+      "target": "That's so unfair!",
+      "native": "Bu çok adaletsiz! (Complaint)"
+    },
+    {
+      "target": "You don't get it at all!",
+      "native": "Hiçbir şey anlamıyorsun! (Frustration)"
+    },
+    {
+      "target": "I don't want to say this again!",
+      "native": "Bunu tekrar söylemek istemiyorum! (Irritation)"
+    },
+    {
+      "target": "Same old thing!",
+      "native": "Hep aynı şey! (Routine frustration)"
+    },
+    {
+      "target": "What the hell?",
+      "native": "Bu saçmalık da ne? (Vulgar)"
+    },
+    {
+      "target": "You're making everything worse!",
+      "native": "Her şeyi daha da kötüleştiriyorsun! (Escalation)"
+    },
+    {
+      "target": "I can't take it anymore!",
+      "native": "Artık dayanamıyorum! (Breaking point)"
+    },
+    {
+      "target": "That was your last chance!",
+      "native": "Bu son şanstı! (Ultimatum)"
+    },
+    {
+      "target": "I've had enough!",
+      "native": "Yeter! (Closing off)"
+    },
+    {
+      "target": "Think for a second!",
+      "native": "Biraz düşün! (Provocation)"
+    },
+    {
+      "target": "Why do you always do this?",
+      "native": "Neden bunu hep yapıyorsun? (Pattern frustration)"
+    },
+    {
+      "target": "I'm about to scream!",
+      "native": "Birazdan bağıracağım! (Warning)"
+    },
+    {
+      "target": "Get yourself together!",
+      "native": "Kendine gel! (Blaming)"
+    },
+    {
+      "target": "Shut up!",
+      "native": "Sesini kes! (Hostile)"
+    },
+    {
+      "target": "You're getting on my nerves!",
+      "native": "Sinirlerimi bozuyorsun! (Annoyance)"
+    },
+    {
+      "target": "This can't go on like this!",
+      "native": "Bu böyle gitmez! (Serious)"
+    },
+    {
+      "target": "You're driving me crazy!",
+      "native": "Beni deli ediyorsun! (High emotion)"
+    }
+  ],
+  "Sunucu Sözleri": [
+    {
+      "target": "Welcome, ladies and gentlemen!",
+      "native": "Sayın konuklar, hoş geldiniz! (Opening)"
+    },
+    {
+      "target": "Great to have you here today!",
+      "native": "Bugün burada olmanız harika! (Greeting)"
+    },
+    {
+      "target": "The program will start in a few minutes.",
+      "native": "Program birkaç dakika içinde başlayacak. (Info)"
+    },
+    {
+      "target": "I'm glad to be your host this evening.",
+      "native": "Gecenin sunuculuğunu yapmaktan mutluluk duyuyorum. (Intro)"
+    },
+    {
+      "target": "May I have your attention, please?",
+      "native": "Dikkatinizi rica edebilir miyim? (Attention)"
+    },
+    {
+      "target": "A big round of applause for...",
+      "native": "... için büyük bir alkış! (Introducing)"
+    },
+    {
+      "target": "We're taking a short break now.",
+      "native": "Şimdi kısa bir mola veriyoruz. (Break)"
+    },
+    {
+      "target": "Now moving on to...",
+      "native": "... ile devam ediyoruz. (Transition)"
+    },
+    {
+      "target": "I hope you're enjoying the evening.",
+      "native": "Umarım gecenin tadını çıkarıyorsunuzdur. (Engagement)"
+    },
+    {
+      "target": "Thank you for your attention.",
+      "native": "Dikkatiniz için çok teşekkürler. (Conclusion)"
+    },
+    {
+      "target": "Now I'm handing it over to...",
+      "native": "Şimdi sözü ...'ye devrediyorum. (Transition)"
+    },
+    {
+      "target": "Could we please keep it down in the room?",
+      "native": "Salonda sessizlik rica ediyorum. (Crowd control)"
+    },
+    {
+      "target": "Please remember to put your phones on silent.",
+      "native": "Telefonunuzu sessize almayı unutmayın. (Reminder)"
+    },
+    {
+      "target": "We've put together an exciting program.",
+      "native": "Heyecan verici bir program hazırladık. (Hype)"
+    },
+    {
+      "target": "Stay tuned!",
+      "native": "Takipte kalın! (Suspense)"
+    },
+    {
+      "target": "Thanks to our sponsors.",
+      "native": "Sponsorlarımıza teşekkür ederiz. (Sponsors)"
+    },
+    {
+      "target": "Now for a very special moment.",
+      "native": "Şimdi çok özel bir an geliyor. (Highlight)"
+    },
+    {
+      "target": "Please join me in welcoming...",
+      "native": "Lütfen benimle birlikte alkışlayın... (Introduction)"
+    },
+    {
+      "target": "To wrap up...",
+      "native": "Kapanış olarak... (Closing)"
+    },
+    {
+      "target": "Have a great evening!",
+      "native": "İyi akşamlar dilerim! (Farewell)"
+    }
+  ],
+  "Kazalar ve Felaketler": [
+    {
+      "target": "There was an accident.",
+      "native": "Bir kaza meydana geldi. (Incident)"
+    },
+    {
+      "target": "Is anyone hurt?",
+      "native": "Yaralanan var mı? (Response)"
+    },
+    {
+      "target": "Call emergency medical services!",
+      "native": "Acil doktorunu çağırın! (Action)"
+    },
+    {
+      "target": "The road is blocked.",
+      "native": "Yol kapalı. (Traffic)"
+    },
+    {
+      "target": "We need help!",
+      "native": "Yardıma ihtiyacımız var! (Help)"
+    },
+    {
+      "target": "The building was evacuated.",
+      "native": "Bina tahliye edildi. (Safety)"
+    },
+    {
+      "target": "I heard a loud bang.",
+      "native": "Yüksek bir patlama sesi duydum. (Report)"
+    },
+    {
+      "target": "The fire department is on the way.",
+      "native": "İtfaiye yolda. (Response)"
+    },
+    {
+      "target": "There's a fire.",
+      "native": "Yangın var. (Fire)"
+    },
+    {
+      "target": "Please stay calm.",
+      "native": "Lütfen sakin kalınız. (Calm)"
+    },
+    {
+      "target": "Follow the instructions.",
+      "native": "Talimatları izleyin. (Instructions)"
+    },
+    {
+      "target": "The police are on the scene.",
+      "native": "Polis olay yerinde. (Police)"
+    },
+    {
+      "target": "There was an explosion.",
+      "native": "Bir patlama oldu. (Explosion)"
+    },
+    {
+      "target": "The cause is still unclear.",
+      "native": "Neden henüz belirsiz. (Unclear)"
+    },
+    {
+      "target": "We're waiting for more information.",
+      "native": "Ek bilgi bekliyoruz. (Updates)"
+    },
+    {
+      "target": "The situation is serious.",
+      "native": "Durum ciddi. (Serious)"
+    },
+    {
+      "target": "The power went out.",
+      "native": "Elektrikler kesildi. (Power)"
+    },
+    {
+      "target": "A warning is being issued.",
+      "native": "Bir uyarı yayınlanıyor. (Warning)"
+    },
+    {
+      "target": "Please keep your distance.",
+      "native": "Lütfen mesafe koruyun. (Distance)"
+    },
+    {
+      "target": "We hope help arrives quickly.",
+      "native": "Hızlı yardım umuyoruz. (Hope)"
+    }
+  ],
+  "Dedikodu Yapmak": [
+    {
+      "target": "Did you hear?",
+      "native": "Duydun mu? (Opener)"
+    },
+    {
+      "target": "I heard a secret.",
+      "native": "Bir sır duydum. (Secret)"
+    },
+    {
+      "target": "They broke up.",
+      "native": "Ayrıldı. (Breakup)"
+    },
+    {
+      "target": "He wasn't at work yesterday.",
+      "native": "Dün işte yoktu. (Observation)"
+    },
+    {
+      "target": "Supposedly she's getting a promotion.",
+      "native": "Söylentiye göre terfi alacak. (Speculation)"
+    },
+    {
+      "target": "I saw him with someone else.",
+      "native": "Onu başkasıyla gördüm. (Scandal)"
+    },
+    {
+      "target": "Those two do not get along at all.",
+      "native": "İkisi hiç anlaşamıyor. (Conflict)"
+    },
+    {
+      "target": "Do you know what happened?",
+      "native": "Ne olduğunu biliyor musun? (Curiosity)"
+    },
+    {
+      "target": "I'm only telling you.",
+      "native": "Sadece sana söylüyorum. (Exclusive)"
+    },
+    {
+      "target": "He totally messed it up.",
+      "native": "Tamamen yüzüne gözüne bulaştırdı. (Judgment)"
+    },
+    {
+      "target": "She's acting like nothing happened.",
+      "native": "Hiçbir şey olmamış gibi davranıyor. (Suspicion)"
+    },
+    {
+      "target": "Keep this between us!",
+      "native": "Aramızda kalsın! (Confidential)"
+    },
+    {
+      "target": "I think something's going on there.",
+      "native": "Sanırım bir şeyler oluyor. (Flirt)"
+    },
+    {
+      "target": "No wonder everyone's talking.",
+      "native": "Herkesin konuşmasına şaşmamalı. (Rumor)"
+    },
+    {
+      "target": "He thinks nobody notices.",
+      "native": "Kimse fark etmiyor sanıyor. (Mocking)"
+    },
+    {
+      "target": "She's completely changed.",
+      "native": "Tamamen değişmiş. (Transformation)"
+    },
+    {
+      "target": "I think it's more than friendship.",
+      "native": "Bence bu arkadaşlıktan öte. (Relationship)"
+    },
+    {
+      "target": "Word is he's having problems.",
+      "native": "Problemleri olduğu söyleniyor. (Whisper)"
+    },
+    {
+      "target": "And guess who else was there!",
+      "native": "Tahmin et orada kim vardı! (Cliffhanger)"
+    },
+    {
+      "target": "I'm not trying to start anything, but...",
+      "native": "Bir şey demek istemiyorum ama... (Sneaky)"
+    }
+  ],
+  "Dijital Bağlam": [
+    {
+      "target": "I'm online.",
+      "native": "Çevrim içiyim. (Status)"
+    },
+    {
+      "target": "I'm posting a picture.",
+      "native": "Fotoğraf paylaşıyorum. (Social media)"
+    },
+    {
+      "target": "I googled it.",
+      "native": "Google'da arattım. (Search)"
+    },
+    {
+      "target": "The video went viral.",
+      "native": "Video viral oldu. (Trend)"
+    },
+    {
+      "target": "I got a message.",
+      "native": "Mesaj aldım. (Notification)"
+    },
+    {
+      "target": "Can you like this?",
+      "native": "Beğenebilir misin? (Interaction)"
+    },
+    {
+      "target": "I got tagged.",
+      "native": "Etiketlendim. (Tag)"
+    },
+    {
+      "target": "I took a screenshot.",
+      "native": "Ekran görüntüsü aldım. (Capture)"
+    },
+    {
+      "target": "I saved it to the cloud.",
+      "native": "Buluta kaydettim. (Cloud)"
+    },
+    {
+      "target": "I'm on Wi-Fi.",
+      "native": "Kablosuz ağa bağlıyım. (Wi-Fi)"
+    },
+    {
+      "target": "My battery is almost dead.",
+      "native": "Şarjım neredeyse bitiyor. (Battery)"
+    },
+    {
+      "target": "I sent the link.",
+      "native": "Bağlantıyı gönderdim. (Link)"
+    },
+    {
+      "target": "I posted it on my story.",
+      "native": "Hikayemde paylaştım. (Story)"
+    },
+    {
+      "target": "The server is down.",
+      "native": "Sunucu çöktü. (Server)"
+    },
+    {
+      "target": "I'm in the Zoom meeting.",
+      "native": "Zoom toplantısındayım. (Zoom)"
+    },
+    {
+      "target": "I'm refreshing the page.",
+      "native": "Sayfayı yeniliyorum. (Refresh)"
+    },
+    {
+      "target": "I went offline.",
+      "native": "Çevrim dışı oldum. (Offline)"
+    },
+    {
+      "target": "Can you send me the QR code?",
+      "native": "QR kodu gönderebilir misin? (QR)"
+    },
+    {
+      "target": "I turned off push notifications.",
+      "native": "Bildirimleri kapattım. (Push)"
+    },
+    {
+      "target": "I need more storage space.",
+      "native": "Daha fazla depolama alanına ihtiyacım var. (Storage)"
+    }
+  ],
+  "Ofis İşlemleri": [
+    {
+      "target": "I'm printing the document.",
+      "native": "Belgeyi yazdırıyorum. (Print)"
+    },
+    {
+      "target": "I'm filling out the form.",
+      "native": "Formu dolduruyorum. (Form)"
+    },
+    {
+      "target": "I'm joining the meeting.",
+      "native": "Toplantıya katılıyorum. (Meeting)"
+    },
+    {
+      "target": "I'm shutting down the computer.",
+      "native": "Bilgisayarı kapatıyorum. (Shutdown)"
+    },
+    {
+      "target": "I'm restarting the computer.",
+      "native": "Bilgisayarı yeniden başlatıyorum. (Restart)"
+    },
+    {
+      "target": "I'm opening the file.",
+      "native": "Dosyayı açıyorum. (File)"
+    },
+    {
+      "target": "I'm saving my work.",
+      "native": "Çalışmamı kaydediyorum. (Save)"
+    },
+    {
+      "target": "I'm scanning the document.",
+      "native": "Belgeyi taratıyorum. (Scan)"
+    },
+    {
+      "target": "I'm sorting the paperwork.",
+      "native": "Evrakları sıralıyorum. (Sort)"
+    },
+    {
+      "target": "I'm archiving the files.",
+      "native": "Dosyaları arşive kaldırıyorum. (Archive)"
+    },
+    {
+      "target": "I'm answering emails.",
+      "native": "E-postalara yanıt veriyorum. (Email)"
+    },
+    {
+      "target": "I'm forwarding the email.",
+      "native": "E-postayı iletiyorum. (Forward)"
+    },
+    {
+      "target": "I'm scheduling a meeting.",
+      "native": "Randevu planlıyorum. (Schedule)"
+    },
+    {
+      "target": "I'm preparing a presentation.",
+      "native": "Sunum hazırlıyorum. (Presentation)"
+    },
+    {
+      "target": "I'm leading the meeting.",
+      "native": "Toplantıyı yönetiyorum. (Lead)"
+    },
+    {
+      "target": "I'm working on a report.",
+      "native": "Rapor üzerinde çalışıyorum. (Report)"
+    },
+    {
+      "target": "I'm on a call right now.",
+      "native": "Telefon görüşmesi yapıyorum. (Phone)"
+    },
+    {
+      "target": "I'm making a copy.",
+      "native": "Fotokopi çekiyorum. (Copy)"
+    },
+    {
+      "target": "I'm tidying up my desk.",
+      "native": "Masamı topluyorum. (Desk)"
+    },
+    {
+      "target": "I'm signing off for the day.",
+      "native": "Mesaim bitti. (Off work)"
+    }
+  ],
+  "Küfür Sözleri (Yalnızca Referans İçin)": [
+    {
+      "target": "Damn it!",
+      "native": "Lanet olsun! (Frustration)"
+    },
+    {
+      "target": "Shit!",
+      "native": "Siktir! (Strong frustration)"
+    },
+    {
+      "target": "Crap!",
+      "native": "Kahretsin! (Annoyance)"
+    },
+    {
+      "target": "Oh shit!",
+      "native": "Ananı! / Hay kafama! (Shock)"
+    },
+    {
+      "target": "Shut up!",
+      "native": "Sesini kes! (Rude)"
+    },
+    {
+      "target": "What the hell?",
+      "native": "Ne cehennem? (Confusion)"
+    },
+    {
+      "target": "That's sickening!",
+      "native": "İğrenç! (Disgust)"
+    },
+    {
+      "target": "What garbage!",
+      "native": "Ne pislik! (Irritation)"
+    },
+    {
+      "target": "Nonsense!",
+      "native": "Saçmalık! (Nonsense)"
+    },
+    {
+      "target": "You're out of your mind!",
+      "native": "Çıldırmış olmalısın! (Crazy)"
+    },
+    {
+      "target": "Fuck off!",
+      "native": "Defol git! (Offensive)"
+    },
+    {
+      "target": "Kiss my ass!",
+      "native": "Cehenneme git! (Insult)"
+    },
+    {
+      "target": "Screw it!",
+      "native": "Boş ver! (Screw it)"
+    },
+    {
+      "target": "I'm so done with this!",
+      "native": "Bıktım usandım! (Fed up)"
+    },
+    {
+      "target": "Are you crazy?",
+      "native": "Aptal mısın? (Stupid)"
+    },
+    {
+      "target": "What an idiot!",
+      "native": "Tam bir aptal! (Idiot)"
+    },
+    {
+      "target": "Fuck you!",
+      "native": "S... git! (Offensive)"
+    },
+    {
+      "target": "Asshole!",
+      "native": "Göt! (Asshole)"
+    },
+    {
+      "target": "Pull yourself together!",
+      "native": "Kendine gel! (Get a grip)"
+    },
+    {
+      "target": "Kiss my ass",
+      "native": "Kıçımı öp (Abbreviation)"
+    }
+  ]
+}

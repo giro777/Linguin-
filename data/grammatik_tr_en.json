@@ -1,0 +1,139 @@
+{
+  "Fiiller 1. Bölüm": {
+    "karten": [
+      "İlk İngilizce dil bilgisi dersine hoş geldin!",
+      "Bu derste fiillerin (eylem kelimelerinin) İngilizcede nasıl kullanıldığına birlikte bakacağız.",
+      "İngilizcede fiillerin temel hali (mastar / Grundform) çoğunlukla 'to' ile gösterilir, ama çekimlerken 'to'yu kullanmayız:\n\nto learn = öğrenmek\nto play = oynamak\nto work = çalışmak",
+      "Şimdi bu kelimeleri aktif forma nasıl dönüştüreceğimizi birlikte öğreneceğiz:\n\nöğreniyorum\noynuyorum\nçalışıyorum",
+      "Bunun için bir zamire ihtiyacımız var. Senin için kolay kalması adına, zaten bildiğin bir zamirde kalacağız.",
+      "[color={C_I}]I (BEN)[/color]",
+      "Şimdi fiillere tekrar bakalım:\n\nlearn = öğrenmek\nplay = oynamak\nwork = çalışmak",
+      "İngilizcede harika bir haber var: [color={C_I}]I[/color] zamirinde fiile hiçbir ek getirmiyoruz! Fiilin temel hali olduğu gibi kalır:\n\n[color={C_I}]I[/color] learn = Ben öğreniyorum / öğrenirim\n[color={C_I}]I[/color] play = Ben oynuyorum / oynarım\n[color={C_I}]I[/color] work = Ben çalışıyorum / çalışırım",
+      "Bu neredeyse tüm düzenli fiillerde bu şekilde çalışır.\n\nİşte birkaç örnek daha:\nyapmak | [color={C_I}]I[/color] make = Ben yapıyorum\ndinlemek | [color={C_I}]I[/color] listen = Ben dinliyorum\nsatın almak | [color={C_I}]I[/color] buy = Ben satın alıyorum",
+      "Şimdi ikinci zamirimize geçiyoruz. İngilizcede 'sen' ve 'siz' için tek bir zamir vardır:",
+      "[color={C_YOU}]You (Sen / Siz)[/color]",
+      "[color={C_YOU}]You[/color] zamirinde de işler çok kolay! Almancadaki gibi değişen ekler yok; fiil yine ek almadan temel haliyle kalır:\n\n[color={C_YOU}]You[/color] learn\n[color={C_YOU}]You[/color] play\n[color={C_YOU}]You[/color] work",
+      "İşte birkaç örnek daha:\n\n[color={C_YOU}]You[/color] cook = Sen pişiriyorsun\n[color={C_YOU}]You[/color] start = Sen başlıyorsun\n[color={C_YOU}]You[/color] laugh = Sen gülüyorsun",
+      "Hiç de karmaşık değil, değil mi? O halde küçük bir test deneyelim.\n\nSana 15 fiil veriyorum ve senin doğru fiil formunu seçmen gerekiyor!"
+    ],
+    "quiz_hinweis": "Doğru fiil formunu seç:",
+    "quiz_titel": "FİİLİ ÇEKİMLE",
+    "optionen": ["miss", "misses", "shower", "showers", "have breakfast", "has breakfast", "plan", "plans", "drink", "drinks", "celebrate", "celebrates", "lift", "lifts", "buy", "buys", "talk", "talks", "answer", "answers", "take a bath", "takes a bath", "send", "sends", "believe", "believes", "hope", "hopes"],
+    "quiz": [
+      {"anzeige": "[color={C_I}]I[/color] + to miss = [color={C_I}]I[/color] ___", "antwort": "miss", "vollstaendig": "I miss"},
+      {"anzeige": "[color={C_YOU}]You[/color] + to shower = [color={C_YOU}]You[/color] ___", "antwort": "shower", "vollstaendig": "You shower"},
+      {"anzeige": "[color={C_I}]I[/color] + to have breakfast = [color={C_I}]I[/color] ___", "antwort": "have breakfast", "vollstaendig": "I have breakfast"},
+      {"anzeige": "[color={C_YOU}]You[/color] + to plan = [color={C_YOU}]You[/color] ___", "antwort": "plan", "vollstaendig": "You plan"},
+      {"anzeige": "[color={C_I}]I[/color] + to shower = [color={C_I}]I[/color] ___", "antwort": "shower", "vollstaendig": "I shower"},
+      {"anzeige": "[color={C_YOU}]You[/color] + to drink = [color={C_YOU}]You[/color] ___", "antwort": "drink", "vollstaendig": "You drink"},
+      {"anzeige": "[color={C_I}]I[/color] + to celebrate = [color={C_I}]I[/color] ___", "antwort": "celebrate", "vollstaendig": "I celebrate"},
+      {"anzeige": "[color={C_YOU}]You[/color] + to lift = [color={C_YOU}]You[/color] ___", "antwort": "lift", "vollstaendig": "You lift"},
+      {"anzeige": "[color={C_I}]I[/color] + to buy = [color={C_I}]I[/color] ___", "antwort": "buy", "vollstaendig": "I buy"},
+      {"anzeige": "[color={C_YOU}]You[/color] + to talk = [color={C_YOU}]You[/color] ___", "antwort": "talk", "vollstaendig": "You talk"},
+      {"anzeige": "[color={C_I}]I[/color] + to answer = [color={C_I}]I[/color] ___", "antwort": "answer", "vollstaendig": "I answer"},
+      {"anzeige": "[color={C_I}]I[/color] + to take a bath = [color={C_I}]I[/color] ___", "antwort": "take a bath", "vollstaendig": "I take a bath"},
+      {"anzeige": "[color={C_I}]I[/color] + to send = [color={C_I}]I[/color] ___", "antwort": "send", "vollstaendig": "I send"},
+      {"anzeige": "[color={C_YOU}]You[/color] + to believe = [color={C_YOU}]You[/color] ___", "antwort": "believe", "vollstaendig": "You believe"},
+      {"anzeige": "[color={C_I}]I[/color] + to hope = [color={C_I}]I[/color] ___", "antwort": "hope", "vollstaendig": "I hope"}
+    ]
+  },
+  "Fiiller 2. Bölüm": {
+    "karten": [
+      "Artık [color={C_I}]I[/color] ve [color={C_YOU}]You[/color] zamirlerine hakim olduğuna göre, İngilizcenin en meşhur kuralına geçiyoruz!",
+      "Üçüncü tekil şahıs İngilizcede Türkçeye göre farklıdır. Türkçede herkes için 'O' derken, İngilizcede cinsiyet ve nesne/hayvan ayrımı vardır:",
+      "[color={C_HE}]He[/color] (eril - erkekler için), [color={C_SHE}]She[/color] (dişil - kadınlar için) ve [color={C_IT}]It[/color] (nötr - nesneler, hayvanlar ve hava durumu için)",
+      "Bir erkekten bahsederken [color={C_HE}]He[/color] kullanırsın:\n\n[color={C_HE}]He[/color] is my fiancé = O benim nişanlım\n\nHatırlaması kolay: [color={C_HE}]He[/color] tıpkı Türkçe 'Erkek'in ilk harfiyle eşleşen bir erkek zamiridir.",
+      "Bir kadından bahsederken [color={C_SHE}]She[/color] kullanırsın:\n\n[color={C_SHE}]She[/color] is my daughter = O benim kız çocuğum",
+      "'[color={C_IT}]It[/color]' ise nesneler, hayvanlar veya hava durumu gibi durumlar için kullanılır:\n\n[color={C_IT}]It[/color] is nice outside, the weather is good.\nDışarısı güzel, hava iyi.",
+      "Şimdi İngilizcede altın kural geliyor: [color={C_HE}]He[/color], [color={C_SHE}]She[/color] ve [color={C_IT}]It[/color] ile fiilin sonuna [color={C_S_END}]-s[/color] eklenir! ('He, she, it – das s muss mit!')",
+      "Fiillerimize bakalım:\n\nplay = oynamak\nlearn = öğrenmek\nwork = çalışmak",
+      "Zamiri ve [color={C_S_END}]-s[/color] ekini ekleyelim:\n\n[color={C_HE}]He[/color] play[color={C_S_END}]s[/color] = O (erkek) oynuyor\n[color={C_SHE}]She[/color] learn[color={C_S_END}]s[/color] = O (kadın) öğreniyor\n[color={C_IT}]It[/color] work[color={C_S_END}]s[/color] = O (nesne/sistem) çalışıyor",
+      "İşte birkaç örnek cümle daha:",
+      "This is Daniel. [color={C_HE}]He[/color] work[color={C_S_END}]s[/color] at the supermarket.\nBu Daniel. O süpermarkette çalışıyor.",
+      "This is my grandma. [color={C_SHE}]She[/color] bake[color={C_S_END}]s[/color] cookies.\nBu benim büyükannem. O kurabiye pişiriyor.",
+      "The weather is bad. [color={C_IT}]It[/color] rain[color={C_S_END}]s[/color].\nHava kötü. Yağmur yağıyor.",
+      "Küçük bir yazım notu: Fiil sessiz harf + 'y' ile bitiyorsa 'y' düşer ve [color={C_S_END}]-ies[/color] olur (ör. study -> studies). '-o, -ch, -sh, -x, -s' ile bitenlerde ise [color={C_S_END}]-es[/color] gelir (ör. go -> goes, watch -> watches).",
+      "Becerilerini test edelim.\n\nBurada 9 cümlen var ve doğru zamiri yerleştirmen gerekiyor!"
+    ],
+    "quiz_hinweis": "Doğru zamiri seç (He / She / It):",
+    "quiz_titel": "DOĞRU ZAMİRİ SEÇ",
+    "optionen": ["He", "She", "It"],
+    "quiz": [
+      {
+        "anzeige": "[color={C_I}]I[/color] buy a phone. ___ is expensive.\n[size=15sp][color={C_MUTED_TXT}]Bir telefon satın alıyorum; pahalı.[/color][/size]",
+        "antwort": "It",
+        "vollstaendig": "I buy a phone. It is expensive."
+      },
+      {
+        "anzeige": "This is my daughter. ___ play[color={C_S_END}]s[/color] the piano.\n[size=15sp][color={C_MUTED_TXT}]Bu benim kızım. O piyano çalıyor.[/color][/size]",
+        "antwort": "She",
+        "vollstaendig": "This is my daughter. She plays the piano."
+      },
+      {
+        "anzeige": "My uncle is angry. ___ curse[color={C_S_END}]s[/color].\n[size=15sp][color={C_MUTED_TXT}]Amcam kızgın. O küfrediyor.[/color][/size]",
+        "antwort": "He",
+        "vollstaendig": "My uncle is angry. He curses."
+      },
+      {
+        "anzeige": "My sister has 5 euros. ___ buy[color={C_S_END}]s[/color] a watermelon.\n[size=15sp][color={C_MUTED_TXT}]Kız kardeşimin 5 eurosu var. O bir karpuz satın alıyor.[/color][/size]",
+        "antwort": "She",
+        "vollstaendig": "My sister has 5 euros. She buys a watermelon."
+      },
+      {
+        "anzeige": "Today you can fly a kite. ___ is windy.\n[size=15sp][color={C_MUTED_TXT}]Bugün uçurtma uçurulabilir. Hava rüzgârlı.[/color][/size]",
+        "antwort": "It",
+        "vollstaendig": "Today you can fly a kite. It is windy."
+      },
+      {
+        "anzeige": "My son is called Leon, ___ is 5 years old.\n[size=15sp][color={C_MUTED_TXT}]Oğlumun adı Leon. O 5 yaşında.[/color][/size]",
+        "antwort": "He",
+        "vollstaendig": "My son is called Leon, he is 5 years old."
+      },
+      {
+        "anzeige": "My math teacher is Mr. Müller. ___ is very strict.\n[size=15sp][color={C_MUTED_TXT}]Matematik öğretmenim Bay Müller. Kendisi çok sert.[/color][/size]",
+        "antwort": "He",
+        "vollstaendig": "My math teacher is Mr. Müller. He is very strict."
+      },
+      {
+        "anzeige": "My mother is waiting for me. ___ is annoyed.\n[size=15sp][color={C_MUTED_TXT}]Annem beni bekliyor. O sinirli.[/color][/size]",
+        "antwort": "She",
+        "vollstaendig": "My mother is waiting for me. She is annoyed."
+      },
+      {
+        "anzeige": "There is a baby. ___ look[color={C_S_END}]s[/color] at me.\n[size=15sp][color={C_MUTED_TXT}]Orada bir bebek var. O bana bakıyor.[/color][/size]",
+        "antwort": "It",
+        "vollstaendig": "There is a baby. It looks at me."
+      }
+    ]
+  },
+  "Fiiller 3. Bölüm": {
+    "karten": [
+      "Harika, başardın! Artık tekil şahısların hepsine hakimsin.\n\nŞimdi çoğul şahıslara bakalım (Biz ve Onlar).",
+      "Biz = [color={C_WE}]We[/color]",
+      "Fiillerimizin temel halini alıyoruz:\n\nplay = oynamak\nlearn = öğrenmek\nwork = çalışmak",
+      "[color={C_WE}]We[/color] zamirinde fiil hiçbir ek almaz, temel haliyle kalır:\n\n[color={C_WE}]We[/color] play = Biz oynuyoruz\n[color={C_WE}]We[/color] learn = Biz öğreniyoruz\n[color={C_WE}]We[/color] work = Biz çalışıyoruz",
+      "Birkaç örnek daha:\n\n[color={C_WE}]We[/color] get married = Biz evleniyoruz\n[color={C_WE}]We[/color] clean = Biz temizliyoruz\n[color={C_WE}]We[/color] cry = Biz ağlıyoruz",
+      "Bu çok kolaydı, değil mi? Şimdi 'Onlar' ile devam edelim!",
+      "Onlar = [color={C_THEY}]They[/color]",
+      "İngilizcede [color={C_THEY}]They[/color] sadece insanlar için değil, çoğul nesneler ve hayvanlar için de kullanılır!\n\n[color={C_THEY}]They[/color] play = Onlar oynuyor\n[color={C_THEY}]They[/color] learn = Onlar öğreniyor\n[color={C_THEY}]They[/color] work = Onlar çalışıyor",
+      "İşte birkaç örnek cümle:",
+      "These are the students of Goethe School. [color={C_THEY}]They[/color] write a test.\nBunlar Goethe Okulu'nun öğrencileri. Onlar bir sınav yazıyorlar.",
+      "The company Audi has many employees. [color={C_THEY}]They[/color] earn a lot of money.\nAudi şirketinin birçok çalışanı var. Onlar çok para kazanıyorlar.",
+      "The Müller family is late. [color={C_THEY}]They[/color] are stuck in traffic.\nMüller ailesi gecikti. Trafikteler.",
+      "Özetle: İngilizcede geniş/genel zamanda (Simple Present) sadece [color={C_HE}]He[/color] / [color={C_SHE}]She[/color] / [color={C_IT}]It[/color] fiile '-s' alır; [color={C_I}]I[/color], [color={C_YOU}]You[/color], [color={C_WE}]We[/color] ve [color={C_THEY}]They[/color] ile fiil yalın kalır!",
+      "O halde becerilerini test edelim. Verilen zamirle bu 7 fiili tamamla!"
+    ],
+    "quiz_hinweis": "Doğru fiil formunu seç:",
+    "quiz_titel": "FİİLİ ÇEKİMLE",
+    "optionen": ["work", "works", "buy", "buys", "sleep", "sleeps", "dance", "dances", "learn", "learns", "ask", "asks", "run", "runs"],
+    "quiz": [
+      {"anzeige": "[color={C_THEY}]They[/color] + to work = [color={C_THEY}]They[/color] ___", "antwort": "work", "vollstaendig": "They work"},
+      {"anzeige": "[color={C_HE}]He[/color] + to buy = [color={C_HE}]He[/color] ___", "antwort": "buys", "vollstaendig": "He buys"},
+      {"anzeige": "[color={C_WE}]We[/color] + to sleep = [color={C_WE}]We[/color] ___", "antwort": "sleep", "vollstaendig": "We sleep"},
+      {"anzeige": "[color={C_SHE}]She[/color] + to dance = [color={C_SHE}]She[/color] ___", "antwort": "dances", "vollstaendig": "She dances"},
+      {"anzeige": "[color={C_WE}]We[/color] + to learn = [color={C_WE}]We[/color] ___", "antwort": "learn", "vollstaendig": "We learn"},
+      {"anzeige": "[color={C_IT}]It[/color] + to ask = [color={C_IT}]It[/color] ___", "antwort": "asks", "vollstaendig": "It asks"},
+      {"anzeige": "[color={C_WE}]We[/color] + to run = [color={C_WE}]We[/color] ___", "antwort": "run", "vollstaendig": "We run"}
+    ]
+  }
+}

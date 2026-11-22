@@ -1,0 +1,6038 @@
+{
+ "Lektion 1: Zahlen & Mengen": [
+  {
+   "id": "00001",
+   "nr": "14",
+   "de": "ein",
+   "tr": "bir"
+  },
+  {
+   "id": "00002",
+   "nr": "23",
+   "de": "einige",
+   "tr": "bazı"
+  },
+  {
+   "id": "00003",
+   "nr": "49",
+   "de": "jeder",
+   "tr": "her biri"
+  },
+  {
+   "id": "00004",
+   "nr": "53",
+   "de": "drei",
+   "tr": "üç"
+  },
+  {
+   "id": "00005",
+   "nr": "104",
+   "de": "Teil",
+   "tr": "parça / bölüm"
+  },
+  {
+   "id": "00006",
+   "nr": "113",
+   "de": "wenig",
+   "tr": "az / küçük"
+  },
+  {
+   "id": "00007",
+   "nr": "115",
+   "de": "Runde",
+   "tr": "tur / yuvarlak"
+  },
+  {
+   "id": "00008",
+   "nr": "120",
+   "de": "jeder",
+   "tr": "her"
+  },
+  {
+   "id": "00009",
+   "nr": "141",
+   "de": "viel",
+   "tr": "çok / fazla"
+  },
+  {
+   "id": "00010",
+   "nr": "151",
+   "de": "alle",
+   "tr": "hepsi / bütün"
+  },
+  {
+   "id": "00011",
+   "nr": "159",
+   "de": "viele",
+   "tr": "birçok / çok"
+  },
+  {
+   "id": "00012",
+   "nr": "173",
+   "de": "zwei",
+   "tr": "iki"
+  },
+  {
+   "id": "00013",
+   "nr": "176",
+   "de": "mehr",
+   "tr": "daha fazla"
+  },
+  {
+   "id": "00014",
+   "nr": "182",
+   "de": "Anzahl",
+   "tr": "sayı / adet"
+  },
+  {
+   "id": "00015",
+   "nr": "185",
+   "de": "am meisten",
+   "tr": "en çok"
+  },
+  {
+   "id": "00016",
+   "nr": "193",
+   "de": "erste",
+   "tr": "birinci / ilk"
+  },
+  {
+   "id": "00017",
+   "nr": "218",
+   "de": "vier",
+   "tr": "dört"
+  },
+  {
+   "id": "00018",
+   "nr": "249",
+   "de": "wenige",
+   "tr": "birkaç / az"
+  },
+  {
+   "id": "00019",
+   "nr": "263",
+   "de": "einmal",
+   "tr": "bir kez"
+  },
+  {
+   "id": "00020",
+   "nr": "290",
+   "de": "beide",
+   "tr": "her ikisi"
+  },
+  {
+   "id": "00021",
+   "nr": "295",
+   "de": "Meile",
+   "tr": "mil"
+  },
+  {
+   "id": "00022",
+   "nr": "300",
+   "de": "zweite",
+   "tr": "ikinci"
+  },
+  {
+   "id": "00023",
+   "nr": "301",
+   "de": "genug",
+   "tr": "yeterli / yeter"
+  },
+  {
+   "id": "00024",
+   "nr": "328",
+   "de": "Zahl",
+   "tr": "rakam / sayı"
+  },
+  {
+   "id": "00025",
+   "nr": "336",
+   "de": "Hälfte",
+   "tr": "yarım / yarı"
+  },
+  {
+   "id": "00026",
+   "nr": "342",
+   "de": "Stück",
+   "tr": "parça"
+  },
+  {
+   "id": "00027",
+   "nr": "348",
+   "de": "ganze",
+   "tr": "bütün / tüm"
+  },
+  {
+   "id": "00028",
+   "nr": "351",
+   "de": "Zoll",
+   "tr": "inç"
+  },
+  {
+   "id": "00029",
+   "nr": "352",
+   "de": "multiplizieren",
+   "tr": "çarpmak"
+  },
+  {
+   "id": "00030",
+   "nr": "353",
+   "de": "nichts",
+   "tr": "hiçbir şey"
+  },
+  {
+   "id": "00031",
+   "nr": "380",
+   "de": "tausend",
+   "tr": "bin"
+  },
+  {
+   "id": "00032",
+   "nr": "386",
+   "de": "gleichsetzen",
+   "tr": "eşitlemek"
+  },
+  {
+   "id": "00033",
+   "nr": "401",
+   "de": "Einheit",
+   "tr": "birim / birlik"
+  },
+  {
+   "id": "00034",
+   "nr": "423",
+   "de": "Pfund",
+   "tr": "pound / libre"
+  },
+  {
+   "id": "00035",
+   "nr": "457",
+   "de": "hundert",
+   "tr": "yüz"
+  },
+  {
+   "id": "00036",
+   "nr": "458",
+   "de": "fünf",
+   "tr": "beş"
+  },
+  {
+   "id": "00037",
+   "nr": "471",
+   "de": "sechs",
+   "tr": "altı"
+  },
+  {
+   "id": "00038",
+   "nr": "474",
+   "de": "weniger",
+   "tr": "daha az"
+  },
+  {
+   "id": "00039",
+   "nr": "476",
+   "de": "zehn",
+   "tr": "on"
+  },
+  {
+   "id": "00040",
+   "nr": "478",
+   "de": "mehrere",
+   "tr": "birkaç"
+  },
+  {
+   "id": "00041",
+   "nr": "513",
+   "de": "zählen",
+   "tr": "saymak"
+  },
+  {
+   "id": "00042",
+   "nr": "525",
+   "de": "Gewicht",
+   "tr": "ağırlık / kilo"
+  },
+  {
+   "id": "00043",
+   "nr": "530",
+   "de": "Paar",
+   "tr": "çift"
+  },
+  {
+   "id": "00044",
+   "nr": "532",
+   "de": "Kluft",
+   "tr": "bölmek"
+  },
+  {
+   "id": "00045",
+   "nr": "551",
+   "de": "Fraktion",
+   "tr": "kesir / parça"
+  },
+  {
+   "id": "00046",
+   "nr": "591",
+   "de": "Million",
+   "tr": "milyon"
+  },
+  {
+   "id": "00047",
+   "nr": "605",
+   "de": "Reihe",
+   "tr": "sıra / dizi"
+  },
+  {
+   "id": "00048",
+   "nr": "610",
+   "de": "am wenigsten",
+   "tr": "en az"
+  },
+  {
+   "id": "00049",
+   "nr": "630",
+   "de": "Cent",
+   "tr": "sent"
+  },
+  {
+   "id": "00050",
+   "nr": "634",
+   "de": "Kosten",
+   "tr": "maliyet / fiyat"
+  },
+  {
+   "id": "00051",
+   "nr": "639",
+   "de": "gleich",
+   "tr": "eşit"
+  },
+  {
+   "id": "00052",
+   "nr": "650",
+   "de": "dezimal",
+   "tr": "ondalık"
+  },
+  {
+   "id": "00053",
+   "nr": "661",
+   "de": "Maßstab",
+   "tr": "ölçek / terazi"
+  },
+  {
+   "id": "00054",
+   "nr": "687",
+   "de": "Menge",
+   "tr": "çok / miktar"
+  },
+  {
+   "id": "00055",
+   "nr": "692",
+   "de": "Einzel",
+   "tr": "tek / bekar"
+  },
+  {
+   "id": "00056",
+   "nr": "695",
+   "de": "zwanzig",
+   "tr": "yirmi"
+  },
+  {
+   "id": "00057",
+   "nr": "702",
+   "de": "acht",
+   "tr": "sekiz"
+  },
+  {
+   "id": "00058",
+   "nr": "712",
+   "de": "sieben",
+   "tr": "yedi"
+  },
+  {
+   "id": "00059",
+   "nr": "714",
+   "de": "dritte",
+   "tr": "üçüncü"
+  },
+  {
+   "id": "00060",
+   "nr": "731",
+   "de": "Bit",
+   "tr": "parça / biraz"
+  },
+  {
+   "id": "00061",
+   "nr": "743",
+   "de": "Wert",
+   "tr": "değer"
+  },
+  {
+   "id": "00062",
+   "nr": "821",
+   "de": "Dollar",
+   "tr": "dolar"
+  },
+  {
+   "id": "00063",
+   "nr": "855",
+   "de": "Teilung",
+   "tr": "bölme / bölüm"
+  },
+  {
+   "id": "00064",
+   "nr": "866",
+   "de": "Aktie",
+   "tr": "pay / hisse"
+  },
+  {
+   "id": "00065",
+   "nr": "874",
+   "de": "Segment",
+   "tr": "bölüm / segment"
+  },
+  {
+   "id": "00066",
+   "nr": "879",
+   "de": "Grad",
+   "tr": "derece"
+  },
+  {
+   "id": "00067",
+   "nr": "890",
+   "de": "Angebot",
+   "tr": "menzil / aralık"
+  },
+  {
+   "id": "00068",
+   "nr": "897",
+   "de": "Quotient",
+   "tr": "bölüm (matematik)"
+  },
+  {
+   "id": "00069",
+   "nr": "926",
+   "de": "Partitur",
+   "tr": "skor / puan"
+  },
+  {
+   "id": "00070",
+   "nr": "932",
+   "de": "Masse",
+   "tr": "kütle / yığın"
+  },
+  {
+   "id": "00071",
+   "nr": "943",
+   "de": "gesamt",
+   "tr": "toplam"
+  },
+  {
+   "id": "00072",
+   "nr": "948",
+   "de": "doppelt",
+   "tr": "çift / iki katı"
+  },
+  {
+   "id": "00073",
+   "nr": "957",
+   "de": "subtrahieren",
+   "tr": "çıkarmak (matematik)"
+  },
+  {
+   "id": "00074",
+   "nr": "974",
+   "de": "Quart",
+   "tr": "kuart (ölçü birimi)"
+  },
+  {
+   "id": "00075",
+   "nr": "975",
+   "de": "neun",
+   "tr": "dokuz"
+  },
+  {
+   "id": "00076",
+   "nr": "978",
+   "de": "Ebene",
+   "tr": "seviye / düzey"
+  }
+ ],
+ "Lektion 2: Farben & Optik": [
+  {
+   "id": "00077",
+   "nr": "83",
+   "de": "Licht",
+   "tr": "ışık"
+  },
+  {
+   "id": "00078",
+   "nr": "270",
+   "de": "Farbe",
+   "tr": "renk"
+  },
+  {
+   "id": "00079",
+   "nr": "278",
+   "de": "weiß",
+   "tr": "beyaz"
+  },
+  {
+   "id": "00080",
+   "nr": "309",
+   "de": "rot",
+   "tr": "kırmızı"
+  },
+  {
+   "id": "00081",
+   "nr": "326",
+   "de": "schwarz",
+   "tr": "siyah"
+  },
+  {
+   "id": "00082",
+   "nr": "359",
+   "de": "blau",
+   "tr": "mavi"
+  },
+  {
+   "id": "00083",
+   "nr": "373",
+   "de": "goldenen",
+   "tr": "altın"
+  },
+  {
+   "id": "00084",
+   "nr": "385",
+   "de": "Form",
+   "tr": "şekil / biçim"
+  },
+  {
+   "id": "00085",
+   "nr": "410",
+   "de": "dunkel",
+   "tr": "karanlık / koyu"
+  },
+  {
+   "id": "00086",
+   "nr": "434",
+   "de": "grün",
+   "tr": "yeşil"
+  },
+  {
+   "id": "00087",
+   "nr": "446",
+   "de": "klar",
+   "tr": "açık / net"
+  },
+  {
+   "id": "00088",
+   "nr": "484",
+   "de": "Muster",
+   "tr": "desen / kalıp"
+  },
+  {
+   "id": "00089",
+   "nr": "529",
+   "de": "Kreis",
+   "tr": "daire / çember"
+  },
+  {
+   "id": "00090",
+   "nr": "587",
+   "de": "hell",
+   "tr": "parlak / aydınlık"
+  },
+  {
+   "id": "00091",
+   "nr": "636",
+   "de": "braun",
+   "tr": "kahverengi"
+  },
+  {
+   "id": "00092",
+   "nr": "749",
+   "de": "Blick",
+   "tr": "görünüm / manzara"
+  },
+  {
+   "id": "00093",
+   "nr": "824",
+   "de": "Blick",
+   "tr": "görüş / manzara"
+  },
+  {
+   "id": "00094",
+   "nr": "826",
+   "de": "Dreieck",
+   "tr": "üçgen"
+  },
+  {
+   "id": "00095",
+   "nr": "839",
+   "de": "gelb",
+   "tr": "sarı"
+  },
+  {
+   "id": "00096",
+   "nr": "844",
+   "de": "Stelle",
+   "tr": "nokta / leke / yer"
+  },
+  {
+   "id": "00097",
+   "nr": "910",
+   "de": "Silber",
+   "tr": "gümüş"
+  },
+  {
+   "id": "00098",
+   "nr": "984",
+   "de": "Glanz",
+   "tr": "parlamak"
+  },
+  {
+   "id": "00099",
+   "nr": "990",
+   "de": "grau",
+   "tr": "gri"
+  }
+ ],
+ "Lektion 3: Tiere": [
+  {
+   "id": "00100",
+   "nr": "92",
+   "de": "Tier",
+   "tr": "hayvan"
+  },
+  {
+   "id": "00101",
+   "nr": "260",
+   "de": "Fisch",
+   "tr": "balık"
+  },
+  {
+   "id": "00102",
+   "nr": "266",
+   "de": "Pferd",
+   "tr": "at"
+  },
+  {
+   "id": "00103",
+   "nr": "314",
+   "de": "Vogel",
+   "tr": "kuş"
+  },
+  {
+   "id": "00104",
+   "nr": "317",
+   "de": "Hund",
+   "tr": "köpek"
+  },
+  {
+   "id": "00105",
+   "nr": "447",
+   "de": "Schwanz",
+   "tr": "kuyruk"
+  },
+  {
+   "id": "00106",
+   "nr": "502",
+   "de": "Jagd",
+   "tr": "av / avlamak"
+  },
+  {
+   "id": "00107",
+   "nr": "574",
+   "de": "wilden",
+   "tr": "vahşi / yabani"
+  },
+  {
+   "id": "00108",
+   "nr": "579",
+   "de": "Kuh",
+   "tr": "inek"
+  },
+  {
+   "id": "00109",
+   "nr": "592",
+   "de": "tragen",
+   "tr": "ayı / taşımak"
+  },
+  {
+   "id": "00110",
+   "nr": "726",
+   "de": "Katze",
+   "tr": "kedi"
+  },
+  {
+   "id": "00111",
+   "nr": "780",
+   "de": "insekt",
+   "tr": "böcek"
+  },
+  {
+   "id": "00112",
+   "nr": "804",
+   "de": "Flügel",
+   "tr": "kanat"
+  },
+  {
+   "id": "00113",
+   "nr": "808",
+   "de": "Fledermaus",
+   "tr": "yarasa"
+  },
+  {
+   "id": "00114",
+   "nr": "876",
+   "de": "ente",
+   "tr": "ördek"
+  },
+  {
+   "id": "00115",
+   "nr": "881",
+   "de": "küken",
+   "tr": "civciv"
+  },
+  {
+   "id": "00116",
+   "nr": "899",
+   "de": "Schale",
+   "tr": "kabuk / deniz kabuğu"
+  },
+  {
+   "id": "00117",
+   "nr": "941",
+   "de": "Futtermittel",
+   "tr": "beslemek / yem"
+  }
+ ],
+ "Lektion 4: Familie & Menschen": [
+  {
+   "id": "00118",
+   "nr": "80",
+   "de": "Männer",
+   "tr": "erkekler / adamlar"
+  },
+  {
+   "id": "00119",
+   "nr": "94",
+   "de": "Mutter",
+   "tr": "anne"
+  },
+  {
+   "id": "00120",
+   "nr": "100",
+   "de": "Vater",
+   "tr": "baba"
+  },
+  {
+   "id": "00121",
+   "nr": "116",
+   "de": "Mann",
+   "tr": "adam / erkek"
+  },
+  {
+   "id": "00122",
+   "nr": "126",
+   "de": "Name",
+   "tr": "isim / ad"
+  },
+  {
+   "id": "00123",
+   "nr": "135",
+   "de": "Hilfe",
+   "tr": "yardım"
+  },
+  {
+   "id": "00124",
+   "nr": "146",
+   "de": "Junge",
+   "tr": "erkek çocuk"
+  },
+  {
+   "id": "00125",
+   "nr": "186",
+   "de": "Menschen",
+   "tr": "insanlar"
+  },
+  {
+   "id": "00126",
+   "nr": "248",
+   "de": "Leben",
+   "tr": "hayat / yaşam"
+  },
+  {
+   "id": "00127",
+   "nr": "257",
+   "de": "Freund",
+   "tr": "arkadaş"
+  },
+  {
+   "id": "00128",
+   "nr": "279",
+   "de": "Kinder",
+   "tr": "çocuklar"
+  },
+  {
+   "id": "00129",
+   "nr": "286",
+   "de": "Gruppe",
+   "tr": "grup"
+  },
+  {
+   "id": "00130",
+   "nr": "303",
+   "de": "Mädchen",
+   "tr": "kız çocuk"
+  },
+  {
+   "id": "00131",
+   "nr": "318",
+   "de": "Familie",
+   "tr": "aile"
+  },
+  {
+   "id": "00132",
+   "nr": "349",
+   "de": "König",
+   "tr": "kral"
+  },
+  {
+   "id": "00133",
+   "nr": "488",
+   "de": "Person",
+   "tr": "kişi / şahıs"
+  },
+  {
+   "id": "00134",
+   "nr": "505",
+   "de": "Bruder",
+   "tr": "erkek kardeş"
+  },
+  {
+   "id": "00135",
+   "nr": "583",
+   "de": "Besuch",
+   "tr": "ziyaret"
+  },
+  {
+   "id": "00136",
+   "nr": "621",
+   "de": "Dame",
+   "tr": "hanımefendi / kadın"
+  },
+  {
+   "id": "00137",
+   "nr": "632",
+   "de": "Mannschaft",
+   "tr": "takım / ekip"
+  },
+  {
+   "id": "00138",
+   "nr": "658",
+   "de": "Sohn",
+   "tr": "oğul / erkek evlat"
+  },
+  {
+   "id": "00139",
+   "nr": "665",
+   "de": "Kind",
+   "tr": "çocuk"
+  },
+  {
+   "id": "00140",
+   "nr": "701",
+   "de": "Kind",
+   "tr": "bebek"
+  },
+  {
+   "id": "00141",
+   "nr": "758",
+   "de": "Soldat",
+   "tr": "asker"
+  },
+  {
+   "id": "00142",
+   "nr": "774",
+   "de": "Partei",
+   "tr": "parti"
+  },
+  {
+   "id": "00143",
+   "nr": "787",
+   "de": "Mensch",
+   "tr": "insan"
+  },
+  {
+   "id": "00144",
+   "nr": "799",
+   "de": "Frau",
+   "tr": "kadın"
+  },
+  {
+   "id": "00145",
+   "nr": "800",
+   "de": "Kapitän",
+   "tr": "kaptan"
+  },
+  {
+   "id": "00146",
+   "nr": "806",
+   "de": "Nachbar",
+   "tr": "komşu"
+  },
+  {
+   "id": "00147",
+   "nr": "810",
+   "de": "Menge",
+   "tr": "kalabalık"
+  },
+  {
+   "id": "00148",
+   "nr": "829",
+   "de": "Chef",
+   "tr": "şef / başkan"
+  },
+  {
+   "id": "00149",
+   "nr": "851",
+   "de": "Stamm",
+   "tr": "usta / efendi"
+  },
+  {
+   "id": "00150",
+   "nr": "853",
+   "de": "Elternteil",
+   "tr": "ebeveyn"
+  },
+  {
+   "id": "00151",
+   "nr": "868",
+   "de": "Papa",
+   "tr": "baba"
+  },
+  {
+   "id": "00152",
+   "nr": "875",
+   "de": "Sklave",
+   "tr": "köle"
+  },
+  {
+   "id": "00153",
+   "nr": "882",
+   "de": "liebe",
+   "tr": "sevgili / canım"
+  },
+  {
+   "id": "00154",
+   "nr": "883",
+   "de": "Feind",
+   "tr": "düşman"
+  },
+  {
+   "id": "00155",
+   "nr": "906",
+   "de": "Frauen",
+   "tr": "kadınlar"
+  },
+  {
+   "id": "00156",
+   "nr": "919",
+   "de": "Schwester",
+   "tr": "kız kardeş"
+  },
+  {
+   "id": "00157",
+   "nr": "964",
+   "de": "Frau",
+   "tr": "eş / karı"
+  },
+  {
+   "id": "00158",
+   "nr": "972",
+   "de": "geboren",
+   "tr": "doğmuş"
+  }
+ ],
+ "Lektion 5: Körper & Gesundheit": [
+  {
+   "id": "00159",
+   "nr": "64",
+   "de": "Hand",
+   "tr": "el"
+  },
+  {
+   "id": "00160",
+   "nr": "201",
+   "de": "Kopf",
+   "tr": "baş / kafa"
+  },
+  {
+   "id": "00161",
+   "nr": "222",
+   "de": "Auge",
+   "tr": "göz"
+  },
+  {
+   "id": "00162",
+   "nr": "271",
+   "de": "Gesicht",
+   "tr": "yüz / surat"
+  },
+  {
+   "id": "00163",
+   "nr": "298",
+   "de": "Füße",
+   "tr": "ayaklar"
+  },
+  {
+   "id": "00164",
+   "nr": "299",
+   "de": "Pflege",
+   "tr": "bakım / özen"
+  },
+  {
+   "id": "00165",
+   "nr": "316",
+   "de": "Körper",
+   "tr": "vücut / beden"
+  },
+  {
+   "id": "00166",
+   "nr": "320",
+   "de": "Pose",
+   "tr": "duruş / poz"
+  },
+  {
+   "id": "00167",
+   "nr": "366",
+   "de": "Fuß",
+   "tr": "ayak"
+  },
+  {
+   "id": "00168",
+   "nr": "444",
+   "de": "Geist",
+   "tr": "zihin / akıl"
+  },
+  {
+   "id": "00169",
+   "nr": "500",
+   "de": "Stimme",
+   "tr": "ses"
+  },
+  {
+   "id": "00170",
+   "nr": "540",
+   "de": "Herz",
+   "tr": "kalp"
+  },
+  {
+   "id": "00171",
+   "nr": "547",
+   "de": "Arm",
+   "tr": "kol"
+  },
+  {
+   "id": "00172",
+   "nr": "559",
+   "de": "Schlaf",
+   "tr": "uyku / uyumak"
+  },
+  {
+   "id": "00173",
+   "nr": "562",
+   "de": "Bein",
+   "tr": "bacak"
+  },
+  {
+   "id": "00174",
+   "nr": "563",
+   "de": "Übung",
+   "tr": "egzersiz / alıştırma"
+  },
+  {
+   "id": "00175",
+   "nr": "606",
+   "de": "Mund",
+   "tr": "ağız"
+  },
+  {
+   "id": "00176",
+   "nr": "609",
+   "de": "sterben",
+   "tr": "ölmek"
+  },
+  {
+   "id": "00177",
+   "nr": "627",
+   "de": "Blut",
+   "tr": "kan"
+  },
+  {
+   "id": "00178",
+   "nr": "651",
+   "de": "Ohr",
+   "tr": "kulak"
+  },
+  {
+   "id": "00179",
+   "nr": "673",
+   "de": "Orgel",
+   "tr": "organ / org"
+  },
+  {
+   "id": "00180",
+   "nr": "696",
+   "de": "Haut",
+   "tr": "cilt / deri"
+  },
+  {
+   "id": "00181",
+   "nr": "717",
+   "de": "Haar",
+   "tr": "saç / kıl"
+  },
+  {
+   "id": "00182",
+   "nr": "741",
+   "de": "Finger",
+   "tr": "parmak"
+  },
+  {
+   "id": "00183",
+   "nr": "750",
+   "de": "Sinn",
+   "tr": "duyu / anlam"
+  },
+  {
+   "id": "00184",
+   "nr": "764",
+   "de": "Arzt",
+   "tr": "doktor"
+  },
+  {
+   "id": "00185",
+   "nr": "792",
+   "de": "Knochen",
+   "tr": "kemik"
+  },
+  {
+   "id": "00186",
+   "nr": "843",
+   "de": "tot",
+   "tr": "ölü"
+  },
+  {
+   "id": "00187",
+   "nr": "898",
+   "de": "Gebiss",
+   "tr": "dişler"
+  },
+  {
+   "id": "00188",
+   "nr": "900",
+   "de": "Hals",
+   "tr": "boyun"
+  },
+  {
+   "id": "00189",
+   "nr": "903",
+   "de": "Tod",
+   "tr": "ölüm"
+  },
+  {
+   "id": "00190",
+   "nr": "945",
+   "de": "Geruch",
+   "tr": "koku / koklamak"
+  },
+  {
+   "id": "00191",
+   "nr": "966",
+   "de": "Schulter",
+   "tr": "omuz"
+  },
+  {
+   "id": "00192",
+   "nr": "996",
+   "de": "Nase",
+   "tr": "burun"
+  }
+ ],
+ "Lektion 6: Essen & Trinken": [
+  {
+   "id": "00193",
+   "nr": "190",
+   "de": "Wasser",
+   "tr": "su"
+  },
+  {
+   "id": "00194",
+   "nr": "216",
+   "de": "Lebensmittel",
+   "tr": "yiyecek / gıda"
+  },
+  {
+   "id": "00195",
+   "nr": "255",
+   "de": "essen",
+   "tr": "yemek yemek"
+  },
+  {
+   "id": "00196",
+   "nr": "506",
+   "de": "Ei",
+   "tr": "yumurta"
+  },
+  {
+   "id": "00197",
+   "nr": "626",
+   "de": "Öl",
+   "tr": "yağ / petrol"
+  },
+  {
+   "id": "00198",
+   "nr": "631",
+   "de": "mischen",
+   "tr": "karıştırmak"
+  },
+  {
+   "id": "00199",
+   "nr": "670",
+   "de": "milch",
+   "tr": "süt"
+  },
+  {
+   "id": "00200",
+   "nr": "719",
+   "de": "Koch",
+   "tr": "aşçı / yemek pişirmek"
+  },
+  {
+   "id": "00201",
+   "nr": "755",
+   "de": "Obst",
+   "tr": "meyve"
+  },
+  {
+   "id": "00202",
+   "nr": "811",
+   "de": "mais",
+   "tr": "mısır"
+  },
+  {
+   "id": "00203",
+   "nr": "817",
+   "de": "Fleisch",
+   "tr": "et"
+  },
+  {
+   "id": "00204",
+   "nr": "836",
+   "de": "frisch",
+   "tr": "taze"
+  },
+  {
+   "id": "00205",
+   "nr": "863",
+   "de": "Fett",
+   "tr": "yağ / şişman"
+  },
+  {
+   "id": "00206",
+   "nr": "869",
+   "de": "Brot",
+   "tr": "ekmek"
+  },
+  {
+   "id": "00207",
+   "nr": "885",
+   "de": "Getränk",
+   "tr": "içecek"
+  },
+  {
+   "id": "00208",
+   "nr": "902",
+   "de": "Zucker",
+   "tr": "şeker"
+  },
+  {
+   "id": "00209",
+   "nr": "916",
+   "de": "Feige",
+   "tr": "incir"
+  },
+  {
+   "id": "00210",
+   "nr": "927",
+   "de": "apfel",
+   "tr": "elma"
+  },
+  {
+   "id": "00211",
+   "nr": "995",
+   "de": "Salz",
+   "tr": "tuz"
+  }
+ ],
+ "Lektion 7: Natur, Wetter & Geografie": [
+  {
+   "id": "00212",
+   "nr": "55",
+   "de": "Luft",
+   "tr": "hava"
+  },
+  {
+   "id": "00213",
+   "nr": "70",
+   "de": "Land",
+   "tr": "kara / ülke"
+  },
+  {
+   "id": "00214",
+   "nr": "95",
+   "de": "Welt",
+   "tr": "dünya"
+  },
+  {
+   "id": "00215",
+   "nr": "99",
+   "de": "Erde",
+   "tr": "dünya / toprak"
+  },
+  {
+   "id": "00216",
+   "nr": "214",
+   "de": "Anlage",
+   "tr": "bitki / tesis"
+  },
+  {
+   "id": "00217",
+   "nr": "217",
+   "de": "Sonne",
+   "tr": "güneş"
+  },
+  {
+   "id": "00218",
+   "nr": "228",
+   "de": "Baum",
+   "tr": "ağaç"
+  },
+  {
+   "id": "00219",
+   "nr": "237",
+   "de": "Meer",
+   "tr": "deniz"
+  },
+  {
+   "id": "00220",
+   "nr": "250",
+   "de": "Norden",
+   "tr": "kuzey"
+  },
+  {
+   "id": "00221",
+   "nr": "261",
+   "de": "berg",
+   "tr": "dağ"
+  },
+  {
+   "id": "00222",
+   "nr": "296",
+   "de": "Fluss",
+   "tr": "nehir / ırmak"
+  },
+  {
+   "id": "00223",
+   "nr": "302",
+   "de": "Ebene",
+   "tr": "ova / düz"
+  },
+  {
+   "id": "00224",
+   "nr": "330",
+   "de": "Wind",
+   "tr": "rüzgar"
+  },
+  {
+   "id": "00225",
+   "nr": "335",
+   "de": "Bereich",
+   "tr": "alan / bölge"
+  },
+  {
+   "id": "00226",
+   "nr": "337",
+   "de": "Stein",
+   "tr": "kaya / taş"
+  },
+  {
+   "id": "00227",
+   "nr": "339",
+   "de": "Feuer",
+   "tr": "ateş"
+  },
+  {
+   "id": "00228",
+   "nr": "340",
+   "de": "Süden",
+   "tr": "güney"
+  },
+  {
+   "id": "00229",
+   "nr": "362",
+   "de": "Oberfläche",
+   "tr": "yüzey"
+  },
+  {
+   "id": "00230",
+   "nr": "364",
+   "de": "Mond",
+   "tr": "ay"
+  },
+  {
+   "id": "00231",
+   "nr": "365",
+   "de": "Insel",
+   "tr": "ada"
+  },
+  {
+   "id": "00232",
+   "nr": "390",
+   "de": "Wärme",
+   "tr": "ısı / sıcaklık"
+  },
+  {
+   "id": "00233",
+   "nr": "391",
+   "de": "Schnee",
+   "tr": "kar"
+  },
+  {
+   "id": "00234",
+   "nr": "397",
+   "de": "Osten",
+   "tr": "doğu"
+  },
+  {
+   "id": "00235",
+   "nr": "416",
+   "de": "Stern",
+   "tr": "yıldız"
+  },
+  {
+   "id": "00236",
+   "nr": "419",
+   "de": "Feld",
+   "tr": "tarla / alan"
+  },
+  {
+   "id": "00237",
+   "nr": "438",
+   "de": "Ozean",
+   "tr": "okyanus"
+  },
+  {
+   "id": "00238",
+   "nr": "450",
+   "de": "Raum",
+   "tr": "uzay / alan / oda"
+  },
+  {
+   "id": "00239",
+   "nr": "463",
+   "de": "Westen",
+   "tr": "batı"
+  },
+  {
+   "id": "00240",
+   "nr": "464",
+   "de": "Boden",
+   "tr": "zemin / toprak"
+  },
+  {
+   "id": "00241",
+   "nr": "494",
+   "de": "regen",
+   "tr": "yağmur"
+  },
+  {
+   "id": "00242",
+   "nr": "498",
+   "de": "Kälte",
+   "tr": "soğuk"
+  },
+  {
+   "id": "00243",
+   "nr": "520",
+   "de": "Region",
+   "tr": "bölge"
+  },
+  {
+   "id": "00244",
+   "nr": "527",
+   "de": "Eis",
+   "tr": "buz"
+  },
+  {
+   "id": "00245",
+   "nr": "538",
+   "de": "Welle",
+   "tr": "dalga"
+  },
+  {
+   "id": "00246",
+   "nr": "539",
+   "de": "fallen",
+   "tr": "damla / düşürmek"
+  },
+  {
+   "id": "00247",
+   "nr": "552",
+   "de": "Wald",
+   "tr": "orman"
+  },
+  {
+   "id": "00248",
+   "nr": "566",
+   "de": "Berg",
+   "tr": "dağ / binmek"
+  },
+  {
+   "id": "00249",
+   "nr": "568",
+   "de": "Himmel",
+   "tr": "gökyüzü"
+  },
+  {
+   "id": "00250",
+   "nr": "578",
+   "de": "Gras",
+   "tr": "çimen / ot"
+  },
+  {
+   "id": "00251",
+   "nr": "589",
+   "de": "Wetter",
+   "tr": "hava durumu"
+  },
+  {
+   "id": "00252",
+   "nr": "596",
+   "de": "blume",
+   "tr": "çiçek"
+  },
+  {
+   "id": "00253",
+   "nr": "615",
+   "de": "Samen",
+   "tr": "tohum"
+  },
+  {
+   "id": "00254",
+   "nr": "644",
+   "de": "fließen",
+   "tr": "akmak"
+  },
+  {
+   "id": "00255",
+   "nr": "659",
+   "de": "See",
+   "tr": "göl"
+  },
+  {
+   "id": "00256",
+   "nr": "678",
+   "de": "Wolke",
+   "tr": "bulut"
+  },
+  {
+   "id": "00257",
+   "nr": "681",
+   "de": "Stein",
+   "tr": "taş"
+  },
+  {
+   "id": "00258",
+   "nr": "705",
+   "de": "Wurzel",
+   "tr": "kök"
+  },
+  {
+   "id": "00259",
+   "nr": "724",
+   "de": "Hügel",
+   "tr": "tepe"
+  },
+  {
+   "id": "00260",
+   "nr": "732",
+   "de": "Küste",
+   "tr": "sahil / kıyı"
+  },
+  {
+   "id": "00261",
+   "nr": "737",
+   "de": "Sand",
+   "tr": "kum"
+  },
+  {
+   "id": "00262",
+   "nr": "738",
+   "de": "Boden",
+   "tr": "toprak"
+  },
+  {
+   "id": "00263",
+   "nr": "740",
+   "de": "Temperatur",
+   "tr": "sıcaklık"
+  },
+  {
+   "id": "00264",
+   "nr": "748",
+   "de": "natürlich",
+   "tr": "doğal"
+  },
+  {
+   "id": "00265",
+   "nr": "768",
+   "de": "Ernte",
+   "tr": "mahsul / ekin"
+  },
+  {
+   "id": "00266",
+   "nr": "822",
+   "de": "Strom",
+   "tr": "dere / akarsu"
+  },
+  {
+   "id": "00267",
+   "nr": "827",
+   "de": "Erde",
+   "tr": "gezegen"
+  },
+  {
+   "id": "00268",
+   "nr": "845",
+   "de": "Wüste",
+   "tr": "çöl"
+  },
+  {
+   "id": "00269",
+   "nr": "849",
+   "de": "stiegen",
+   "tr": "gül / yükseldi"
+  },
+  {
+   "id": "00270",
+   "nr": "854",
+   "de": "Ufer",
+   "tr": "kıyı / sahil"
+  },
+  {
+   "id": "00271",
+   "nr": "889",
+   "de": "Natur",
+   "tr": "doğa"
+  },
+  {
+   "id": "00272",
+   "nr": "891",
+   "de": "Dampf",
+   "tr": "buhar"
+  },
+  {
+   "id": "00273",
+   "nr": "894",
+   "de": "Flüssigkeit",
+   "tr": "sıvı"
+  },
+  {
+   "id": "00274",
+   "nr": "912",
+   "de": "Zweig",
+   "tr": "dal"
+  },
+  {
+   "id": "00275",
+   "nr": "946",
+   "de": "Tal",
+   "tr": "vadi"
+  },
+  {
+   "id": "00276",
+   "nr": "1000",
+   "de": "Kontinent",
+   "tr": "kıta"
+  }
+ ],
+ "Lektion 8: Zeit, Kalender & Jahreszeiten": [
+  {
+   "id": "00277",
+   "nr": "43",
+   "de": "Zeit",
+   "tr": "zaman"
+  },
+  {
+   "id": "00278",
+   "nr": "60",
+   "de": "Ende",
+   "tr": "son"
+  },
+  {
+   "id": "00279",
+   "nr": "91",
+   "de": "wieder",
+   "tr": "tekrar / yeniden"
+  },
+  {
+   "id": "00280",
+   "nr": "111",
+   "de": "nach",
+   "tr": "sonra"
+  },
+  {
+   "id": "00281",
+   "nr": "117",
+   "de": "Jahr",
+   "tr": "yıl / sene"
+  },
+  {
+   "id": "00282",
+   "nr": "143",
+   "de": "vor",
+   "tr": "önce / önünde"
+  },
+  {
+   "id": "00283",
+   "nr": "153",
+   "de": "wenn",
+   "tr": "ne zaman / -dığında"
+  },
+  {
+   "id": "00284",
+   "nr": "160",
+   "de": "dann",
+   "tr": "sonra / o zaman"
+  },
+  {
+   "id": "00285",
+   "nr": "177",
+   "de": "Tag",
+   "tr": "gün"
+  },
+  {
+   "id": "00286",
+   "nr": "199",
+   "de": "jetzt",
+   "tr": "şimdi"
+  },
+  {
+   "id": "00287",
+   "nr": "212",
+   "de": "noch",
+   "tr": "hala"
+  },
+  {
+   "id": "00288",
+   "nr": "223",
+   "de": "nie",
+   "tr": "asla / hiçbir zaman"
+  },
+  {
+   "id": "00289",
+   "nr": "224",
+   "de": "letzte",
+   "tr": "son / geçen"
+  },
+  {
+   "id": "00290",
+   "nr": "232",
+   "de": "Beginn",
+   "tr": "başlangıç"
+  },
+  {
+   "id": "00291",
+   "nr": "240",
+   "de": "spät",
+   "tr": "geç"
+  },
+  {
+   "id": "00292",
+   "nr": "243",
+   "de": "während",
+   "tr": "iken / esnasında"
+  },
+  {
+   "id": "00293",
+   "nr": "246",
+   "de": "Nacht",
+   "tr": "gece"
+  },
+  {
+   "id": "00294",
+   "nr": "277",
+   "de": "nächste",
+   "tr": "sonraki / gelecek"
+  },
+  {
+   "id": "00295",
+   "nr": "287",
+   "de": "immer",
+   "tr": "her zaman / daima"
+  },
+  {
+   "id": "00296",
+   "nr": "292",
+   "de": "oft",
+   "tr": "sık sık"
+  },
+  {
+   "id": "00297",
+   "nr": "294",
+   "de": "bis",
+   "tr": "-e kadar"
+  },
+  {
+   "id": "00298",
+   "nr": "308",
+   "de": "je",
+   "tr": "hiç / her zaman"
+  },
+  {
+   "id": "00299",
+   "nr": "315",
+   "de": "bald",
+   "tr": "yakında"
+  },
+  {
+   "id": "00300",
+   "nr": "346",
+   "de": "seit",
+   "tr": "-den beri"
+  },
+  {
+   "id": "00301",
+   "nr": "381",
+   "de": "vor",
+   "tr": "önce"
+  },
+  {
+   "id": "00302",
+   "nr": "431",
+   "de": "Woche",
+   "tr": "hafta"
+  },
+  {
+   "id": "00303",
+   "nr": "432",
+   "de": "Finale",
+   "tr": "final / son"
+  },
+  {
+   "id": "00304",
+   "nr": "441",
+   "de": "Minute",
+   "tr": "dakika"
+  },
+  {
+   "id": "00305",
+   "nr": "453",
+   "de": "Stunde",
+   "tr": "saat"
+  },
+  {
+   "id": "00306",
+   "nr": "456",
+   "de": "während",
+   "tr": "boyunca / sırasında"
+  },
+  {
+   "id": "00307",
+   "nr": "461",
+   "de": "früh",
+   "tr": "erken"
+  },
+  {
+   "id": "00308",
+   "nr": "475",
+   "de": "Morgen",
+   "tr": "sabah"
+  },
+  {
+   "id": "00309",
+   "nr": "512",
+   "de": "plötzlich",
+   "tr": "ani / aniden"
+  },
+  {
+   "id": "00310",
+   "nr": "516",
+   "de": "Dauer",
+   "tr": "uzunluk / süre"
+  },
+  {
+   "id": "00311",
+   "nr": "537",
+   "de": "noch",
+   "tr": "henüz / yine de"
+  },
+  {
+   "id": "00312",
+   "nr": "541",
+   "de": "Uhr",
+   "tr": "sabah (a.m.) / -ım"
+  },
+  {
+   "id": "00313",
+   "nr": "542",
+   "de": "vorhanden",
+   "tr": "mevcut / hediye"
+  },
+  {
+   "id": "00314",
+   "nr": "557",
+   "de": "Sommer",
+   "tr": "yaz"
+  },
+  {
+   "id": "00315",
+   "nr": "571",
+   "de": "Winter",
+   "tr": "kış"
+  },
+  {
+   "id": "00316",
+   "nr": "584",
+   "de": "Vergangenheit",
+   "tr": "geçmiş"
+  },
+  {
+   "id": "00317",
+   "nr": "590",
+   "de": "Monat",
+   "tr": "ay"
+  },
+  {
+   "id": "00318",
+   "nr": "599",
+   "de": "Vorbei",
+   "tr": "gitmiş / geçmiş"
+  },
+  {
+   "id": "00319",
+   "nr": "660",
+   "de": "Moment",
+   "tr": "an / dakika"
+  },
+  {
+   "id": "00320",
+   "nr": "663",
+   "de": "Frühling",
+   "tr": "ilkbahar / bahar"
+  },
+  {
+   "id": "00321",
+   "nr": "675",
+   "de": "Alter",
+   "tr": "yaş / çağ"
+  },
+  {
+   "id": "00322",
+   "nr": "727",
+   "de": "Jahrhundert",
+   "tr": "yüzyıl / asır"
+  },
+  {
+   "id": "00323",
+   "nr": "767",
+   "de": "Mittag",
+   "tr": "öğle"
+  },
+  {
+   "id": "00324",
+   "nr": "782",
+   "de": "Zeit",
+   "tr": "dönem / periyot"
+  },
+  {
+   "id": "00325",
+   "nr": "788",
+   "de": "Geschichte",
+   "tr": "tarih"
+  },
+  {
+   "id": "00326",
+   "nr": "828",
+   "de": "Eile",
+   "tr": "acele"
+  },
+  {
+   "id": "00327",
+   "nr": "877",
+   "de": "Augenblick",
+   "tr": "an / hemen"
+  },
+  {
+   "id": "00328",
+   "nr": "907",
+   "de": "Saison",
+   "tr": "mevsim / sezon"
+  },
+  {
+   "id": "00329",
+   "nr": "939",
+   "de": "Abend",
+   "tr": "akşam"
+  },
+  {
+   "id": "00330",
+   "nr": "958",
+   "de": "Veranstaltung",
+   "tr": "etkinlik / olay"
+  }
+ ],
+ "Lektion 9: Zuhause, Möbel & Alltagsobjekte": [
+  {
+   "id": "00331",
+   "nr": "62",
+   "de": "Zuhause",
+   "tr": "ev / yuva"
+  },
+  {
+   "id": "00332",
+   "nr": "87",
+   "de": "Haus",
+   "tr": "ev"
+  },
+  {
+   "id": "00333",
+   "nr": "170",
+   "de": "Sache",
+   "tr": "şey / eşya"
+  },
+  {
+   "id": "00334",
+   "nr": "197",
+   "de": "Seite",
+   "tr": "yan / taraf"
+  },
+  {
+   "id": "00335",
+   "nr": "215",
+   "de": "Abdeckung",
+   "tr": "kapak / örtü"
+  },
+  {
+   "id": "00336",
+   "nr": "235",
+   "de": "Säge",
+   "tr": "testere / gördü"
+  },
+  {
+   "id": "00337",
+   "nr": "256",
+   "de": "Zimmer",
+   "tr": "oda"
+  },
+  {
+   "id": "00338",
+   "nr": "285",
+   "de": "Papier",
+   "tr": "kağıt"
+  },
+  {
+   "id": "00339",
+   "nr": "291",
+   "de": "Marke",
+   "tr": "işaret / marka"
+  },
+  {
+   "id": "00340",
+   "nr": "310",
+   "de": "Liste",
+   "tr": "liste"
+  },
+  {
+   "id": "00341",
+   "nr": "324",
+   "de": "Tür",
+   "tr": "kapı"
+  },
+  {
+   "id": "00342",
+   "nr": "360",
+   "de": "Objekt",
+   "tr": "nesne / obje"
+  },
+  {
+   "id": "00343",
+   "nr": "384",
+   "de": "Spiel",
+   "tr": "oyun"
+  },
+  {
+   "id": "00344",
+   "nr": "417",
+   "de": "Kasten",
+   "tr": "kutu"
+  },
+  {
+   "id": "00345",
+   "nr": "472",
+   "de": "Tabelle",
+   "tr": "masa / tablo"
+  },
+  {
+   "id": "00346",
+   "nr": "489",
+   "de": "Geld",
+   "tr": "para"
+  },
+  {
+   "id": "00347",
+   "nr": "504",
+   "de": "Bett",
+   "tr": "yatak"
+  },
+  {
+   "id": "00348",
+   "nr": "536",
+   "de": "Kugel",
+   "tr": "top / küre"
+  },
+  {
+   "id": "00349",
+   "nr": "555",
+   "de": "Fenster",
+   "tr": "pencere"
+  },
+  {
+   "id": "00350",
+   "nr": "564",
+   "de": "Wand",
+   "tr": "duvar"
+  },
+  {
+   "id": "00351",
+   "nr": "569",
+   "de": "Board",
+   "tr": "tahta / kurul"
+  },
+  {
+   "id": "00352",
+   "nr": "577",
+   "de": "Glas",
+   "tr": "cam / bardak"
+  },
+  {
+   "id": "00353",
+   "nr": "581",
+   "de": "Rand",
+   "tr": "kenar / uç"
+  },
+  {
+   "id": "00354",
+   "nr": "622",
+   "de": "Hof",
+   "tr": "avlu / bahçe"
+  },
+  {
+   "id": "00355",
+   "nr": "638",
+   "de": "Garten",
+   "tr": "bahçe"
+  },
+  {
+   "id": "00356",
+   "nr": "690",
+   "de": "Schlüssel",
+   "tr": "anahtar"
+  },
+  {
+   "id": "00357",
+   "nr": "693",
+   "de": "Stick",
+   "tr": "çubuk / yapıştırmak"
+  },
+  {
+   "id": "00358",
+   "nr": "694",
+   "de": "Wohnung",
+   "tr": "daire / düz"
+  },
+  {
+   "id": "00359",
+   "nr": "699",
+   "de": "Loch",
+   "tr": "delik / çukur"
+  },
+  {
+   "id": "00360",
+   "nr": "720",
+   "de": "Boden",
+   "tr": "zemin / kat"
+  },
+  {
+   "id": "00361",
+   "nr": "753",
+   "de": "Stuhl",
+   "tr": "sandalye"
+  },
+  {
+   "id": "00362",
+   "nr": "773",
+   "de": "Ecke",
+   "tr": "köşe"
+  },
+  {
+   "id": "00363",
+   "nr": "784",
+   "de": "Funk",
+   "tr": "radyo"
+  },
+  {
+   "id": "00364",
+   "nr": "815",
+   "de": "Glocke",
+   "tr": "zil / çan"
+  },
+  {
+   "id": "00365",
+   "nr": "819",
+   "de": "Rohr",
+   "tr": "tüp / boru"
+  },
+  {
+   "id": "00366",
+   "nr": "831",
+   "de": "Uhr",
+   "tr": "saat (duvar/kol)"
+  },
+  {
+   "id": "00367",
+   "nr": "840",
+   "de": "Pistole",
+   "tr": "silah / tabanca"
+  },
+  {
+   "id": "00368",
+   "nr": "848",
+   "de": "Aufzug",
+   "tr": "asansör / kaldırmak"
+  },
+  {
+   "id": "00369",
+   "nr": "856",
+   "de": "Blatt",
+   "tr": "çarşaf / sayfa"
+  },
+  {
+   "id": "00370",
+   "nr": "913",
+   "de": "Spiel",
+   "tr": "maç / kibrit / eşleşmek"
+  },
+  {
+   "id": "00371",
+   "nr": "933",
+   "de": "Karte",
+   "tr": "kart"
+  },
+  {
+   "id": "00372",
+   "nr": "942",
+   "de": "Werkzeug",
+   "tr": "alet"
+  },
+  {
+   "id": "00373",
+   "nr": "949",
+   "de": "Sitz",
+   "tr": "koltuk / oturak"
+  },
+  {
+   "id": "00374",
+   "nr": "951",
+   "de": "Block",
+   "tr": "blok"
+  }
+ ],
+ "Lektion 10: Kleidung & Materialien": [
+  {
+   "id": "00375",
+   "nr": "272",
+   "de": "Holz",
+   "tr": "ahşap / odun"
+  },
+  {
+   "id": "00376",
+   "nr": "534",
+   "de": "Filz",
+   "tr": "keçe / hissetti"
+  },
+  {
+   "id": "00377",
+   "nr": "550",
+   "de": "Material",
+   "tr": "malzeme / materyal"
+  },
+  {
+   "id": "00378",
+   "nr": "597",
+   "de": "kleiden",
+   "tr": "giydirmek / giyinmek"
+  },
+  {
+   "id": "00379",
+   "nr": "633",
+   "de": "Draht",
+   "tr": "tel"
+  },
+  {
+   "id": "00380",
+   "nr": "637",
+   "de": "tragen",
+   "tr": "giymek"
+  },
+  {
+   "id": "00381",
+   "nr": "643",
+   "de": "passen",
+   "tr": "uymak / sığmak"
+  },
+  {
+   "id": "00382",
+   "nr": "677",
+   "de": "Kleid",
+   "tr": "elbise"
+  },
+  {
+   "id": "00383",
+   "nr": "691",
+   "de": "Eisen",
+   "tr": "demir"
+  },
+  {
+   "id": "00384",
+   "nr": "698",
+   "de": "Falte",
+   "tr": "kırışıklık / kat"
+  },
+  {
+   "id": "00385",
+   "nr": "709",
+   "de": "Metall",
+   "tr": "metal"
+  },
+  {
+   "id": "00386",
+   "nr": "778",
+   "de": "Rings",
+   "tr": "yüzük / halka"
+  },
+  {
+   "id": "00387",
+   "nr": "814",
+   "de": "Schnur",
+   "tr": "ip / sicim"
+  },
+  {
+   "id": "00388",
+   "nr": "833",
+   "de": "Krawatte",
+   "tr": "kravat / bağlamak"
+  },
+  {
+   "id": "00389",
+   "nr": "846",
+   "de": "Anzug",
+   "tr": "takım elbise"
+  },
+  {
+   "id": "00390",
+   "nr": "920",
+   "de": "Stahl",
+   "tr": "çelik"
+  },
+  {
+   "id": "00391",
+   "nr": "931",
+   "de": "Mantel",
+   "tr": "palto / manto"
+  },
+  {
+   "id": "00392",
+   "nr": "935",
+   "de": "Seil",
+   "tr": "ip / halat"
+  },
+  {
+   "id": "00393",
+   "nr": "953",
+   "de": "Hut",
+   "tr": "şapka"
+  },
+  {
+   "id": "00394",
+   "nr": "965",
+   "de": "Schuh",
+   "tr": "ayakkabı"
+  },
+  {
+   "id": "00395",
+   "nr": "971",
+   "de": "Baumwolle",
+   "tr": "pamuk"
+  }
+ ],
+ "Lektion 11: Stadt, Orte & Reisen": [
+  {
+   "id": "00396",
+   "nr": "65",
+   "de": "Hafen",
+   "tr": "liman"
+  },
+  {
+   "id": "00397",
+   "nr": "107",
+   "de": "Ort",
+   "tr": "yer / mekan"
+  },
+  {
+   "id": "00398",
+   "nr": "157",
+   "de": "Weg",
+   "tr": "yol"
+  },
+  {
+   "id": "00399",
+   "nr": "206",
+   "de": "Land",
+   "tr": "ülke / memleket"
+  },
+  {
+   "id": "00400",
+   "nr": "227",
+   "de": "Stadt",
+   "tr": "şehir / kent"
+  },
+  {
+   "id": "00401",
+   "nr": "230",
+   "de": "Bauernhof",
+   "tr": "çiftlik"
+  },
+  {
+   "id": "00402",
+   "nr": "297",
+   "de": "Auto",
+   "tr": "araba / otomobil"
+  },
+  {
+   "id": "00403",
+   "nr": "334",
+   "de": "Schiff",
+   "tr": "gemi"
+  },
+  {
+   "id": "00404",
+   "nr": "350",
+   "de": "Straße",
+   "tr": "sokak / cadde"
+  },
+  {
+   "id": "00405",
+   "nr": "356",
+   "de": "Rad",
+   "tr": "tekerlek"
+  },
+  {
+   "id": "00406",
+   "nr": "371",
+   "de": "Boot",
+   "tr": "tekne / sandal"
+  },
+  {
+   "id": "00407",
+   "nr": "375",
+   "de": "Flugzeug",
+   "tr": "uçak"
+  },
+  {
+   "id": "00408",
+   "nr": "392",
+   "de": "Reifen",
+   "tr": "lastik"
+  },
+  {
+   "id": "00409",
+   "nr": "403",
+   "de": "Stadt",
+   "tr": "kasaba / şehir"
+  },
+  {
+   "id": "00410",
+   "nr": "473",
+   "de": "Reise",
+   "tr": "seyahat / yolculuk"
+  },
+  {
+   "id": "00411",
+   "nr": "481",
+   "de": "Krieg",
+   "tr": "savaş"
+  },
+  {
+   "id": "00412",
+   "nr": "486",
+   "de": "Zentrum",
+   "tr": "merkez"
+  },
+  {
+   "id": "00413",
+   "nr": "492",
+   "de": "Straße",
+   "tr": "yol / cadde"
+  },
+  {
+   "id": "00414",
+   "nr": "493",
+   "de": "Karte",
+   "tr": "harita"
+  },
+  {
+   "id": "00415",
+   "nr": "507",
+   "de": "Fahrt",
+   "tr": "sürüş / binmek"
+  },
+  {
+   "id": "00416",
+   "nr": "514",
+   "de": "Platz",
+   "tr": "meydan / kare"
+  },
+  {
+   "id": "00417",
+   "nr": "545",
+   "de": "Motor",
+   "tr": "motor"
+  },
+  {
+   "id": "00418",
+   "nr": "546",
+   "de": "Position",
+   "tr": "konum / pozisyon"
+  },
+  {
+   "id": "00419",
+   "nr": "549",
+   "de": "Segel",
+   "tr": "yelken"
+  },
+  {
+   "id": "00420",
+   "nr": "554",
+   "de": "Rennen",
+   "tr": "yarış"
+  },
+  {
+   "id": "00421",
+   "nr": "556",
+   "de": "Speicher",
+   "tr": "mağaza / depo"
+  },
+  {
+   "id": "00422",
+   "nr": "558",
+   "de": "Zug",
+   "tr": "tren"
+  },
+  {
+   "id": "00423",
+   "nr": "582",
+   "de": "Zeichen",
+   "tr": "işaret / tabela"
+  },
+  {
+   "id": "00424",
+   "nr": "602",
+   "de": "Reise",
+   "tr": "gezi / yolculuk"
+  },
+  {
+   "id": "00425",
+   "nr": "645",
+   "de": "Messe",
+   "tr": "fuar / adil"
+  },
+  {
+   "id": "00426",
+   "nr": "646",
+   "de": "Bank",
+   "tr": "banka / bank"
+  },
+  {
+   "id": "00427",
+   "nr": "668",
+   "de": "Nation",
+   "tr": "ulus / millet"
+  },
+  {
+   "id": "00428",
+   "nr": "671",
+   "de": "Geschwindigkeit",
+   "tr": "hız"
+  },
+  {
+   "id": "00429",
+   "nr": "703",
+   "de": "Dorf",
+   "tr": "köy"
+  },
+  {
+   "id": "00430",
+   "nr": "751",
+   "de": "Hauptstadt",
+   "tr": "başkent / sermaye"
+  },
+  {
+   "id": "00431",
+   "nr": "777",
+   "de": "lokalisieren",
+   "tr": "yerini bulmak"
+  },
+  {
+   "id": "00432",
+   "nr": "793",
+   "de": "Schiene",
+   "tr": "ray / demiryolu"
+  },
+  {
+   "id": "00433",
+   "nr": "830",
+   "de": "Kolonie",
+   "tr": "koloni"
+  },
+  {
+   "id": "00434",
+   "nr": "832",
+   "de": "Mine",
+   "tr": "maden / benimki"
+  },
+  {
+   "id": "00435",
+   "nr": "852",
+   "de": "Spur",
+   "tr": "iz / patika"
+  },
+  {
+   "id": "00436",
+   "nr": "860",
+   "de": "nach",
+   "tr": "posta / direk"
+  },
+  {
+   "id": "00437",
+   "nr": "867",
+   "de": "Station",
+   "tr": "istasyon"
+  },
+  {
+   "id": "00438",
+   "nr": "872",
+   "de": "Leiste",
+   "tr": "bar / çubuk"
+  },
+  {
+   "id": "00439",
+   "nr": "878",
+   "de": "Markt",
+   "tr": "pazar / piyasa"
+  },
+  {
+   "id": "00440",
+   "nr": "880",
+   "de": "besiedeln",
+   "tr": "nüfuslandırmak"
+  },
+  {
+   "id": "00441",
+   "nr": "893",
+   "de": "Weg",
+   "tr": "patika / yol"
+  },
+  {
+   "id": "00442",
+   "nr": "969",
+   "de": "Lager",
+   "tr": "kamp"
+  },
+  {
+   "id": "00443",
+   "nr": "976",
+   "de": "Lastwagen",
+   "tr": "kamyon"
+  },
+  {
+   "id": "00444",
+   "nr": "981",
+   "de": "Geschäft",
+   "tr": "dükkan / mağaza"
+  },
+  {
+   "id": "00445",
+   "nr": "985",
+   "de": "Immobilien",
+   "tr": "mülk / emlak"
+  }
+ ],
+ "Lektion 12: Arbeit, Bildung & Wissenschaft": [
+  {
+   "id": "00446",
+   "nr": "103",
+   "de": "Arbeit",
+   "tr": "iş / çalışma"
+  },
+  {
+   "id": "00447",
+   "nr": "130",
+   "de": "Formular",
+   "tr": "form / biçim"
+  },
+  {
+   "id": "00448",
+   "nr": "140",
+   "de": "Ursache",
+   "tr": "sebep / neden"
+  },
+  {
+   "id": "00449",
+   "nr": "145",
+   "de": "Recht",
+   "tr": "hak / sağ / doğru"
+  },
+  {
+   "id": "00450",
+   "nr": "155",
+   "de": "Verwendung",
+   "tr": "kullanım"
+  },
+  {
+   "id": "00451",
+   "nr": "209",
+   "de": "Schule",
+   "tr": "okul"
+  },
+  {
+   "id": "00452",
+   "nr": "211",
+   "de": "Studie",
+   "tr": "çalışma / araştırma"
+  },
+  {
+   "id": "00453",
+   "nr": "244",
+   "de": "Presse",
+   "tr": "basın / basmak"
+  },
+  {
+   "id": "00454",
+   "nr": "254",
+   "de": "Wissenschaft",
+   "tr": "bilim"
+  },
+  {
+   "id": "00455",
+   "nr": "264",
+   "de": "Basis",
+   "tr": "temel / taban"
+  },
+  {
+   "id": "00456",
+   "nr": "283",
+   "de": "Beispiel",
+   "tr": "örnek"
+  },
+  {
+   "id": "00457",
+   "nr": "325",
+   "de": "Produkt",
+   "tr": "ürün"
+  },
+  {
+   "id": "00458",
+   "nr": "329",
+   "de": "Klasse",
+   "tr": "sınıf"
+  },
+  {
+   "id": "00459",
+   "nr": "341",
+   "de": "Problem",
+   "tr": "sorun / problem"
+  },
+  {
+   "id": "00460",
+   "nr": "354",
+   "de": "Kurs",
+   "tr": "kurs / rota"
+  },
+  {
+   "id": "00461",
+   "nr": "358",
+   "de": "Kraft",
+   "tr": "kuvvet / güç"
+  },
+  {
+   "id": "00462",
+   "nr": "367",
+   "de": "System",
+   "tr": "sistem"
+  },
+  {
+   "id": "00463",
+   "nr": "369",
+   "de": "Prüfung",
+   "tr": "sınav / test"
+  },
+  {
+   "id": "00464",
+   "nr": "370",
+   "de": "Rekord",
+   "tr": "kayıt / rekor"
+  },
+  {
+   "id": "00465",
+   "nr": "402",
+   "de": "Macht",
+   "tr": "güç / enerji"
+  },
+  {
+   "id": "00466",
+   "nr": "411",
+   "de": "Maschine",
+   "tr": "makine"
+  },
+  {
+   "id": "00467",
+   "nr": "414",
+   "de": "Plan",
+   "tr": "plan"
+  },
+  {
+   "id": "00468",
+   "nr": "415",
+   "de": "Abbildung",
+   "tr": "şekil / rakam"
+  },
+  {
+   "id": "00469",
+   "nr": "449",
+   "de": "Tatsache",
+   "tr": "gerçek / olgu"
+  },
+  {
+   "id": "00470",
+   "nr": "495",
+   "de": "Regel",
+   "tr": "kural"
+  },
+  {
+   "id": "00471",
+   "nr": "496",
+   "de": "regieren",
+   "tr": "yönetmek"
+  },
+  {
+   "id": "00472",
+   "nr": "501",
+   "de": "Energie",
+   "tr": "enerji"
+  },
+  {
+   "id": "00473",
+   "nr": "508",
+   "de": "Zelle",
+   "tr": "hücre"
+  },
+  {
+   "id": "00474",
+   "nr": "515",
+   "de": "Grund",
+   "tr": "neden / sebep"
+  },
+  {
+   "id": "00475",
+   "nr": "528",
+   "de": "Materie",
+   "tr": "madde / mesele"
+  },
+  {
+   "id": "00476",
+   "nr": "580",
+   "de": "Arbeit",
+   "tr": "iş / meslek"
+  },
+  {
+   "id": "00477",
+   "nr": "588",
+   "de": "Gases",
+   "tr": "gaz"
+  },
+  {
+   "id": "00478",
+   "nr": "600",
+   "de": "Handel",
+   "tr": "ticaret"
+  },
+  {
+   "id": "00479",
+   "nr": "603",
+   "de": "Büro",
+   "tr": "ofis / büro"
+  },
+  {
+   "id": "00480",
+   "nr": "649",
+   "de": "Kontrolle",
+   "tr": "kontrol"
+  },
+  {
+   "id": "00481",
+   "nr": "655",
+   "de": "Fall",
+   "tr": "durum / dava / kutu"
+  },
+  {
+   "id": "00482",
+   "nr": "672",
+   "de": "Verfahren",
+   "tr": "yöntem / metot"
+  },
+  {
+   "id": "00483",
+   "nr": "688",
+   "de": "Versuch",
+   "tr": "deney"
+  },
+  {
+   "id": "00484",
+   "nr": "722",
+   "de": "Ergebnis",
+   "tr": "sonuç"
+  },
+  {
+   "id": "00485",
+   "nr": "730",
+   "de": "Gesetz",
+   "tr": "yasa / kanun"
+  },
+  {
+   "id": "00486",
+   "nr": "733",
+   "de": "Kopie",
+   "tr": "kopya"
+  },
+  {
+   "id": "00487",
+   "nr": "742",
+   "de": "Industrie",
+   "tr": "sanayi / endüstri"
+  },
+  {
+   "id": "00488",
+   "nr": "759",
+   "de": "Prozess",
+   "tr": "süreç / işlem"
+  },
+  {
+   "id": "00489",
+   "nr": "760",
+   "de": "betreiben",
+   "tr": "işletmek / ameliyat etmek"
+  },
+  {
+   "id": "00490",
+   "nr": "761",
+   "de": "Praxis",
+   "tr": "pratik / uygulama"
+  },
+  {
+   "id": "00491",
+   "nr": "770",
+   "de": "Elementes",
+   "tr": "element / unsur"
+  },
+  {
+   "id": "00492",
+   "nr": "772",
+   "de": "Schüler",
+   "tr": "öğrenci"
+  },
+  {
+   "id": "00493",
+   "nr": "775",
+   "de": "Versorgung",
+   "tr": "tedarik / malzeme"
+  },
+  {
+   "id": "00494",
+   "nr": "786",
+   "de": "Atom",
+   "tr": "atom"
+  },
+  {
+   "id": "00495",
+   "nr": "789",
+   "de": "Wirkung",
+   "tr": "etki"
+  },
+  {
+   "id": "00496",
+   "nr": "790",
+   "de": "elektrisch",
+   "tr": "elektrikli"
+  },
+  {
+   "id": "00497",
+   "nr": "842",
+   "de": "Druck",
+   "tr": "baskı / yazdırmak"
+  },
+  {
+   "id": "00498",
+   "nr": "847",
+   "de": "Strom",
+   "tr": "akım / güncel"
+  },
+  {
+   "id": "00499",
+   "nr": "857",
+   "de": "Substanz",
+   "tr": "madde / öz"
+  },
+  {
+   "id": "00500",
+   "nr": "873",
+   "de": "Angebot",
+   "tr": "teklif / sunmak"
+  },
+  {
+   "id": "00501",
+   "nr": "895",
+   "de": "protokollieren",
+   "tr": "kütük / kayıt tutmak"
+  },
+  {
+   "id": "00502",
+   "nr": "901",
+   "de": "Sauerstoff",
+   "tr": "oksijen"
+  },
+  {
+   "id": "00503",
+   "nr": "905",
+   "de": "Geschicklichkeit",
+   "tr": "beceri / yetenek"
+  },
+  {
+   "id": "00504",
+   "nr": "908",
+   "de": "Lösung",
+   "tr": "çözüm"
+  },
+  {
+   "id": "00505",
+   "nr": "909",
+   "de": "Magnet",
+   "tr": "mıknatıs"
+  },
+  {
+   "id": "00506",
+   "nr": "925",
+   "de": "Erfahrung",
+   "tr": "deneyim / tecrübe"
+  },
+  {
+   "id": "00507",
+   "nr": "952",
+   "de": "Tabelle",
+   "tr": "grafik / çizelge"
+  },
+  {
+   "id": "00508",
+   "nr": "955",
+   "de": "Erfolg",
+   "tr": "başarı"
+  },
+  {
+   "id": "00509",
+   "nr": "956",
+   "de": "Firma",
+   "tr": "şirket"
+  },
+  {
+   "id": "00510",
+   "nr": "960",
+   "de": "viel",
+   "tr": "anlaşma / miktar"
+  },
+  {
+   "id": "00511",
+   "nr": "970",
+   "de": "erfinden",
+   "tr": "icat etmek"
+  },
+  {
+   "id": "00512",
+   "nr": "986",
+   "de": "Spalte",
+   "tr": "sütun"
+  },
+  {
+   "id": "00513",
+   "nr": "987",
+   "de": "Molekül",
+   "tr": "molekül"
+  },
+  {
+   "id": "00514",
+   "nr": "999",
+   "de": "Anspruch",
+   "tr": "iddia / talep"
+  }
+ ],
+ "Lektion 13: Sprache, Musik & Kunst": [
+  {
+   "id": "00515",
+   "nr": "20",
+   "de": "Wort",
+   "tr": "kelime"
+  },
+  {
+   "id": "00516",
+   "nr": "52",
+   "de": "Satz",
+   "tr": "cümle / takım"
+  },
+  {
+   "id": "00517",
+   "nr": "67",
+   "de": "buchstabieren",
+   "tr": "hecelemek / harf harf söylemek"
+  },
+  {
+   "id": "00518",
+   "nr": "77",
+   "de": "Akt",
+   "tr": "eylem / perde"
+  },
+  {
+   "id": "00519",
+   "nr": "88",
+   "de": "Bild",
+   "tr": "resim / fotoğraf"
+  },
+  {
+   "id": "00520",
+   "nr": "93",
+   "de": "Punkt",
+   "tr": "nokta"
+  },
+  {
+   "id": "00521",
+   "nr": "131",
+   "de": "Satz",
+   "tr": "cümle"
+  },
+  {
+   "id": "00522",
+   "nr": "137",
+   "de": "Linie",
+   "tr": "çizgi / hat"
+  },
+  {
+   "id": "00523",
+   "nr": "204",
+   "de": "Seite",
+   "tr": "sayfa"
+  },
+  {
+   "id": "00524",
+   "nr": "208",
+   "de": "Antwort",
+   "tr": "cevap / yanıt"
+  },
+  {
+   "id": "00525",
+   "nr": "234",
+   "de": "Geschichte",
+   "tr": "hikaye / öykü"
+  },
+  {
+   "id": "00526",
+   "nr": "251",
+   "de": "Buch",
+   "tr": "kitap"
+  },
+  {
+   "id": "00527",
+   "nr": "288",
+   "de": "Musik",
+   "tr": "müzik"
+  },
+  {
+   "id": "00528",
+   "nr": "293",
+   "de": "Schreiben",
+   "tr": "mektup / yazı"
+  },
+  {
+   "id": "00529",
+   "nr": "322",
+   "de": "Lied",
+   "tr": "şarkı"
+  },
+  {
+   "id": "00530",
+   "nr": "331",
+   "de": "Frage",
+   "tr": "soru"
+  },
+  {
+   "id": "00531",
+   "nr": "398",
+   "de": "malen",
+   "tr": "boyamak / resim yapmak"
+  },
+  {
+   "id": "00532",
+   "nr": "399",
+   "de": "Sprache",
+   "tr": "dil"
+  },
+  {
+   "id": "00533",
+   "nr": "412",
+   "de": "note",
+   "tr": "not / nota"
+  },
+  {
+   "id": "00534",
+   "nr": "418",
+   "de": "Nomen",
+   "tr": "isim (dilbilgisi)"
+  },
+  {
+   "id": "00535",
+   "nr": "435",
+   "de": "oh",
+   "tr": "ah / oh"
+  },
+  {
+   "id": "00536",
+   "nr": "468",
+   "de": "Verbum",
+   "tr": "fiil (eylem)"
+  },
+  {
+   "id": "00537",
+   "nr": "469",
+   "de": "singen",
+   "tr": "şarkı söylemek"
+  },
+  {
+   "id": "00538",
+   "nr": "479",
+   "de": "Vokal",
+   "tr": "ünlü harf / sesli harf"
+  },
+  {
+   "id": "00539",
+   "nr": "518",
+   "de": "Kunst",
+   "tr": "sanat"
+  },
+  {
+   "id": "00540",
+   "nr": "519",
+   "de": "Thema",
+   "tr": "konu / özne"
+  },
+  {
+   "id": "00541",
+   "nr": "533",
+   "de": "Silbe",
+   "tr": "hece"
+  },
+  {
+   "id": "00542",
+   "nr": "544",
+   "de": "Tanz",
+   "tr": "dans"
+  },
+  {
+   "id": "00543",
+   "nr": "573",
+   "de": "geschrieben",
+   "tr": "yazılı"
+  },
+  {
+   "id": "00544",
+   "nr": "575",
+   "de": "Instrument",
+   "tr": "alet / enstrüman"
+  },
+  {
+   "id": "00545",
+   "nr": "601",
+   "de": "Melodie",
+   "tr": "melodi / ezgi"
+  },
+  {
+   "id": "00546",
+   "nr": "608",
+   "de": "Zeichen",
+   "tr": "sembol"
+  },
+  {
+   "id": "00547",
+   "nr": "616",
+   "de": "Ton",
+   "tr": "ton / ses"
+  },
+  {
+   "id": "00548",
+   "nr": "667",
+   "de": "Konsonant",
+   "tr": "ünsüz harf / sessiz harf"
+  },
+  {
+   "id": "00549",
+   "nr": "669",
+   "de": "Wörterbuch",
+   "tr": "sözlük"
+  },
+  {
+   "id": "00550",
+   "nr": "676",
+   "de": "Abschnitt",
+   "tr": "bölüm / kesit"
+  },
+  {
+   "id": "00551",
+   "nr": "685",
+   "de": "Entwurf",
+   "tr": "tasarım"
+  },
+  {
+   "id": "00552",
+   "nr": "713",
+   "de": "Absatz",
+   "tr": "paragraf"
+  },
+  {
+   "id": "00553",
+   "nr": "734",
+   "de": "Ausdruck",
+   "tr": "ifade / deyim"
+  },
+  {
+   "id": "00554",
+   "nr": "765",
+   "de": "Bitte",
+   "tr": "lütfen"
+  },
+  {
+   "id": "00555",
+   "nr": "813",
+   "de": "Gedicht",
+   "tr": "şiir"
+  },
+  {
+   "id": "00556",
+   "nr": "862",
+   "de": "Akkord",
+   "tr": "akor"
+  },
+  {
+   "id": "00557",
+   "nr": "888",
+   "de": "Rede",
+   "tr": "konuşma"
+  },
+  {
+   "id": "00558",
+   "nr": "914",
+   "de": "Suffix",
+   "tr": "son ek"
+  },
+  {
+   "id": "00559",
+   "nr": "930",
+   "de": "Tonhöhe",
+   "tr": "perde / atış"
+  },
+  {
+   "id": "00560",
+   "nr": "934",
+   "de": "Band",
+   "tr": "bant / müzik grubu"
+  },
+  {
+   "id": "00561",
+   "nr": "962",
+   "de": "Begriff",
+   "tr": "terim / dönem"
+  },
+  {
+   "id": "00562",
+   "nr": "977",
+   "de": "Lärm",
+   "tr": "gürültü"
+  },
+  {
+   "id": "00563",
+   "nr": "997",
+   "de": "mehreren",
+   "tr": "çoğul"
+  }
+ ],
+ "Lektion 14: Gefühle, Eigenschaften & Zustände": [
+  {
+   "id": "00564",
+   "nr": "19",
+   "de": "heiß",
+   "tr": "sıcak"
+  },
+  {
+   "id": "00565",
+   "nr": "56",
+   "de": "gut",
+   "tr": "iyi"
+  },
+  {
+   "id": "00566",
+   "nr": "59",
+   "de": "klein",
+   "tr": "küçük"
+  },
+  {
+   "id": "00567",
+   "nr": "66",
+   "de": "groß",
+   "tr": "büyük / geniş"
+  },
+  {
+   "id": "00568",
+   "nr": "73",
+   "de": "groß",
+   "tr": "büyük"
+  },
+  {
+   "id": "00569",
+   "nr": "74",
+   "de": "hoch",
+   "tr": "yüksek"
+  },
+  {
+   "id": "00570",
+   "nr": "81",
+   "de": "Veränderung",
+   "tr": "değişiklik / değişim"
+  },
+  {
+   "id": "00571",
+   "nr": "84",
+   "de": "Art",
+   "tr": "tür / çeşit"
+  },
+  {
+   "id": "00572",
+   "nr": "102",
+   "de": "neu",
+   "tr": "yeni"
+  },
+  {
+   "id": "00573",
+   "nr": "121",
+   "de": "gut",
+   "tr": "iyi"
+  },
+  {
+   "id": "00574",
+   "nr": "132",
+   "de": "groß",
+   "tr": "harika / büyük"
+  },
+  {
+   "id": "00575",
+   "nr": "136",
+   "de": "niedrig",
+   "tr": "alçak / düşük"
+  },
+  {
+   "id": "00576",
+   "nr": "147",
+   "de": "alt",
+   "tr": "eski / yaşlı"
+  },
+  {
+   "id": "00577",
+   "nr": "149",
+   "de": "gleich",
+   "tr": "aynı"
+  },
+  {
+   "id": "00578",
+   "nr": "168",
+   "de": "lange",
+   "tr": "uzun"
+  },
+  {
+   "id": "00579",
+   "nr": "220",
+   "de": "Zustand",
+   "tr": "durum / eyalet"
+  },
+  {
+   "id": "00580",
+   "nr": "231",
+   "de": "schwer",
+   "tr": "zor / sert"
+  },
+  {
+   "id": "00581",
+   "nr": "233",
+   "de": "Macht",
+   "tr": "güç / kudret"
+  },
+  {
+   "id": "00582",
+   "nr": "247",
+   "de": "realen",
+   "tr": "gerçek"
+  },
+  {
+   "id": "00583",
+   "nr": "268",
+   "de": "sicher",
+   "tr": "emin / kesin"
+  },
+  {
+   "id": "00584",
+   "nr": "273",
+   "de": "Haupt-",
+   "tr": "ana / temel"
+  },
+  {
+   "id": "00585",
+   "nr": "274",
+   "de": "geöffnet",
+   "tr": "açık"
+  },
+  {
+   "id": "00586",
+   "nr": "304",
+   "de": "üblich",
+   "tr": "her zamanki / olağan"
+  },
+  {
+   "id": "00587",
+   "nr": "305",
+   "de": "jung",
+   "tr": "genç"
+  },
+  {
+   "id": "00588",
+   "nr": "306",
+   "de": "bereit",
+   "tr": "hazır"
+  },
+  {
+   "id": "00589",
+   "nr": "327",
+   "de": "kurz",
+   "tr": "kısa"
+  },
+  {
+   "id": "00590",
+   "nr": "333",
+   "de": "vollständig",
+   "tr": "tam / eksiksiz"
+  },
+  {
+   "id": "00591",
+   "nr": "357",
+   "de": "voll",
+   "tr": "dolu"
+  },
+  {
+   "id": "00592",
+   "nr": "363",
+   "de": "tief",
+   "tr": "derin"
+  },
+  {
+   "id": "00593",
+   "nr": "368",
+   "de": "beschäftigt",
+   "tr": "meşgul"
+  },
+  {
+   "id": "00594",
+   "nr": "372",
+   "de": "gemeinsam",
+   "tr": "ortak / yaygın"
+  },
+  {
+   "id": "00595",
+   "nr": "374",
+   "de": "möglich",
+   "tr": "mümkün"
+  },
+  {
+   "id": "00596",
+   "nr": "377",
+   "de": "trocken",
+   "tr": "kuru"
+  },
+  {
+   "id": "00597",
+   "nr": "378",
+   "de": "Wunder",
+   "tr": "mucize / merak etmek"
+  },
+  {
+   "id": "00598",
+   "nr": "387",
+   "de": "heiß",
+   "tr": "sıcak"
+  },
+  {
+   "id": "00599",
+   "nr": "404",
+   "de": "fein",
+   "tr": "ince / güzel"
+  },
+  {
+   "id": "00600",
+   "nr": "405",
+   "de": "sicher",
+   "tr": "belirli / kesin"
+  },
+  {
+   "id": "00601",
+   "nr": "421",
+   "de": "richtig",
+   "tr": "doğru"
+  },
+  {
+   "id": "00602",
+   "nr": "422",
+   "de": "fähig",
+   "tr": "yetenekli / muktedir"
+  },
+  {
+   "id": "00603",
+   "nr": "425",
+   "de": "Schönheit",
+   "tr": "güzellik"
+  },
+  {
+   "id": "00604",
+   "nr": "436",
+   "de": "schnell",
+   "tr": "hızlı / çabuk"
+  },
+  {
+   "id": "00605",
+   "nr": "439",
+   "de": "warme",
+   "tr": "ılık / sıcak"
+  },
+  {
+   "id": "00606",
+   "nr": "440",
+   "de": "kostenlos",
+   "tr": "ücretsiz / özgür"
+  },
+  {
+   "id": "00607",
+   "nr": "442",
+   "de": "stark",
+   "tr": "güçlü"
+  },
+  {
+   "id": "00608",
+   "nr": "443",
+   "de": "besondere",
+   "tr": "özel"
+  },
+  {
+   "id": "00609",
+   "nr": "452",
+   "de": "beste",
+   "tr": "en iyi"
+  },
+  {
+   "id": "00610",
+   "nr": "454",
+   "de": "besser",
+   "tr": "daha iyi"
+  },
+  {
+   "id": "00611",
+   "nr": "455",
+   "de": "wahr",
+   "tr": "doğru / gerçek"
+  },
+  {
+   "id": "00612",
+   "nr": "465",
+   "de": "Interesse",
+   "tr": "ilgi / faiz"
+  },
+  {
+   "id": "00613",
+   "nr": "467",
+   "de": "schnell",
+   "tr": "hızlı"
+  },
+  {
+   "id": "00614",
+   "nr": "477",
+   "de": "einfach",
+   "tr": "basit / kolay"
+  },
+  {
+   "id": "00615",
+   "nr": "485",
+   "de": "schleppend",
+   "tr": "yavaş"
+  },
+  {
+   "id": "00616",
+   "nr": "487",
+   "de": "Liebe",
+   "tr": "aşk / sevgi"
+  },
+  {
+   "id": "00617",
+   "nr": "503",
+   "de": "wahrscheinlich",
+   "tr": "muhtemel / olası"
+  },
+  {
+   "id": "00618",
+   "nr": "521",
+   "de": "Größe",
+   "tr": "boyut / beden"
+  },
+  {
+   "id": "00619",
+   "nr": "526",
+   "de": "allgemein",
+   "tr": "genel"
+  },
+  {
+   "id": "00620",
+   "nr": "535",
+   "de": "groß",
+   "tr": "görkemli / büyük"
+  },
+  {
+   "id": "00621",
+   "nr": "543",
+   "de": "schwer",
+   "tr": "ağır"
+  },
+  {
+   "id": "00622",
+   "nr": "548",
+   "de": "breit",
+   "tr": "geniş"
+  },
+  {
+   "id": "00623",
+   "nr": "561",
+   "de": "einsam",
+   "tr": "yalnız / tek"
+  },
+  {
+   "id": "00624",
+   "nr": "570",
+   "de": "Freude",
+   "tr": "neşe / sevinç"
+  },
+  {
+   "id": "00625",
+   "nr": "585",
+   "de": "weich",
+   "tr": "yumuşak"
+  },
+  {
+   "id": "00626",
+   "nr": "586",
+   "de": "Spaß",
+   "tr": "eğlence"
+  },
+  {
+   "id": "00627",
+   "nr": "594",
+   "de": "glücklich",
+   "tr": "mutlu"
+  },
+  {
+   "id": "00628",
+   "nr": "598",
+   "de": "seltsam",
+   "tr": "garip / tuhaf"
+  },
+  {
+   "id": "00629",
+   "nr": "607",
+   "de": "genau",
+   "tr": "tam / kesin"
+  },
+  {
+   "id": "00630",
+   "nr": "611",
+   "de": "Ärger",
+   "tr": "sorun / sıkıntı"
+  },
+  {
+   "id": "00631",
+   "nr": "619",
+   "de": "sauber",
+   "tr": "temiz"
+  },
+  {
+   "id": "00632",
+   "nr": "624",
+   "de": "schlecht",
+   "tr": "kötü"
+  },
+  {
+   "id": "00633",
+   "nr": "635",
+   "de": "verloren",
+   "tr": "kayıp"
+  },
+  {
+   "id": "00634",
+   "nr": "654",
+   "de": "pleite",
+   "tr": "kırıldı / parasız"
+  },
+  {
+   "id": "00635",
+   "nr": "662",
+   "de": "laut",
+   "tr": "yüksek sesli"
+  },
+  {
+   "id": "00636",
+   "nr": "666",
+   "de": "gerade",
+   "tr": "düz / doğru"
+  },
+  {
+   "id": "00637",
+   "nr": "679",
+   "de": "Überraschung",
+   "tr": "sürpriz"
+  },
+  {
+   "id": "00638",
+   "nr": "680",
+   "de": "ruhig",
+   "tr": "sessiz / sakin"
+  },
+  {
+   "id": "00639",
+   "nr": "682",
+   "de": "winzig",
+   "tr": "minik / küçücük"
+  },
+  {
+   "id": "00640",
+   "nr": "684",
+   "de": "kühlen",
+   "tr": "serin / soğuk"
+  },
+  {
+   "id": "00641",
+   "nr": "686",
+   "de": "arm",
+   "tr": "fakir / zavallı"
+  },
+  {
+   "id": "00642",
+   "nr": "697",
+   "de": "Lächeln",
+   "tr": "gülümseme / gülümsemek"
+  },
+  {
+   "id": "00643",
+   "nr": "725",
+   "de": "sicher",
+   "tr": "güvenli / kasa"
+  },
+  {
+   "id": "00644",
+   "nr": "729",
+   "de": "Typ",
+   "tr": "tip / tür"
+  },
+  {
+   "id": "00645",
+   "nr": "735",
+   "de": "still",
+   "tr": "sessiz"
+  },
+  {
+   "id": "00646",
+   "nr": "736",
+   "de": "hoch",
+   "tr": "uzun boylu"
+  },
+  {
+   "id": "00647",
+   "nr": "747",
+   "de": "begeistern",
+   "tr": "heyecanlandırmak"
+  },
+  {
+   "id": "00648",
+   "nr": "754",
+   "de": "Achtung",
+   "tr": "tehlike"
+  },
+  {
+   "id": "00649",
+   "nr": "756",
+   "de": "reich",
+   "tr": "zengin"
+  },
+  {
+   "id": "00650",
+   "nr": "757",
+   "de": "dick",
+   "tr": "kalın"
+  },
+  {
+   "id": "00651",
+   "nr": "763",
+   "de": "schwierig",
+   "tr": "zor"
+  },
+  {
+   "id": "00652",
+   "nr": "769",
+   "de": "modernen",
+   "tr": "modern / çağdaş"
+  },
+  {
+   "id": "00653",
+   "nr": "779",
+   "de": "Charakter",
+   "tr": "karakter"
+  },
+  {
+   "id": "00654",
+   "nr": "798",
+   "de": "sanft",
+   "tr": "nazik / yumuşak"
+  },
+  {
+   "id": "00655",
+   "nr": "802",
+   "de": "erforderlich",
+   "tr": "gerekli"
+  },
+  {
+   "id": "00656",
+   "nr": "803",
+   "de": "scharf",
+   "tr": "keskin"
+  },
+  {
+   "id": "00657",
+   "nr": "820",
+   "de": "berühmt",
+   "tr": "ünlü / meşhur"
+  },
+  {
+   "id": "00658",
+   "nr": "823",
+   "de": "Angst",
+   "tr": "korku"
+  },
+  {
+   "id": "00659",
+   "nr": "825",
+   "de": "dünn",
+   "tr": "ince / zayıf"
+  },
+  {
+   "id": "00660",
+   "nr": "835",
+   "de": "Dur",
+   "tr": "büyük / majör"
+  },
+  {
+   "id": "00661",
+   "nr": "858",
+   "de": "begünstigen",
+   "tr": "iyilik / desteklemek"
+  },
+  {
+   "id": "00662",
+   "nr": "864",
+   "de": "froh",
+   "tr": "memnun / sevinçli"
+  },
+  {
+   "id": "00663",
+   "nr": "865",
+   "de": "Original",
+   "tr": "orijinal / özgün"
+  },
+  {
+   "id": "00664",
+   "nr": "871",
+   "de": "richtig",
+   "tr": "uygun / düzgün"
+  },
+  {
+   "id": "00665",
+   "nr": "887",
+   "de": "Unterstützung",
+   "tr": "destek"
+  },
+  {
+   "id": "00666",
+   "nr": "904",
+   "de": "ziemlich",
+   "tr": "oldukça / güzel"
+  },
+  {
+   "id": "00667",
+   "nr": "917",
+   "de": "ängstlich",
+   "tr": "korkmuş"
+  },
+  {
+   "id": "00668",
+   "nr": "918",
+   "de": "riesig",
+   "tr": "devasa / kocaman"
+  },
+  {
+   "id": "00669",
+   "nr": "923",
+   "de": "ähnlich",
+   "tr": "benzer"
+  },
+  {
+   "id": "00670",
+   "nr": "940",
+   "de": "Zustand",
+   "tr": "koşul / şart"
+  },
+  {
+   "id": "00671",
+   "nr": "944",
+   "de": "Basis",
+   "tr": "temel"
+  },
+  {
+   "id": "00672",
+   "nr": "959",
+   "de": "besondere",
+   "tr": "belirli / özel"
+  },
+  {
+   "id": "00673",
+   "nr": "963",
+   "de": "Gegenteil",
+   "tr": "zıt / karşıt"
+  },
+  {
+   "id": "00674",
+   "nr": "979",
+   "de": "Chance",
+   "tr": "şans / fırsat"
+  },
+  {
+   "id": "00675",
+   "nr": "989",
+   "de": "falsch",
+   "tr": "yanlış"
+  },
+  {
+   "id": "00676",
+   "nr": "993",
+   "de": "breit",
+   "tr": "geniş / enli"
+  },
+  {
+   "id": "00677",
+   "nr": "998",
+   "de": "Zorn",
+   "tr": "öfke / kızgınlık"
+  }
+ ],
+ "Lektion 15: Verben: Bewegung & Alltag": [
+  {
+   "id": "00678",
+   "nr": "6",
+   "de": "war",
+   "tr": "idi / -dı"
+  },
+  {
+   "id": "00679",
+   "nr": "9",
+   "de": "sind",
+   "tr": "dirler / -ız"
+  },
+  {
+   "id": "00680",
+   "nr": "12",
+   "de": "sein",
+   "tr": "olmak"
+  },
+  {
+   "id": "00681",
+   "nr": "15",
+   "de": "haben",
+   "tr": "sahip olmak"
+  },
+  {
+   "id": "00682",
+   "nr": "24",
+   "de": "ist",
+   "tr": "-dir"
+  },
+  {
+   "id": "00683",
+   "nr": "28",
+   "de": "hatte",
+   "tr": "sahipti"
+  },
+  {
+   "id": "00684",
+   "nr": "36",
+   "de": "können",
+   "tr": "-ebilmek"
+  },
+  {
+   "id": "00685",
+   "nr": "39",
+   "de": "waren",
+   "tr": "idiler"
+  },
+  {
+   "id": "00686",
+   "nr": "41",
+   "de": "tun",
+   "tr": "yapmak"
+  },
+  {
+   "id": "00687",
+   "nr": "45",
+   "de": "werden",
+   "tr": "olmak / -ecek"
+  },
+  {
+   "id": "00688",
+   "nr": "51",
+   "de": "tut",
+   "tr": "yapar"
+  },
+  {
+   "id": "00689",
+   "nr": "58",
+   "de": "spielen",
+   "tr": "oynamak / çalmak"
+  },
+  {
+   "id": "00690",
+   "nr": "61",
+   "de": "setzen",
+   "tr": "koymak / oturtmak"
+  },
+  {
+   "id": "00691",
+   "nr": "68",
+   "de": "hinzufügen",
+   "tr": "eklemek"
+  },
+  {
+   "id": "00692",
+   "nr": "72",
+   "de": "muss",
+   "tr": "zorunda"
+  },
+  {
+   "id": "00693",
+   "nr": "76",
+   "de": "folgen",
+   "tr": "takip etmek"
+  },
+  {
+   "id": "00694",
+   "nr": "82",
+   "de": "ging",
+   "tr": "gitti"
+  },
+  {
+   "id": "00695",
+   "nr": "86",
+   "de": "müssen",
+   "tr": "gerekmek / zorunda olmak"
+  },
+  {
+   "id": "00696",
+   "nr": "89",
+   "de": "versuchen",
+   "tr": "denemek / çabalamak"
+  },
+  {
+   "id": "00697",
+   "nr": "97",
+   "de": "bauen",
+   "tr": "inşa etmek"
+  },
+  {
+   "id": "00698",
+   "nr": "105",
+   "de": "nehmen",
+   "tr": "almak"
+  },
+  {
+   "id": "00699",
+   "nr": "106",
+   "de": "erhalten",
+   "tr": "elde etmek / almak"
+  },
+  {
+   "id": "00700",
+   "nr": "108",
+   "de": "gemacht",
+   "tr": "yapılmış"
+  },
+  {
+   "id": "00701",
+   "nr": "109",
+   "de": "leben",
+   "tr": "yaşamak"
+  },
+  {
+   "id": "00702",
+   "nr": "118",
+   "de": "kam",
+   "tr": "geldi"
+  },
+  {
+   "id": "00703",
+   "nr": "123",
+   "de": "geben",
+   "tr": "vermek"
+  },
+  {
+   "id": "00704",
+   "nr": "139",
+   "de": "wiederum",
+   "tr": "dönmek / sıra"
+  },
+  {
+   "id": "00705",
+   "nr": "144",
+   "de": "Umzug",
+   "tr": "taşınma / hareket"
+  },
+  {
+   "id": "00706",
+   "nr": "163",
+   "de": "würde",
+   "tr": "-erdi / isterdi"
+  },
+  {
+   "id": "00707",
+   "nr": "169",
+   "de": "machen",
+   "tr": "yapmak"
+  },
+  {
+   "id": "00708",
+   "nr": "174",
+   "de": "hat",
+   "tr": "sahip"
+  },
+  {
+   "id": "00709",
+   "nr": "178",
+   "de": "könnte",
+   "tr": "-ebilirdi"
+  },
+  {
+   "id": "00710",
+   "nr": "179",
+   "de": "gehen",
+   "tr": "gitmek"
+  },
+  {
+   "id": "00711",
+   "nr": "180",
+   "de": "kommen",
+   "tr": "gelmek"
+  },
+  {
+   "id": "00712",
+   "nr": "181",
+   "de": "tat",
+   "tr": "yaptı"
+  },
+  {
+   "id": "00713",
+   "nr": "195",
+   "de": "können",
+   "tr": "-ebilir (izin/olasılık)"
+  },
+  {
+   "id": "00714",
+   "nr": "198",
+   "de": "gewesen",
+   "tr": "olmuş"
+  },
+  {
+   "id": "00715",
+   "nr": "200",
+   "de": "finden",
+   "tr": "bulmak"
+  },
+  {
+   "id": "00716",
+   "nr": "202",
+   "de": "stehen",
+   "tr": "ayakta durmak"
+  },
+  {
+   "id": "00717",
+   "nr": "203",
+   "de": "besitzen",
+   "tr": "sahip olmak"
+  },
+  {
+   "id": "00718",
+   "nr": "205",
+   "de": "sollte",
+   "tr": "-meli / -malı"
+  },
+  {
+   "id": "00719",
+   "nr": "207",
+   "de": "gefunden",
+   "tr": "bulundu"
+  },
+  {
+   "id": "00720",
+   "nr": "210",
+   "de": "wachsen",
+   "tr": "büyümek"
+  },
+  {
+   "id": "00721",
+   "nr": "221",
+   "de": "halten",
+   "tr": "tutmak / saklamak"
+  },
+  {
+   "id": "00722",
+   "nr": "225",
+   "de": "lassen",
+   "tr": "izin vermek / bırakmak"
+  },
+  {
+   "id": "00723",
+   "nr": "229",
+   "de": "überqueren",
+   "tr": "karşıya geçmek"
+  },
+  {
+   "id": "00724",
+   "nr": "238",
+   "de": "ziehen",
+   "tr": "çekmek / çizmek"
+  },
+  {
+   "id": "00725",
+   "nr": "241",
+   "de": "laufen",
+   "tr": "koşmak"
+  },
+  {
+   "id": "00726",
+   "nr": "242",
+   "de": "unterlassen Sie",
+   "tr": "yapma"
+  },
+  {
+   "id": "00727",
+   "nr": "245",
+   "de": "Schließen",
+   "tr": "kapatmak / yakın"
+  },
+  {
+   "id": "00728",
+   "nr": "252",
+   "de": "tragen",
+   "tr": "taşımak"
+  },
+  {
+   "id": "00729",
+   "nr": "253",
+   "de": "nahm",
+   "tr": "aldı"
+  },
+  {
+   "id": "00730",
+   "nr": "258",
+   "de": "begann",
+   "tr": "başladı"
+  },
+  {
+   "id": "00731",
+   "nr": "262",
+   "de": "Stopp",
+   "tr": "dur / durmak"
+  },
+  {
+   "id": "00732",
+   "nr": "267",
+   "de": "Schnitt",
+   "tr": "kesik / kesmek"
+  },
+  {
+   "id": "00733",
+   "nr": "280",
+   "de": "Start",
+   "tr": "başlamak"
+  },
+  {
+   "id": "00734",
+   "nr": "281",
+   "de": "bekam",
+   "tr": "aldı / elde etti"
+  },
+  {
+   "id": "00735",
+   "nr": "282",
+   "de": "gehen",
+   "tr": "yürümek"
+  },
+  {
+   "id": "00736",
+   "nr": "284",
+   "de": "erleichtern",
+   "tr": "kolaylaştırmak / rahatlık"
+  },
+  {
+   "id": "00737",
+   "nr": "321",
+   "de": "verlassen",
+   "tr": "ayrılmak / terk etmek"
+  },
+  {
+   "id": "00738",
+   "nr": "323",
+   "de": "messen",
+   "tr": "ölçmek"
+  },
+  {
+   "id": "00739",
+   "nr": "332",
+   "de": "passieren",
+   "tr": "olmak / meydana gelmek"
+  },
+  {
+   "id": "00740",
+   "nr": "338",
+   "de": "bestellen",
+   "tr": "sipariş vermek / düzen"
+  },
+  {
+   "id": "00741",
+   "nr": "345",
+   "de": "passieren",
+   "tr": "geçmek"
+  },
+  {
+   "id": "00742",
+   "nr": "355",
+   "de": "bleiben",
+   "tr": "kalmak"
+  },
+  {
+   "id": "00743",
+   "nr": "382",
+   "de": "lief",
+   "tr": "koştu"
+  },
+  {
+   "id": "00744",
+   "nr": "389",
+   "de": "gebracht",
+   "tr": "getirdi"
+  },
+  {
+   "id": "00745",
+   "nr": "393",
+   "de": "bringen",
+   "tr": "getirmek"
+  },
+  {
+   "id": "00746",
+   "nr": "396",
+   "de": "füllen",
+   "tr": "doldurmak"
+  },
+  {
+   "id": "00747",
+   "nr": "406",
+   "de": "fliegen",
+   "tr": "uçmak"
+  },
+  {
+   "id": "00748",
+   "nr": "407",
+   "de": "fallen",
+   "tr": "düşmek"
+  },
+  {
+   "id": "00749",
+   "nr": "408",
+   "de": "führen",
+   "tr": "öncülük etmek / yönetmek"
+  },
+  {
+   "id": "00750",
+   "nr": "413",
+   "de": "warten",
+   "tr": "beklemek"
+  },
+  {
+   "id": "00751",
+   "nr": "420",
+   "de": "Rest",
+   "tr": "dinlenmek / kalan"
+  },
+  {
+   "id": "00752",
+   "nr": "424",
+   "de": "getan",
+   "tr": "yapıldı / bitti"
+  },
+  {
+   "id": "00753",
+   "nr": "426",
+   "de": "Antriebs",
+   "tr": "sürmek / tahrik"
+  },
+  {
+   "id": "00754",
+   "nr": "427",
+   "de": "stand",
+   "tr": "durdu"
+  },
+  {
+   "id": "00755",
+   "nr": "428",
+   "de": "enthalten",
+   "tr": "içermek"
+  },
+  {
+   "id": "00756",
+   "nr": "433",
+   "de": "gab",
+   "tr": "verdi"
+  },
+  {
+   "id": "00757",
+   "nr": "437",
+   "de": "entwickeln",
+   "tr": "geliştirmek"
+  },
+  {
+   "id": "00758",
+   "nr": "448",
+   "de": "produzieren",
+   "tr": "üretmek"
+  },
+  {
+   "id": "00759",
+   "nr": "460",
+   "de": "Schritt",
+   "tr": "adım"
+  },
+  {
+   "id": "00760",
+   "nr": "462",
+   "de": "halten",
+   "tr": "tutmak"
+  },
+  {
+   "id": "00761",
+   "nr": "466",
+   "de": "erreichen",
+   "tr": "ulaşmak"
+  },
+  {
+   "id": "00762",
+   "nr": "482",
+   "de": "legen",
+   "tr": "koymak / sermek"
+  },
+  {
+   "id": "00763",
+   "nr": "490",
+   "de": "dienen",
+   "tr": "hizmet etmek"
+  },
+  {
+   "id": "00764",
+   "nr": "497",
+   "de": "ziehen",
+   "tr": "çekmek"
+  },
+  {
+   "id": "00765",
+   "nr": "511",
+   "de": "pflücken",
+   "tr": "toplamak / seçmek"
+  },
+  {
+   "id": "00766",
+   "nr": "522",
+   "de": "variieren",
+   "tr": "değişmek / çeşitlenmek"
+  },
+  {
+   "id": "00767",
+   "nr": "523",
+   "de": "regeln",
+   "tr": "yerleşmek / çözmek"
+  },
+  {
+   "id": "00768",
+   "nr": "531",
+   "de": "umfassen",
+   "tr": "içermek / kapsamak"
+  },
+  {
+   "id": "00769",
+   "nr": "553",
+   "de": "sitzen",
+   "tr": "oturmak"
+  },
+  {
+   "id": "00770",
+   "nr": "565",
+   "de": "Fang",
+   "tr": "yakalamak"
+  },
+  {
+   "id": "00771",
+   "nr": "572",
+   "de": "sa",
+   "tr": "oturdu"
+  },
+  {
+   "id": "00772",
+   "nr": "576",
+   "de": "gehalten",
+   "tr": "tutulan / saklanan"
+  },
+  {
+   "id": "00773",
+   "nr": "593",
+   "de": "Finish",
+   "tr": "bitirmek / son"
+  },
+  {
+   "id": "00774",
+   "nr": "604",
+   "de": "empfangen",
+   "tr": "almak / teslim almak"
+  },
+  {
+   "id": "00775",
+   "nr": "617",
+   "de": "beitreten",
+   "tr": "katılmak"
+  },
+  {
+   "id": "00776",
+   "nr": "620",
+   "de": "Pause",
+   "tr": "mola / kırmak"
+  },
+  {
+   "id": "00777",
+   "nr": "623",
+   "de": "steigen",
+   "tr": "yükselmek"
+  },
+  {
+   "id": "00778",
+   "nr": "625",
+   "de": "Schlag",
+   "tr": "darbe / üflemek"
+  },
+  {
+   "id": "00779",
+   "nr": "628",
+   "de": "berühren",
+   "tr": "dokunmak"
+  },
+  {
+   "id": "00780",
+   "nr": "629",
+   "de": "wuchs",
+   "tr": "büyüdü"
+  },
+  {
+   "id": "00781",
+   "nr": "640",
+   "de": "gesendet",
+   "tr": "gönderildi"
+  },
+  {
+   "id": "00782",
+   "nr": "642",
+   "de": "fiel",
+   "tr": "düştü"
+  },
+  {
+   "id": "00783",
+   "nr": "647",
+   "de": "sammeln",
+   "tr": "toplamak"
+  },
+  {
+   "id": "00784",
+   "nr": "648",
+   "de": "sparen",
+   "tr": "biriktirmek / kurtarmak"
+  },
+  {
+   "id": "00785",
+   "nr": "657",
+   "de": "töten",
+   "tr": "öldürmek"
+  },
+  {
+   "id": "00786",
+   "nr": "674",
+   "de": "zahlen",
+   "tr": "ödemek"
+  },
+  {
+   "id": "00787",
+   "nr": "683",
+   "de": "Aufstieg",
+   "tr": "tırmanmak"
+  },
+  {
+   "id": "00788",
+   "nr": "700",
+   "de": "springen",
+   "tr": "zıplamak / atlamak"
+  },
+  {
+   "id": "00789",
+   "nr": "704",
+   "de": "treffen",
+   "tr": "tanışmak / buluşmak"
+  },
+  {
+   "id": "00790",
+   "nr": "706",
+   "de": "kaufen",
+   "tr": "satın almak"
+  },
+  {
+   "id": "00791",
+   "nr": "707",
+   "de": "erhöhen",
+   "tr": "yükseltmek / artırmak"
+  },
+  {
+   "id": "00792",
+   "nr": "711",
+   "de": "drücken",
+   "tr": "itmek / basmak"
+  },
+  {
+   "id": "00793",
+   "nr": "715",
+   "de": "wird",
+   "tr": "-ecek (zorunluluk)"
+  },
+  {
+   "id": "00794",
+   "nr": "716",
+   "de": "Hand",
+   "tr": "tuttu"
+  },
+  {
+   "id": "00795",
+   "nr": "723",
+   "de": "brennen",
+   "tr": "yanmak / yakmak"
+  },
+  {
+   "id": "00796",
+   "nr": "739",
+   "de": "Rolle",
+   "tr": "rulo / yuvarlanmak"
+  },
+  {
+   "id": "00797",
+   "nr": "744",
+   "de": "Kampf",
+   "tr": "kavga / dövüş"
+  },
+  {
+   "id": "00798",
+   "nr": "746",
+   "de": "schlagen",
+   "tr": "vurmak / yenmek"
+  },
+  {
+   "id": "00799",
+   "nr": "752",
+   "de": "wird nicht",
+   "tr": "yapmayacak"
+  },
+  {
+   "id": "00800",
+   "nr": "762",
+   "de": "trennen",
+   "tr": "ayırmak / ayrı"
+  },
+  {
+   "id": "00801",
+   "nr": "766",
+   "de": "schützen",
+   "tr": "korumak"
+  },
+  {
+   "id": "00802",
+   "nr": "771",
+   "de": "treffen",
+   "tr": "vurmak / çarpmak"
+  },
+  {
+   "id": "00803",
+   "nr": "781",
+   "de": "gefangen",
+   "tr": "yakalandı"
+  },
+  {
+   "id": "00804",
+   "nr": "795",
+   "de": "bieten",
+   "tr": "sağlamak / temin etmek"
+  },
+  {
+   "id": "00805",
+   "nr": "805",
+   "de": "schaffen",
+   "tr": "yaratmak / oluşturmak"
+  },
+  {
+   "id": "00806",
+   "nr": "807",
+   "de": "Wasch",
+   "tr": "yıkamak"
+  },
+  {
+   "id": "00807",
+   "nr": "818",
+   "de": "einreiben",
+   "tr": "ovmak / sürmek"
+  },
+  {
+   "id": "00808",
+   "nr": "834",
+   "de": "eingeben",
+   "tr": "girmek"
+  },
+  {
+   "id": "00809",
+   "nr": "838",
+   "de": "senden",
+   "tr": "göndermek"
+  },
+  {
+   "id": "00810",
+   "nr": "850",
+   "de": "ankommen",
+   "tr": "varmak / ulaşmak"
+  },
+  {
+   "id": "00811",
+   "nr": "859",
+   "de": "verbinden",
+   "tr": "bağlamak"
+  },
+  {
+   "id": "00812",
+   "nr": "861",
+   "de": "verbringen",
+   "tr": "harcamak / geçirmek"
+  },
+  {
+   "id": "00813",
+   "nr": "870",
+   "de": "aufladen",
+   "tr": "şarj etmek / ücret"
+  },
+  {
+   "id": "00814",
+   "nr": "886",
+   "de": "auftreten",
+   "tr": "meydana gelmek"
+  },
+  {
+   "id": "00815",
+   "nr": "892",
+   "de": "Bewegung",
+   "tr": "hareket"
+  },
+  {
+   "id": "00816",
+   "nr": "924",
+   "de": "führen",
+   "tr": "rehberlik etmek"
+  },
+  {
+   "id": "00817",
+   "nr": "928",
+   "de": "gekauft",
+   "tr": "satın aldı"
+  },
+  {
+   "id": "00818",
+   "nr": "929",
+   "de": "geführt",
+   "tr": "yönetti / öncülük etti"
+  },
+  {
+   "id": "00819",
+   "nr": "936",
+   "de": "Rutsch",
+   "tr": "kaymak"
+  },
+  {
+   "id": "00820",
+   "nr": "937",
+   "de": "gewinnen",
+   "tr": "kazanmak"
+  },
+  {
+   "id": "00821",
+   "nr": "950",
+   "de": "fortsetzen",
+   "tr": "devam etmek"
+  },
+  {
+   "id": "00822",
+   "nr": "954",
+   "de": "verkaufen",
+   "tr": "satmak"
+  },
+  {
+   "id": "00823",
+   "nr": "961",
+   "de": "schwimmen",
+   "tr": "yüzmek"
+  },
+  {
+   "id": "00824",
+   "nr": "967",
+   "de": "Verbreitung",
+   "tr": "yaymak / yayılmak"
+  },
+  {
+   "id": "00825",
+   "nr": "968",
+   "de": "arrangieren",
+   "tr": "düzenlemek"
+  },
+  {
+   "id": "00826",
+   "nr": "980",
+   "de": "sammeln",
+   "tr": "bir araya toplamak"
+  },
+  {
+   "id": "00827",
+   "nr": "982",
+   "de": "Stretch",
+   "tr": "esnetmek / germek"
+  },
+  {
+   "id": "00828",
+   "nr": "983",
+   "de": "werfen",
+   "tr": "atmak / fırlatmak"
+  },
+  {
+   "id": "00829",
+   "nr": "991",
+   "de": "Wiederholung",
+   "tr": "tekrar / tekrarlamak"
+  },
+  {
+   "id": "00830",
+   "nr": "992",
+   "de": "erfordern",
+   "tr": "gerektirmek"
+  },
+  {
+   "id": "00831",
+   "nr": "994",
+   "de": "vorbereiten",
+   "tr": "hazırlamak"
+  }
+ ],
+ "Lektion 16: Verben: Denken, Kommunikation & Wahrnehmung": [
+  {
+   "id": "00832",
+   "nr": "47",
+   "de": "sagte",
+   "tr": "söyledi"
+  },
+  {
+   "id": "00833",
+   "nr": "50",
+   "de": "sagen",
+   "tr": "söylemek / anlatmak"
+  },
+  {
+   "id": "00834",
+   "nr": "54",
+   "de": "wollen",
+   "tr": "istemek"
+  },
+  {
+   "id": "00835",
+   "nr": "63",
+   "de": "lesen",
+   "tr": "okumak"
+  },
+  {
+   "id": "00836",
+   "nr": "79",
+   "de": "fragen",
+   "tr": "sormak"
+  },
+  {
+   "id": "00837",
+   "nr": "119",
+   "de": "zeigen",
+   "tr": "göstermek"
+  },
+  {
+   "id": "00838",
+   "nr": "133",
+   "de": "denken",
+   "tr": "düşünmek"
+  },
+  {
+   "id": "00839",
+   "nr": "134",
+   "de": "sagen",
+   "tr": "söylemek"
+  },
+  {
+   "id": "00840",
+   "nr": "138",
+   "de": "abweichen",
+   "tr": "farklı olmak / sapmak"
+  },
+  {
+   "id": "00841",
+   "nr": "142",
+   "de": "bedeuten",
+   "tr": "anlamına gelmek"
+  },
+  {
+   "id": "00842",
+   "nr": "162",
+   "de": "schreiben",
+   "tr": "yazmak"
+  },
+  {
+   "id": "00843",
+   "nr": "164",
+   "de": "wie",
+   "tr": "gibi / sevmek"
+  },
+  {
+   "id": "00844",
+   "nr": "171",
+   "de": "sehen",
+   "tr": "görmek"
+  },
+  {
+   "id": "00845",
+   "nr": "175",
+   "de": "suchen",
+   "tr": "aramak / bakmak"
+  },
+  {
+   "id": "00846",
+   "nr": "183",
+   "de": "klingen",
+   "tr": "ses çıkarmak / kulağa gelmek"
+  },
+  {
+   "id": "00847",
+   "nr": "189",
+   "de": "wissen",
+   "tr": "bilmek"
+  },
+  {
+   "id": "00848",
+   "nr": "192",
+   "de": "Anruf",
+   "tr": "arama / çağrı"
+  },
+  {
+   "id": "00849",
+   "nr": "213",
+   "de": "lernen",
+   "tr": "öğrenmek"
+  },
+  {
+   "id": "00850",
+   "nr": "226",
+   "de": "Gedanken",
+   "tr": "düşünce"
+  },
+  {
+   "id": "00851",
+   "nr": "259",
+   "de": "Idee",
+   "tr": "fikir"
+  },
+  {
+   "id": "00852",
+   "nr": "265",
+   "de": "hören",
+   "tr": "duymak"
+  },
+  {
+   "id": "00853",
+   "nr": "269",
+   "de": "beobachten",
+   "tr": "izlemek / saat"
+  },
+  {
+   "id": "00854",
+   "nr": "275",
+   "de": "scheinen",
+   "tr": "görünmek"
+  },
+  {
+   "id": "00855",
+   "nr": "312",
+   "de": "fühlen",
+   "tr": "hissetmek"
+  },
+  {
+   "id": "00856",
+   "nr": "313",
+   "de": "Vortrag",
+   "tr": "konuşma / sohbet"
+  },
+  {
+   "id": "00857",
+   "nr": "343",
+   "de": "sagte",
+   "tr": "anlattı / söyledi"
+  },
+  {
+   "id": "00858",
+   "nr": "344",
+   "de": "wusste",
+   "tr": "biliyordu"
+  },
+  {
+   "id": "00859",
+   "nr": "361",
+   "de": "entscheiden",
+   "tr": "karar vermek"
+  },
+  {
+   "id": "00860",
+   "nr": "379",
+   "de": "Lachen",
+   "tr": "gülmek"
+  },
+  {
+   "id": "00861",
+   "nr": "383",
+   "de": "überprüfen",
+   "tr": "kontrol etmek"
+  },
+  {
+   "id": "00862",
+   "nr": "388",
+   "de": "Fehl",
+   "tr": "özlemek / kaçırmak"
+  },
+  {
+   "id": "00863",
+   "nr": "409",
+   "de": "Schrei",
+   "tr": "ağlamak / çığlık"
+  },
+  {
+   "id": "00864",
+   "nr": "430",
+   "de": "lehren",
+   "tr": "öğretmek"
+  },
+  {
+   "id": "00865",
+   "nr": "451",
+   "de": "gehört",
+   "tr": "duydu"
+  },
+  {
+   "id": "00866",
+   "nr": "459",
+   "de": "merken",
+   "tr": "hatırlamak"
+  },
+  {
+   "id": "00867",
+   "nr": "470",
+   "de": "hören",
+   "tr": "dinlemek"
+  },
+  {
+   "id": "00868",
+   "nr": "491",
+   "de": "erscheinen",
+   "tr": "görünmek / ortaya çıkmak"
+  },
+  {
+   "id": "00869",
+   "nr": "499",
+   "de": "Hinweis",
+   "tr": "fark etmek / duyuru"
+  },
+  {
+   "id": "00870",
+   "nr": "509",
+   "de": "glauben",
+   "tr": "inanmak"
+  },
+  {
+   "id": "00871",
+   "nr": "517",
+   "de": "vertreten",
+   "tr": "temsil etmek"
+  },
+  {
+   "id": "00872",
+   "nr": "524",
+   "de": "sprechen",
+   "tr": "konuşmak"
+  },
+  {
+   "id": "00873",
+   "nr": "560",
+   "de": "beweisen",
+   "tr": "kanıtlamak"
+  },
+  {
+   "id": "00874",
+   "nr": "567",
+   "de": "wünschen",
+   "tr": "dilemek"
+  },
+  {
+   "id": "00875",
+   "nr": "595",
+   "de": "hoffen",
+   "tr": "ummak / umut etmek"
+  },
+  {
+   "id": "00876",
+   "nr": "612",
+   "de": "Schrei",
+   "tr": "bağırmak"
+  },
+  {
+   "id": "00877",
+   "nr": "614",
+   "de": "schrieb",
+   "tr": "yazdı"
+  },
+  {
+   "id": "00878",
+   "nr": "618",
+   "de": "vorschlagen",
+   "tr": "önermek"
+  },
+  {
+   "id": "00879",
+   "nr": "641",
+   "de": "wählen",
+   "tr": "seçmek"
+  },
+  {
+   "id": "00880",
+   "nr": "664",
+   "de": "beobachten",
+   "tr": "gözlemlemek"
+  },
+  {
+   "id": "00881",
+   "nr": "708",
+   "de": "lösen",
+   "tr": "çözmek"
+  },
+  {
+   "id": "00882",
+   "nr": "718",
+   "de": "beschreiben",
+   "tr": "tanımlamak / betimlemek"
+  },
+  {
+   "id": "00883",
+   "nr": "728",
+   "de": "betrachten",
+   "tr": "düşünmek / dikkate almak"
+  },
+  {
+   "id": "00884",
+   "nr": "745",
+   "de": "Lüge",
+   "tr": "yalan / uzanmak"
+  },
+  {
+   "id": "00885",
+   "nr": "783",
+   "de": "zeigen",
+   "tr": "belirtmek / göstermek"
+  },
+  {
+   "id": "00886",
+   "nr": "785",
+   "de": "Speiche",
+   "tr": "konuştu"
+  },
+  {
+   "id": "00887",
+   "nr": "791",
+   "de": "erwarten",
+   "tr": "beklemek / ummak"
+  },
+  {
+   "id": "00888",
+   "nr": "794",
+   "de": "vorstellen",
+   "tr": "hayal etmek"
+  },
+  {
+   "id": "00889",
+   "nr": "796",
+   "de": "zustimmen",
+   "tr": "katılmak / onaylamak"
+  },
+  {
+   "id": "00890",
+   "nr": "801",
+   "de": "erraten",
+   "tr": "tahmin etmek"
+  },
+  {
+   "id": "00891",
+   "nr": "812",
+   "de": "vergleichen",
+   "tr": "karşılaştırmak"
+  },
+  {
+   "id": "00892",
+   "nr": "816",
+   "de": "abhängen",
+   "tr": "bağlı olmak"
+  },
+  {
+   "id": "00893",
+   "nr": "837",
+   "de": "Suche",
+   "tr": "arama"
+  },
+  {
+   "id": "00894",
+   "nr": "841",
+   "de": "erlauben",
+   "tr": "izin vermek"
+  },
+  {
+   "id": "00895",
+   "nr": "884",
+   "de": "antworten",
+   "tr": "cevaplamak"
+  },
+  {
+   "id": "00896",
+   "nr": "896",
+   "de": "gemeint",
+   "tr": "kastetti"
+  },
+  {
+   "id": "00897",
+   "nr": "911",
+   "de": "danken",
+   "tr": "teşekkür etmek"
+  },
+  {
+   "id": "00898",
+   "nr": "921",
+   "de": "diskutieren",
+   "tr": "tartışmak"
+  },
+  {
+   "id": "00899",
+   "nr": "938",
+   "de": "träumen",
+   "tr": "rüya görmek / hayal"
+  },
+  {
+   "id": "00900",
+   "nr": "973",
+   "de": "bestimmen",
+   "tr": "belirlemek"
+  },
+  {
+   "id": "00901",
+   "nr": "988",
+   "de": "wählen",
+   "tr": "seçmek"
+  }
+ ],
+ "Lektion 17: Pronomen & Artikel": [
+  {
+   "id": "00902",
+   "nr": "2",
+   "de": "ich",
+   "tr": "ben"
+  },
+  {
+   "id": "00903",
+   "nr": "3",
+   "de": "seine",
+   "tr": "onun"
+  },
+  {
+   "id": "00904",
+   "nr": "5",
+   "de": "er",
+   "tr": "o (erkek)"
+  },
+  {
+   "id": "00905",
+   "nr": "11",
+   "de": "sie",
+   "tr": "onlar / o (kadın)"
+  },
+  {
+   "id": "00906",
+   "nr": "16",
+   "de": "dies",
+   "tr": "bu"
+  },
+  {
+   "id": "00907",
+   "nr": "22",
+   "de": "was",
+   "tr": "ne"
+  },
+  {
+   "id": "00908",
+   "nr": "25",
+   "de": "es",
+   "tr": "o (cansız/nötr)"
+  },
+  {
+   "id": "00909",
+   "nr": "26",
+   "de": "Sie",
+   "tr": "siz / sen"
+  },
+  {
+   "id": "00910",
+   "nr": "29",
+   "de": "die",
+   "tr": "belirli artikel (dişil/çoğul)"
+  },
+  {
+   "id": "00911",
+   "nr": "33",
+   "de": "ein",
+   "tr": "bir (belirsiz artikel)"
+  },
+  {
+   "id": "00912",
+   "nr": "35",
+   "de": "wir",
+   "tr": "biz"
+  },
+  {
+   "id": "00913",
+   "nr": "38",
+   "de": "andere",
+   "tr": "diğer / başka"
+  },
+  {
+   "id": "00914",
+   "nr": "40",
+   "de": "die",
+   "tr": "ki o / hangi"
+  },
+  {
+   "id": "00915",
+   "nr": "42",
+   "de": "ihre",
+   "tr": "onların / onun"
+  },
+  {
+   "id": "00916",
+   "nr": "48",
+   "de": "ein",
+   "tr": "bir"
+  },
+  {
+   "id": "00917",
+   "nr": "90",
+   "de": "uns",
+   "tr": "bize / bizi"
+  },
+  {
+   "id": "00918",
+   "nr": "98",
+   "de": "selbst",
+   "tr": "kendi"
+  },
+  {
+   "id": "00919",
+   "nr": "101",
+   "de": "jeder",
+   "tr": "herhangi bir"
+  },
+  {
+   "id": "00920",
+   "nr": "122",
+   "de": "mir",
+   "tr": "bana"
+  },
+  {
+   "id": "00921",
+   "nr": "124",
+   "de": "unsere",
+   "tr": "bizim"
+  },
+  {
+   "id": "00922",
+   "nr": "150",
+   "de": "sie",
+   "tr": "o (kadın)"
+  },
+  {
+   "id": "00923",
+   "nr": "156",
+   "de": "Ihre",
+   "tr": "sizin / senin"
+  },
+  {
+   "id": "00924",
+   "nr": "161",
+   "de": "sie",
+   "tr": "onları / onlara"
+  },
+  {
+   "id": "00925",
+   "nr": "166",
+   "de": "diese",
+   "tr": "bunlar"
+  },
+  {
+   "id": "00926",
+   "nr": "167",
+   "de": "sie",
+   "tr": "onu / onun (kadın)"
+  },
+  {
+   "id": "00927",
+   "nr": "172",
+   "de": "ihm",
+   "tr": "ona (erkek)"
+  },
+  {
+   "id": "00928",
+   "nr": "187",
+   "de": "meine",
+   "tr": "benim"
+  },
+  {
+   "id": "00929",
+   "nr": "194",
+   "de": "die",
+   "tr": "kim / ki o"
+  },
+  {
+   "id": "00930",
+   "nr": "289",
+   "de": "diejenigen",
+   "tr": "şunlar / onlar"
+  },
+  {
+   "id": "00931",
+   "nr": "776",
+   "de": "deren",
+   "tr": "kimin"
+  }
+ ],
+ "Lektion 18: Präpositionen, Konjunktionen & Adverbien": [
+  {
+   "id": "00932",
+   "nr": "1",
+   "de": "wie",
+   "tr": "gibi / nasıl"
+  },
+  {
+   "id": "00933",
+   "nr": "4",
+   "de": "dass",
+   "tr": "ki / -dığı"
+  },
+  {
+   "id": "00934",
+   "nr": "7",
+   "de": "für",
+   "tr": "için"
+  },
+  {
+   "id": "00935",
+   "nr": "8",
+   "de": "auf",
+   "tr": "üstünde / üzerine"
+  },
+  {
+   "id": "00936",
+   "nr": "10",
+   "de": "mit",
+   "tr": "ile"
+  },
+  {
+   "id": "00937",
+   "nr": "13",
+   "de": "bei",
+   "tr": "yanında / -de"
+  },
+  {
+   "id": "00938",
+   "nr": "17",
+   "de": "aus",
+   "tr": "-den / dışarı"
+  },
+  {
+   "id": "00939",
+   "nr": "18",
+   "de": "durch",
+   "tr": "vasıtasıyla / içinden"
+  },
+  {
+   "id": "00940",
+   "nr": "21",
+   "de": "aber",
+   "tr": "ama / fakat"
+  },
+  {
+   "id": "00941",
+   "nr": "27",
+   "de": "oder",
+   "tr": "veya / ya da"
+  },
+  {
+   "id": "00942",
+   "nr": "30",
+   "de": "von",
+   "tr": "-den / tarafından"
+  },
+  {
+   "id": "00943",
+   "nr": "31",
+   "de": "zu",
+   "tr": "-e / çok"
+  },
+  {
+   "id": "00944",
+   "nr": "32",
+   "de": "und",
+   "tr": "ve"
+  },
+  {
+   "id": "00945",
+   "nr": "34",
+   "de": "bei",
+   "tr": "içinde / -de"
+  },
+  {
+   "id": "00946",
+   "nr": "37",
+   "de": "aus",
+   "tr": "dışarı / kapalı"
+  },
+  {
+   "id": "00947",
+   "nr": "44",
+   "de": "wenn",
+   "tr": "eğer / -dığında"
+  },
+  {
+   "id": "00948",
+   "nr": "46",
+   "de": "wie",
+   "tr": "nasıl"
+  },
+  {
+   "id": "00949",
+   "nr": "57",
+   "de": "auch",
+   "tr": "de / ayrıca"
+  },
+  {
+   "id": "00950",
+   "nr": "69",
+   "de": "auch",
+   "tr": "bile / dahi"
+  },
+  {
+   "id": "00951",
+   "nr": "71",
+   "de": "hier",
+   "tr": "burada"
+  },
+  {
+   "id": "00952",
+   "nr": "75",
+   "de": "so",
+   "tr": "böyle / öylesine"
+  },
+  {
+   "id": "00953",
+   "nr": "78",
+   "de": "warum",
+   "tr": "neden / niçin"
+  },
+  {
+   "id": "00954",
+   "nr": "85",
+   "de": "aus",
+   "tr": "kapalı / dışarıda"
+  },
+  {
+   "id": "00955",
+   "nr": "96",
+   "de": "in der Nähe von",
+   "tr": "yakınında"
+  },
+  {
+   "id": "00956",
+   "nr": "110",
+   "de": "wo",
+   "tr": "nerede"
+  },
+  {
+   "id": "00957",
+   "nr": "112",
+   "de": "zurück",
+   "tr": "geri"
+  },
+  {
+   "id": "00958",
+   "nr": "114",
+   "de": "nur",
+   "tr": "sadece / yalnızca"
+  },
+  {
+   "id": "00959",
+   "nr": "125",
+   "de": "unter",
+   "tr": "altında"
+  },
+  {
+   "id": "00960",
+   "nr": "127",
+   "de": "sehr",
+   "tr": "çok"
+  },
+  {
+   "id": "00961",
+   "nr": "128",
+   "de": "durch",
+   "tr": "içinden / boyunca"
+  },
+  {
+   "id": "00962",
+   "nr": "129",
+   "de": "nur",
+   "tr": "az önce / sadece"
+  },
+  {
+   "id": "00963",
+   "nr": "148",
+   "de": "zu",
+   "tr": "fazla / -e"
+  },
+  {
+   "id": "00964",
+   "nr": "152",
+   "de": "da",
+   "tr": "orada"
+  },
+  {
+   "id": "00965",
+   "nr": "154",
+   "de": "nach oben",
+   "tr": "yukarı"
+  },
+  {
+   "id": "00966",
+   "nr": "158",
+   "de": "über",
+   "tr": "hakkında / üzerinde"
+  },
+  {
+   "id": "00967",
+   "nr": "165",
+   "de": "so",
+   "tr": "bu yüzden / böyle"
+  },
+  {
+   "id": "00968",
+   "nr": "184",
+   "de": "nicht",
+   "tr": "değil / hayır"
+  },
+  {
+   "id": "00969",
+   "nr": "188",
+   "de": "über",
+   "tr": "üzerinde / bitti"
+  },
+  {
+   "id": "00970",
+   "nr": "191",
+   "de": "als",
+   "tr": "-den (karşılaştırma)"
+  },
+  {
+   "id": "00971",
+   "nr": "196",
+   "de": "nach unten",
+   "tr": "aşağı"
+  },
+  {
+   "id": "00972",
+   "nr": "219",
+   "de": "zwischen",
+   "tr": "arasında"
+  },
+  {
+   "id": "00973",
+   "nr": "236",
+   "de": "weit",
+   "tr": "uzak"
+  },
+  {
+   "id": "00974",
+   "nr": "239",
+   "de": "links",
+   "tr": "sol"
+  },
+  {
+   "id": "00975",
+   "nr": "276",
+   "de": "zusammen",
+   "tr": "birlikte / beraber"
+  },
+  {
+   "id": "00976",
+   "nr": "307",
+   "de": "oben",
+   "tr": "yukarıda / üstünde"
+  },
+  {
+   "id": "00977",
+   "nr": "311",
+   "de": "obwohl",
+   "tr": "-e rağmen / gerçi"
+  },
+  {
+   "id": "00978",
+   "nr": "319",
+   "de": "direkt",
+   "tr": "doğrudan / direkt"
+  },
+  {
+   "id": "00979",
+   "nr": "347",
+   "de": "obere",
+   "tr": "üst / tepe"
+  },
+  {
+   "id": "00980",
+   "nr": "376",
+   "de": "statt",
+   "tr": "yerine"
+  },
+  {
+   "id": "00981",
+   "nr": "394",
+   "de": "ja",
+   "tr": "evet"
+  },
+  {
+   "id": "00982",
+   "nr": "395",
+   "de": "entfernt",
+   "tr": "uzak / mesafeli"
+  },
+  {
+   "id": "00983",
+   "nr": "400",
+   "de": "unter",
+   "tr": "arasında"
+  },
+  {
+   "id": "00984",
+   "nr": "429",
+   "de": "Front",
+   "tr": "ön / cephe"
+  },
+  {
+   "id": "00985",
+   "nr": "445",
+   "de": "hinter",
+   "tr": "arkasında"
+  },
+  {
+   "id": "00986",
+   "nr": "480",
+   "de": "auf",
+   "tr": "-e doğru"
+  },
+  {
+   "id": "00987",
+   "nr": "483",
+   "de": "gegen",
+   "tr": "karşı"
+  },
+  {
+   "id": "00988",
+   "nr": "510",
+   "de": "vielleicht",
+   "tr": "belki"
+  },
+  {
+   "id": "00989",
+   "nr": "613",
+   "de": "außer",
+   "tr": "hariç / dışında"
+  },
+  {
+   "id": "00990",
+   "nr": "652",
+   "de": "sonst",
+   "tr": "başka / aksi halde"
+  },
+  {
+   "id": "00991",
+   "nr": "653",
+   "de": "ganz",
+   "tr": "oldukça / tamamen"
+  },
+  {
+   "id": "00992",
+   "nr": "656",
+   "de": "Mitte",
+   "tr": "orta"
+  },
+  {
+   "id": "00993",
+   "nr": "689",
+   "de": "Boden",
+   "tr": "alt / dip"
+  },
+  {
+   "id": "00994",
+   "nr": "710",
+   "de": "ob",
+   "tr": "olup olmadığı"
+  },
+  {
+   "id": "00995",
+   "nr": "721",
+   "de": "entweder",
+   "tr": "ya / ikisinden biri"
+  },
+  {
+   "id": "00996",
+   "nr": "797",
+   "de": "so",
+   "tr": "böylece"
+  },
+  {
+   "id": "00997",
+   "nr": "809",
+   "de": "eher",
+   "tr": "oldukça / daha ziyade"
+  },
+  {
+   "id": "00998",
+   "nr": "915",
+   "de": "insbesondere",
+   "tr": "özellikle"
+  },
+  {
+   "id": "00999",
+   "nr": "922",
+   "de": "vorwärts",
+   "tr": "ileri"
+  },
+  {
+   "id": "01000",
+   "nr": "947",
+   "de": "noch",
+   "tr": "ne de"
+  }
+ ]
+}

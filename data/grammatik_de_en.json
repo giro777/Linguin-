@@ -1,0 +1,275 @@
+{
+  "Verben Teil 1": {
+    "karten": [
+      "Willkommen zu deiner ersten Englisch-Grammatik-Lektion!",
+      "In dieser Lektion schauen wir uns gemeinsam an, wie Verben (Tunwörter / Tätigkeitswörter) im Englischen verwendet werden.",
+      "Im Englischen wird die Grundform (der Infinitiv) eines Verbs meistens mit 'to' gekennzeichnet, aber beim Konjugieren lassen wir das 'to' weg:\n\nto learn = lernen\nto play = spielen\nto work = arbeiten",
+      "Jetzt lernen wir zusammen, wie wir diese Wörter in eine aktive Form umwandeln:\n\nich lerne\nich spiele\nich arbeite",
+      "Dafür brauchen wir ein Pronomen. Damit es für dich einfach bleibt, nehmen wir zuerst ein Pronomen, das du bestimmt schon kennst.",
+      "[color={C_I}]I (ICH)[/color]",
+      "Schauen wir uns die Verben noch einmal an:\n\nlearn = lernen\nplay = spielen\nwork = arbeiten",
+      "Eine tolle Nachricht im Englischen: Beim Pronomen [color={C_I}]I[/color] hängen wir an das Verb überhaupt keine Endung an! Die Grundform bleibt unverändert:\n\n[color={C_I}]I[/color] learn = Ich lerne\n[color={C_I}]I[/color] play = Ich spiele\n[color={C_I}]I[/color] work = Ich arbeite",
+      "Das funktioniert bei fast allen regelmäßigen Verben genauso.\n\nHier sind noch ein paar Beispiele:\nmachen / herstellen | [color={C_I}]I[/color] make = Ich mache\nzuhören | [color={C_I}]I[/color] listen = Ich höre zu\nkaufen | [color={C_I}]I[/color] buy = Ich kaufe",
+      "Jetzt gehen wir zu unserem zweiten Pronomen. Im Englischen gibt es für 'du' und 'ihr' (sowie höflich 'Sie') nur ein einziges Pronomen:",
+      "[color={C_YOU}]You (Du / Ihr)[/color]",
+      "[color={C_YOU}]You[/color] ist ebenfalls super einfach! Anders als im Deutschen gibt es keine wechselnden Endungen; das Verb bleibt in der Grundform ohne Endung:\n\n[color={C_YOU}]You[/color] learn = Du lernst\n[color={C_YOU}]You[/color] play = Du spielst\n[color={C_YOU}]You[/color] work = Du arbeitest",
+      "Hier sind noch ein paar Beispiele:\n\n[color={C_YOU}]You[/color] cook = Du kochst\n[color={C_YOU}]You[/color] start = Du fängst an / startest\n[color={C_YOU}]You[/color] laugh = Du lachst",
+      "Gar nicht so kompliziert, oder? Dann lass uns gleich ein kleines Quiz testen.\n\nIch gebe dir 15 Verben und du wählst die richtige Verbform aus!"
+    ],
+    "quiz_hinweis": "Wähle die richtige Verbform:",
+    "quiz_titel": "VERB KONJUGIEREN",
+    "optionen": [
+      "miss",
+      "misses",
+      "shower",
+      "showers",
+      "have breakfast",
+      "has breakfast",
+      "plan",
+      "plans",
+      "drink",
+      "drinks",
+      "celebrate",
+      "celebrates",
+      "lift",
+      "lifts",
+      "buy",
+      "buys",
+      "talk",
+      "talks",
+      "answer",
+      "answers",
+      "take a bath",
+      "takes a bath",
+      "send",
+      "sends",
+      "believe",
+      "believes",
+      "hope",
+      "hopes"
+    ],
+    "quiz": [
+      {
+        "anzeige": "[color={C_I}]I[/color] + to miss = [color={C_I}]I[/color] ___",
+        "antwort": "miss",
+        "vollstaendig": "I miss"
+      },
+      {
+        "anzeige": "[color={C_YOU}]You[/color] + to shower = [color={C_YOU}]You[/color] ___",
+        "antwort": "shower",
+        "vollstaendig": "You shower"
+      },
+      {
+        "anzeige": "[color={C_I}]I[/color] + to have breakfast = [color={C_I}]I[/color] ___",
+        "antwort": "have breakfast",
+        "vollstaendig": "I have breakfast"
+      },
+      {
+        "anzeige": "[color={C_YOU}]You[/color] + to plan = [color={C_YOU}]You[/color] ___",
+        "antwort": "plan",
+        "vollstaendig": "You plan"
+      },
+      {
+        "anzeige": "[color={C_I}]I[/color] + to shower = [color={C_I}]I[/color] ___",
+        "antwort": "shower",
+        "vollstaendig": "I shower"
+      },
+      {
+        "anzeige": "[color={C_YOU}]You[/color] + to drink = [color={C_YOU}]You[/color] ___",
+        "antwort": "drink",
+        "vollstaendig": "You drink"
+      },
+      {
+        "anzeige": "[color={C_I}]I[/color] + to celebrate = [color={C_I}]I[/color] ___",
+        "antwort": "celebrate",
+        "vollstaendig": "I celebrate"
+      },
+      {
+        "anzeige": "[color={C_YOU}]You[/color] + to lift = [color={C_YOU}]You[/color] ___",
+        "antwort": "lift",
+        "vollstaendig": "You lift"
+      },
+      {
+        "anzeige": "[color={C_I}]I[/color] + to buy = [color={C_I}]I[/color] ___",
+        "antwort": "buy",
+        "vollstaendig": "I buy"
+      },
+      {
+        "anzeige": "[color={C_YOU}]You[/color] + to talk = [color={C_YOU}]You[/color] ___",
+        "antwort": "talk",
+        "vollstaendig": "You talk"
+      },
+      {
+        "anzeige": "[color={C_I}]I[/color] + to answer = [color={C_I}]I[/color] ___",
+        "antwort": "answer",
+        "vollstaendig": "I answer"
+      },
+      {
+        "anzeige": "[color={C_I}]I[/color] + to take a bath = [color={C_I}]I[/color] ___",
+        "antwort": "take a bath",
+        "vollstaendig": "I take a bath"
+      },
+      {
+        "anzeige": "[color={C_I}]I[/color] + to send = [color={C_I}]I[/color] ___",
+        "antwort": "send",
+        "vollstaendig": "I send"
+      },
+      {
+        "anzeige": "[color={C_YOU}]You[/color] + to believe = [color={C_YOU}]You[/color] ___",
+        "antwort": "believe",
+        "vollstaendig": "You believe"
+      },
+      {
+        "anzeige": "[color={C_I}]I[/color] + to hope = [color={C_I}]I[/color] ___",
+        "antwort": "hope",
+        "vollstaendig": "I hope"
+      }
+    ]
+  },
+  "Verben Teil 2": {
+    "karten": [
+      "Da du jetzt mit [color={C_I}]I[/color] und [color={C_YOU}]You[/color] sicher umgehen kannst, kommen wir zur bekanntesten Regel im Englischen!",
+      "Die 3. Person Singular funktioniert im Englischen etwas anders als im Deutschen. Im Deutschen sagen wir für alle 'er / sie / es', im Englischen gibt es eine klare Unterscheidung nach Geschlecht sowie für Dinge, Tiere und Wetter:",
+      "[color={C_HE}]He[/color] (männlich – für Jungen und Männer), [color={C_SHE}]She[/color] (weiblich – für Mädchen und Frauen) und [color={C_IT}]It[/color] (sächlich – für Dinge, Tiere und das Wetter)",
+      "Wenn du über einen Mann oder Jungen sprichst, nutzt du [color={C_HE}]He[/color]:\n\n[color={C_HE}]He[/color] is my fiancé = Er ist mein Verlobter\n\nLeicht zu merken: [color={C_HE}]He[/color] steht für männliche Personen.",
+      "Wenn du über eine Frau oder ein Mädchen sprichst, nutzt du [color={C_SHE}]She[/color]:\n\n[color={C_SHE}]She[/color] is my daughter = Sie ist meine Tochter",
+      "'[color={C_IT}]It[/color]' verwendest du für Dinge, Tiere oder Situationen wie das Wetter:\n\n[color={C_IT}]It[/color] is nice outside, the weather is good.\nDraußen ist es schön, das Wetter ist gut.",
+      "Jetzt kommt die goldene Regel im Englischen: Bei [color={C_HE}]He[/color], [color={C_SHE}]She[/color] und [color={C_IT}]It[/color] wird im Simple Present an das Verb ein [color={C_S_END}]-s[/color] gehängt! ('He, she, it – das s muss mit!')",
+      "Schauen wir uns unsere Verben an:\n\nplay = spielen\nlearn = lernen\nwork = arbeiten",
+      "Fügen wir das Pronomen und das [color={C_S_END}]-s[/color] hinzu:\n\n[color={C_HE}]He[/color] play[color={C_S_END}]s[/color] = Er spielt\n[color={C_SHE}]She[/color] learn[color={C_S_END}]s[/color] = Sie lernt\n[color={C_IT}]It[/color] work[color={C_S_END}]s[/color] = Es funktioniert / arbeitet",
+      "Hier sind noch ein paar Beispielsätze:",
+      "This is Daniel. [color={C_HE}]He[/color] work[color={C_S_END}]s[/color] at the supermarket.\nDas ist Daniel. Er arbeitet im Supermarkt.",
+      "This is my grandma. [color={C_SHE}]She[/color] bake[color={C_S_END}]s[/color] cookies.\nDas ist meine Oma. Sie bäckt Kekse.",
+      "The weather is bad. [color={C_IT}]It[/color] rain[color={C_S_END}]s[/color].\nDas Wetter ist schlecht. Es regnet.",
+      "Kleiner Rechtschreib-Hinweis: Endet ein Verb auf Konsonant + 'y', fällt das 'y' weg und es wird zu [color={C_S_END}]-ies[/color] (z. B. study -> studies). Nach Zischlauten oder '-o' (wie -o, -ch, -sh, -x, -s) hängt man [color={C_S_END}]-es[/color] an (z. B. go -> goes, watch -> watches).",
+      "Lass uns dein Können testen.\n\nHier sind 9 Sätze und du musst das passende Pronomen einsetzen!"
+    ],
+    "quiz_hinweis": "Wähle das richtige Pronomen (He / She / It):",
+    "quiz_titel": "RICHTIGES PRONOMEN WÄHLEN",
+    "optionen": [
+      "He",
+      "She",
+      "It"
+    ],
+    "quiz": [
+      {
+        "anzeige": "[color={C_I}]I[/color] buy a phone. ___ is expensive.\n[size=15sp][color={C_MUTED_TXT}]Ich kaufe ein Handy; es ist teuer.[/color][/size]",
+        "antwort": "It",
+        "vollstaendig": "I buy a phone. It is expensive."
+      },
+      {
+        "anzeige": "This is my daughter. ___ play[color={C_S_END}]s[/color] the piano.\n[size=15sp][color={C_MUTED_TXT}]Das ist meine Tochter. Sie spielt Klavier.[/color][/size]",
+        "antwort": "She",
+        "vollstaendig": "This is my daughter. She plays the piano."
+      },
+      {
+        "anzeige": "My uncle is angry. ___ curse[color={C_S_END}]s[/color].\n[size=15sp][color={C_MUTED_TXT}]Mein Onkel ist wütend. Er flucht.[/color][/size]",
+        "antwort": "He",
+        "vollstaendig": "My uncle is angry. He curses."
+      },
+      {
+        "anzeige": "My sister has 5 euros. ___ buy[color={C_S_END}]s[/color] a watermelon.\n[size=15sp][color={C_MUTED_TXT}]Meine Schwester hat 5 Euro. Sie kauft eine Wassermelone.[/color][/size]",
+        "antwort": "She",
+        "vollstaendig": "My sister has 5 euros. She buys a watermelon."
+      },
+      {
+        "anzeige": "Today you can fly a kite. ___ is windy.\n[size=15sp][color={C_MUTED_TXT}]Heute kannst du Drachen steigen lassen. Es ist windig.[/color][/size]",
+        "antwort": "It",
+        "vollstaendig": "Today you can fly a kite. It is windy."
+      },
+      {
+        "anzeige": "My son is called Leon, ___ is 5 years old.\n[size=15sp][color={C_MUTED_TXT}]Mein Sohn heißt Leon, er ist 5 Jahre alt.[/color][/size]",
+        "antwort": "He",
+        "vollstaendig": "My son is called Leon, he is 5 years old."
+      },
+      {
+        "anzeige": "My math teacher is Mr. Müller. ___ is very strict.\n[size=15sp][color={C_MUTED_TXT}]Mein Mathelehrer ist Herr Müller. Er ist sehr streng.[/color][/size]",
+        "antwort": "He",
+        "vollstaendig": "My math teacher is Mr. Müller. He is very strict."
+      },
+      {
+        "anzeige": "My mother is waiting for me. ___ is annoyed.\n[size=15sp][color={C_MUTED_TXT}]Meine Mutter wartet auf mich. Sie ist genervt.[/color][/size]",
+        "antwort": "She",
+        "vollstaendig": "My mother is waiting for me. She is annoyed."
+      },
+      {
+        "anzeige": "There is a baby. ___ look[color={C_S_END}]s[/color] at me.\n[size=15sp][color={C_MUTED_TXT}]Da ist ein Baby. Es schaut mich an.[/color][/size]",
+        "antwort": "It",
+        "vollstaendig": "There is a baby. It looks at me."
+      }
+    ]
+  },
+  "Verben Teil 3": {
+    "karten": [
+      "Super gemacht! Jetzt kennst du schon alle Singularformen (Einzahl).\n\nSchauen wir uns nun die Pluralformen (Mehrzahl) an: wir und sie.",
+      "Wir = [color={C_WE}]We[/color]",
+      "Wir nehmen wieder die Grundform unserer Verben:\n\nplay = spielen\nlearn = lernen\nwork = arbeiten",
+      "Bei [color={C_WE}]We[/color] bekommt das Verb keine Endung und bleibt in der Grundform:\n\n[color={C_WE}]We[/color] play = Wir spielen\n[color={C_WE}]We[/color] learn = Wir lernen\n[color={C_WE}]We[/color] work = Wir arbeiten",
+      "Noch ein paar Beispiele:\n\n[color={C_WE}]We[/color] get married = Wir heiraten\n[color={C_WE}]We[/color] clean = Wir putzen / reinigen\n[color={C_WE}]We[/color] cry = Wir weinen",
+      "Das war doch einfach, oder? Machen wir weiter mit 'sie' (Mehrzahl)!",
+      "Sie (Mehrzahl) = [color={C_THEY}]They[/color]",
+      "Im Englischen nutzt man [color={C_THEY}]They[/color] nicht nur für Personen, sondern auch für mehrere Dinge und Tiere!\n\n[color={C_THEY}]They[/color] play = Sie spielen\n[color={C_THEY}]They[/color] learn = Sie lernen\n[color={C_THEY}]They[/color] work = Sie arbeiten",
+      "Hier sind ein paar Beispielsätze:",
+      "These are the students of Goethe School. [color={C_THEY}]They[/color] write a test.\nDas sind die Schülerinnen und Schüler der Goethe-Schule. Sie schreiben einen Test.",
+      "The company Audi has many employees. [color={C_THEY}]They[/color] earn a lot of money.\nDie Firma Audi hat viele Angestellte. Sie verdienen viel Geld.",
+      "The Müller family is late. [color={C_THEY}]They[/color] are stuck in traffic.\nDie Familie Müller ist zu spät. Sie stecken im Stau.",
+      "Zusammenfassend: Im Simple Present (Gegenwart für allgemeine Fakten und Gewohnheiten) bekommt nur [color={C_HE}]He[/color] / [color={C_SHE}]She[/color] / [color={C_IT}]It[/color] ein '-s' ans Verb; bei [color={C_I}]I[/color], [color={C_YOU}]You[/color], [color={C_WE}]We[/color] und [color={C_THEY}]They[/color] bleibt das Verb in der Grundform!",
+      "Testen wir dein Wissen. Vervollständige diese 7 Verben mit dem angegebenen Pronomen!"
+    ],
+    "quiz_hinweis": "Wähle die richtige Verbform:",
+    "quiz_titel": "VERB KONJUGIEREN",
+    "optionen": [
+      "work",
+      "works",
+      "buy",
+      "buys",
+      "sleep",
+      "sleeps",
+      "dance",
+      "dances",
+      "learn",
+      "learns",
+      "ask",
+      "asks",
+      "run",
+      "runs"
+    ],
+    "quiz": [
+      {
+        "anzeige": "[color={C_THEY}]They[/color] + to work = [color={C_THEY}]They[/color] ___",
+        "antwort": "work",
+        "vollstaendig": "They work"
+      },
+      {
+        "anzeige": "[color={C_HE}]He[/color] + to buy = [color={C_HE}]He[/color] ___",
+        "antwort": "buys",
+        "vollstaendig": "He buys"
+      },
+      {
+        "anzeige": "[color={C_WE}]We[/color] + to sleep = [color={C_WE}]We[/color] ___",
+        "antwort": "sleep",
+        "vollstaendig": "We sleep"
+      },
+      {
+        "anzeige": "[color={C_SHE}]She[/color] + to dance = [color={C_SHE}]She[/color] ___",
+        "antwort": "dances",
+        "vollstaendig": "She dances"
+      },
+      {
+        "anzeige": "[color={C_WE}]We[/color] + to learn = [color={C_WE}]We[/color] ___",
+        "antwort": "learn",
+        "vollstaendig": "We learn"
+      },
+      {
+        "anzeige": "[color={C_IT}]It[/color] + to ask = [color={C_IT}]It[/color] ___",
+        "antwort": "asks",
+        "vollstaendig": "It asks"
+      },
+      {
+        "anzeige": "[color={C_WE}]We[/color] + to run = [color={C_WE}]We[/color] ___",
+        "antwort": "run",
+        "vollstaendig": "We run"
+      }
+    ]
+  }
+}

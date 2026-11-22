@@ -1,0 +1,1930 @@
+{
+  "Ders 1: Sayılar ve Miktarlar": [
+    {
+      "tr": "bir",
+      "en": "one"
+    },
+    {
+      "tr": "iki",
+      "en": "two"
+    },
+    {
+      "tr": "üç",
+      "en": "three"
+    },
+    {
+      "tr": "dört",
+      "en": "four"
+    },
+    {
+      "tr": "beş",
+      "en": "five"
+    },
+    {
+      "tr": "altı",
+      "en": "six"
+    },
+    {
+      "tr": "yedi",
+      "en": "seven"
+    },
+    {
+      "tr": "sekiz",
+      "en": "eight"
+    },
+    {
+      "tr": "dokuz",
+      "en": "nine"
+    },
+    {
+      "tr": "on",
+      "en": "ten"
+    },
+    {
+      "tr": "yirmi",
+      "en": "twenty"
+    },
+    {
+      "tr": "yüz",
+      "en": "hundred"
+    },
+    {
+      "tr": "bin",
+      "en": "thousand"
+    },
+    {
+      "tr": "milyon",
+      "en": "million"
+    },
+    {
+      "tr": "birinci / ilk",
+      "en": "first"
+    },
+    {
+      "tr": "ikinci",
+      "en": "second"
+    },
+    {
+      "tr": "üçüncü",
+      "en": "third"
+    },
+    {
+      "tr": "çok / fazla",
+      "en": "much / a lot"
+    },
+    {
+      "tr": "birçok / çok",
+      "en": "many"
+    },
+    {
+      "tr": "az / küçük",
+      "en": "little"
+    },
+    {
+      "tr": "birkaç / az",
+      "en": "few"
+    },
+    {
+      "tr": "bazı",
+      "en": "some"
+    },
+    {
+      "tr": "hepsi / bütün",
+      "en": "all"
+    },
+    {
+      "tr": "her / her biri",
+      "en": "every / each"
+    },
+    {
+      "tr": "her ikisi",
+      "en": "both"
+    },
+    {
+      "tr": "yeterli / yeter",
+      "en": "enough"
+    },
+    {
+      "tr": "daha fazla",
+      "en": "more"
+    },
+    {
+      "tr": "daha az",
+      "en": "less"
+    },
+    {
+      "tr": "en çok",
+      "en": "most"
+    },
+    {
+      "tr": "en az",
+      "en": "least"
+    },
+    {
+      "tr": "sayı / rakam",
+      "en": "number"
+    },
+    {
+      "tr": "miktar / tutar",
+      "en": "amount"
+    },
+    {
+      "tr": "yarım / yarı",
+      "en": "half"
+    },
+    {
+      "tr": "bütün / tüm",
+      "en": "whole"
+    },
+    {
+      "tr": "parça / bölüm",
+      "en": "part / piece"
+    },
+    {
+      "tr": "çift",
+      "en": "pair"
+    },
+    {
+      "tr": "toplam",
+      "en": "total"
+    },
+    {
+      "tr": "sıfır / hiç",
+      "en": "zero / none"
+    },
+    {
+      "tr": "saymak",
+      "en": "to count"
+    },
+    {
+      "tr": "ölçmek",
+      "en": "to measure"
+    }
+  ],
+  "Ders 2: Renkler ve Görünüm": [
+    {
+      "tr": "renk",
+      "en": "color"
+    },
+    {
+      "tr": "beyaz",
+      "en": "white"
+    },
+    {
+      "tr": "siyah",
+      "en": "black"
+    },
+    {
+      "tr": "kırmızı",
+      "en": "red"
+    },
+    {
+      "tr": "mavi",
+      "en": "blue"
+    },
+    {
+      "tr": "yeşil",
+      "en": "green"
+    },
+    {
+      "tr": "sarı",
+      "en": "yellow"
+    },
+    {
+      "tr": "turuncu",
+      "en": "orange"
+    },
+    {
+      "tr": "mor",
+      "en": "purple"
+    },
+    {
+      "tr": "pembe",
+      "en": "pink"
+    },
+    {
+      "tr": "kahverengi",
+      "en": "brown"
+    },
+    {
+      "tr": "gri",
+      "en": "gray"
+    },
+    {
+      "tr": "altın",
+      "en": "gold"
+    },
+    {
+      "tr": "gümüş",
+      "en": "silver"
+    },
+    {
+      "tr": "ışık",
+      "en": "light"
+    },
+    {
+      "tr": "karanlık / koyu",
+      "en": "dark"
+    },
+    {
+      "tr": "parlak / aydınlık",
+      "en": "bright"
+    },
+    {
+      "tr": "şekil / biçim",
+      "en": "shape"
+    },
+    {
+      "tr": "daire / çember",
+      "en": "circle"
+    },
+    {
+      "tr": "üçgen",
+      "en": "triangle"
+    },
+    {
+      "tr": "kare",
+      "en": "square"
+    },
+    {
+      "tr": "çizgi",
+      "en": "line"
+    },
+    {
+      "tr": "desen / kalıp",
+      "en": "pattern"
+    },
+    {
+      "tr": "görünüm / manzara",
+      "en": "view"
+    }
+  ],
+  "Ders 3: Hayvanlar": [
+    {
+      "tr": "hayvan",
+      "en": "animal"
+    },
+    {
+      "tr": "köpek",
+      "en": "dog"
+    },
+    {
+      "tr": "kedi",
+      "en": "cat"
+    },
+    {
+      "tr": "kuş",
+      "en": "bird"
+    },
+    {
+      "tr": "balık",
+      "en": "fish"
+    },
+    {
+      "tr": "at",
+      "en": "horse"
+    },
+    {
+      "tr": "inek",
+      "en": "cow"
+    },
+    {
+      "tr": "domuz",
+      "en": "pig"
+    },
+    {
+      "tr": "koyun",
+      "en": "sheep"
+    },
+    {
+      "tr": "tavuk",
+      "en": "chicken"
+    },
+    {
+      "tr": "ördek",
+      "en": "duck"
+    },
+    {
+      "tr": "ayı",
+      "en": "bear"
+    },
+    {
+      "tr": "aslan",
+      "en": "lion"
+    },
+    {
+      "tr": "kurt",
+      "en": "wolf"
+    },
+    {
+      "tr": "tilki",
+      "en": "fox"
+    },
+    {
+      "tr": "fare",
+      "en": "mouse"
+    },
+    {
+      "tr": "tavşan",
+      "en": "rabbit"
+    },
+    {
+      "tr": "böcek",
+      "en": "insect"
+    },
+    {
+      "tr": "arı",
+      "en": "bee"
+    },
+    {
+      "tr": "kelebek",
+      "en": "butterfly"
+    },
+    {
+      "tr": "yılan",
+      "en": "snake"
+    },
+    {
+      "tr": "kurbağa",
+      "en": "frog"
+    },
+    {
+      "tr": "kanat",
+      "en": "wing"
+    },
+    {
+      "tr": "kuyruk",
+      "en": "tail"
+    }
+  ],
+  "Ders 4: Aile ve İnsanlar": [
+    {
+      "tr": "insan / kişi",
+      "en": "person"
+    },
+    {
+      "tr": "insanlar",
+      "en": "people"
+    },
+    {
+      "tr": "aile",
+      "en": "family"
+    },
+    {
+      "tr": "anne",
+      "en": "mother"
+    },
+    {
+      "tr": "baba",
+      "en": "father"
+    },
+    {
+      "tr": "ebeveyn",
+      "en": "parent"
+    },
+    {
+      "tr": "çocuk",
+      "en": "child"
+    },
+    {
+      "tr": "çocuklar",
+      "en": "children"
+    },
+    {
+      "tr": "oğul",
+      "en": "son"
+    },
+    {
+      "tr": "kız evlat",
+      "en": "daughter"
+    },
+    {
+      "tr": "erkek kardeş",
+      "en": "brother"
+    },
+    {
+      "tr": "kız kardeş",
+      "en": "sister"
+    },
+    {
+      "tr": "büyükbaba / dede",
+      "en": "grandfather"
+    },
+    {
+      "tr": "büyükanne / nine",
+      "en": "grandmother"
+    },
+    {
+      "tr": "bebek",
+      "en": "baby"
+    },
+    {
+      "tr": "erkek çocuk / genç",
+      "en": "boy"
+    },
+    {
+      "tr": "kız çocuk / genç kız",
+      "en": "girl"
+    },
+    {
+      "tr": "adam / erkek",
+      "en": "man"
+    },
+    {
+      "tr": "kadın",
+      "en": "woman"
+    },
+    {
+      "tr": "arkadaş / dost",
+      "en": "friend"
+    },
+    {
+      "tr": "komşu",
+      "en": "neighbor"
+    },
+    {
+      "tr": "misafir / konuk",
+      "en": "guest"
+    },
+    {
+      "tr": "eş / karı-koca",
+      "en": "husband / wife"
+    },
+    {
+      "tr": "isim / ad",
+      "en": "name"
+    },
+    {
+      "tr": "yaş",
+      "en": "age"
+    },
+    {
+      "tr": "grup / topluluk",
+      "en": "group"
+    }
+  ],
+  "Ders 5: Vücut ve Sağlık": [
+    {
+      "tr": "vücut / beden",
+      "en": "body"
+    },
+    {
+      "tr": "baş / kafa",
+      "en": "head"
+    },
+    {
+      "tr": "yüz / surat",
+      "en": "face"
+    },
+    {
+      "tr": "göz",
+      "en": "eye"
+    },
+    {
+      "tr": "kulak",
+      "en": "ear"
+    },
+    {
+      "tr": "burun",
+      "en": "nose"
+    },
+    {
+      "tr": "ağız",
+      "en": "mouth"
+    },
+    {
+      "tr": "diş",
+      "en": "tooth"
+    },
+    {
+      "tr": "dil (organ)",
+      "en": "tongue"
+    },
+    {
+      "tr": "boyun",
+      "en": "neck"
+    },
+    {
+      "tr": "omuz",
+      "en": "shoulder"
+    },
+    {
+      "tr": "kol",
+      "en": "arm"
+    },
+    {
+      "tr": "el",
+      "en": "hand"
+    },
+    {
+      "tr": "parmak",
+      "en": "finger"
+    },
+    {
+      "tr": "bacak",
+      "en": "leg"
+    },
+    {
+      "tr": "ayak",
+      "en": "foot"
+    },
+    {
+      "tr": "kalp",
+      "en": "heart"
+    },
+    {
+      "tr": "kan",
+      "en": "blood"
+    },
+    {
+      "tr": "kemik",
+      "en": "bone"
+    },
+    {
+      "tr": "cilt / deri",
+      "en": "skin"
+    },
+    {
+      "tr": "saç",
+      "en": "hair"
+    },
+    {
+      "tr": "ses",
+      "en": "voice"
+    },
+    {
+      "tr": "uyku",
+      "en": "sleep"
+    },
+    {
+      "tr": "sağlık",
+      "en": "health"
+    },
+    {
+      "tr": "hasta",
+      "en": "sick"
+    },
+    {
+      "tr": "ağrı / acı",
+      "en": "pain"
+    },
+    {
+      "tr": "doktor",
+      "en": "doctor"
+    },
+    {
+      "tr": "ilaç",
+      "en": "medicine"
+    }
+  ],
+  "Ders 6: Yiyecek ve İçecek": [
+    {
+      "tr": "yiyecek / yemek",
+      "en": "food"
+    },
+    {
+      "tr": "içecek",
+      "en": "drink"
+    },
+    {
+      "tr": "su",
+      "en": "water"
+    },
+    {
+      "tr": "süt",
+      "en": "milk"
+    },
+    {
+      "tr": "çay",
+      "en": "tea"
+    },
+    {
+      "tr": "kahve",
+      "en": "coffee"
+    },
+    {
+      "tr": "meyve suyu",
+      "en": "juice"
+    },
+    {
+      "tr": "ekmek",
+      "en": "bread"
+    },
+    {
+      "tr": "peynir",
+      "en": "cheese"
+    },
+    {
+      "tr": "yumurta",
+      "en": "egg"
+    },
+    {
+      "tr": "et",
+      "en": "meat"
+    },
+    {
+      "tr": "pirinç / pilav",
+      "en": "rice"
+    },
+    {
+      "tr": "çorba",
+      "en": "soup"
+    },
+    {
+      "tr": "meyve",
+      "en": "fruit"
+    },
+    {
+      "tr": "elma",
+      "en": "apple"
+    },
+    {
+      "tr": "muz",
+      "en": "banana"
+    },
+    {
+      "tr": "sebze",
+      "en": "vegetable"
+    },
+    {
+      "tr": "şeker",
+      "en": "sugar"
+    },
+    {
+      "tr": "tuz",
+      "en": "salt"
+    },
+    {
+      "tr": "kahvaltı",
+      "en": "breakfast"
+    },
+    {
+      "tr": "öğle yemeği",
+      "en": "lunch"
+    },
+    {
+      "tr": "akşam yemeği",
+      "en": "dinner"
+    }
+  ],
+  "Ders 7: Doğa, Hava ve Coğrafya": [
+    {
+      "tr": "doğa",
+      "en": "nature"
+    },
+    {
+      "tr": "dünya / yeryüzü",
+      "en": "earth"
+    },
+    {
+      "tr": "güneş",
+      "en": "sun"
+    },
+    {
+      "tr": "ay",
+      "en": "moon"
+    },
+    {
+      "tr": "yıldız",
+      "en": "star"
+    },
+    {
+      "tr": "gökyüzü",
+      "en": "sky"
+    },
+    {
+      "tr": "hava (iklim/durum)",
+      "en": "weather"
+    },
+    {
+      "tr": "hava (atmosfer)",
+      "en": "air"
+    },
+    {
+      "tr": "yağmur",
+      "en": "rain"
+    },
+    {
+      "tr": "kar",
+      "en": "snow"
+    },
+    {
+      "tr": "rüzgâr",
+      "en": "wind"
+    },
+    {
+      "tr": "bulut",
+      "en": "cloud"
+    },
+    {
+      "tr": "fırtına",
+      "en": "storm"
+    },
+    {
+      "tr": "sıcaklık / ısı",
+      "en": "heat"
+    },
+    {
+      "tr": "soğuk",
+      "en": "cold"
+    },
+    {
+      "tr": "ağaç",
+      "en": "tree"
+    },
+    {
+      "tr": "orman",
+      "en": "forest"
+    },
+    {
+      "tr": "çiçek",
+      "en": "flower"
+    },
+    {
+      "tr": "çimen / ot",
+      "en": "grass"
+    },
+    {
+      "tr": "yaprak",
+      "en": "leaf"
+    },
+    {
+      "tr": "dağ",
+      "en": "mountain"
+    },
+    {
+      "tr": "nehir",
+      "en": "river"
+    },
+    {
+      "tr": "göl",
+      "en": "lake"
+    },
+    {
+      "tr": "deniz",
+      "en": "sea"
+    },
+    {
+      "tr": "okyanus",
+      "en": "ocean"
+    },
+    {
+      "tr": "ada",
+      "en": "island"
+    },
+    {
+      "tr": "taş / kaya",
+      "en": "stone"
+    },
+    {
+      "tr": "toprak / kir",
+      "en": "ground / soil"
+    },
+    {
+      "tr": "ateş",
+      "en": "fire"
+    }
+  ],
+  "Ders 8: Zaman, Takvim ve Mevsimler": [
+    {
+      "tr": "zaman",
+      "en": "time"
+    },
+    {
+      "tr": "saniye",
+      "en": "second (time)"
+    },
+    {
+      "tr": "dakika",
+      "en": "minute"
+    },
+    {
+      "tr": "saat",
+      "en": "hour"
+    },
+    {
+      "tr": "gün",
+      "en": "day"
+    },
+    {
+      "tr": "hafta",
+      "en": "week"
+    },
+    {
+      "tr": "ay (takvim)",
+      "en": "month"
+    },
+    {
+      "tr": "yıl",
+      "en": "year"
+    },
+    {
+      "tr": "sabah",
+      "en": "morning"
+    },
+    {
+      "tr": "öğleden sonra",
+      "en": "afternoon"
+    },
+    {
+      "tr": "akşam",
+      "en": "evening"
+    },
+    {
+      "tr": "gece",
+      "en": "night"
+    },
+    {
+      "tr": "bugün",
+      "en": "today"
+    },
+    {
+      "tr": "dün",
+      "en": "yesterday"
+    },
+    {
+      "tr": "yarın",
+      "en": "tomorrow"
+    },
+    {
+      "tr": "şimdi",
+      "en": "now"
+    },
+    {
+      "tr": "her zaman",
+      "en": "always"
+    },
+    {
+      "tr": "genellikle / sık sık",
+      "en": "often"
+    },
+    {
+      "tr": "bazen",
+      "en": "sometimes"
+    },
+    {
+      "tr": "asla / hiç",
+      "en": "never"
+    },
+    {
+      "tr": "erken",
+      "en": "early"
+    },
+    {
+      "tr": "geç",
+      "en": "late"
+    },
+    {
+      "tr": "ilkbahar",
+      "en": "spring"
+    },
+    {
+      "tr": "yaz",
+      "en": "summer"
+    },
+    {
+      "tr": "sonbahar",
+      "en": "autumn"
+    },
+    {
+      "tr": "kış",
+      "en": "winter"
+    }
+  ],
+  "Ders 9: Ev, Mobilya ve Günlük Eşyalar": [
+    {
+      "tr": "ev",
+      "en": "house"
+    },
+    {
+      "tr": "daire / apartman",
+      "en": "apartment"
+    },
+    {
+      "tr": "oda",
+      "en": "room"
+    },
+    {
+      "tr": "mutfak",
+      "en": "kitchen"
+    },
+    {
+      "tr": "banyo",
+      "en": "bathroom"
+    },
+    {
+      "tr": "kapı",
+      "en": "door"
+    },
+    {
+      "tr": "pencere",
+      "en": "window"
+    },
+    {
+      "tr": "duvar",
+      "en": "wall"
+    },
+    {
+      "tr": "zemin / yer",
+      "en": "floor"
+    },
+    {
+      "tr": "tavan / çatı",
+      "en": "roof"
+    },
+    {
+      "tr": "masa",
+      "en": "table"
+    },
+    {
+      "tr": "sandalye",
+      "en": "chair"
+    },
+    {
+      "tr": "yatak",
+      "en": "bed"
+    },
+    {
+      "tr": "ayna",
+      "en": "mirror"
+    },
+    {
+      "tr": "lamba",
+      "en": "lamp"
+    },
+    {
+      "tr": "anahtar",
+      "en": "key"
+    },
+    {
+      "tr": "kutu",
+      "en": "box"
+    },
+    {
+      "tr": "çanta",
+      "en": "bag"
+    },
+    {
+      "tr": "şişe",
+      "en": "bottle"
+    },
+    {
+      "tr": "bardak / fincan",
+      "en": "cup"
+    },
+    {
+      "tr": "tabak",
+      "en": "plate"
+    },
+    {
+      "tr": "bıçak",
+      "en": "knife"
+    },
+    {
+      "tr": "kaşık",
+      "en": "spoon"
+    },
+    {
+      "tr": "telefon",
+      "en": "phone"
+    },
+    {
+      "tr": "bilgisayar",
+      "en": "computer"
+    }
+  ],
+  "Ders 10: Kıyafetler ve Malzemeler": [
+    {
+      "tr": "kıyafet / giysi",
+      "en": "clothes"
+    },
+    {
+      "tr": "gömlek",
+      "en": "shirt"
+    },
+    {
+      "tr": "pantolon",
+      "en": "pants / trousers"
+    },
+    {
+      "tr": "elbise",
+      "en": "dress"
+    },
+    {
+      "tr": "ceket / mont",
+      "en": "jacket"
+    },
+    {
+      "tr": "palto / kaban",
+      "en": "coat"
+    },
+    {
+      "tr": "ayakkabı",
+      "en": "shoe"
+    },
+    {
+      "tr": "çorap",
+      "en": "sock"
+    },
+    {
+      "tr": "şapka",
+      "en": "hat"
+    },
+    {
+      "tr": "gözlük",
+      "en": "glasses"
+    },
+    {
+      "tr": "yüzük",
+      "en": "ring"
+    },
+    {
+      "tr": "kemer",
+      "en": "belt"
+    },
+    {
+      "tr": "cep",
+      "en": "pocket"
+    },
+    {
+      "tr": "ahşap / tahta",
+      "en": "wood"
+    },
+    {
+      "tr": "cam",
+      "en": "glass"
+    },
+    {
+      "tr": "metal",
+      "en": "metal"
+    },
+    {
+      "tr": "altın (malzeme)",
+      "en": "gold (material)"
+    },
+    {
+      "tr": "kağıt",
+      "en": "paper"
+    },
+    {
+      "tr": "deri / cilt",
+      "en": "leather"
+    },
+    {
+      "tr": "kumaş",
+      "en": "cloth"
+    }
+  ],
+  "Ders 11: Şehir, Mekanlar ve Seyahat": [
+    {
+      "tr": "şehir",
+      "en": "city"
+    },
+    {
+      "tr": "kasaba / ilçe",
+      "en": "town"
+    },
+    {
+      "tr": "köy",
+      "en": "village"
+    },
+    {
+      "tr": "ülke",
+      "en": "country"
+    },
+    {
+      "tr": "cadde / sokak",
+      "en": "street"
+    },
+    {
+      "tr": "yol",
+      "en": "road / way"
+    },
+    {
+      "tr": "köprü",
+      "en": "bridge"
+    },
+    {
+      "tr": "meydan / kare",
+      "en": "square"
+    },
+    {
+      "tr": "park",
+      "en": "park"
+    },
+    {
+      "tr": "okul",
+      "en": "school"
+    },
+    {
+      "tr": "hastane",
+      "en": "hospital"
+    },
+    {
+      "tr": "mağaza / dükkan",
+      "en": "shop / store"
+    },
+    {
+      "tr": "pazar / market",
+      "en": "market"
+    },
+    {
+      "tr": "restoran",
+      "en": "restaurant"
+    },
+    {
+      "tr": "otel",
+      "en": "hotel"
+    },
+    {
+      "tr": "banka",
+      "en": "bank"
+    },
+    {
+      "tr": "istasyon / gar",
+      "en": "station"
+    },
+    {
+      "tr": "havalimanı",
+      "en": "airport"
+    },
+    {
+      "tr": "araba / otomobil",
+      "en": "car"
+    },
+    {
+      "tr": "otobüs",
+      "en": "bus"
+    },
+    {
+      "tr": "tren",
+      "en": "train"
+    },
+    {
+      "tr": "uçak",
+      "en": "plane"
+    },
+    {
+      "tr": "gemi / tekne",
+      "en": "boat / ship"
+    },
+    {
+      "tr": "bisiklet",
+      "en": "bicycle"
+    },
+    {
+      "tr": "bilet",
+      "en": "ticket"
+    },
+    {
+      "tr": "yolculuk / seyahat",
+      "en": "travel / trip"
+    },
+    {
+      "tr": "harita",
+      "en": "map"
+    }
+  ],
+  "Ders 12: İş, Eğitim ve Bilim": [
+    {
+      "tr": "iş / çalışma",
+      "en": "work / job"
+    },
+    {
+      "tr": "ofis / büro",
+      "en": "office"
+    },
+    {
+      "tr": "şirket / firma",
+      "en": "company"
+    },
+    {
+      "tr": "para",
+      "en": "money"
+    },
+    {
+      "tr": "fiyat / ücret",
+      "en": "price"
+    },
+    {
+      "tr": "müşteri",
+      "en": "customer"
+    },
+    {
+      "tr": "öğretmen",
+      "en": "teacher"
+    },
+    {
+      "tr": "öğrenci",
+      "en": "student"
+    },
+    {
+      "tr": "ders",
+      "en": "lesson"
+    },
+    {
+      "tr": "sınav / test",
+      "en": "test / exam"
+    },
+    {
+      "tr": "kitap",
+      "en": "book"
+    },
+    {
+      "tr": "sayfa",
+      "en": "page"
+    },
+    {
+      "tr": "kelime / sözcük",
+      "en": "word"
+    },
+    {
+      "tr": "cümle",
+      "en": "sentence"
+    },
+    {
+      "tr": "soru",
+      "en": "question"
+    },
+    {
+      "tr": "cevap / yanıt",
+      "en": "answer"
+    },
+    {
+      "tr": "fikir / düşünce",
+      "en": "idea"
+    },
+    {
+      "tr": "bilgi",
+      "en": "information"
+    },
+    {
+      "tr": "bilim",
+      "en": "science"
+    },
+    {
+      "tr": "araştırma",
+      "en": "research"
+    },
+    {
+      "tr": "proje",
+      "en": "project"
+    },
+    {
+      "tr": "plan",
+      "en": "plan"
+    },
+    {
+      "tr": "başarı",
+      "en": "success"
+    },
+    {
+      "tr": "sorun / problem",
+      "en": "problem"
+    }
+  ],
+  "Ders 13: Dil, Müzik ve Sanat": [
+    {
+      "tr": "dil",
+      "en": "language"
+    },
+    {
+      "tr": "müzik",
+      "en": "music"
+    },
+    {
+      "tr": "şarkı",
+      "en": "song"
+    },
+    {
+      "tr": "sanat",
+      "en": "art"
+    },
+    {
+      "tr": "resim / tablo",
+      "en": "painting / picture"
+    },
+    {
+      "tr": "fotoğraf",
+      "en": "photo"
+    },
+    {
+      "tr": "film",
+      "en": "movie / film"
+    },
+    {
+      "tr": "hikaye / öykü",
+      "en": "story"
+    },
+    {
+      "tr": "şiir",
+      "en": "poem"
+    },
+    {
+      "tr": "tiyatro",
+      "en": "theater"
+    },
+    {
+      "tr": "dans",
+      "en": "dance"
+    },
+    {
+      "tr": "oyun",
+      "en": "game"
+    },
+    {
+      "tr": "haber",
+      "en": "news"
+    },
+    {
+      "tr": "mektup",
+      "en": "letter"
+    },
+    {
+      "tr": "mesaj / ileti",
+      "en": "message"
+    }
+  ],
+  "Ders 14: Duygular, Özellikler ve Durumlar": [
+    {
+      "tr": "mutlu",
+      "en": "happy"
+    },
+    {
+      "tr": "üzgün",
+      "en": "sad"
+    },
+    {
+      "tr": "kızgın / öfkeli",
+      "en": "angry"
+    },
+    {
+      "tr": "korkmuş",
+      "en": "afraid"
+    },
+    {
+      "tr": "şaşkın",
+      "en": "surprised"
+    },
+    {
+      "tr": "yorgun",
+      "en": "tired"
+    },
+    {
+      "tr": "aç",
+      "en": "hungry"
+    },
+    {
+      "tr": "susamış",
+      "en": "thirsty"
+    },
+    {
+      "tr": "iyi",
+      "en": "good"
+    },
+    {
+      "tr": "kötü",
+      "en": "bad"
+    },
+    {
+      "tr": "büyük",
+      "en": "big"
+    },
+    {
+      "tr": "küçük",
+      "en": "small"
+    },
+    {
+      "tr": "uzun (boy/mesafe)",
+      "en": "long"
+    },
+    {
+      "tr": "kısa",
+      "en": "short"
+    },
+    {
+      "tr": "yüksek",
+      "en": "high"
+    },
+    {
+      "tr": "alçak / düşük",
+      "en": "low"
+    },
+    {
+      "tr": "yeni",
+      "en": "new"
+    },
+    {
+      "tr": "eski / yaşlı",
+      "en": "old"
+    },
+    {
+      "tr": "genç",
+      "en": "young"
+    },
+    {
+      "tr": "güzel",
+      "en": "beautiful"
+    },
+    {
+      "tr": "çirkin",
+      "en": "ugly"
+    },
+    {
+      "tr": "kolay",
+      "en": "easy"
+    },
+    {
+      "tr": "zor",
+      "en": "difficult / hard"
+    },
+    {
+      "tr": "hızlı",
+      "en": "fast"
+    },
+    {
+      "tr": "yavaş",
+      "en": "slow"
+    },
+    {
+      "tr": "temiz",
+      "en": "clean"
+    },
+    {
+      "tr": "kirli",
+      "en": "dirty"
+    },
+    {
+      "tr": "açık",
+      "en": "open"
+    },
+    {
+      "tr": "kapalı",
+      "en": "closed"
+    },
+    {
+      "tr": "doğru / gerçek",
+      "en": "true / right"
+    },
+    {
+      "tr": "yanlış",
+      "en": "wrong"
+    },
+    {
+      "tr": "önemli",
+      "en": "important"
+    },
+    {
+      "tr": "güvenli",
+      "en": "safe"
+    },
+    {
+      "tr": "tehlikeli",
+      "en": "dangerous"
+    },
+    {
+      "tr": "ücretsiz / özgür",
+      "en": "free"
+    },
+    {
+      "tr": "pahalı",
+      "en": "expensive"
+    },
+    {
+      "tr": "ucuz",
+      "en": "cheap"
+    }
+  ],
+  "Ders 15: Fiiller: Hareket ve Günlük Yaşam": [
+    {
+      "tr": "olmak",
+      "en": "to be"
+    },
+    {
+      "tr": "sahip olmak",
+      "en": "to have"
+    },
+    {
+      "tr": "yapmak / etmek",
+      "en": "to do / to make"
+    },
+    {
+      "tr": "gitmek",
+      "en": "to go"
+    },
+    {
+      "tr": "gelmek",
+      "en": "to come"
+    },
+    {
+      "tr": "kalmak",
+      "en": "to stay"
+    },
+    {
+      "tr": "yaşamak",
+      "en": "to live"
+    },
+    {
+      "tr": "yürümek",
+      "en": "to walk"
+    },
+    {
+      "tr": "koşmak",
+      "en": "to run"
+    },
+    {
+      "tr": "oturmak",
+      "en": "to sit"
+    },
+    {
+      "tr": "ayakta durmak",
+      "en": "to stand"
+    },
+    {
+      "tr": "yatmak / uzanmak",
+      "en": "to lie"
+    },
+    {
+      "tr": "uyumak",
+      "en": "to sleep"
+    },
+    {
+      "tr": "uyanmak",
+      "en": "to wake up"
+    },
+    {
+      "tr": "yemek",
+      "en": "to eat"
+    },
+    {
+      "tr": "içmek",
+      "en": "to drink"
+    },
+    {
+      "tr": "pişirmek",
+      "en": "to cook"
+    },
+    {
+      "tr": "açmak",
+      "en": "to open"
+    },
+    {
+      "tr": "kapatmak",
+      "en": "to close"
+    },
+    {
+      "tr": "almak / getirmek",
+      "en": "to take / to bring"
+    },
+    {
+      "tr": "vermek",
+      "en": "to give"
+    },
+    {
+      "tr": "satın almak",
+      "en": "to buy"
+    },
+    {
+      "tr": "satmak",
+      "en": "to sell"
+    },
+    {
+      "tr": "çalışmak",
+      "en": "to work"
+    },
+    {
+      "tr": "oynamak",
+      "en": "to play"
+    },
+    {
+      "tr": "başlamak",
+      "en": "to start"
+    },
+    {
+      "tr": "bitirmek",
+      "en": "to finish"
+    },
+    {
+      "tr": "yardım etmek",
+      "en": "to help"
+    },
+    {
+      "tr": "beklemek",
+      "en": "to wait"
+    },
+    {
+      "tr": "aramak / bulmak",
+      "en": "to look for / to find"
+    },
+    {
+      "tr": "kaybetmek",
+      "en": "to lose"
+    },
+    {
+      "tr": "taşımak",
+      "en": "to carry"
+    },
+    {
+      "tr": "çekmek / itmek",
+      "en": "to pull / to push"
+    },
+    {
+      "tr": "düşmek",
+      "en": "to fall"
+    },
+    {
+      "tr": "uçmak",
+      "en": "to fly"
+    },
+    {
+      "tr": "yüzmek",
+      "en": "to swim"
+    }
+  ],
+  "Ders 16: Fiiller: Düşünme, İletişim ve Algı": [
+    {
+      "tr": "görmek",
+      "en": "to see"
+    },
+    {
+      "tr": "bakmak",
+      "en": "to look"
+    },
+    {
+      "tr": "duymak",
+      "en": "to hear"
+    },
+    {
+      "tr": "dinlemek",
+      "en": "to listen"
+    },
+    {
+      "tr": "konuşmak",
+      "en": "to speak / to talk"
+    },
+    {
+      "tr": "söylemek / demek",
+      "en": "to say / to tell"
+    },
+    {
+      "tr": "sormak",
+      "en": "to ask"
+    },
+    {
+      "tr": "cevaplamak",
+      "en": "to answer"
+    },
+    {
+      "tr": "okumak",
+      "en": "to read"
+    },
+    {
+      "tr": "yazmak",
+      "en": "to write"
+    },
+    {
+      "tr": "düşünmek",
+      "en": "to think"
+    },
+    {
+      "tr": "bilmek",
+      "en": "to know"
+    },
+    {
+      "tr": "anlamak",
+      "en": "to understand"
+    },
+    {
+      "tr": "öğrenmek",
+      "en": "to learn"
+    },
+    {
+      "tr": "öğretmek",
+      "en": "to teach"
+    },
+    {
+      "tr": "hatırlamak",
+      "en": "to remember"
+    },
+    {
+      "tr": "unutmak",
+      "en": "to forget"
+    },
+    {
+      "tr": "istemek",
+      "en": "to want"
+    },
+    {
+      "tr": "sevmek / hoşlanmak",
+      "en": "to like / to love"
+    },
+    {
+      "tr": "inanmak",
+      "en": "to believe"
+    },
+    {
+      "tr": "ummak",
+      "en": "to hope"
+    },
+    {
+      "tr": "karar vermek",
+      "en": "to decide"
+    },
+    {
+      "tr": "göstermek",
+      "en": "to show"
+    },
+    {
+      "tr": "seçmek",
+      "en": "to choose"
+    }
+  ],
+  "Ders 17: Zamirler ve Belirteçler": [
+    {
+      "tr": "ben",
+      "en": "I"
+    },
+    {
+      "tr": "sen / siz",
+      "en": "you"
+    },
+    {
+      "tr": "o (erkek)",
+      "en": "he"
+    },
+    {
+      "tr": "o (kadın)",
+      "en": "she"
+    },
+    {
+      "tr": "o (nesne/hayvan)",
+      "en": "it"
+    },
+    {
+      "tr": "biz",
+      "en": "we"
+    },
+    {
+      "tr": "onlar",
+      "en": "they"
+    },
+    {
+      "tr": "benim",
+      "en": "my"
+    },
+    {
+      "tr": "senin / sizin",
+      "en": "your"
+    },
+    {
+      "tr": "onun (erkek)",
+      "en": "his"
+    },
+    {
+      "tr": "onun (kadın)",
+      "en": "her"
+    },
+    {
+      "tr": "bizim",
+      "en": "our"
+    },
+    {
+      "tr": "onların",
+      "en": "their"
+    },
+    {
+      "tr": "bu",
+      "en": "this"
+    },
+    {
+      "tr": "şu / o",
+      "en": "that"
+    },
+    {
+      "tr": "bunlar",
+      "en": "these"
+    },
+    {
+      "tr": "şunlar / onlar",
+      "en": "those"
+    },
+    {
+      "tr": "kim",
+      "en": "who"
+    },
+    {
+      "tr": "ne",
+      "en": "what"
+    },
+    {
+      "tr": "nerede",
+      "en": "where"
+    },
+    {
+      "tr": "ne zaman",
+      "en": "when"
+    },
+    {
+      "tr": "neden / niçin",
+      "en": "why"
+    },
+    {
+      "tr": "nasıl",
+      "en": "how"
+    }
+  ],
+  "Ders 18: Edatlar, Bağlaçlar ve Zarflar": [
+    {
+      "tr": "içinde",
+      "en": "in"
+    },
+    {
+      "tr": "üzerinde",
+      "en": "on"
+    },
+    {
+      "tr": "altında",
+      "en": "under"
+    },
+    {
+      "tr": "yanında / yanında-da",
+      "en": "next to / by"
+    },
+    {
+      "tr": "arasında",
+      "en": "between"
+    },
+    {
+      "tr": "önünde",
+      "en": "in front of"
+    },
+    {
+      "tr": "arkasında",
+      "en": "behind"
+    },
+    {
+      "tr": "-e / -a (yönelme)",
+      "en": "to"
+    },
+    {
+      "tr": "-den / -dan (ayrılma)",
+      "en": "from"
+    },
+    {
+      "tr": "ile / birlikte",
+      "en": "with"
+    },
+    {
+      "tr": "-sız / -siz (olmadan)",
+      "en": "without"
+    },
+    {
+      "tr": "için",
+      "en": "for"
+    },
+    {
+      "tr": "hakkında",
+      "en": "about"
+    },
+    {
+      "tr": "ve",
+      "en": "and"
+    },
+    {
+      "tr": "veya / veya da",
+      "en": "or"
+    },
+    {
+      "tr": "ama / fakat",
+      "en": "but"
+    },
+    {
+      "tr": "çünkü",
+      "en": "because"
+    },
+    {
+      "tr": "eğer / -sa",
+      "en": "if"
+    },
+    {
+      "tr": "burada",
+      "en": "here"
+    },
+    {
+      "tr": "orada",
+      "en": "there"
+    },
+    {
+      "tr": "çok (derece)",
+      "en": "very"
+    },
+    {
+      "tr": "da / dahi / bile",
+      "en": "too / also"
+    },
+    {
+      "tr": "sadece / yalnızca",
+      "en": "only"
+    }
+  ]
+}

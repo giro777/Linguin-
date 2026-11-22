@@ -1,0 +1,4102 @@
+{
+  "Begrüßungen und Verabschiedungen": [
+    {
+      "target": "Hello!",
+      "native": "Hallo! (Allgemeine Begrüßung)"
+    },
+    {
+      "target": "Good morning!",
+      "native": "Guten Morgen! (Morgendliche Begrüßung)"
+    },
+    {
+      "target": "Good afternoon!",
+      "native": "Guten Tag! / Guten Nachmittag! (Standard-Begrüßung tagsüber)"
+    },
+    {
+      "target": "Good evening!",
+      "native": "Guten Abend! (Ab etwa 18:00 Uhr)"
+    },
+    {
+      "target": "Good night!",
+      "native": "Gute Nacht! (Vor dem Schlafengehen)"
+    },
+    {
+      "target": "Bye!",
+      "native": "Tschüss! / Bis dann! (Informeller Abschied)"
+    },
+    {
+      "target": "Goodbye!",
+      "native": "Auf Wiedersehen! (Formeller Abschied)"
+    },
+    {
+      "target": "See you later!",
+      "native": "Bis später! (Informell)"
+    },
+    {
+      "target": "See you soon!",
+      "native": "Bis bald! (Informell)"
+    },
+    {
+      "target": "Have a nice day!",
+      "native": "Schönen Tag noch! (Höflicher Abschied)"
+    },
+    {
+      "target": "How's it going?",
+      "native": "Wie läuft's? / Was geht? (Informelle Begrüßung)"
+    },
+    {
+      "target": "How are you?",
+      "native": "Wie geht es Ihnen? / Wie geht's? (Höflich/Allgemein)"
+    },
+    {
+      "target": "All good?",
+      "native": "Alles gut? (Sehr umgangssprachlich/informell)"
+    },
+    {
+      "target": "I'm good, thanks.",
+      "native": "Mir geht's gut, danke. (Antwort)"
+    },
+    {
+      "target": "And you?",
+      "native": "Und dir? / Und Ihnen? (Rückfrage)"
+    },
+    {
+      "target": "Welcome!",
+      "native": "Willkommen! (Beim Empfangen jemandes)"
+    },
+    {
+      "target": "Good to see you!",
+      "native": "Schön, dich/Sie zu sehen! (Freundliche Begrüßung)"
+    },
+    {
+      "target": "Take care!",
+      "native": "Mach's gut! / Pass auf dich auf! (Herzlicher Abschied)"
+    },
+    {
+      "target": "Until next time!",
+      "native": "Bis zum nächsten Mal! (Freundlicher Abschluss)"
+    },
+    {
+      "target": "I wish you a nice day!",
+      "native": "Ich wünsche dir/Ihnen einen schönen Tag! (Höflich)"
+    }
+  ],
+  "Im Café oder Restaurant": [
+    {
+      "target": "I'd like a coffee.",
+      "native": "Ich hätte gern einen Kaffee. (Höfliches Bestellen)"
+    },
+    {
+      "target": "What would you like to order?",
+      "native": "Was möchten Sie bestellen? (Kellner fragt Gast)"
+    },
+    {
+      "target": "The menu, please.",
+      "native": "Die Speisekarte bitte. (Nach der Karte fragen)"
+    },
+    {
+      "target": "Just a moment, please.",
+      "native": "Einen Moment bitte. (Um etwas Zeit bitten)"
+    },
+    {
+      "target": "I'll have the schnitzel.",
+      "native": "Ich nehme das Schnitzel. (Essen bestellen)"
+    },
+    {
+      "target": "What do you recommend?",
+      "native": "Was empfehlen Sie? (Nach Empfehlung fragen)"
+    },
+    {
+      "target": "The bill, please.",
+      "native": "Die Rechnung bitte. (Bezahlen wollen)"
+    },
+    {
+      "target": "Together or separate?",
+      "native": "Zusammen oder getrennt? (Kellner fragt nach getrennter Rechnung)"
+    },
+    {
+      "target": "It tasted very good.",
+      "native": "Es hat sehr gut geschmeckt. (Essen loben)"
+    },
+    {
+      "target": "Can I have a little more?",
+      "native": "Kann ich noch ein bisschen mehr haben? (Nachschlag/Extra erbitten)"
+    },
+    {
+      "target": "I'm allergic to nuts.",
+      "native": "Ich bin allergisch gegen Nüsse. (Wichtige Allergie-Info)"
+    },
+    {
+      "target": "I'd like still water.",
+      "native": "Ich hätte gern stilles Wasser. (Getränkebestellung)"
+    },
+    {
+      "target": "By card, please.",
+      "native": "Mit Karte bitte. (Kartenzahlung)"
+    },
+    {
+      "target": "Keep the change.",
+      "native": "Stimmt so. (Trinkgeld geben)"
+    },
+    {
+      "target": "Could I get a glass of water?",
+      "native": "Könnte ich ein Glas Wasser bekommen? (Höfliche Bitte)"
+    },
+    {
+      "target": "Do you have vegetarian dishes?",
+      "native": "Haben Sie vegetarische Gerichte? (Ernährungswunsch)"
+    },
+    {
+      "target": "Where is the restroom?",
+      "native": "Wo ist die Toilette? (Häufige Frage)"
+    },
+    {
+      "target": "I'd like to make a reservation.",
+      "native": "Ich möchte einen Tisch reservieren. (Reservierung vornehmen)"
+    },
+    {
+      "target": "For how many people?",
+      "native": "Für wie viele Personen? (Frage des Personals)"
+    },
+    {
+      "target": "At what time?",
+      "native": "Um wie viel Uhr? (Reservierungsdetail)"
+    }
+  ],
+  "Einkaufen": [
+    {
+      "target": "How much does this cost?",
+      "native": "Wie viel kostet das? (Nach dem Preis fragen)"
+    },
+    {
+      "target": "Can I pay by card?",
+      "native": "Kann ich mit Karte bezahlen? (An der Kasse)"
+    },
+    {
+      "target": "I'm just looking, thanks.",
+      "native": "Ich schaue nur, danke. (Umschauen)"
+    },
+    {
+      "target": "Do you have this in another size?",
+      "native": "Haben Sie das auch in einer anderen Größe? (Bekleidungsgeschäft)"
+    },
+    {
+      "target": "Where are the fitting rooms?",
+      "native": "Wo sind die Umkleidekabinen? (Kleidung anprobieren)"
+    },
+    {
+      "target": "Is there a discount?",
+      "native": "Gibt es Rabatt? (Nach Preisnachlass fragen)"
+    },
+    {
+      "target": "I'll take it.",
+      "native": "Ich nehme es. (Kauf bestätigen)"
+    },
+    {
+      "target": "I'd like to return this.",
+      "native": "Ich möchte das umtauschen/zurückgeben. (Artikel zurückgeben)"
+    },
+    {
+      "target": "Do you have a bag?",
+      "native": "Haben Sie eine Tüte/Tasche? (Nach Einkaufstüte fragen)"
+    },
+    {
+      "target": "Can I get a receipt?",
+      "native": "Kann ich einen Kassenbon bekommen? (Nach Quittung fragen)"
+    },
+    {
+      "target": "That's too expensive.",
+      "native": "Das ist zu teuer. (Kommentar zum Preis)"
+    },
+    {
+      "target": "I'm looking for a gift.",
+      "native": "Ich suche ein Geschenk. (Für jemand anderen einkaufen)"
+    },
+    {
+      "target": "Do you have this in blue as well?",
+      "native": "Haben Sie das auch in Blau? (Farbwunsch)"
+    },
+    {
+      "target": "The quality is very good.",
+      "native": "Die Qualität ist sehr gut. (Positiver Kommentar)"
+    },
+    {
+      "target": "I'd like to pay in cash.",
+      "native": "Ich möchte bar bezahlen. (Barzahlung)"
+    },
+    {
+      "target": "This doesn't fit me.",
+      "native": "Das passt mir nicht. (Anprobe)"
+    },
+    {
+      "target": "I need a different size.",
+      "native": "Ich brauche eine andere Größe. (Größenproblem)"
+    },
+    {
+      "target": "Can I try this on?",
+      "native": "Kann ich das anprobieren? (Kleidungsstück)"
+    },
+    {
+      "target": "What time do you close?",
+      "native": "Wann schließen Sie? (Öffnungszeiten)"
+    },
+    {
+      "target": "Are you open?",
+      "native": "Haben Sie geöffnet? (Prüfen, ob das Geschäft offen ist)"
+    }
+  ],
+  "Hilfe oder nach dem Weg fragen": [
+    {
+      "target": "Can you help me?",
+      "native": "Können Sie mir helfen? (Um Hilfe bitten)"
+    },
+    {
+      "target": "I'm lost.",
+      "native": "Ich habe mich verlaufen / verfahren. (Orientierung suchen)"
+    },
+    {
+      "target": "Where is the train station?",
+      "native": "Wo ist der Bahnhof? (Verkehrsanbindung finden)"
+    },
+    {
+      "target": "How do I get to the airport?",
+      "native": "Wie komme ich zum Flughafen? (Nach dem Weg fragen)"
+    },
+    {
+      "target": "Is there a subway nearby?",
+      "native": "Gibt es hier in der Nähe eine U-Bahn? (Nahverkehr)"
+    },
+    {
+      "target": "I'm looking for this address.",
+      "native": "Ich suche diese Adresse. (Ort finden)"
+    },
+    {
+      "target": "Is it far from here?",
+      "native": "Ist es weit von hier? (Entfernung erfragen)"
+    },
+    {
+      "target": "Go straight ahead.",
+      "native": "Gehen Sie geradeaus. (Wegbeschreibung geben)"
+    },
+    {
+      "target": "Turn left.",
+      "native": "Biegen Sie links ab. (Wegbeschreibung geben)"
+    },
+    {
+      "target": "Turn right.",
+      "native": "Biegen Sie rechts ab. (Wegbeschreibung geben)"
+    },
+    {
+      "target": "It's nearby.",
+      "native": "Es ist gleich in der Nähe. (Entfernung einschätzen)"
+    },
+    {
+      "target": "It's across from the bank.",
+      "native": "Es liegt gegenüber der Bank. (Orientierungspunkt)"
+    },
+    {
+      "target": "Can you please repeat that?",
+      "native": "Können Sie das bitte wiederholen? (Um Wiederholung bitten)"
+    },
+    {
+      "target": "Do you speak English?",
+      "native": "Sprechen Sie Englisch? (Sprachliche Hilfe)"
+    },
+    {
+      "target": "Only a little German.",
+      "native": "Nur ein bisschen Deutsch. (Sprachniveau)"
+    },
+    {
+      "target": "I don't understand.",
+      "native": "Ich verstehe nicht. (Verständnisproblem)"
+    },
+    {
+      "target": "What is the name of this street?",
+      "native": "Wie heißt diese Straße? (Nach Namen fragen)"
+    },
+    {
+      "target": "Which bus goes to the city center?",
+      "native": "Welcher Bus fährt ins Zentrum? (Öffentliche Verkehrsmittel)"
+    },
+    {
+      "target": "Where can I find a taxi?",
+      "native": "Wo finde ich ein Taxi? (Verkehrsmittel)"
+    },
+    {
+      "target": "Thank you very much for your help!",
+      "native": "Vielen Dank für Ihre Hilfe! (Dankbarkeit)"
+    }
+  ],
+  "Beim Arzt": [
+    {
+      "target": "I have an appointment.",
+      "native": "Ich habe einen Termin. (Anmeldung)"
+    },
+    {
+      "target": "I don't feel well.",
+      "native": "Mir geht es nicht gut. (Symptome schildern)"
+    },
+    {
+      "target": "I have a headache.",
+      "native": "Ich habe Kopfschmerzen. (Symptom benennen)"
+    },
+    {
+      "target": "I have a fever.",
+      "native": "Ich habe Fieber. (Symptom benennen)"
+    },
+    {
+      "target": "I feel dizzy.",
+      "native": "Mir ist schwindlig. (Symptom benennen)"
+    },
+    {
+      "target": "I have a cough and a runny nose.",
+      "native": "Ich habe Husten und Schnupfen. (Erkältungssymptome)"
+    },
+    {
+      "target": "I need a prescription.",
+      "native": "Ich brauche ein Rezept. (Medikamentenwunsch)"
+    },
+    {
+      "target": "I'm allergic to penicillin.",
+      "native": "Ich bin allergisch gegen Penicillin. (Wichtige Gesundheitsinfo)"
+    },
+    {
+      "target": "Do you have your insurance card?",
+      "native": "Haben Sie Ihre Versichertenkarte dabei? (Frage am Empfang)"
+    },
+    {
+      "target": "Please take a seat in the waiting room.",
+      "native": "Bitte nehmen Sie im Wartezimmer Platz. (Anweisung in der Praxis)"
+    },
+    {
+      "target": "How long have you had these symptoms?",
+      "native": "Wie lange haben Sie diese Beschwerden schon? (Frage des Arztes)"
+    },
+    {
+      "target": "I have back pain.",
+      "native": "Ich habe Rückenschmerzen. (Symptom benennen)"
+    },
+    {
+      "target": "I can't sleep well.",
+      "native": "Ich kann nicht gut schlafen. (Schlafproblem)"
+    },
+    {
+      "target": "I need a doctor's note.",
+      "native": "Ich brauche eine Krankmeldung. (Arbeitsunfähigkeitsbescheinigung)"
+    },
+    {
+      "target": "I don't take any medication.",
+      "native": "Ich nehme keine Medikamente. (Vorgeschichte)"
+    },
+    {
+      "target": "I had surgery before.",
+      "native": "Ich hatte schon einmal eine Operation. (Medizinische Vorgeschichte)"
+    },
+    {
+      "target": "I need a referral.",
+      "native": "Ich brauche eine Überweisung. (Facharzt-Überweisung)"
+    },
+    {
+      "target": "Are there side effects?",
+      "native": "Gibt es Nebenwirkungen? (Frage zu Medikamenten)"
+    },
+    {
+      "target": "When should I come back?",
+      "native": "Wann soll ich wiederkommen? (Nachsorge)"
+    },
+    {
+      "target": "Thank you very much, goodbye.",
+      "native": "Vielen Dank, auf Wiedersehen. (Höflicher Abschied)"
+    }
+  ],
+  "Termin vereinbaren": [
+    {
+      "target": "I'd like to make an appointment.",
+      "native": "Ich möchte einen Termin vereinbaren. (Allgemeiner Wunsch)"
+    },
+    {
+      "target": "When are you available?",
+      "native": "Wann haben Sie Zeit? (Terminplanung)"
+    },
+    {
+      "target": "Does tomorrow work too?",
+      "native": "Passt morgen auch? (Alternativer Termin)"
+    },
+    {
+      "target": "Unfortunately, I can't make it.",
+      "native": "Leider kann ich nicht kommen. (Absage)"
+    },
+    {
+      "target": "I need to reschedule the appointment.",
+      "native": "Ich muss den Termin verschieben. (Terminänderung)"
+    },
+    {
+      "target": "How long will the appointment take?",
+      "native": "Wie lange dauert der Termin? (Zeitdauer erfragen)"
+    },
+    {
+      "target": "What time is my appointment?",
+      "native": "Um wie viel Uhr ist mein Termin? (Rückfrage)"
+    },
+    {
+      "target": "Can I come later?",
+      "native": "Kann ich später kommen? (Neuplanung)"
+    },
+    {
+      "target": "Is it possible to come earlier?",
+      "native": "Ist es möglich, früher zu kommen? (Neuplanung)"
+    },
+    {
+      "target": "I have an appointment today at ten o'clock.",
+      "native": "Ich habe heute um zehn Uhr einen Termin. (Zeitangabe)"
+    },
+    {
+      "target": "The appointment is on Tuesday.",
+      "native": "Der Termin ist am Dienstag. (Tagesangabe)"
+    },
+    {
+      "target": "We'll meet at 2 PM.",
+      "native": "Wir treffen uns um 14:00 Uhr. (Bestätigung)"
+    },
+    {
+      "target": "Is the office open today?",
+      "native": "Hat das Büro heute geöffnet? (Verfügbarkeit prüfen)"
+    },
+    {
+      "target": "Can I book online too?",
+      "native": "Kann ich auch online buchen? (Digitale Option)"
+    },
+    {
+      "target": "I'll be a few minutes late.",
+      "native": "Ich komme ein paar Minuten später. (Verspätung)"
+    },
+    {
+      "target": "I'm on my way.",
+      "native": "Ich bin auf dem Weg. (Unterwegs zum Termin)"
+    },
+    {
+      "target": "Thank you very much for the appointment.",
+      "native": "Vielen Dank für den Termin. (Höflicher Abschluss)"
+    },
+    {
+      "target": "I received a confirmation.",
+      "native": "Ich habe eine Bestätigung erhalten. (Terminbestätigung)"
+    },
+    {
+      "target": "Please confirm the appointment.",
+      "native": "Bitte bestätigen Sie den Termin. (Höfliche Bitte)"
+    },
+    {
+      "target": "I look forward to our appointment.",
+      "native": "Ich freue mich auf unseren Termin. (Freundlicher Ton)"
+    }
+  ],
+  "Über Gefühle sprechen": [
+    {
+      "target": "I'm happy.",
+      "native": "Ich bin glücklich / froh. (Positives Gefühl ausdrücken)"
+    },
+    {
+      "target": "I'm sad.",
+      "native": "Ich bin traurig. (Traurigkeit ausdrücken)"
+    },
+    {
+      "target": "I'm angry.",
+      "native": "Ich bin wütend / sauer. (Ärger ausdrücken)"
+    },
+    {
+      "target": "I'm nervous.",
+      "native": "Ich bin nervös / aufgeregt. (Anspannung ausdrücken)"
+    },
+    {
+      "target": "I'm scared.",
+      "native": "Ich habe Angst. (Angst oder Sorge)"
+    },
+    {
+      "target": "I'm disappointed.",
+      "native": "Ich bin enttäuscht. (Negatives Gefühl)"
+    },
+    {
+      "target": "I'm looking forward to it.",
+      "native": "Ich freue mich darauf. (Vorfreude oder Erwartung)"
+    },
+    {
+      "target": "I'm stressed.",
+      "native": "Ich bin gestresst. (Häufiges Gefühl)"
+    },
+    {
+      "target": "I feel lonely.",
+      "native": "Ich fühle mich einsam. (Einsamkeit ausdrücken)"
+    },
+    {
+      "target": "I'm relieved.",
+      "native": "Ich bin erleichtert. (Nach Stress oder Angst)"
+    },
+    {
+      "target": "I'm proud of you.",
+      "native": "Ich bin stolz auf dich. (Ermutigung)"
+    },
+    {
+      "target": "I love you.",
+      "native": "Ich liebe dich. (Romantische oder tiefe Liebe)"
+    },
+    {
+      "target": "I like you.",
+      "native": "Ich mag dich. (Sympathie oder Freundschaft)"
+    },
+    {
+      "target": "I miss you.",
+      "native": "Ich vermisse dich. (Emotionale Bindung)"
+    },
+    {
+      "target": "I'm grateful.",
+      "native": "Ich bin dankbar. (Positive Reflexion)"
+    },
+    {
+      "target": "I'm worn out from the day.",
+      "native": "Ich bin fix und fertig vom Tag. (Erschöpfung am Abend)"
+    },
+    {
+      "target": "I'm content.",
+      "native": "Ich bin zufrieden. (Ausgeglichenheit)"
+    },
+    {
+      "target": "I can't describe my feelings.",
+      "native": "Ich kann meine Gefühle nicht beschreiben. (Gefühlschaos)"
+    },
+    {
+      "target": "I need a break.",
+      "native": "Ich brauche eine Pause. (Überforderung oder Stress)"
+    },
+    {
+      "target": "I'm not feeling so well.",
+      "native": "Mir geht es nicht so gut. (Allgemeine Stimmung)"
+    }
+  ],
+  "Beruf und Arbeitsplatz": [
+    {
+      "target": "I work as an engineer.",
+      "native": "Ich arbeite als Ingenieur/in. (Beruf angeben)"
+    },
+    {
+      "target": "I'm working from home.",
+      "native": "Ich arbeite im Homeoffice. (Remote-Arbeit)"
+    },
+    {
+      "target": "I have many meetings today.",
+      "native": "Ich habe heute viele Meetings. (Voller Terminkalender)"
+    },
+    {
+      "target": "Can you help me with this?",
+      "native": "Kannst du mir dabei helfen? (Zusammenarbeit im Team)"
+    },
+    {
+      "target": "I'll send you an email.",
+      "native": "Ich schicke dir eine E-Mail. (Kommunikation im Büro)"
+    },
+    {
+      "target": "I need more time.",
+      "native": "Ich brauche mehr Zeit. (Knappe Frist)"
+    },
+    {
+      "target": "That's not my task.",
+      "native": "Das ist nicht meine Aufgabe. (Zuständigkeiten klären)"
+    },
+    {
+      "target": "We need to discuss this.",
+      "native": "Wir müssen das besprechen. (Abstimmung)"
+    },
+    {
+      "target": "Did you finish the report?",
+      "native": "Hast du den Bericht fertiggestellt? (Fortschritt prüfen)"
+    },
+    {
+      "target": "I'm working on a project.",
+      "native": "Ich arbeite an einem Projekt. (Projektarbeit)"
+    },
+    {
+      "target": "I'll be right back.",
+      "native": "Ich bin gleich zurück. (Kurz vom Platz gehen)"
+    },
+    {
+      "target": "I'm in a meeting.",
+      "native": "Ich bin in einer Besprechung. (Gerade nicht erreichbar)"
+    },
+    {
+      "target": "I'm taking vacation today.",
+      "native": "Ich habe heute Urlaub. (Urlaubstag)"
+    },
+    {
+      "target": "I prepared a presentation.",
+      "native": "Ich habe eine Präsentation vorbereitet. (Meeting-Vorbereitung)"
+    },
+    {
+      "target": "We have a problem with the system.",
+      "native": "Wir haben ein Problem mit dem System. (IT-bezogen)"
+    },
+    {
+      "target": "I'm responsible for marketing.",
+      "native": "Ich bin für das Marketing zuständig. (Abteilungsrolle)"
+    },
+    {
+      "target": "We need to make a decision.",
+      "native": "Wir müssen eine Entscheidung treffen. (Teamentscheidung)"
+    },
+    {
+      "target": "The deadline is tomorrow.",
+      "native": "Die Frist ist morgen. (Zeitkritische Aufgabe)"
+    },
+    {
+      "target": "Can we postpone this?",
+      "native": "Können wir das verschieben? (Umplanung)"
+    },
+    {
+      "target": "Thanks for your support.",
+      "native": "Danke für deine Unterstützung. (Wertschätzung im Job)"
+    }
+  ],
+  "Tägliche Routinen": [
+    {
+      "target": "I wake up at seven o'clock.",
+      "native": "Ich wache um sieben Uhr auf. (Morgenroutine)"
+    },
+    {
+      "target": "I have breakfast every morning.",
+      "native": "Ich frühstücke jeden Morgen. (Morgendliche Gewohnheit)"
+    },
+    {
+      "target": "I go to work.",
+      "native": "Ich gehe zur Arbeit. (Arbeitsweg)"
+    },
+    {
+      "target": "I take the bus.",
+      "native": "Ich nehme den Bus. (Verkehrsmittel)"
+    },
+    {
+      "target": "I work from nine to five.",
+      "native": "Ich arbeite von neun bis fünf. (Typischer Arbeitstag)"
+    },
+    {
+      "target": "I take a break at noon.",
+      "native": "Ich mache mittags Pause. (Tagesablauf)"
+    },
+    {
+      "target": "I have lunch in the cafeteria.",
+      "native": "Ich esse in der Kantine zu Mittag. (Arbeitsalltag)"
+    },
+    {
+      "target": "I come home at six o'clock.",
+      "native": "Ich komme um sechs Uhr nach Hause. (Heimweg am Abend)"
+    },
+    {
+      "target": "I cook dinner.",
+      "native": "Ich koche das Abendessen. (Abendaktivität)"
+    },
+    {
+      "target": "I watch TV.",
+      "native": "Ich sehe fern. (Entspannung)"
+    },
+    {
+      "target": "I go for a walk.",
+      "native": "Ich gehe spazieren. (Freizeitaktivität)"
+    },
+    {
+      "target": "I read a book before sleeping.",
+      "native": "Ich lese vor dem Schlafen ein Buch. (Abendroutine)"
+    },
+    {
+      "target": "I go to bed around eleven o'clock.",
+      "native": "Ich gehe gegen elf Uhr ins Bett. (Schlafenszeit)"
+    },
+    {
+      "target": "I shower in the morning.",
+      "native": "Ich dusche morgens. (Körperpflege)"
+    },
+    {
+      "target": "I brush my teeth.",
+      "native": "Ich putze mir die Zähne. (Körperpflege)"
+    },
+    {
+      "target": "I work out in the evening.",
+      "native": "Ich trainiere abends. (Sportroutine)"
+    },
+    {
+      "target": "I talk to my parents on the phone.",
+      "native": "Ich telefoniere mit meinen Eltern. (Familienroutine)"
+    },
+    {
+      "target": "I do housework.",
+      "native": "Ich mache Hausarbeit. (Haushalt)"
+    },
+    {
+      "target": "I take the kids to school.",
+      "native": "Ich bringe die Kinder zur Schule. (Alltagsaufgabe)"
+    },
+    {
+      "target": "I relax on the weekend.",
+      "native": "Am Wochenende entspanne ich mich. (Wochenendroutine)"
+    }
+  ],
+  "Menschen oder Dinge beschreiben": [
+    {
+      "target": "He is very friendly.",
+      "native": "Er ist sehr freundlich. (Persönlichkeit beschreiben)"
+    },
+    {
+      "target": "She is intelligent and hardworking.",
+      "native": "Sie ist intelligent und fleißig. (Charaktereigenschaften)"
+    },
+    {
+      "target": "The house is big and modern.",
+      "native": "Das Haus ist groß und modern. (Immobilie beschreiben)"
+    },
+    {
+      "target": "The bag is red and expensive.",
+      "native": "Die Tasche ist rot und teuer. (Gegenstand beschreiben)"
+    },
+    {
+      "target": "The movie was exciting.",
+      "native": "Der Film war spannend. (Meinung)"
+    },
+    {
+      "target": "She has long, dark hair.",
+      "native": "Sie hat lange, dunkle Haare. (Aussehen beschreiben)"
+    },
+    {
+      "target": "He wears glasses.",
+      "native": "Er trägt eine Brille. (Detail zum Aussehen)"
+    },
+    {
+      "target": "The weather is nice today.",
+      "native": "Heute ist das Wetter schön. (Smalltalk)"
+    },
+    {
+      "target": "I find that interesting.",
+      "native": "Das finde ich interessant. (Meinung teilen)"
+    },
+    {
+      "target": "He is quite calm.",
+      "native": "Er ist ziemlich ruhig. (Verhalten beschreiben)"
+    },
+    {
+      "target": "She has a nice smile.",
+      "native": "Sie hat ein schönes Lächeln. (Kompliment)"
+    },
+    {
+      "target": "The car is fast and new.",
+      "native": "Das Auto ist schnell und neu. (Objekt beschreiben)"
+    },
+    {
+      "target": "This book is boring.",
+      "native": "Dieses Buch ist langweilig. (Negative Meinung)"
+    },
+    {
+      "target": "The apartment is cozy.",
+      "native": "Die Wohnung ist gemütlich. (Wohnung beschreiben)"
+    },
+    {
+      "target": "The food tastes delicious.",
+      "native": "Das Essen schmeckt lecker. (Geschmackseindruck)"
+    },
+    {
+      "target": "He is very helpful.",
+      "native": "Er ist sehr hilfsbereit. (Jemanden loben)"
+    },
+    {
+      "target": "The dress looks good on you.",
+      "native": "Das Kleid steht dir/Ihnen gut. (Kompliment)"
+    },
+    {
+      "target": "She is a good colleague.",
+      "native": "Sie ist eine gute Kollegin. (Kollegin beschreiben)"
+    },
+    {
+      "target": "I like the color.",
+      "native": "Mir gefällt die Farbe. (Meinung zu einem Gegenstand)"
+    },
+    {
+      "target": "He is taller than me.",
+      "native": "Er ist größer als ich. (Vergleich)"
+    }
+  ],
+  "Telefon und Online-Kommunikation": [
+    {
+      "target": "Hello, this is Anna.",
+      "native": "Hallo, hier ist Anna. (Sich am Telefon melden)"
+    },
+    {
+      "target": "Can you hear me?",
+      "native": "Können Sie mich hören? (Verbindungstest am Telefon)"
+    },
+    {
+      "target": "I'll call back later.",
+      "native": "Ich rufe später zurück. (Anruf verschieben)"
+    },
+    {
+      "target": "The connection is bad.",
+      "native": "Die Verbindung ist schlecht. (Verbindungsproblem)"
+    },
+    {
+      "target": "Can you please repeat that?",
+      "native": "Können Sie das bitte wiederholen? (Rückfrage)"
+    },
+    {
+      "target": "I received your message.",
+      "native": "Ich habe Ihre/deine Nachricht erhalten. (Nachricht bestätigen)"
+    },
+    {
+      "target": "I'll send you a message.",
+      "native": "Ich schreibe dir eine Nachricht. (Textnachricht)"
+    },
+    {
+      "target": "I'm busy right now.",
+      "native": "Ich bin gerade beschäftigt. (Gerade keine Zeit)"
+    },
+    {
+      "target": "Can we chat?",
+      "native": "Können wir chatten / kurz reden? (Online-Gespräch)"
+    },
+    {
+      "target": "I forwarded the email.",
+      "native": "Ich habe die E-Mail weitergeleitet. (E-Mail-Kommunikation)"
+    },
+    {
+      "target": "Please send me the details.",
+      "native": "Bitte schicken Sie mir die Details. (Informationen anfordern)"
+    },
+    {
+      "target": "I'll send you the link.",
+      "native": "Ich schicke dir den Link. (Link teilen)"
+    },
+    {
+      "target": "Can you send me the attachment?",
+      "native": "Kannst du mir den Anhang schicken? (Bitte per E-Mail)"
+    },
+    {
+      "target": "I'm waiting for your reply.",
+      "native": "Ich warte auf deine/Ihre Antwort. (Nachfassen)"
+    },
+    {
+      "target": "Let's make a video call.",
+      "native": "Lass uns einen Videoanruf machen. (Videochat)"
+    },
+    {
+      "target": "I'm unreachable.",
+      "native": "Ich bin nicht erreichbar. (Statusmeldung)"
+    },
+    {
+      "target": "I'll reply later.",
+      "native": "Ich antworte später. (Antwort aufschieben)"
+    },
+    {
+      "target": "The line is busy.",
+      "native": "Es ist besetzt. (Telefonproblem)"
+    },
+    {
+      "target": "I hung up by mistake.",
+      "native": "Ich habe aus Versehen aufgelegt. (Entschuldigung für Versehen)"
+    },
+    {
+      "target": "Thanks for calling.",
+      "native": "Danke für deinen/Ihren Anruf. (Höfliches Gesprächsende)"
+    }
+  ],
+  "Am Flughafen": [
+    {
+      "target": "Where is the check-in desk?",
+      "native": "Wo ist der Check-in-Schalter? (Fluggesellschaft finden)"
+    },
+    {
+      "target": "I'd like to check in.",
+      "native": "Ich möchte einchecken. (Am Check-in-Schalter)"
+    },
+    {
+      "target": "Do you have your ticket and ID?",
+      "native": "Haben Sie Ticket und Ausweis dabei? (Frage des Flughafenpersonals)"
+    },
+    {
+      "target": "How many bags do you have?",
+      "native": "Wie viele Gepäckstücke haben Sie? (Gepäckkontrolle)"
+    },
+    {
+      "target": "My flight is delayed.",
+      "native": "Mein Flug hat Verspätung. (Häufige Situation)"
+    },
+    {
+      "target": "When does boarding start?",
+      "native": "Wann beginnt das Boarding? (Fluginformation)"
+    },
+    {
+      "target": "Where is gate A12?",
+      "native": "Wo ist Gate A12? (Flugsteig finden)"
+    },
+    {
+      "target": "I missed my flight.",
+      "native": "Ich habe meinen Flug verpasst. (Situation erklären)"
+    },
+    {
+      "target": "I lost my luggage.",
+      "native": "Ich habe mein Gepäck verloren. (Problem melden)"
+    },
+    {
+      "target": "I'm traveling only with carry-on luggage.",
+      "native": "Ich reise nur mit Handgepäck. (Gepäckinfo)"
+    },
+    {
+      "target": "Is there Wi-Fi at the airport?",
+      "native": "Gibt es am Flughafen WLAN? (Internetverbindung)"
+    },
+    {
+      "target": "How long is the flight?",
+      "native": "Wie lange dauert der Flug? (Allgemeine Frage)"
+    },
+    {
+      "target": "Can I change my seat?",
+      "native": "Kann ich meinen Sitzplatz ändern? (Sitzplatzwunsch)"
+    },
+    {
+      "target": "Where is security?",
+      "native": "Wo ist die Sicherheitskontrolle? (Orientierung am Flughafen)"
+    },
+    {
+      "target": "I have nothing to declare.",
+      "native": "Ich habe nichts zu verzollen. (Zollangabe)"
+    },
+    {
+      "target": "The flight was canceled.",
+      "native": "Der Flug wurde gestrichen. (Flugstatus)"
+    },
+    {
+      "target": "I'm flying to Berlin.",
+      "native": "Ich fliege nach Berlin. (Zielort angeben)"
+    },
+    {
+      "target": "When does the plane land?",
+      "native": "Wann landet das Flugzeug? (Ankunftszeit erfragen)"
+    },
+    {
+      "target": "Please show your passport.",
+      "native": "Bitte zeigen Sie Ihren Reisepass. (Kontrolle oder Boarding)"
+    },
+    {
+      "target": "Have a good flight!",
+      "native": "Guten Flug! (Gute Reise wünschen)"
+    }
+  ],
+  "Wetter und Smalltalk": [
+    {
+      "target": "How's the weather today?",
+      "native": "Wie ist das Wetter heute? (Smalltalk eröffnen)"
+    },
+    {
+      "target": "It's sunny.",
+      "native": "Es ist sonnig. (Wetter beschreiben)"
+    },
+    {
+      "target": "It's raining.",
+      "native": "Es regnet. (Wetterlage)"
+    },
+    {
+      "target": "It's cloudy.",
+      "native": "Es ist bewölkt. (Wetterlage)"
+    },
+    {
+      "target": "It's cold outside.",
+      "native": "Draußen ist es kalt. (Kommentar zum Wetter)"
+    },
+    {
+      "target": "It's very warm today.",
+      "native": "Heute ist es sehr warm. (Kommentar zum Wetter)"
+    },
+    {
+      "target": "The sky is clear.",
+      "native": "Der Himmel ist klar. (Wetterbeobachtung)"
+    },
+    {
+      "target": "There's a thunderstorm.",
+      "native": "Es gibt ein Gewitter. (Wetterwarnung)"
+    },
+    {
+      "target": "It's snowing.",
+      "native": "Es schneit. (Winterwetter)"
+    },
+    {
+      "target": "How was your weekend?",
+      "native": "Wie war dein/Ihr Wochenende? (Smalltalk)"
+    },
+    {
+      "target": "Do you have plans for tonight?",
+      "native": "Hast du Pläne für heute Abend? (Alltägliche Frage)"
+    },
+    {
+      "target": "I hope the weather stays like this.",
+      "native": "Ich hoffe, das Wetter bleibt so. (Alltäglicher Wunsch)"
+    },
+    {
+      "target": "It's windy.",
+      "native": "Es ist windig. (Wetterbeschreibung)"
+    },
+    {
+      "target": "I like this weather.",
+      "native": "Ich mag dieses Wetter. (Vorliebe teilen)"
+    },
+    {
+      "target": "What are you doing this weekend?",
+      "native": "Was machst du am Wochenende? (Smalltalk)"
+    },
+    {
+      "target": "The weather is perfect for a walk.",
+      "native": "Das Wetter ist perfekt für einen Spaziergang. (Vorschlag)"
+    },
+    {
+      "target": "Is it that cold where you are too?",
+      "native": "Ist es bei dir auch so kalt? (Wettervergleich)"
+    },
+    {
+      "target": "Hopefully it gets better tomorrow.",
+      "native": "Hoffentlich wird es morgen besser. (Kommentar zum Wetter)"
+    },
+    {
+      "target": "It's humid.",
+      "native": "Es ist schwül / feucht. (Wetterbeschreibung)"
+    },
+    {
+      "target": "It looks like rain.",
+      "native": "Es sieht nach Regen aus. (Wettereinschätzung)"
+    }
+  ],
+  "Öffentliche Verkehrsmittel": [
+    {
+      "target": "When does the next bus leave?",
+      "native": "Wann fährt der nächste Bus? (Zeitfrage)"
+    },
+    {
+      "target": "Where is the nearest stop?",
+      "native": "Wo ist die nächste Haltestelle? (Standort finden)"
+    },
+    {
+      "target": "Does this train go to Munich?",
+      "native": "Fährt dieser Zug nach München? (Strecke bestätigen)"
+    },
+    {
+      "target": "How much is a ticket?",
+      "native": "Wie viel kostet ein Ticket? (Fahrpreis erfragen)"
+    },
+    {
+      "target": "I'd like to buy a ticket.",
+      "native": "Ich möchte ein Ticket kaufen. (Am Automaten oder Schalter)"
+    },
+    {
+      "target": "Where can I buy a ticket?",
+      "native": "Wo kann ich ein Ticket kaufen? (Ticketkauf)"
+    },
+    {
+      "target": "Are there discounts?",
+      "native": "Gibt es Ermäßigungen? (Nach Rabatten fragen)"
+    },
+    {
+      "target": "I lost my ticket.",
+      "native": "Ich habe mein Ticket verloren. (Problem melden)"
+    },
+    {
+      "target": "This seat is taken.",
+      "native": "Dieser Platz ist besetzt. (Sitzplatz suchen)"
+    },
+    {
+      "target": "I'm getting off at the next stop.",
+      "native": "Ich steige an der nächsten Haltestelle aus. (Ausstieg)"
+    },
+    {
+      "target": "The train is delayed.",
+      "native": "Der Zug hat Verspätung. (Fahrplanproblem)"
+    },
+    {
+      "target": "Where do I need to transfer?",
+      "native": "Wo muss ich umsteigen? (Verbindung planen)"
+    },
+    {
+      "target": "The streetcar is on time.",
+      "native": "Die Straßenbahn ist pünktlich. (Positive Info)"
+    },
+    {
+      "target": "The next stop is Central Station.",
+      "native": "Nächster Halt: Hauptbahnhof. (Durchsage)"
+    },
+    {
+      "target": "Is there a schedule?",
+      "native": "Gibt es einen Fahrplan? (Planung)"
+    },
+    {
+      "target": "Can I bring my bike?",
+      "native": "Kann ich mein Fahrrad mitnehmen? (Beförderungsregeln)"
+    },
+    {
+      "target": "Is this a monthly pass?",
+      "native": "Ist das eine Monatskarte? (Ticketart)"
+    },
+    {
+      "target": "Does this bus run on Sundays too?",
+      "native": "Fährt dieser Bus auch sonntags? (Fahrplanfrage)"
+    },
+    {
+      "target": "I need to go to the final stop.",
+      "native": "Ich muss bis zur Endhaltestelle. (Zielangabe)"
+    },
+    {
+      "target": "Excuse me, is this seat free?",
+      "native": "Entschuldigung, ist dieser Platz frei? (Höfliche Frage)"
+    }
+  ],
+  "Bei der Bank": [
+    {
+      "target": "I'd like to open an account.",
+      "native": "Ich möchte ein Konto eröffnen. (Bankservice)"
+    },
+    {
+      "target": "I forgot my password.",
+      "native": "Ich habe mein Passwort vergessen. (Online-Banking-Problem)"
+    },
+    {
+      "target": "Where is the nearest ATM?",
+      "native": "Wo ist der nächste Geldautomat? (Geldautomat finden)"
+    },
+    {
+      "target": "I'd like to withdraw money.",
+      "native": "Ich möchte Geld abheben. (Am Automat oder Schalter)"
+    },
+    {
+      "target": "I'd like to deposit money.",
+      "native": "Ich möchte Geld einzahlen. (Bankgeschäft)"
+    },
+    {
+      "target": "What is the minimum amount?",
+      "native": "Wie hoch ist der Mindestbetrag? (Bankregel)"
+    },
+    {
+      "target": "Can I pay by card?",
+      "native": "Kann ich mit Karte bezahlen? (Zahlungsart)"
+    },
+    {
+      "target": "I lost my card.",
+      "native": "Ich habe meine Karte verloren. (Verlust melden)"
+    },
+    {
+      "target": "I need a new bank card.",
+      "native": "Ich brauche eine neue Bankkarte. (Kartentausch)"
+    },
+    {
+      "target": "How long does the transfer take?",
+      "native": "Wie lange dauert die Überweisung? (Bearbeitungszeit)"
+    },
+    {
+      "target": "I'd like to set up a standing order.",
+      "native": "Ich möchte einen Dauerauftrag einrichten. (Regelmäßige Zahlung)"
+    },
+    {
+      "target": "What are the fees?",
+      "native": "Wie hoch sind die Gebühren? (Kostenfrage)"
+    },
+    {
+      "target": "I need an account confirmation.",
+      "native": "Ich brauche eine Kontobestätigung. (Nachweis)"
+    },
+    {
+      "target": "Can I change my limit?",
+      "native": "Kann ich mein Limit ändern? (Zahlungs-/Abhebelimit)"
+    },
+    {
+      "target": "I saw a suspicious transaction.",
+      "native": "Ich habe eine verdächtige Buchung gesehen. (Sicherheitsbedenken)"
+    },
+    {
+      "target": "How can I activate online banking?",
+      "native": "Wie kann ich Online-Banking freischalten? (Digitaler Zugang)"
+    },
+    {
+      "target": "I'd like to close my account.",
+      "native": "Ich möchte mein Konto kündigen. (Kontoauflösung)"
+    },
+    {
+      "target": "Do you have an advisor available?",
+      "native": "Ist gerade ein Berater frei? (Beratungswunsch)"
+    },
+    {
+      "target": "What is the current exchange rate?",
+      "native": "Wie ist der aktuelle Wechselkurs? (Währungsfrage)"
+    },
+    {
+      "target": "I need a confirmation for the tax office.",
+      "native": "Ich brauche eine Bescheinigung fürs Finanzamt. (Steuerangelegenheit)"
+    }
+  ],
+  "In der Apotheke": [
+    {
+      "target": "I need to get this prescription filled.",
+      "native": "Ich möchte dieses Rezept einlösen. (Rezept einlösen)"
+    },
+    {
+      "target": "Do you have anything for a headache?",
+      "native": "Haben Sie etwas gegen Kopfschmerzen? (Beschwerden lindern)"
+    },
+    {
+      "target": "Does this come in tablet form too?",
+      "native": "Gibt es das auch als Tabletten? (Darreichungsform)"
+    },
+    {
+      "target": "How often should I take this?",
+      "native": "Wie oft soll ich das einnehmen? (Dosierung)"
+    },
+    {
+      "target": "Are there side effects?",
+      "native": "Gibt es Nebenwirkungen? (Bedenken zu Medikamenten)"
+    },
+    {
+      "target": "Is this over-the-counter?",
+      "native": "Ist das rezeptfrei? (Rezeptpflicht)"
+    },
+    {
+      "target": "I have a penicillin allergy.",
+      "native": "Ich habe eine Penicillinallergie. (Allergiehinweis)"
+    },
+    {
+      "target": "Can I take this with other medications?",
+      "native": "Kann ich das zusammen mit anderen Medikamenten nehmen? (Wechselwirkungen)"
+    },
+    {
+      "target": "Do you need the original prescription?",
+      "native": "Brauchen Sie das Originalrezept? (Apothekenregelung)"
+    },
+    {
+      "target": "When does the pharmacy close?",
+      "native": "Wann schließt die Apotheke? (Öffnungszeiten)"
+    },
+    {
+      "target": "I'm looking for an ointment for a rash.",
+      "native": "Ich suche eine Salbe gegen Ausschlag. (Hautproblem)"
+    },
+    {
+      "target": "How much does this cost?",
+      "native": "Wie viel kostet das? (Preisfrage)"
+    },
+    {
+      "target": "I'd like something for a cold.",
+      "native": "Ich hätte gern etwas gegen eine Erkältung. (Häufiger Wunsch)"
+    },
+    {
+      "target": "What is the expiration date?",
+      "native": "Wie lautet das Verfallsdatum? (Haltbarkeit)"
+    },
+    {
+      "target": "Do you have something natural?",
+      "native": "Haben Sie etwas Pflanzliches/Natürliches? (Vorliebe)"
+    },
+    {
+      "target": "I need nasal spray.",
+      "native": "Ich brauche Nasenspray. (Bestimmtes Produkt)"
+    },
+    {
+      "target": "Is this suitable for children?",
+      "native": "Ist das für Kinder geeignet? (Sicherheit für Kinder)"
+    },
+    {
+      "target": "Can I pay by card?",
+      "native": "Kann ich mit Karte bezahlen? (Zahlungsart)"
+    },
+    {
+      "target": "I'd like a small pack.",
+      "native": "Ich hätte gern eine kleine Packung. (Packungsgröße)"
+    },
+    {
+      "target": "Thanks, that was very helpful.",
+      "native": "Danke, das war sehr hilfreich. (Gesprächsabschluss)"
+    }
+  ],
+  "Im Hotel": [
+    {
+      "target": "I have a reservation.",
+      "native": "Ich habe eine Reservierung. (Einchecken)"
+    },
+    {
+      "target": "Under what name?",
+      "native": "Auf welchen Namen? (Frage an der Rezeption)"
+    },
+    {
+      "target": "I'd like a single room.",
+      "native": "Ich hätte gern ein Einzelzimmer. (Zimmerwunsch)"
+    },
+    {
+      "target": "How many nights are you staying?",
+      "native": "Wie viele Nächte bleiben Sie? (Aufenthaltsdauer)"
+    },
+    {
+      "target": "Do you have an ID?",
+      "native": "Haben Sie einen Ausweis dabei? (Ausweiskontrolle)"
+    },
+    {
+      "target": "Is breakfast included?",
+      "native": "Ist das Frühstück inbegriffen? (Leistung erfragen)"
+    },
+    {
+      "target": "Is there Wi-Fi in the room?",
+      "native": "Gibt es WLAN im Zimmer? (Internet)"
+    },
+    {
+      "target": "Where is the elevator?",
+      "native": "Wo ist der Aufzug? (Orientierung im Hotel)"
+    },
+    {
+      "target": "What time is check-out?",
+      "native": "Wann ist Check-out? (Abreisezeit)"
+    },
+    {
+      "target": "I'd like a late check-out.",
+      "native": "Ich hätte gern einen späten Check-out. (Wunsch)"
+    },
+    {
+      "target": "Can you call me a taxi?",
+      "native": "Können Sie mir ein Taxi rufen? (Service anfordern)"
+    },
+    {
+      "target": "The room isn't clean.",
+      "native": "Das Zimmer ist nicht sauber. (Beschwerde)"
+    },
+    {
+      "target": "The air conditioning isn't working.",
+      "native": "Die Klimaanlage funktioniert nicht. (Problem melden)"
+    },
+    {
+      "target": "I need fresh towels.",
+      "native": "Ich brauche frische Handtücher. (Zimmerwunsch)"
+    },
+    {
+      "target": "How do I get into town?",
+      "native": "Wie komme ich in die Stadt? (Reiseinfo)"
+    },
+    {
+      "target": "Is there a city map?",
+      "native": "Gibt es einen Stadtplan? (Hilfe für Gäste)"
+    },
+    {
+      "target": "I'd like to cancel.",
+      "native": "Ich möchte stornieren. (Stornierungswunsch)"
+    },
+    {
+      "target": "Can you book this for me?",
+      "native": "Können Sie das für mich buchen? (Service/Concierge)"
+    },
+    {
+      "target": "I'm checking out tomorrow.",
+      "native": "Ich checke morgen aus. (Abreise ankündigen)"
+    },
+    {
+      "target": "Thank you very much for the stay.",
+      "native": "Vielen Dank für den schönen Aufenthalt. (Höflicher Abschied)"
+    }
+  ],
+  "Notfälle": [
+    {
+      "target": "Help!",
+      "native": "Hilfe! (Notruf)"
+    },
+    {
+      "target": "Call an ambulance!",
+      "native": "Rufen Sie einen Krankenwagen! (Medizinischer Notfall)"
+    },
+    {
+      "target": "I need a doctor.",
+      "native": "Ich brauche einen Arzt. (Gesundheitsnotfall)"
+    },
+    {
+      "target": "I'm injured.",
+      "native": "Ich bin verletzt. (Situation schildern)"
+    },
+    {
+      "target": "Where is the nearest hospital?",
+      "native": "Wo ist das nächste Krankenhaus? (Hilfe finden)"
+    },
+    {
+      "target": "I lost my bag.",
+      "native": "Ich habe meine Tasche verloren. (Verlust melden)"
+    },
+    {
+      "target": "I was robbed.",
+      "native": "Ich wurde ausgeraubt. (Straftat melden)"
+    },
+    {
+      "target": "I lost my documents.",
+      "native": "Ich habe meine Dokumente verloren. (Ausweis/Reisepass weg)"
+    },
+    {
+      "target": "Is there an emergency number?",
+      "native": "Gibt es eine Notrufnummer? (Hilfe suchen)"
+    },
+    {
+      "target": "I saw an accident.",
+      "native": "Ich habe einen Unfall gesehen. (Vorfall melden)"
+    },
+    {
+      "target": "My car is broken down.",
+      "native": "Mein Auto ist liegen geblieben / kaputt. (Fahrzeugproblem)"
+    },
+    {
+      "target": "I'm in danger.",
+      "native": "Ich bin in Gefahr. (Akuter Notfall)"
+    },
+    {
+      "target": "Can you please help me?",
+      "native": "Können Sie mir bitte helfen? (Allgemeine Bitte um Hilfe)"
+    },
+    {
+      "target": "Call the police!",
+      "native": "Rufen Sie die Polizei! (Bei Bedrohung/Vorfall)"
+    },
+    {
+      "target": "Where is the nearest police station?",
+      "native": "Wo ist die nächste Polizeiwache? (Hilfe finden)"
+    },
+    {
+      "target": "I need help with an emergency.",
+      "native": "Ich brauche Hilfe in einem Notfall. (Lage erklären)"
+    },
+    {
+      "target": "I'm having an allergic reaction.",
+      "native": "Ich habe eine allergische Reaktion. (Medizinischer Notfall)"
+    },
+    {
+      "target": "I fainted.",
+      "native": "Ich bin ohnmächtig geworden. (Situation schildern)"
+    },
+    {
+      "target": "My phone was stolen.",
+      "native": "Mein Handy wurde gestohlen. (Diebstahl melden)"
+    },
+    {
+      "target": "I had a breakdown.",
+      "native": "Ich hatte eine Panne. (Autopanne)"
+    }
+  ],
+  "Familie und Beziehungen": [
+    {
+      "target": "Do you have siblings?",
+      "native": "Hast du Geschwister? (Beim Kennenlernen)"
+    },
+    {
+      "target": "I have a brother and a sister.",
+      "native": "Ich habe einen Bruder und eine Schwester. (Über die Familie sprechen)"
+    },
+    {
+      "target": "I'm married.",
+      "native": "Ich bin verheiratet. (Beziehungsstatus)"
+    },
+    {
+      "target": "I'm single.",
+      "native": "Ich bin Single. (Beziehungsstatus)"
+    },
+    {
+      "target": "I have two children.",
+      "native": "Ich habe zwei Kinder. (Über die Familie sprechen)"
+    },
+    {
+      "target": "What's your dad's name?",
+      "native": "Wie heißt dein Vater? (Nach Verwandten fragen)"
+    },
+    {
+      "target": "My mom is a teacher.",
+      "native": "Meine Mutter ist Lehrerin. (Familienmitglied beschreiben)"
+    },
+    {
+      "target": "I'm the oldest.",
+      "native": "Ich bin das älteste Kind. (Geschwisterreihenfolge)"
+    },
+    {
+      "target": "We live together.",
+      "native": "Wir wohnen zusammen. (Lebenssituation)"
+    },
+    {
+      "target": "I'm divorced.",
+      "native": "Ich bin geschieden. (Beziehungsstatus)"
+    },
+    {
+      "target": "I have a partner.",
+      "native": "Ich habe einen Partner / eine Partnerin. (Beziehungsinformation)"
+    },
+    {
+      "target": "My grandparents live far away.",
+      "native": "Meine Großeltern wohnen weit weg. (Familienthema)"
+    },
+    {
+      "target": "We're visiting our relatives.",
+      "native": "Wir besuchen unsere Verwandten. (Familienaktivität)"
+    },
+    {
+      "target": "I became an uncle/aunt.",
+      "native": "Ich bin Onkel/Tante geworden. (Rolle in der Familie)"
+    },
+    {
+      "target": "I love my family.",
+      "native": "Ich liebe meine Familie. (Zuneigung)"
+    },
+    {
+      "target": "How long have you been together?",
+      "native": "Wie lange seid ihr schon zusammen? (Frage zur Beziehung)"
+    },
+    {
+      "target": "We have a dog as a pet.",
+      "native": "Wir haben einen Hund als Haustier. (Familiendetail)"
+    },
+    {
+      "target": "We often celebrate together.",
+      "native": "Wir feiern oft zusammen. (Familienbindung)"
+    },
+    {
+      "target": "My sister is younger than me.",
+      "native": "Meine Schwester ist jünger als ich. (Geschwistervergleich)"
+    },
+    {
+      "target": "He is like a brother to me.",
+      "native": "Er ist wie ein Bruder für mich. (Enge Verbindung)"
+    }
+  ],
+  "Hobbys und Freizeit": [
+    {
+      "target": "What do you like to do in your free time?",
+      "native": "Was machst du gern in deiner Freizeit? (Einstiegsfrage)"
+    },
+    {
+      "target": "I like playing guitar.",
+      "native": "Ich spiele gern Gitarre. (Hobbys teilen)"
+    },
+    {
+      "target": "I really like reading.",
+      "native": "Ich lese sehr gern. (Beliebte Freizeitbeschäftigung)"
+    },
+    {
+      "target": "Sports is my hobby.",
+      "native": "Sport ist mein Hobby. (Über Interessen sprechen)"
+    },
+    {
+      "target": "I often go to the movies.",
+      "native": "Ich gehe oft ins Kino. (Freizeitaktivität)"
+    },
+    {
+      "target": "I like listening to music.",
+      "native": "Ich höre gern Musik. (Häufiges Hobby)"
+    },
+    {
+      "target": "I like going for walks.",
+      "native": "Ich gehe gern spazieren. (Erholsame Aktivität)"
+    },
+    {
+      "target": "I'm interested in photography.",
+      "native": "Ich interessiere mich für Fotografie. (Persönliches Interesse)"
+    },
+    {
+      "target": "I like cooking new recipes.",
+      "native": "Ich koche gern neue Rezepte. (Kreatives Hobby)"
+    },
+    {
+      "target": "I'm meeting up with friends.",
+      "native": "Ich treffe mich mit Freunden. (Soziale Aktivität)"
+    },
+    {
+      "target": "I play video games.",
+      "native": "Ich spiele Videospiele. (Modernes Hobby)"
+    },
+    {
+      "target": "I like being outside in nature.",
+      "native": "Ich bin gern draußen in der Natur. (Naturbezogenes Hobby)"
+    },
+    {
+      "target": "I like drawing.",
+      "native": "Ich zeichne/male gern. (Kreative Aktivität)"
+    },
+    {
+      "target": "I enjoy doing yoga.",
+      "native": "Ich mache gern Yoga. (Körperliche und mentale Aktivität)"
+    },
+    {
+      "target": "I go to the gym.",
+      "native": "Ich gehe ins Fitnessstudio. (Fitnessroutine)"
+    },
+    {
+      "target": "I watch shows on Netflix.",
+      "native": "Ich schaue Serien auf Netflix. (Freizeitbeschäftigung)"
+    },
+    {
+      "target": "I collect stamps.",
+      "native": "Ich sammle Briefmarken. (Spezielles Hobby)"
+    },
+    {
+      "target": "I garden in my yard.",
+      "native": "Ich arbeite gern im Garten. (Hobby im Freien)"
+    },
+    {
+      "target": "I like taking landscape photos.",
+      "native": "Ich mache gern Landschaftsfotos. (Kreative Aktivität)"
+    },
+    {
+      "target": "I write in my free time.",
+      "native": "In meiner Freizeit schreibe ich. (Kreativer Ausdruck)"
+    }
+  ],
+  "Kochen und Essen": [
+    {
+      "target": "I'm cooking tonight.",
+      "native": "Ich koche heute Abend. (Alltagsroutine)"
+    },
+    {
+      "target": "What's your favorite food?",
+      "native": "Was ist dein Lieblingsessen? (Alltägliche Frage)"
+    },
+    {
+      "target": "I don't eat meat.",
+      "native": "Ich esse kein Fleisch. (Ernährungsweise)"
+    },
+    {
+      "target": "Are you a good cook?",
+      "native": "Kannst du gut kochen? (Nach Fähigkeit fragen)"
+    },
+    {
+      "target": "That tastes delicious!",
+      "native": "Das schmeckt lecker! (Essen loben)"
+    },
+    {
+      "target": "I'm a vegetarian.",
+      "native": "Ich bin Vegetarier/in. (Ernährungsweise)"
+    },
+    {
+      "target": "How long does this need to cook?",
+      "native": "Wie lange muss das kochen/garen? (Rezeptfrage)"
+    },
+    {
+      "target": "I'm chopping the vegetables.",
+      "native": "Ich schneide das Gemüse klein. (Schritt beim Kochen)"
+    },
+    {
+      "target": "Can you pass me the salt?",
+      "native": "Kannst du mir das Salz reichen? (Bitte am Tisch/in der Küche)"
+    },
+    {
+      "target": "We need more oil.",
+      "native": "Wir brauchen mehr Öl. (Zutat)"
+    },
+    {
+      "target": "I'm baking a cake.",
+      "native": "Ich backe einen Kuchen. (Aktivität)"
+    },
+    {
+      "target": "Where is the pot?",
+      "native": "Wo ist der Topf? (Küchengeschirr suchen)"
+    },
+    {
+      "target": "I love Italian food.",
+      "native": "Ich liebe italienisches Essen. (Geschmacksvorliebe)"
+    },
+    {
+      "target": "I'm making soup.",
+      "native": "Ich mache Suppe. (Essenszubereitung)"
+    },
+    {
+      "target": "This is too spicy.",
+      "native": "Das ist zu scharf. (Kommentar zum Geschmack)"
+    },
+    {
+      "target": "I'm trying a new recipe.",
+      "native": "Ich probiere ein neues Rezept aus. (Neues ausprobieren)"
+    },
+    {
+      "target": "The pasta is ready.",
+      "native": "Die Nudeln sind fertig. (Essen ankündigen)"
+    },
+    {
+      "target": "We eat at seven o'clock.",
+      "native": "Wir essen um sieben Uhr. (Essenszeit)"
+    },
+    {
+      "target": "I clean up after dinner.",
+      "native": "Nach dem Essen räume ich auf. (Aufgabe nach dem Essen)"
+    },
+    {
+      "target": "Can you set the table?",
+      "native": "Kannst du den Tisch decken? (Vor dem Essen)"
+    }
+  ],
+  "Auf der Post": [
+    {
+      "target": "I'd like to send a letter.",
+      "native": "Ich möchte einen Brief abschicken. (Postangelegenheit)"
+    },
+    {
+      "target": "How much is the postage?",
+      "native": "Wie hoch ist das Porto? (Kostenfrage)"
+    },
+    {
+      "target": "I need a stamp.",
+      "native": "Ich brauche eine Briefmarke. (Grundbedarf)"
+    },
+    {
+      "target": "Is this registered mail?",
+      "native": "Ist das Einschreiben? (Versandart bestätigen)"
+    },
+    {
+      "target": "How long does shipping take?",
+      "native": "Wie lange dauert der Versand? (Lieferzeit)"
+    },
+    {
+      "target": "Can I track the package?",
+      "native": "Kann ich das Paket verfolgen? (Sendungsverfolgung)"
+    },
+    {
+      "target": "I received a package.",
+      "native": "Ich habe ein Paket erhalten. (Zustellung)"
+    },
+    {
+      "target": "The package arrived damaged.",
+      "native": "Das Paket kam beschädigt an. (Reklamation)"
+    },
+    {
+      "target": "Where is my package?",
+      "native": "Wo ist mein Paket? (Fehlende Sendung)"
+    },
+    {
+      "target": "I'd like to pick up a package.",
+      "native": "Ich möchte ein Paket abholen. (Am Schalter)"
+    },
+    {
+      "target": "I have a pickup notice.",
+      "native": "Ich habe eine Abholbenachrichtigung. (Benachrichtigung vorzeigen)"
+    },
+    {
+      "target": "Do I have to show ID?",
+      "native": "Muss ich einen Ausweis vorzeigen? (Nachweis)"
+    },
+    {
+      "target": "Can I insure this?",
+      "native": "Kann ich das versichern? (Paketversicherung)"
+    },
+    {
+      "target": "Is this international shipping?",
+      "native": "Ist das internationaler Versand? (Versandgebiet)"
+    },
+    {
+      "target": "Is there a faster option?",
+      "native": "Gibt es eine schnellere Option? (Servicelevel)"
+    },
+    {
+      "target": "I'd like to fill out a form.",
+      "native": "Ich möchte ein Formular ausfüllen. (Postvorgang)"
+    },
+    {
+      "target": "Are you open today?",
+      "native": "Haben Sie heute geöffnet? (Öffnungszeiten)"
+    },
+    {
+      "target": "I need an envelope.",
+      "native": "Ich brauche einen Briefumschlag. (Artikelwunsch)"
+    },
+    {
+      "target": "Can I drop off a package here?",
+      "native": "Kann ich hier ein Paket abgeben? (Paketabgabe)"
+    },
+    {
+      "target": "Thank you very much for your help.",
+      "native": "Vielen Dank für Ihre Hilfe. (Höflicher Abschluss)"
+    }
+  ],
+  "Sport und Fitness": [
+    {
+      "target": "Do you work out?",
+      "native": "Machst du Sport / trainierst du? (Alltägliche Frage)"
+    },
+    {
+      "target": "I'm going for a jog.",
+      "native": "Ich gehe joggen. (Fitnessaktivität)"
+    },
+    {
+      "target": "I work out three times a week.",
+      "native": "Ich trainiere dreimal pro Woche. (Routine)"
+    },
+    {
+      "target": "I go to the gym.",
+      "native": "Ich gehe ins Fitnessstudio. (Häufige Aussage)"
+    },
+    {
+      "target": "I play soccer on a club team.",
+      "native": "Ich spiele in einem Verein Fußball. (Mannschaftssport)"
+    },
+    {
+      "target": "I do yoga.",
+      "native": "Ich mache Yoga. (Gesundheitsaktivität)"
+    },
+    {
+      "target": "I'm going swimming.",
+      "native": "Ich gehe schwimmen. (Sportart)"
+    },
+    {
+      "target": "I like team sports.",
+      "native": "Ich mag Mannschaftssportarten. (Vorliebe)"
+    },
+    {
+      "target": "I need new running shoes.",
+      "native": "Ich brauche neue Laufschuhe. (Ausrüstung)"
+    },
+    {
+      "target": "I stretch before working out.",
+      "native": "Ich dehne mich vor dem Training. (Aufwärmen)"
+    },
+    {
+      "target": "I have sore muscles.",
+      "native": "Ich habe Muskelkater. (Nach dem Training)"
+    },
+    {
+      "target": "I want to get in better shape.",
+      "native": "Ich möchte fitter werden. (Ziel)"
+    },
+    {
+      "target": "I can't work out today.",
+      "native": "Ich kann heute nicht trainieren. (Keine Zeit/Möglichkeit)"
+    },
+    {
+      "target": "I like watching sports on TV.",
+      "native": "Ich schaue gern Sport im Fernsehen. (Interesse)"
+    },
+    {
+      "target": "What's your favorite sport?",
+      "native": "Was ist deine Lieblingssportart? (Frage zu Interessen)"
+    },
+    {
+      "target": "I do strength training.",
+      "native": "Ich mache Krafttraining. (Trainingsart)"
+    },
+    {
+      "target": "I'm running a marathon.",
+      "native": "Ich laufe einen Marathon. (Veranstaltung)"
+    },
+    {
+      "target": "I like playing tennis.",
+      "native": "Ich spiele gern Tennis. (Sportvorliebe)"
+    },
+    {
+      "target": "I did a home workout.",
+      "native": "Ich habe zu Hause trainiert. (Routine)"
+    },
+    {
+      "target": "I often go hiking.",
+      "native": "Ich gehe oft wandern. (Outdoor-Aktivität)"
+    }
+  ],
+  "Ausgehen und Unterhaltung": [
+    {
+      "target": "Do you want to go out tonight?",
+      "native": "Hast du Lust, heute Abend auszugehen? (Vorschlag)"
+    },
+    {
+      "target": "I bought movie tickets.",
+      "native": "Ich habe Kinokarten gekauft. (Kinoplan)"
+    },
+    {
+      "target": "Let's go dancing!",
+      "native": "Lass uns tanzen gehen! (Begeisterung)"
+    },
+    {
+      "target": "I like going to concerts.",
+      "native": "Ich gehe gern auf Konzerte. (Musikinteresse)"
+    },
+    {
+      "target": "Where is the movie playing?",
+      "native": "Wo läuft der Film? (Kino nachsehen)"
+    },
+    {
+      "target": "Are there events tonight?",
+      "native": "Gibt es heute Abend Veranstaltungen? (Programm erfragen)"
+    },
+    {
+      "target": "I don't feel like going out.",
+      "native": "Ich habe keine Lust auszugehen. (Ablehnung)"
+    },
+    {
+      "target": "Do you know a good restaurant?",
+      "native": "Kennst du ein gutes Restaurant? (Empfehlung)"
+    },
+    {
+      "target": "We're meeting at eight.",
+      "native": "Wir treffen uns um acht. (Verabredung)"
+    },
+    {
+      "target": "I have plans tonight.",
+      "native": "Ich habe heute Abend schon etwas vor. (Verabredung)"
+    },
+    {
+      "target": "It was a great evening.",
+      "native": "Es war ein toller Abend. (Rückblick)"
+    },
+    {
+      "target": "I'd like to order a cocktail.",
+      "native": "Ich möchte einen Cocktail bestellen. (An der Bar)"
+    },
+    {
+      "target": "Can we sit outside?",
+      "native": "Können wir draußen sitzen? (Platzwunsch)"
+    },
+    {
+      "target": "The vibe was awesome!",
+      "native": "Die Stimmung war super! (Eindruck vom Abend)"
+    },
+    {
+      "target": "The concert was sold out.",
+      "native": "Das Konzert war ausverkauft. (Ticketinfo)"
+    },
+    {
+      "target": "I laughed a lot.",
+      "native": "Ich habe viel gelacht. (Spaß gehabt)"
+    },
+    {
+      "target": "It was loud, but fun.",
+      "native": "Es war laut, aber lustig. (Rückblick aufs Ausgehen)"
+    },
+    {
+      "target": "The DJ was really good.",
+      "native": "Der DJ war richtig gut. (Musik loben)"
+    },
+    {
+      "target": "I'm going back tomorrow.",
+      "native": "Ich gehe morgen wieder hin. (Erneuter Besuch)"
+    },
+    {
+      "target": "Thanks for the great evening!",
+      "native": "Danke für den schönen Abend! (Dankbarkeit)"
+    }
+  ],
+  "Schule und Bildung": [
+    {
+      "target": "I'm still in school.",
+      "native": "Ich gehe noch zur Schule. (Aktuelle Situation)"
+    },
+    {
+      "target": "I study at the university.",
+      "native": "Ich studiere an der Universität. (Studium)"
+    },
+    {
+      "target": "What's your favorite subject?",
+      "native": "Was ist dein Lieblingsfach? (Alltägliche Frage)"
+    },
+    {
+      "target": "I have an exam tomorrow.",
+      "native": "Ich habe morgen eine Prüfung. (Anstehende Klausur/Prüfung)"
+    },
+    {
+      "target": "I have to study for the test.",
+      "native": "Ich muss für den Test lernen. (Lernroutine)"
+    },
+    {
+      "target": "The homework is hard.",
+      "native": "Die Hausaufgaben sind schwer. (Kommentar)"
+    },
+    {
+      "target": "I forgot my homework.",
+      "native": "Ich habe meine Hausaufgaben vergessen. (Entschuldigung/Grund)"
+    },
+    {
+      "target": "I'm writing a paper.",
+      "native": "Ich schreibe eine Hausarbeit / einen Aufsatz. (Aufgabe)"
+    },
+    {
+      "target": "The teacher is very nice.",
+      "native": "Der Lehrer / Die Lehrerin ist sehr nett. (Meinung)"
+    },
+    {
+      "target": "I don't understand the topic.",
+      "native": "Ich verstehe das Thema nicht. (Schwierigkeit mit dem Stoff)"
+    },
+    {
+      "target": "I need a tutor.",
+      "native": "Ich brauche Nachhilfe. (Um Unterstützung bitten)"
+    },
+    {
+      "target": "I got a good grade.",
+      "native": "Ich habe eine gute Note bekommen. (Positives Ergebnis)"
+    },
+    {
+      "target": "Class starts at eight o'clock.",
+      "native": "Der Unterricht beginnt um acht Uhr. (Stundenplan)"
+    },
+    {
+      "target": "I have a break at ten.",
+      "native": "Ich habe um zehn Uhr Pause. (Stundenplan)"
+    },
+    {
+      "target": "We're doing group work.",
+      "native": "Wir machen Gruppenarbeit. (Gemeinsames Lernen)"
+    },
+    {
+      "target": "I don't have school today.",
+      "native": "Ich habe heute schulfrei. (Tagesplan)"
+    },
+    {
+      "target": "I'm interested in history.",
+      "native": "Ich interessiere mich für Geschichte. (Fachinteresse)"
+    },
+    {
+      "target": "I need a new notebook.",
+      "native": "Ich brauche ein neues Heft / einen neuen Block. (Schulsachen)"
+    },
+    {
+      "target": "When is break?",
+      "native": "Wann sind Ferien / Wann ist Pause? (Nachfrage)"
+    },
+    {
+      "target": "I'm in eleventh grade.",
+      "native": "Ich bin in der elften Klasse. (Klassenstufe)"
+    }
+  ],
+  "Technologie und Geräte": [
+    {
+      "target": "I have a new phone.",
+      "native": "Ich habe ein neues Handy. (Neues Gerät)"
+    },
+    {
+      "target": "My computer is broken.",
+      "native": "Mein Computer ist kaputt. (Problem)"
+    },
+    {
+      "target": "I need a charger.",
+      "native": "Ich brauche ein Ladegerät. (Akkuproblem)"
+    },
+    {
+      "target": "How does this work?",
+      "native": "Wie funktioniert das? (Bedienung unklar)"
+    },
+    {
+      "target": "I'm not very tech-savvy.",
+      "native": "Ich kenne mich mit Technik nicht so gut aus. (Ehrliche Einschätzung)"
+    },
+    {
+      "target": "I'm installing an app.",
+      "native": "Ich installiere eine App. (Handynutzung)"
+    },
+    {
+      "target": "My Wi-Fi isn't working.",
+      "native": "Mein WLAN funktioniert nicht. (Netzwerkproblem)"
+    },
+    {
+      "target": "The battery is dead.",
+      "native": "Der Akku ist leer. (Akkuproblem)"
+    },
+    {
+      "target": "I need to run an update.",
+      "native": "Ich muss ein Update machen. (Wartung)"
+    },
+    {
+      "target": "I use this every day.",
+      "native": "Ich benutze das jeden Tag. (Alltagsgebrauch)"
+    },
+    {
+      "target": "I watch videos on my tablet.",
+      "native": "Ich schaue Videos auf meinem Tablet. (Nutzung)"
+    },
+    {
+      "target": "I lost my data.",
+      "native": "Ich habe meine Daten verloren. (Datenverlust)"
+    },
+    {
+      "target": "Can you show me?",
+      "native": "Kannst du es mir zeigen? (Um Hilfe bitten)"
+    },
+    {
+      "target": "I need more storage space.",
+      "native": "Ich brauche mehr Speicherplatz. (Speicher voll)"
+    },
+    {
+      "target": "I set up a new password.",
+      "native": "Ich habe ein neues Passwort eingerichtet. (Sicherheit)"
+    },
+    {
+      "target": "How do I connect this?",
+      "native": "Wie verbinde ich das? (Einrichtung)"
+    },
+    {
+      "target": "I use Bluetooth.",
+      "native": "Ich benutze Bluetooth. (Drahtlose Verbindung)"
+    },
+    {
+      "target": "My screen is black.",
+      "native": "Mein Bildschirm ist schwarz. (Technisches Problem)"
+    },
+    {
+      "target": "I need to restart the router.",
+      "native": "Ich muss den Router neu starten. (WLAN-Lösung)"
+    },
+    {
+      "target": "Tech can be glitchy sometimes.",
+      "native": "Technik spinnt manchmal. (Allgemeiner Kommentar)"
+    }
+  ],
+  "Haustiere und Tiere": [
+    {
+      "target": "Do you have a pet?",
+      "native": "Hast du ein Haustier? (Alltägliche Frage)"
+    },
+    {
+      "target": "I have a dog.",
+      "native": "Ich habe einen Hund. (Haustierbesitz)"
+    },
+    {
+      "target": "My cat sleeps a lot.",
+      "native": "Meine Katze schläft viel. (Tierverhalten beschreiben)"
+    },
+    {
+      "target": "He is very playful.",
+      "native": "Er ist sehr verspielt. (Charaktereigenschaft)"
+    },
+    {
+      "target": "I need to feed the dog.",
+      "native": "Ich muss den Hund füttern. (Tägliche Aufgabe)"
+    },
+    {
+      "target": "We walk the dog every day.",
+      "native": "Wir gehen jeden Tag mit dem Hund spazieren. (Haustierroutine)"
+    },
+    {
+      "target": "My cat loves to cuddle.",
+      "native": "Meine Katze kuschelt sehr gern. (Zutraulichkeit)"
+    },
+    {
+      "target": "I have a hamster in a cage.",
+      "native": "Ich habe einen Hamster im Käfig. (Tierart)"
+    },
+    {
+      "target": "The bird sings in the morning.",
+      "native": "Der Vogel singt morgens. (Tierverhalten)"
+    },
+    {
+      "target": "I'm taking my pet to the vet.",
+      "native": "Ich bringe mein Haustier zum Tierarzt. (Tiergesundheit)"
+    },
+    {
+      "target": "My dog barks a lot.",
+      "native": "Mein Hund bellt viel. (Verhalten beschreiben)"
+    },
+    {
+      "target": "I need to clean the tank.",
+      "native": "Ich muss das Aquarium/Terrarium sauber machen. (Tierpflege)"
+    },
+    {
+      "target": "The vet appointment is tomorrow.",
+      "native": "Der Tierarzttermin ist morgen. (Termin)"
+    },
+    {
+      "target": "She is very tame.",
+      "native": "Sie ist sehr zahm. (Tier beschreiben)"
+    },
+    {
+      "target": "My pet is like a member of the family.",
+      "native": "Mein Haustier ist wie ein Familienmitglied. (Zuneigung)"
+    },
+    {
+      "target": "I had an allergic reaction to cats.",
+      "native": "Ich hatte eine allergische Reaktion auf Katzen. (Gesundheitshinweis)"
+    },
+    {
+      "target": "Please feed the fish.",
+      "native": "Bitte füttere/füttern Sie die Fische. (Bitte)"
+    },
+    {
+      "target": "He is very curious.",
+      "native": "Er ist sehr neugierig. (Eigenschaft)"
+    },
+    {
+      "target": "How old is your dog?",
+      "native": "Wie alt ist dein Hund? (Frage zum Haustier)"
+    },
+    {
+      "target": "We adopted our pet.",
+      "native": "Wir haben unser Haustier adoptiert. (Herkunft)"
+    }
+  ],
+  "Emotionen und Meinungen": [
+    {
+      "target": "I find that interesting.",
+      "native": "Das finde ich interessant. (Meinung äußern)"
+    },
+    {
+      "target": "I don't like that.",
+      "native": "Das gefällt mir nicht / mag ich nicht. (Negative Meinung)"
+    },
+    {
+      "target": "I'm thrilled!",
+      "native": "Ich bin begeistert! (Starke positive Emotion)"
+    },
+    {
+      "target": "I really like that.",
+      "native": "Das gefällt mir richtig gut. (Positive Reaktion)"
+    },
+    {
+      "target": "I have a different opinion.",
+      "native": "Ich habe eine andere Meinung. (Andere Sichtweise)"
+    },
+    {
+      "target": "I think that's right.",
+      "native": "Ich glaube, das stimmt. (Zustimmung)"
+    },
+    {
+      "target": "I'm not sure.",
+      "native": "Ich bin mir nicht sicher. (Unsicherheit)"
+    },
+    {
+      "target": "That was disappointing.",
+      "native": "Das war enttäuschend. (Negatives Feedback)"
+    },
+    {
+      "target": "I feel safe here.",
+      "native": "Ich fühle mich hier sicher. (Wohlgefühl)"
+    },
+    {
+      "target": "I'm confused.",
+      "native": "Ich bin verwirrt. (Innerer Zustand)"
+    },
+    {
+      "target": "That was fun.",
+      "native": "Das hat Spaß gemacht. (Freude ausdrücken)"
+    },
+    {
+      "target": "I don't have a strong opinion on that.",
+      "native": "Dazu habe ich keine feste Meinung. (Neutrale Haltung)"
+    },
+    {
+      "target": "I'm curious about it.",
+      "native": "Ich bin neugierig darauf. (Interesse)"
+    },
+    {
+      "target": "I'm proud of you.",
+      "native": "Ich bin stolz auf dich. (Ermutigung)"
+    },
+    {
+      "target": "I'm grateful for your help.",
+      "native": "Ich bin dankbar für deine/Ihre Hilfe. (Dankbarkeit)"
+    },
+    {
+      "target": "I find that boring.",
+      "native": "Das finde ich langweilig. (Negatives Urteil)"
+    },
+    {
+      "target": "That annoys me.",
+      "native": "Das nervt mich. (Ärger/Frust)"
+    },
+    {
+      "target": "I feel comfortable.",
+      "native": "Ich fühle mich wohl. (Wohlbefinden)"
+    },
+    {
+      "target": "I find that brave.",
+      "native": "Das finde ich mutig. (Anerkennung)"
+    },
+    {
+      "target": "I appreciate your opinion.",
+      "native": "Ich schätze deine/Ihre Meinung. (Respektvolle Reaktion)"
+    }
+  ],
+  "Pläne machen": [
+    {
+      "target": "Are you free tomorrow?",
+      "native": "Hast du morgen Zeit? (Nachfrage zur Verfügbarkeit)"
+    },
+    {
+      "target": "Let's do something.",
+      "native": "Lass uns etwas unternehmen. (Vorschlag machen)"
+    },
+    {
+      "target": "When works for you?",
+      "native": "Wann passt es dir? (Zeit finden)"
+    },
+    {
+      "target": "Do you want to meet up?",
+      "native": "Wollen wir uns treffen? (Treffen vorschlagen)"
+    },
+    {
+      "target": "I'm free on the weekend.",
+      "native": "Am Wochenende habe ich Zeit. (Verfügbarkeit)"
+    },
+    {
+      "target": "How about Friday?",
+      "native": "Wie wäre es am Freitag? (Tag vorschlagen)"
+    },
+    {
+      "target": "Unfortunately, I already have plans.",
+      "native": "Leider habe ich schon etwas vor. (Absagen)"
+    },
+    {
+      "target": "We'll meet at 6 PM.",
+      "native": "Wir treffen uns um 18:00 Uhr. (Plan bestätigen)"
+    },
+    {
+      "target": "I'm looking forward to it.",
+      "native": "Ich freue mich darauf. (Vorfreude)"
+    },
+    {
+      "target": "Where should we meet?",
+      "native": "Wo sollen wir uns treffen? (Treffpunkt)"
+    },
+    {
+      "target": "I'll be a little late.",
+      "native": "Ich komme etwas später. (Zeitupdate)"
+    },
+    {
+      "target": "Can we reschedule it?",
+      "native": "Können wir es verschieben? (Plan ändern)"
+    },
+    {
+      "target": "I changed my mind.",
+      "native": "Ich habe es mir anders überlegt. (Entscheidung ändern)"
+    },
+    {
+      "target": "Unfortunately, I have to cancel.",
+      "native": "Leider muss ich absagen. (Höfliche Absage)"
+    },
+    {
+      "target": "I'm bringing a friend.",
+      "native": "Ich bringe einen Freund / eine Freundin mit. (Begleitung)"
+    },
+    {
+      "target": "Do you want to ride together?",
+      "native": "Wollen wir zusammen fahren? (Abstimmung)"
+    },
+    {
+      "target": "I'll text you beforehand.",
+      "native": "Ich schreibe dir vorher noch. (Vorab melden)"
+    },
+    {
+      "target": "The plan sounds good.",
+      "native": "Der Plan klingt gut. (Zustimmung)"
+    },
+    {
+      "target": "Let's decide spontaneously.",
+      "native": "Lass uns das spontan entscheiden. (Flexibel planen)"
+    },
+    {
+      "target": "See you later then!",
+      "native": "Bis später dann! (Abschluss der Verabredung)"
+    }
+  ],
+  "Bedürfnisse und Wünsche äußern": [
+    {
+      "target": "I need help.",
+      "native": "Ich brauche Hilfe. (Einfaches Bedürfnis)"
+    },
+    {
+      "target": "I'd like to eat something.",
+      "native": "Ich möchte etwas essen. (Wunsch äußern)"
+    },
+    {
+      "target": "I want to go home.",
+      "native": "Ich möchte nach Hause gehen. (Wunsch ausdrücken)"
+    },
+    {
+      "target": "I'm thirsty.",
+      "native": "Ich habe Durst. (Körperliches Bedürfnis)"
+    },
+    {
+      "target": "I'm tired.",
+      "native": "Ich bin müde. (Zustand beschreiben)"
+    },
+    {
+      "target": "I need a break.",
+      "native": "Ich brauche eine Pause. (Bedürfnis äußern)"
+    },
+    {
+      "target": "I don't want to do that.",
+      "native": "Das möchte ich nicht tun. (Ablehnung)"
+    },
+    {
+      "target": "I wish for peace and quiet.",
+      "native": "Ich wünsche mir Ruhe. (Emotionaler Wunsch)"
+    },
+    {
+      "target": "I want to do this now.",
+      "native": "Ich möchte das jetzt machen. (Entschlossenheit)"
+    },
+    {
+      "target": "I need more time.",
+      "native": "Ich brauche mehr Zeit. (Zeitliches Bedürfnis)"
+    },
+    {
+      "target": "I'm hungry.",
+      "native": "Ich habe Hunger. (Hunger äußern)"
+    },
+    {
+      "target": "I don't want to wait.",
+      "native": "Ich möchte nicht warten. (Ungeduld)"
+    },
+    {
+      "target": "I need fresh air.",
+      "native": "Ich brauche frische Luft. (Gesundheitliches/emotionales Bedürfnis)"
+    },
+    {
+      "target": "I want to be alone.",
+      "native": "Ich möchte allein sein. (Rückzug)"
+    },
+    {
+      "target": "I'd like a coffee.",
+      "native": "Ich hätte gern einen Kaffee. (Höfliche Bitte)"
+    },
+    {
+      "target": "I need sleep.",
+      "native": "Ich brauche Schlaf. (Erschöpfung)"
+    },
+    {
+      "target": "I want to understand this.",
+      "native": "Ich möchte das verstehen. (Verständniswunsch)"
+    },
+    {
+      "target": "I wish I had a dog.",
+      "native": "Ich wünschte, ich hätte einen Hund. (Wunsch)"
+    },
+    {
+      "target": "I want to do it later.",
+      "native": "Ich möchte es später machen. (Aufschieben)"
+    },
+    {
+      "target": "I feel the need to talk.",
+      "native": "Ich habe das Bedürfnis zu reden. (Emotionaler Ausdruck)"
+    }
+  ],
+  "Rechtliches und Behörden": [
+    {
+      "target": "I need an appointment at the office.",
+      "native": "Ich brauche einen Termin im Amt. (Behördengang)"
+    },
+    {
+      "target": "Where is the citizens' office?",
+      "native": "Wo ist das Bürgerbüro? (Behörde finden)"
+    },
+    {
+      "target": "I need to renew my ID.",
+      "native": "Ich muss meinen Ausweis verlängern. (Dokument erneuern)"
+    },
+    {
+      "target": "What documents do I need?",
+      "native": "Welche Unterlagen brauche ich? (Nachfrage zu Dokumenten)"
+    },
+    {
+      "target": "I have an appointment at the registration office.",
+      "native": "Ich habe einen Termin beim Einwohnermeldeamt. (Anmeldung)"
+    },
+    {
+      "target": "I'd like to register my new address.",
+      "native": "Ich möchte meine neue Adresse anmelden. (Umzug)"
+    },
+    {
+      "target": "I need a registration certificate.",
+      "native": "Ich brauche eine Meldebescheinigung. (Häufiger Antrag)"
+    },
+    {
+      "target": "How long does processing take?",
+      "native": "Wie lange dauert die Bearbeitung? (Dauer erfragen)"
+    },
+    {
+      "target": "Is there an online option?",
+      "native": "Gibt es eine Online-Möglichkeit? (Digitaler Service)"
+    },
+    {
+      "target": "I need a passport.",
+      "native": "Ich brauche einen Reisepass. (Reisedokument)"
+    },
+    {
+      "target": "I'd like to register my car.",
+      "native": "Ich möchte mein Auto anmelden. (Fahrzeugzulassung)"
+    },
+    {
+      "target": "I got a parking ticket.",
+      "native": "Ich habe einen Strafzettel bekommen. (Ordnungswidrigkeit)"
+    },
+    {
+      "target": "Do I have to appear in person?",
+      "native": "Muss ich persönlich erscheinen? (Voraussetzung erfragen)"
+    },
+    {
+      "target": "What is the deadline here?",
+      "native": "Welche Frist gilt hier? (Frist erfragen)"
+    },
+    {
+      "target": "I need legal advice.",
+      "native": "Ich brauche Rechtsberatung. (Rechtliches Anliegen)"
+    },
+    {
+      "target": "I received a summons.",
+      "native": "Ich habe eine Vorladung erhalten. (Rechtliches Schreiben)"
+    },
+    {
+      "target": "I have to go to court.",
+      "native": "Ich muss vor Gericht. (Rechtliche Verpflichtung)"
+    },
+    {
+      "target": "Are there any fees?",
+      "native": "Fallen Gebühren an? (Kostenfrage)"
+    },
+    {
+      "target": "How can I file an appeal?",
+      "native": "Wie kann ich Widerspruch einlegen? (Rechtliches Vorgehen)"
+    },
+    {
+      "target": "I need a copy of this document.",
+      "native": "Ich brauche eine Kopie dieses Dokuments. (Grundlegende Bitte)"
+    }
+  ],
+  "Natur und Umwelt": [
+    {
+      "target": "I like going to the woods.",
+      "native": "Ich gehe gern in den Wald. (Naturaktivität)"
+    },
+    {
+      "target": "The air is fresh today.",
+      "native": "Die Luft ist heute frisch. (Kommentar zur Umwelt)"
+    },
+    {
+      "target": "I like having picnics in the park.",
+      "native": "Ich mache gern Picknick im Park. (Outdoor-Aktivität)"
+    },
+    {
+      "target": "The lake is gorgeous.",
+      "native": "Der See ist wunderschön. (Natur beschreiben)"
+    },
+    {
+      "target": "I love the mountains.",
+      "native": "Ich liebe die Berge. (Landschaftsvorliebe)"
+    },
+    {
+      "target": "There are lots of animals here.",
+      "native": "Hier gibt es viele Tiere. (Tierbeobachtung)"
+    },
+    {
+      "target": "We need to protect the environment.",
+      "native": "Wir müssen die Umwelt schützen. (Umweltbewusstsein)"
+    },
+    {
+      "target": "I sort my trash.",
+      "native": "Ich trenne meinen Müll. (Umweltfreundliches Verhalten)"
+    },
+    {
+      "target": "The weather is perfect for a hike.",
+      "native": "Das Wetter ist perfekt zum Wandern. (Outdoor-Plan)"
+    },
+    {
+      "target": "I enjoy the peace and quiet in nature.",
+      "native": "Ich genieße die Ruhe in der Natur. (Erholung)"
+    },
+    {
+      "target": "The river flows calmly.",
+      "native": "Der Fluss fließt ruhig. (Naturbeobachtung)"
+    },
+    {
+      "target": "Did you see the stars?",
+      "native": "Hast du die Sterne gesehen? (Sternenhimmel)"
+    },
+    {
+      "target": "Flowers bloom in spring.",
+      "native": "Im Frühling blühen Blumen. (Jahreszeitlicher Hinweis)"
+    },
+    {
+      "target": "I plant vegetables in the garden.",
+      "native": "Ich pflanze Gemüse im Garten an. (Nachhaltigkeit)"
+    },
+    {
+      "target": "It's important to plant trees.",
+      "native": "Es ist wichtig, Bäume zu pflanzen. (Umweltschutz)"
+    },
+    {
+      "target": "I adopted a tree.",
+      "native": "Ich habe eine Baumpatenschaft übernommen. (Umweltaktion)"
+    },
+    {
+      "target": "We went on a hike.",
+      "native": "Wir waren wandern. (Outdoor-Aktivität)"
+    },
+    {
+      "target": "The sky is clear today.",
+      "native": "Heute ist der Himmel klar. (Wetter/Natur)"
+    },
+    {
+      "target": "I hear the birds chirping.",
+      "native": "Ich höre die Vögel zwitschern. (Ruhiger Moment)"
+    },
+    {
+      "target": "I love being outdoors.",
+      "native": "Ich bin gern im Freien. (Allgemeines Gefühl)"
+    }
+  ],
+  "Religion und Glaube": [
+    {
+      "target": "I believe in God.",
+      "native": "Ich glaube an Gott. (Glaubensbekenntnis)"
+    },
+    {
+      "target": "I pray every day.",
+      "native": "Ich bete jeden Tag. (Religiöse Gewohnheit)"
+    },
+    {
+      "target": "Do you go to church?",
+      "native": "Gehst du in die Kirche? (Frage zur Praxis)"
+    },
+    {
+      "target": "I'm Catholic.",
+      "native": "Ich bin katholisch. (Religiöse Zugehörigkeit)"
+    },
+    {
+      "target": "I'm Protestant.",
+      "native": "Ich bin evangelisch. (Religiöse Zugehörigkeit)"
+    },
+    {
+      "target": "I'm Muslim.",
+      "native": "Ich bin muslimisch / Muslim(a). (Religiöse Zugehörigkeit)"
+    },
+    {
+      "target": "I fast during Ramadan.",
+      "native": "Im Ramadan faste ich. (Religiöse Praxis)"
+    },
+    {
+      "target": "Merry Christmas!",
+      "native": "Frohe Weihnachten! (Feiertagsgruß)"
+    },
+    {
+      "target": "Happy Easter!",
+      "native": "Frohe Ostern! (Feiertagsgruß)"
+    },
+    {
+      "target": "I go to mass on Sundays.",
+      "native": "Sonntags gehe ich in die Messe. (Christliche Praxis)"
+    },
+    {
+      "target": "I believe in the good in people.",
+      "native": "Ich glaube an das Gute im Menschen. (Spirituelle Haltung)"
+    },
+    {
+      "target": "I read the Bible.",
+      "native": "Ich lese in der Bibel. (Religiöse Praxis)"
+    },
+    {
+      "target": "I thank God for my life.",
+      "native": "Ich danke Gott für mein Leben. (Dankbarkeit und Glaube)"
+    },
+    {
+      "target": "What is your faith?",
+      "native": "Was ist dein/Ihr Glaube? (Respektvolle Frage)"
+    },
+    {
+      "target": "We're celebrating a religious holiday.",
+      "native": "Wir feiern einen religiösen Feiertag. (Religiöser Anlass)"
+    },
+    {
+      "target": "I'm praying for you.",
+      "native": "Ich bete für dich. (Zuspruch)"
+    },
+    {
+      "target": "I believe in an afterlife.",
+      "native": "Ich glaube an ein Leben nach dem Tod. (Spiritueller Glaube)"
+    },
+    {
+      "target": "I respect all religions.",
+      "native": "Ich respektiere alle Religionen. (Toleranz)"
+    },
+    {
+      "target": "I have questions about faith.",
+      "native": "Ich habe Fragen zum Glauben. (Spirituelle Neugier)"
+    },
+    {
+      "target": "My faith gives me strength.",
+      "native": "Mein Glaube gibt mir Kraft. (Persönlicher Halt)"
+    }
+  ],
+  "Jugend- und Gen-Z-Sprache": [
+    {
+      "target": "That's wild!",
+      "native": "Das ist krass / wild! (Überraschte Reaktion)"
+    },
+    {
+      "target": "So sick!",
+      "native": "Richtig geil / krass! (Begeisterung)"
+    },
+    {
+      "target": "Living the dream!",
+      "native": "Läuft bei mir! / Wie im Traum! (Erfolg/Zufriedenheit)"
+    },
+    {
+      "target": "YOLO!",
+      "native": "Man lebt nur einmal! (Risikobereitschaft)"
+    },
+    {
+      "target": "Stay chill.",
+      "native": "Bleib entspannt / locker. (Ruhe bewahren)"
+    },
+    {
+      "target": "Legend!",
+      "native": "Legende! (Großes Lob)"
+    },
+    {
+      "target": "I'm lost.",
+      "native": "Ich check gar nichts / bin planlos. (Ratlosigkeit)"
+    },
+    {
+      "target": "Same!",
+      "native": "Fühl ich! / Geht mir genauso! (Zustimmung/Mitgefühl)"
+    },
+    {
+      "target": "That's cringe.",
+      "native": "Das ist total cringe / peinlich. (Fremdscham)"
+    },
+    {
+      "target": "She's doing the most.",
+      "native": "Sie übertreibt maßlos. (Überdramatisieren)"
+    },
+    {
+      "target": "I'm really vibing with this.",
+      "native": "Das feier ich total. (Gefallen finden)"
+    },
+    {
+      "target": "I'm cooked.",
+      "native": "Ich bin komplett fertig / am Ende. (Erschöpft)"
+    },
+    {
+      "target": "What's good?",
+      "native": "Was geht? / Alles fit? (Informelle Begrüßung)"
+    },
+    {
+      "target": "No clue, bro.",
+      "native": "Keinen Plan, Digga/Bro. (Ahnungslos)"
+    },
+    {
+      "target": "Bet!",
+      "native": "Steht! / Geht klar! (Zusage)"
+    },
+    {
+      "target": "I'm treating myself.",
+      "native": "Ich gönn mir was. (Selbstfürsorge)"
+    },
+    {
+      "target": "Bro, seriously?",
+      "native": "Bro, ernsthaft? (Zweifel)"
+    },
+    {
+      "target": "That's totally my vibe.",
+      "native": "Das passt voll zu mir / meinem Style. (Geschmack)"
+    },
+    {
+      "target": "A bit much, right?",
+      "native": "Ein bisschen viel, oder? (Einschätzung)"
+    },
+    {
+      "target": "I swear!",
+      "native": "Ich schwöre! (Betonung)"
+    }
+  ],
+  "Wohnen und Möbel": [
+    {
+      "target": "I live in an apartment.",
+      "native": "Ich wohne in einer Wohnung. (Wohnsituation)"
+    },
+    {
+      "target": "My room is on the second floor.",
+      "native": "Mein Zimmer ist im zweiten Stock. (Wohnungsaufteilung)"
+    },
+    {
+      "target": "Where is the bathroom?",
+      "native": "Wo ist das Badezimmer? (Häufige Frage)"
+    },
+    {
+      "target": "The kitchen is very modern.",
+      "native": "Die Küche ist sehr modern. (Raum beschreiben)"
+    },
+    {
+      "target": "I have a comfortable couch.",
+      "native": "Ich habe ein bequemes Sofa. (Möbel beschreiben)"
+    },
+    {
+      "target": "The table is made of wood.",
+      "native": "Der Tisch ist aus Holz. (Material angeben)"
+    },
+    {
+      "target": "I need to make my bed.",
+      "native": "Ich muss mein Bett machen. (Alltägliche Aufgabe)"
+    },
+    {
+      "target": "The lamp is broken.",
+      "native": "Die Lampe ist kaputt. (Defekt)"
+    },
+    {
+      "target": "Where is the closet?",
+      "native": "Wo ist der Schrank? (Möbelstandort)"
+    },
+    {
+      "target": "We eat in the dining room.",
+      "native": "Wir essen im Esszimmer. (Raumnutzung)"
+    },
+    {
+      "target": "The windows are big.",
+      "native": "Die Fenster sind groß. (Wohnungsmerkmal)"
+    },
+    {
+      "target": "I have a balcony.",
+      "native": "Ich habe einen Balkon. (Wohnungsausstattung)"
+    },
+    {
+      "target": "The walls are painted white.",
+      "native": "Die Wände sind weiß gestrichen. (Einrichtungsdetail)"
+    },
+    {
+      "target": "I'm decorating my living room.",
+      "native": "Ich richte mein Wohnzimmer ein / dekoriere es. (Einrichten)"
+    },
+    {
+      "target": "I bought a rug.",
+      "native": "Ich habe einen Teppich gekauft. (Kauf)"
+    },
+    {
+      "target": "The door squeaks.",
+      "native": "Die Tür quietscht. (Hausproblem)"
+    },
+    {
+      "target": "We're remodeling the bathroom.",
+      "native": "Wir renovieren das Badezimmer. (Renovierung)"
+    },
+    {
+      "target": "I have a new desk.",
+      "native": "Ich habe einen neuen Schreibtisch. (Neues Möbelstück)"
+    },
+    {
+      "target": "The apartment has three bedrooms.",
+      "native": "Die Wohnung hat drei Schlafzimmer. (Wohnungsdetail)"
+    },
+    {
+      "target": "I need more storage space.",
+      "native": "Ich brauche mehr Stauraum. (Haushaltsbedarf)"
+    }
+  ],
+  "Geld und Budgetplanung": [
+    {
+      "target": "I need to save money.",
+      "native": "Ich muss Geld sparen. (Sparziel)"
+    },
+    {
+      "target": "How much does this cost?",
+      "native": "Wie viel kostet das? (Preisfrage)"
+    },
+    {
+      "target": "I don't have cash.",
+      "native": "Ich habe kein Bargeld dabei. (Zahlungsproblem)"
+    },
+    {
+      "target": "Can I pay by card?",
+      "native": "Kann ich mit Karte bezahlen? (Zahlungsart)"
+    },
+    {
+      "target": "I have a budget.",
+      "native": "Ich habe ein Budget. (Finanzplan)"
+    },
+    {
+      "target": "I spend too much.",
+      "native": "Ich gebe zu viel aus. (Ausgabeverhalten)"
+    },
+    {
+      "target": "I need to control my spending.",
+      "native": "Ich muss meine Ausgaben im Griff behalten. (Budgetdisziplin)"
+    },
+    {
+      "target": "I pay my bills on time.",
+      "native": "Ich bezahle meine Rechnungen pünktlich. (Finanzielle Zuverlässigkeit)"
+    },
+    {
+      "target": "I'm saving up for vacation.",
+      "native": "Ich spare für den Urlaub. (Sparziel)"
+    },
+    {
+      "target": "I have debt.",
+      "native": "Ich habe Schulden. (Finanzielle Lage)"
+    },
+    {
+      "target": "I have a savings account.",
+      "native": "Ich habe ein Sparkonto. (Bankkonto)"
+    },
+    {
+      "target": "I need a financial plan.",
+      "native": "Ich brauche einen Finanzplan. (Vorausschauende Planung)"
+    },
+    {
+      "target": "I compare prices.",
+      "native": "Ich vergleiche Preise. (Einkaufsstrategie)"
+    },
+    {
+      "target": "I found an affordable apartment.",
+      "native": "Ich habe eine bezahlbare Wohnung gefunden. (Erfolg bei der Budgetsuche)"
+    },
+    {
+      "target": "That's too expensive for me.",
+      "native": "Das ist mir zu teuer. (Preisbedenken)"
+    },
+    {
+      "target": "I invest in stocks.",
+      "native": "Ich investiere in Aktien. (Geldanlage)"
+    },
+    {
+      "target": "I pay monthly rent.",
+      "native": "Ich zahle monatlich Miete. (Fixkosten)"
+    },
+    {
+      "target": "I work to pay for school.",
+      "native": "Ich arbeite, um meine Ausbildung/Schule zu finanzieren. (Finanzierung)"
+    },
+    {
+      "target": "I plan my expenses every month.",
+      "native": "Ich plane meine Ausgaben jeden Monat. (Finanzgewohnheit)"
+    },
+    {
+      "target": "I need a loan.",
+      "native": "Ich brauche einen Kredit. (Finanzieller Bedarf)"
+    }
+  ],
+  "Partys und Feiern": [
+    {
+      "target": "Congratulations!",
+      "native": "Herzlichen Glückwunsch! (Gratulation)"
+    },
+    {
+      "target": "Happy birthday!",
+      "native": "Alles Gute zum Geburtstag! (Geburtstagsgruß)"
+    },
+    {
+      "target": "I'm inviting you to the party.",
+      "native": "Ich lade dich zur Party ein. (Einladung)"
+    },
+    {
+      "target": "When does the party start?",
+      "native": "Wann fängt die Party an? (Uhrzeit)"
+    },
+    {
+      "target": "Where is the party taking place?",
+      "native": "Wo findet die Party statt? (Ort)"
+    },
+    {
+      "target": "I'll bring a cake.",
+      "native": "Ich bringe einen Kuchen mit. (Beitrag)"
+    },
+    {
+      "target": "Let's dance!",
+      "native": "Lass uns tanzen! (Feierlaune)"
+    },
+    {
+      "target": "I'm looking forward to the party.",
+      "native": "Ich freue mich auf die Party. (Vorfreude)"
+    },
+    {
+      "target": "What should I wear?",
+      "native": "Was soll ich anziehen? (Kleiderfrage)"
+    },
+    {
+      "target": "We're celebrating at my place.",
+      "native": "Wir feiern bei mir. (Gastgeber-Info)"
+    },
+    {
+      "target": "The music is great!",
+      "native": "Die Musik ist toll! (Positives Feedback)"
+    },
+    {
+      "target": "How many guests are coming?",
+      "native": "Wie viele Gäste kommen? (Planung)"
+    },
+    {
+      "target": "I arrived late.",
+      "native": "Ich bin spät gekommen. (Verspätung)"
+    },
+    {
+      "target": "We laughed a lot.",
+      "native": "Wir haben viel gelacht. (Rückblick)"
+    },
+    {
+      "target": "There are snacks and drinks.",
+      "native": "Es gibt Snacks und Getränke. (Angebot)"
+    },
+    {
+      "target": "I brought a gift.",
+      "native": "Ich habe ein Geschenk mitgebracht. (Geschenk)"
+    },
+    {
+      "target": "I hope you all have fun!",
+      "native": "Ich wünsche euch allen viel Spaß! (Gute Wünsche)"
+    },
+    {
+      "target": "Cheers!",
+      "native": "Prost! / Zum Wohl! (Zuprosten)"
+    },
+    {
+      "target": "The mood was fantastic.",
+      "native": "Die Stimmung war fantastisch. (Rückblick)"
+    },
+    {
+      "target": "Until the next celebration!",
+      "native": "Bis zur nächsten Feier! (Abschied)"
+    }
+  ],
+  "Alles über Asien": [
+    {
+      "target": "I'm interested in Asian cultures.",
+      "native": "Ich interessiere mich für asiatische Kulturen. (Kulturelles Interesse)"
+    },
+    {
+      "target": "I like eating Asian food.",
+      "native": "Ich esse gern asiatisch. (Essensvorliebe)"
+    },
+    {
+      "target": "I'm learning Japanese.",
+      "native": "Ich lerne Japanisch. (Sprachenlernen)"
+    },
+    {
+      "target": "Have you ever been to Asia?",
+      "native": "Warst du schon einmal in Asien? (Reisefrage)"
+    },
+    {
+      "target": "I'd like to travel to Japan.",
+      "native": "Ich möchte nach Japan reisen. (Reiseplan)"
+    },
+    {
+      "target": "I love Korean dramas.",
+      "native": "Ich liebe koreanische Serien / K-Dramen. (Medieninteresse)"
+    },
+    {
+      "target": "Chinese is a difficult language.",
+      "native": "Chinesisch ist eine schwierige Sprache. (Meinung zur Sprache)"
+    },
+    {
+      "target": "I tried sushi for the first time.",
+      "native": "Ich habe zum ersten Mal Sushi probiert. (Erfahrung)"
+    },
+    {
+      "target": "I'm interested in Asian history.",
+      "native": "Ich interessiere mich für asiatische Geschichte. (Geschichtliches Interesse)"
+    },
+    {
+      "target": "I follow a Thai cooking channel.",
+      "native": "Ich folge einem thailändischen Kochkanal. (Digitale Kultur)"
+    },
+    {
+      "target": "I traveled around Vietnam.",
+      "native": "Ich bin durch Vietnam gereist. (Reiseerfahrung)"
+    },
+    {
+      "target": "I have many Asian friends.",
+      "native": "Ich habe viele asiatische Freunde. (Freundeskreis)"
+    },
+    {
+      "target": "K-pop is super popular.",
+      "native": "K-Pop ist super beliebt. (Popkultur)"
+    },
+    {
+      "target": "I like Indian spices.",
+      "native": "Ich mag indische Gewürze. (Esskultur)"
+    },
+    {
+      "target": "I have Asian roots.",
+      "native": "Ich habe asiatische Wurzeln. (Kulturelle Herkunft)"
+    },
+    {
+      "target": "I love Asian architecture.",
+      "native": "Ich mag asiatische Architektur. (Kulturelles Interesse)"
+    },
+    {
+      "target": "I'm learning with an Asian app.",
+      "native": "Ich lerne mit einer App aus Asien. (Lernen & Technik)"
+    },
+    {
+      "target": "I'm interested in Asian religions.",
+      "native": "Ich interessiere mich für asiatische Religionen. (Kulturelle Neugier)"
+    },
+    {
+      "target": "I have a Chinese roommate.",
+      "native": "Ich habe einen chinesischen Mitbewohner / eine Mitbewohnerin. (Alltag)"
+    },
+    {
+      "target": "We're celebrating the Mid-Autumn Festival.",
+      "native": "Wir feiern das Mondfest / Herbstfest. (Kultureller Brauch)"
+    }
+  ],
+  "Popkultur": [
+    {
+      "target": "I love this movie!",
+      "native": "Ich liebe diesen Film! (Begeisterung)"
+    },
+    {
+      "target": "Did you watch the new show?",
+      "native": "Hast du die neue Serie gesehen? (Gespräch über Medien)"
+    },
+    {
+      "target": "He is a famous actor.",
+      "native": "Er ist ein berühmter Schauspieler. (Promis)"
+    },
+    {
+      "target": "This song is a total earworm.",
+      "native": "Dieser Song ist ein echter Ohrwurm. (Musikkommentar)"
+    },
+    {
+      "target": "She is my favorite star.",
+      "native": "Sie ist mein Lieblingsstar. (Fan sein)"
+    },
+    {
+      "target": "That was a viral video.",
+      "native": "Das war ein virales Video. (Online-Trend)"
+    },
+    {
+      "target": "I follow her on Instagram.",
+      "native": "Ich folge ihr auf Instagram. (Social Media)"
+    },
+    {
+      "target": "The movie won lots of awards.",
+      "native": "Der Film hat viele Preise gewonnen. (Auszeichnungen)"
+    },
+    {
+      "target": "That was a blockbuster.",
+      "native": "Das war ein Blockbuster. (Kinoerfolg)"
+    },
+    {
+      "target": "I'm deep in the fandom.",
+      "native": "Ich stecke tief im Fandom. (Fankultur)"
+    },
+    {
+      "target": "He dropped a new song.",
+      "native": "Er hat einen neuen Song veröffentlicht. (Musikveröffentlichung)"
+    },
+    {
+      "target": "Do you know this meme?",
+      "native": "Kennst du dieses Meme? (Internetkultur)"
+    },
+    {
+      "target": "The trailer just came out.",
+      "native": "Der Trailer ist gerade erschienen. (Neuerscheinung)"
+    },
+    {
+      "target": "She is a TikTok star.",
+      "native": "Sie ist ein TikTok-Star. (Online-Bekanntheit)"
+    },
+    {
+      "target": "That's trending on Twitter.",
+      "native": "Das ist auf Twitter im Trend. (Social Media)"
+    },
+    {
+      "target": "I'm listening to the song on repeat.",
+      "native": "Ich höre den Song in Dauerschleife. (Musikgewohnheit)"
+    },
+    {
+      "target": "They are the celebrity couple of the year.",
+      "native": "Sie sind das Promi-Paar des Jahres. (Klatsch & Tratsch)"
+    },
+    {
+      "target": "I collect merch.",
+      "native": "Ich sammle Merch / Fanartikel. (Fankultur)"
+    },
+    {
+      "target": "He was in a music video.",
+      "native": "Er war in einem Musikvideo zu sehen. (Auftritt)"
+    },
+    {
+      "target": "Pop culture is constantly changing.",
+      "native": "Popkultur verändert sich ständig. (Allgemeine Beobachtung)"
+    }
+  ],
+  "Soziale Themen": [
+    {
+      "target": "Equality is important.",
+      "native": "Gleichberechtigung ist wichtig. (Grundsatz)"
+    },
+    {
+      "target": "We need to talk about racism.",
+      "native": "Wir müssen über Rassismus sprechen. (Aufmerksamkeit schaffen)"
+    },
+    {
+      "target": "Climate action affects all of us.",
+      "native": "Klimaschutz betrifft uns alle. (Klimagerechtigkeit)"
+    },
+    {
+      "target": "I support social justice.",
+      "native": "Ich unterstütze soziale Gerechtigkeit. (Haltung)"
+    },
+    {
+      "target": "Poverty is a global problem.",
+      "native": "Armut ist ein globales Problem. (Feststellung)"
+    },
+    {
+      "target": "I'm protesting for more rights.",
+      "native": "Ich protestiere für mehr Rechte. (Engagement)"
+    },
+    {
+      "target": "Education should be accessible to everyone.",
+      "native": "Bildung sollte für alle zugänglich sein. (Chancengleichheit)"
+    },
+    {
+      "target": "Discrimination is never okay.",
+      "native": "Diskriminierung geht gar nicht. (Ethische Haltung)"
+    },
+    {
+      "target": "We need more inclusion.",
+      "native": "Wir brauchen mehr Inklusion. (Appell)"
+    },
+    {
+      "target": "I donate to charities.",
+      "native": "Ich spende an Hilfsorganisationen. (Unterstützung)"
+    },
+    {
+      "target": "Gender equality is necessary.",
+      "native": "Geschlechtergerechtigkeit ist notwendig. (Gesellschaftliche Gleichheit)"
+    },
+    {
+      "target": "I'm against injustice.",
+      "native": "Ich bin gegen Ungerechtigkeit. (Positionierung)"
+    },
+    {
+      "target": "We need to support marginalized groups.",
+      "native": "Wir müssen marginalisierte Gruppen unterstützen. (Solidarität)"
+    },
+    {
+      "target": "Homelessness is rising.",
+      "native": "Obdachlosigkeit nimmt zu. (Gesellschaftliche Beobachtung)"
+    },
+    {
+      "target": "We should live more sustainably.",
+      "native": "Wir sollten nachhaltiger leben. (Verantwortung)"
+    },
+    {
+      "target": "Migration is a complex issue.",
+      "native": "Migration ist ein komplexes Thema. (Gesellschaftspolitisches Thema)"
+    },
+    {
+      "target": "Every person deserves respect.",
+      "native": "Jeder Mensch verdient Respekt. (Grundwert)"
+    },
+    {
+      "target": "I volunteer.",
+      "native": "Ich engagiere mich ehrenamtlich. (Ehrenamt)"
+    },
+    {
+      "target": "The digital divide affects many people.",
+      "native": "Die digitale Kluft betrifft viele Menschen. (Teilhabe)"
+    },
+    {
+      "target": "Social issues concern all of us.",
+      "native": "Soziale Themen gehen uns alle an. (Appell)"
+    }
+  ],
+  "Feiertage und Traditionen": [
+    {
+      "target": "Happy New Year!",
+      "native": "Frohes neues Jahr! (Neujahrsgruß)"
+    },
+    {
+      "target": "Do you celebrate Christmas?",
+      "native": "Feierst du Weihnachten? (Kulturelle Frage)"
+    },
+    {
+      "target": "We're having a New Year's Eve party.",
+      "native": "Wir machen eine Silvesterparty. (Feier planen)"
+    },
+    {
+      "target": "I like giving gifts for Christmas.",
+      "native": "Ich schenke zu Weihnachten gern etwas. (Weihnachtsbrauch)"
+    },
+    {
+      "target": "We celebrate Easter with family.",
+      "native": "Wir feiern Ostern mit der Familie. (Familientradition)"
+    },
+    {
+      "target": "St. Nicholas comes on December 6th.",
+      "native": "Der Nikolaus kommt am 6. Dezember. (Deutscher Brauch)"
+    },
+    {
+      "target": "I'm going to the fair.",
+      "native": "Ich gehe auf den Jahrmarkt / das Volksfest. (Tradition)"
+    },
+    {
+      "target": "What are you doing for Halloween?",
+      "native": "Was machst du an Halloween? (Saisonales Ereignis)"
+    },
+    {
+      "target": "I love the Christmas market.",
+      "native": "Ich liebe den Weihnachtsmarkt. (Deutscher Brauch)"
+    },
+    {
+      "target": "I'm making a lantern for St. Martin's Day.",
+      "native": "Ich bastle eine Laterne für St. Martin. (Kindertradition)"
+    },
+    {
+      "target": "We celebrated Carnival.",
+      "native": "Wir haben Karneval / Fasching gefeiert. (Fest)"
+    },
+    {
+      "target": "I'm enjoying the holidays.",
+      "native": "Ich genieße die Feiertage / Ferien. (Stimmung)"
+    },
+    {
+      "target": "We have a barbecue on May 1st.",
+      "native": "Am 1. Mai grillen wir. (Brauch zum Tag der Arbeit)"
+    },
+    {
+      "target": "I have the day off for a holiday.",
+      "native": "Ich habe wegen eines Feiertags frei. (Feiertag)"
+    },
+    {
+      "target": "I'm not familiar with this tradition.",
+      "native": "Ich kenne diesen Brauch nicht. (Kulturelle Neugier)"
+    },
+    {
+      "target": "I fast during Lent.",
+      "native": "In der Fastenzeit faste ich. (Religiöser Brauch)"
+    },
+    {
+      "target": "Happy holidays!",
+      "native": "Schöne Feiertage! (Saisonaler Gruß)"
+    },
+    {
+      "target": "The holiday falls on a Monday.",
+      "native": "Der Feiertag fällt auf einen Montag. (Kalenderdetail)"
+    },
+    {
+      "target": "We're making an Advent wreath.",
+      "native": "Wir binden einen Adventskranz. (Weihnachtstradition)"
+    },
+    {
+      "target": "I think traditions are nice.",
+      "native": "Ich finde Traditionen schön. (Wertschätzung)"
+    }
+  ],
+  "Geschlecht und Identität": [
+    {
+      "target": "I identify as non-binary.",
+      "native": "Ich identifiziere mich als nicht-binär. (Geschlechtsidentität)"
+    },
+    {
+      "target": "My pronouns are he/him.",
+      "native": "Meine Pronomen sind er/ihm. (Pronomen angeben)"
+    },
+    {
+      "target": "Please respect my identity.",
+      "native": "Bitte respektiere/respektieren Sie meine Identität. (Selbstbestimmung)"
+    },
+    {
+      "target": "I don't feel understood.",
+      "native": "Ich fühle mich nicht verstanden. (Innerer Konflikt)"
+    },
+    {
+      "target": "Gender is a spectrum.",
+      "native": "Geschlecht ist ein Spektrum. (Gesellschaftliches Bewusstsein)"
+    },
+    {
+      "target": "I'm part of the LGBTQ+ community.",
+      "native": "Ich bin Teil der LGBTQ+-Community. (Gemeinschaft)"
+    },
+    {
+      "target": "Coming out can be really hard.",
+      "native": "Ein Coming-out kann sehr schwer sein. (Erfahrung)"
+    },
+    {
+      "target": "I came out.",
+      "native": "Ich habe mein Coming-out gehabt. (Identität teilen)"
+    },
+    {
+      "target": "I got misgendered.",
+      "native": "Ich wurde falsch gegendert. (Fehlansprache)"
+    },
+    {
+      "target": "What are your pronouns?",
+      "native": "Was sind deine/Ihre Pronomen? (Respektvolle Frage)"
+    },
+    {
+      "target": "I support queer rights.",
+      "native": "Ich unterstütze queere Rechte. (Solidarität)"
+    },
+    {
+      "target": "All people deserve equal treatment.",
+      "native": "Alle Menschen verdienen Gleichbehandlung. (Gleichheitsprinzip)"
+    },
+    {
+      "target": "I've changed and I feel good about it.",
+      "native": "Ich habe mich verändert und fühle mich gut damit. (Entwicklung)"
+    },
+    {
+      "target": "I wear what I like.",
+      "native": "Ich trage, was mir gefällt. (Ausdruck)"
+    },
+    {
+      "target": "I feel comfortable in my own skin.",
+      "native": "Ich fühle mich in meiner Haut wohl. (Körper und Identität)"
+    },
+    {
+      "target": "Identity is very personal.",
+      "native": "Identität ist sehr persönlich. (Allgemeine Aussage)"
+    },
+    {
+      "target": "We should be more inclusive.",
+      "native": "Wir sollten inklusiver sein. (Appell)"
+    },
+    {
+      "target": "I think it's important to be visible.",
+      "native": "Ich finde Sichtbarkeit wichtig. (Sichtbarkeit)"
+    },
+    {
+      "target": "Not everyone fits into a box.",
+      "native": "Nicht jeder passt in eine Schublade. (Kritik an Schubladen)"
+    },
+    {
+      "target": "I'm proud of my identity.",
+      "native": "Ich bin stolz auf meine Identität. (Selbstbewusstsein)"
+    }
+  ],
+  "Haushaltsgeräte und Maschinen bedienen": [
+    {
+      "target": "How do I turn this on?",
+      "native": "Wie schalte ich das ein? (Grundbedienung)"
+    },
+    {
+      "target": "Press the button here.",
+      "native": "Drück hier auf den Knopf. (Anweisung)"
+    },
+    {
+      "target": "This isn't working.",
+      "native": "Das funktioniert nicht. (Frust)"
+    },
+    {
+      "target": "I need to restart the device.",
+      "native": "Ich muss das Gerät neu starten. (Fehlerbehebung)"
+    },
+    {
+      "target": "The battery is dead.",
+      "native": "Die Batterie/Der Akku ist leer. (Energieproblem)"
+    },
+    {
+      "target": "Did you read the manual?",
+      "native": "Hast du die Anleitung gelesen? (Einrichtung)"
+    },
+    {
+      "target": "I need to unplug it.",
+      "native": "Ich muss den Stecker ziehen. (Sicherheit oder Reset)"
+    },
+    {
+      "target": "How do you adjust this?",
+      "native": "Wie stellt man das ein? (Einstellungen anpassen)"
+    },
+    {
+      "target": "It's making weird noises.",
+      "native": "Es macht komische Geräusche. (Fehlfunktion)"
+    },
+    {
+      "target": "The screen isn't responding.",
+      "native": "Der Bildschirm reagiert nicht. (Technisches Problem)"
+    },
+    {
+      "target": "I'm charging my phone right now.",
+      "native": "Ich lade gerade mein Handy auf. (Alltägliche Aufgabe)"
+    },
+    {
+      "target": "You have to press and hold.",
+      "native": "Man muss gedrückt halten. (Bedienungstipp)"
+    },
+    {
+      "target": "The cable is loose.",
+      "native": "Das Kabel hat einen Wackelkontakt / sitzt locker. (Hardwareproblem)"
+    },
+    {
+      "target": "I need an adapter.",
+      "native": "Ich brauche einen Adapter. (Zubehör)"
+    },
+    {
+      "target": "How do you set the temperature?",
+      "native": "Wie stellt man die Temperatur ein? (Gerätebedienung)"
+    },
+    {
+      "target": "The washing machine is broken.",
+      "native": "Die Waschmaschine ist kaputt. (Haushaltsproblem)"
+    },
+    {
+      "target": "Where is the power switch?",
+      "native": "Wo ist der Ein-/Ausschalter? (Inbetriebnahme)"
+    },
+    {
+      "target": "I'm setting the timer.",
+      "native": "Ich stelle den Timer ein. (Bedienung)"
+    },
+    {
+      "target": "This is really easy to use.",
+      "native": "Das ist wirklich einfach zu bedienen. (Einfachheit)"
+    },
+    {
+      "target": "I don't know how to use this.",
+      "native": "Ich weiß nicht, wie man das bedient. (Fehlende Erfahrung)"
+    }
+  ],
+  "Wütende Äußerungen": [
+    {
+      "target": "Leave me alone!",
+      "native": "Lass mich in Ruhe! (Abweisend)"
+    },
+    {
+      "target": "I'm sick of this!",
+      "native": "Ich hab die Nase voll davon! (Frust)"
+    },
+    {
+      "target": "Why don't you ever listen?",
+      "native": "Warum hörst du nie zu? (Vorwurf)"
+    },
+    {
+      "target": "That's so unfair!",
+      "native": "Das ist so unfair! (Beschwerde)"
+    },
+    {
+      "target": "You don't get it at all!",
+      "native": "Du verstehst es überhaupt nicht! (Frust)"
+    },
+    {
+      "target": "I don't want to say this again!",
+      "native": "Ich will das nicht noch einmal sagen! (Genervt)"
+    },
+    {
+      "target": "Same old thing!",
+      "native": "Immer derselbe Mist! (Wiederkehrender Frust)"
+    },
+    {
+      "target": "What the hell?",
+      "native": "Was zum Teufel? (Umgangssprachlich/scharf)"
+    },
+    {
+      "target": "You're making everything worse!",
+      "native": "Du machst alles nur noch schlimmer! (Zuspitzung)"
+    },
+    {
+      "target": "I can't take it anymore!",
+      "native": "Ich halte das nicht mehr aus! (Belastungsgrenze)"
+    },
+    {
+      "target": "That was your last chance!",
+      "native": "Das war deine/Ihre letzte Chance! (Ultimatum)"
+    },
+    {
+      "target": "I've had enough!",
+      "native": "Es reicht mir! (Schlussstrich)"
+    },
+    {
+      "target": "Think for a second!",
+      "native": "Denk mal kurz nach! (Aufforderung)"
+    },
+    {
+      "target": "Why do you always do this?",
+      "native": "Warum machst du das immer? (Wiederkehrender Ärger)"
+    },
+    {
+      "target": "I'm about to scream!",
+      "native": "Ich könnte gleich schreien! (Warnung)"
+    },
+    {
+      "target": "Get yourself together!",
+      "native": "Reiß dich zusammen! (Vorwurf/Aufforderung)"
+    },
+    {
+      "target": "Shut up!",
+      "native": "Halt die Klappe! / Sei ruhig! (Grob)"
+    },
+    {
+      "target": "You're getting on my nerves!",
+      "native": "Du gehst mir auf die Nerven! (Ärger)"
+    },
+    {
+      "target": "This can't go on like this!",
+      "native": "So kann es nicht weitergehen! (Ernst)"
+    },
+    {
+      "target": "You're driving me crazy!",
+      "native": "Du machst mich wahnsinnig! (Starke Emotion)"
+    }
+  ],
+  "Moderation und Ansagen": [
+    {
+      "target": "Welcome, ladies and gentlemen!",
+      "native": "Meine Damen und Herren, herzlich willkommen! (Eröffnung)"
+    },
+    {
+      "target": "Great to have you here today!",
+      "native": "Schön, dass Sie heute hier sind! (Begrüßung)"
+    },
+    {
+      "target": "The program will start in a few minutes.",
+      "native": "Das Programm beginnt in wenigen Minuten. (Information)"
+    },
+    {
+      "target": "I'm glad to be your host this evening.",
+      "native": "Ich freue mich, heute Abend durch den Abend zu führen. (Vorstellung)"
+    },
+    {
+      "target": "May I have your attention, please?",
+      "native": "Darf ich bitte um Ihre Aufmerksamkeit bitten? (Aufmerksamkeit)"
+    },
+    {
+      "target": "A big round of applause for...",
+      "native": "Ein großer Applaus für ... (Ankündigung)"
+    },
+    {
+      "target": "We're taking a short break now.",
+      "native": "Wir machen jetzt eine kurze Pause. (Pause)"
+    },
+    {
+      "target": "Now moving on to...",
+      "native": "Weiter geht es nun mit ... (Überleitung)"
+    },
+    {
+      "target": "I hope you're enjoying the evening.",
+      "native": "Ich hoffe, Sie genießen den Abend. (Publikumsansprache)"
+    },
+    {
+      "target": "Thank you for your attention.",
+      "native": "Vielen Dank für Ihre Aufmerksamkeit. (Abschluss)"
+    },
+    {
+      "target": "Now I'm handing it over to...",
+      "native": "Jetzt übergebe ich an ... (Übergabe)"
+    },
+    {
+      "target": "Could we please keep it down in the room?",
+      "native": "Könnten wir im Raum bitte etwas leiser sein? (Ruhe bitten)"
+    },
+    {
+      "target": "Please remember to put your phones on silent.",
+      "native": "Bitte denken Sie daran, Ihre Handys stummzuschalten. (Hinweis)"
+    },
+    {
+      "target": "We've put together an exciting program.",
+      "native": "Wir haben ein spannendes Programm zusammengestellt. (Ankündigung)"
+    },
+    {
+      "target": "Stay tuned!",
+      "native": "Bleiben Sie dran! (Spannung halten)"
+    },
+    {
+      "target": "Thanks to our sponsors.",
+      "native": "Vielen Dank an unsere Sponsoren. (Sponsoren)"
+    },
+    {
+      "target": "Now for a very special moment.",
+      "native": "Und nun zu einem ganz besonderen Moment. (Höhepunkt)"
+    },
+    {
+      "target": "Please join me in welcoming...",
+      "native": "Begrüßen Sie gemeinsam mit mir ... (Vorstellung)"
+    },
+    {
+      "target": "To wrap up...",
+      "native": "Zum Abschluss ... (Fazit/Ende)"
+    },
+    {
+      "target": "Have a great evening!",
+      "native": "Ich wünsche Ihnen einen schönen Abend! (Verabschiedung)"
+    }
+  ],
+  "Unfälle und Katastrophen": [
+    {
+      "target": "There was an accident.",
+      "native": "Es gab einen Unfall. (Vorfall)"
+    },
+    {
+      "target": "Is anyone hurt?",
+      "native": "Ist jemand verletzt? (Rückfrage)"
+    },
+    {
+      "target": "Call emergency medical services!",
+      "native": "Rufen Sie den Notarzt! (Maßnahme)"
+    },
+    {
+      "target": "The road is blocked.",
+      "native": "Die Straße ist gesperrt/blockiert. (Verkehr)"
+    },
+    {
+      "target": "We need help!",
+      "native": "Wir brauchen Hilfe! (Hilferuf)"
+    },
+    {
+      "target": "The building was evacuated.",
+      "native": "Das Gebäude wurde evakuiert. (Sicherheit)"
+    },
+    {
+      "target": "I heard a loud bang.",
+      "native": "Ich habe einen lauten Knall gehört. (Meldung)"
+    },
+    {
+      "target": "The fire department is on the way.",
+      "native": "Die Feuerwehr ist auf dem Weg. (Einsatzkräfte)"
+    },
+    {
+      "target": "There's a fire.",
+      "native": "Es brennt. (Feuer)"
+    },
+    {
+      "target": "Please stay calm.",
+      "native": "Bitte bleiben Sie ruhig. (Beruhigen)"
+    },
+    {
+      "target": "Follow the instructions.",
+      "native": "Befolgen Sie die Anweisungen. (Anweisungen)"
+    },
+    {
+      "target": "The police are on the scene.",
+      "native": "Die Polizei ist vor Ort. (Polizei)"
+    },
+    {
+      "target": "There was an explosion.",
+      "native": "Es gab eine Explosion. (Explosion)"
+    },
+    {
+      "target": "The cause is still unclear.",
+      "native": "Die Ursache ist noch unklar. (Unklar)"
+    },
+    {
+      "target": "We're waiting for more information.",
+      "native": "Wir warten auf weitere Informationen. (Aktueller Stand)"
+    },
+    {
+      "target": "The situation is serious.",
+      "native": "Die Lage ist ernst. (Ernstlage)"
+    },
+    {
+      "target": "The power went out.",
+      "native": "Der Strom ist ausgefallen. (Stromausfall)"
+    },
+    {
+      "target": "A warning is being issued.",
+      "native": "Eine Warnung wird herausgegeben. (Warnung)"
+    },
+    {
+      "target": "Please keep your distance.",
+      "native": "Bitte halten Sie Abstand. (Abstand)"
+    },
+    {
+      "target": "We hope help arrives quickly.",
+      "native": "Wir hoffen, dass schnell Hilfe eintrifft. (Hoffnung)"
+    }
+  ],
+  "Klatschen und Tratschen": [
+    {
+      "target": "Did you hear?",
+      "native": "Hast du gehört? (Einstieg)"
+    },
+    {
+      "target": "I heard a secret.",
+      "native": "Ich habe ein Geheimnis gehört. (Geheimnis)"
+    },
+    {
+      "target": "They broke up.",
+      "native": "Sie haben sich getrennt. (Trennung)"
+    },
+    {
+      "target": "He wasn't at work yesterday.",
+      "native": "Er war gestern nicht auf der Arbeit. (Beobachtung)"
+    },
+    {
+      "target": "Supposedly she's getting a promotion.",
+      "native": "Angeblich wird sie befördert. (Gerücht/Vermutung)"
+    },
+    {
+      "target": "I saw him with someone else.",
+      "native": "Ich habe ihn mit jemand anderem gesehen. (Klatsch)"
+    },
+    {
+      "target": "Those two do not get along at all.",
+      "native": "Die beiden verstehen sich überhaupt nicht. (Konflikt)"
+    },
+    {
+      "target": "Do you know what happened?",
+      "native": "Weißt du, was passiert ist? (Neugier)"
+    },
+    {
+      "target": "I'm only telling you.",
+      "native": "Ich erzähle das nur dir. (Vertraulich)"
+    },
+    {
+      "target": "He totally messed it up.",
+      "native": "Er hat es total vermasselt. (Einschätzung)"
+    },
+    {
+      "target": "She's acting like nothing happened.",
+      "native": "Sie tut so, als wäre nichts gewesen. (Misstrauen)"
+    },
+    {
+      "target": "Keep this between us!",
+      "native": "Behalt das unter uns! (Vertraulich)"
+    },
+    {
+      "target": "I think something's going on there.",
+      "native": "Ich glaube, da läuft was. (Vermutung)"
+    },
+    {
+      "target": "No wonder everyone's talking.",
+      "native": "Kein Wunder, dass alle reden. (Gerede)"
+    },
+    {
+      "target": "He thinks nobody notices.",
+      "native": "Er denkt, niemand merkt es. (Spöttisch)"
+    },
+    {
+      "target": "She's completely changed.",
+      "native": "Sie hat sich total verändert. (Veränderung)"
+    },
+    {
+      "target": "I think it's more than friendship.",
+      "native": "Ich glaube, da ist mehr als Freundschaft. (Beziehung)"
+    },
+    {
+      "target": "Word is he's having problems.",
+      "native": "Man hört, dass er Probleme hat. (Gerücht)"
+    },
+    {
+      "target": "And guess who else was there!",
+      "native": "Und rate mal, wer noch da war! (Spannungsaufbau)"
+    },
+    {
+      "target": "I'm not trying to start anything, but...",
+      "native": "Ich will ja nichts sagen, aber ... (Andeutung)"
+    }
+  ],
+  "Digitales": [
+    {
+      "target": "I'm online.",
+      "native": "Ich bin online. (Status)"
+    },
+    {
+      "target": "I'm posting a picture.",
+      "native": "Ich poste ein Foto. (Social Media)"
+    },
+    {
+      "target": "I googled it.",
+      "native": "Ich habe es gegoogelt. (Suche)"
+    },
+    {
+      "target": "The video went viral.",
+      "native": "Das Video ist viral gegangen. (Trend)"
+    },
+    {
+      "target": "I got a message.",
+      "native": "Ich habe eine Nachricht bekommen. (Benachrichtigung)"
+    },
+    {
+      "target": "Can you like this?",
+      "native": "Kannst du das liken? (Interaktion)"
+    },
+    {
+      "target": "I got tagged.",
+      "native": "Ich wurde markiert. (Markierung)"
+    },
+    {
+      "target": "I took a screenshot.",
+      "native": "Ich habe einen Screenshot gemacht. (Bildschirmfoto)"
+    },
+    {
+      "target": "I saved it to the cloud.",
+      "native": "Ich habe es in der Cloud gespeichert. (Cloud)"
+    },
+    {
+      "target": "I'm on Wi-Fi.",
+      "native": "Ich bin im WLAN. (WLAN)"
+    },
+    {
+      "target": "My battery is almost dead.",
+      "native": "Mein Akku ist fast leer. (Akku)"
+    },
+    {
+      "target": "I sent the link.",
+      "native": "Ich habe den Link geschickt. (Link)"
+    },
+    {
+      "target": "I posted it on my story.",
+      "native": "Ich habe es in meiner Story gepostet. (Story)"
+    },
+    {
+      "target": "The server is down.",
+      "native": "Der Server ist ausgefallen. (Server)"
+    },
+    {
+      "target": "I'm in the Zoom meeting.",
+      "native": "Ich bin im Zoom-Meeting. (Zoom)"
+    },
+    {
+      "target": "I'm refreshing the page.",
+      "native": "Ich lade die Seite neu. (Aktualisieren)"
+    },
+    {
+      "target": "I went offline.",
+      "native": "Ich bin offline gegangen. (Offline)"
+    },
+    {
+      "target": "Can you send me the QR code?",
+      "native": "Kannst du mir den QR-Code schicken? (QR-Code)"
+    },
+    {
+      "target": "I turned off push notifications.",
+      "native": "Ich habe Push-Benachrichtigungen ausgeschaltet. (Push)"
+    },
+    {
+      "target": "I need more storage space.",
+      "native": "Ich brauche mehr Speicherplatz. (Speicher)"
+    }
+  ],
+  "Büroalltag": [
+    {
+      "target": "I'm printing the document.",
+      "native": "Ich drucke das Dokument aus. (Drucken)"
+    },
+    {
+      "target": "I'm filling out the form.",
+      "native": "Ich fülle das Formular aus. (Formular)"
+    },
+    {
+      "target": "I'm joining the meeting.",
+      "native": "Ich nehme am Meeting teil. (Meeting)"
+    },
+    {
+      "target": "I'm shutting down the computer.",
+      "native": "Ich fahre den Computer herunter. (Herunterfahren)"
+    },
+    {
+      "target": "I'm restarting the computer.",
+      "native": "Ich starte den Computer neu. (Neustart)"
+    },
+    {
+      "target": "I'm opening the file.",
+      "native": "Ich öffne die Datei. (Datei)"
+    },
+    {
+      "target": "I'm saving my work.",
+      "native": "Ich speichere meine Arbeit. (Speichern)"
+    },
+    {
+      "target": "I'm scanning the document.",
+      "native": "Ich scanne das Dokument ein. (Scannen)"
+    },
+    {
+      "target": "I'm sorting the paperwork.",
+      "native": "Ich sortiere die Unterlagen. (Sortieren)"
+    },
+    {
+      "target": "I'm archiving the files.",
+      "native": "Ich archiviere die Dateien. (Archivieren)"
+    },
+    {
+      "target": "I'm answering emails.",
+      "native": "Ich beantworte E-Mails. (E-Mail)"
+    },
+    {
+      "target": "I'm forwarding the email.",
+      "native": "Ich leite die E-Mail weiter. (Weiterleiten)"
+    },
+    {
+      "target": "I'm scheduling a meeting.",
+      "native": "Ich plane ein Meeting. (Terminplanung)"
+    },
+    {
+      "target": "I'm preparing a presentation.",
+      "native": "Ich bereite eine Präsentation vor. (Präsentation)"
+    },
+    {
+      "target": "I'm leading the meeting.",
+      "native": "Ich leite das Meeting. (Leitung)"
+    },
+    {
+      "target": "I'm working on a report.",
+      "native": "Ich arbeite an einem Bericht. (Bericht)"
+    },
+    {
+      "target": "I'm on a call right now.",
+      "native": "Ich telefoniere gerade. (Telefonat)"
+    },
+    {
+      "target": "I'm making a copy.",
+      "native": "Ich mache eine Kopie. (Kopieren)"
+    },
+    {
+      "target": "I'm tidying up my desk.",
+      "native": "Ich räume meinen Schreibtisch auf. (Schreibtisch)"
+    },
+    {
+      "target": "I'm signing off for the day.",
+      "native": "Ich mache für heute Feierabend. (Feierabend)"
+    }
+  ],
+  "Schimpfwörter und Kraftausdrücke (nur zu Referenzzwecken)": [
+    {
+      "target": "Damn it!",
+      "native": "Verdammt! (Frust)"
+    },
+    {
+      "target": "Shit!",
+      "native": "Scheiße! (Starker Frust)"
+    },
+    {
+      "target": "Crap!",
+      "native": "Mist! (Ärger)"
+    },
+    {
+      "target": "Oh shit!",
+      "native": "Oh Scheiße! / Verdammt noch mal! (Schreck)"
+    },
+    {
+      "target": "Shut up!",
+      "native": "Halt die Klappe! / Halt den Mund! (Grob)"
+    },
+    {
+      "target": "What the hell?",
+      "native": "Was zur Hölle? (Verwirrung/Ärger)"
+    },
+    {
+      "target": "That's sickening!",
+      "native": "Das ist widerlich! (Ekel)"
+    },
+    {
+      "target": "What garbage!",
+      "native": "Was für ein Müll! (Ärger)"
+    },
+    {
+      "target": "Nonsense!",
+      "native": "Quatsch! / Unsinn! (Unsinn)"
+    },
+    {
+      "target": "You're out of your mind!",
+      "native": "Du bist doch nicht ganz bei Trost! (Fassungslosigkeit)"
+    },
+    {
+      "target": "Fuck off!",
+      "native": "Verpiss dich! (Beleidigend)"
+    },
+    {
+      "target": "Kiss my ass!",
+      "native": "Leck mich am Arsch! (Beleidigung)"
+    },
+    {
+      "target": "Screw it!",
+      "native": "Scheiß drauf! / Egal! (Gleichgültigkeit/Frust)"
+    },
+    {
+      "target": "I'm so done with this!",
+      "native": "Ich hab davon so die Schnauze voll! (Genervt)"
+    },
+    {
+      "target": "Are you crazy?",
+      "native": "Bist du verrückt? (Ungläubigkeit)"
+    },
+    {
+      "target": "What an idiot!",
+      "native": "Was für ein Idiot! (Beleidigung)"
+    },
+    {
+      "target": "Fuck you!",
+      "native": "Fick dich! (Beleidigend)"
+    },
+    {
+      "target": "Asshole!",
+      "native": "Arschloch! (Beleidigung)"
+    },
+    {
+      "target": "Pull yourself together!",
+      "native": "Reiß dich zusammen! (Aufforderung)"
+    },
+    {
+      "target": "Kiss my ass",
+      "native": "Leck mich (Kurzform)"
+    }
+  ]
+}
