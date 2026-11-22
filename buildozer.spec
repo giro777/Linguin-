@@ -1,8 +1,8 @@
 [app]
 
-title = Linguin - Almanca
-package.name = almancavokabeln
-package.domain = org.vokabeln
+title = Linguin
+package.name = linguinlearning
+package.domain = org.linguin
 icon.filename = %(source.dir)s/icon.png
 
 source.dir = .
